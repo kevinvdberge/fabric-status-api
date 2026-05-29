@@ -219,7 +219,11 @@ function parseNotifications(html) {
   const activeRaw = [];
   const resolvedRaw = [];
 
-  for (const statement of statements) {
+  for (const rawStatement of statements) {
+    // splitJsStatements keeps the semicolon as part of the statement. Remove it so
+    // parser regexes can match object resets, assignments and push calls reliably.
+    const statement = rawStatement.replace(/;\s*$/, '').trim();
+
     const resetMatch = statement.match(
       /^(?:var|let|const)?\s*(ServiceStatus(?:Active|Resolved)Notification)\s*=\s*new\s+Object\(\s*\)$/
     );

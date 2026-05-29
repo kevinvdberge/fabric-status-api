@@ -8,13 +8,14 @@ const he = require('he');
 const SOURCE_URL = 'https://support.fabric.microsoft.com/support/';
 const SUPPORT_LEVEL =
   'Unofficial public Microsoft Fabric status mirror based on HTML scraping';
+const DEFAULT_OUTPUT_DIR = 'docs';
 const REGION_CANDIDATES = [
   'West Europe',
   'North Europe',
-  'West US',
   'West US2',
-  'East US',
+  'West US',
   'East US2',
+  'East US',
   'Southeast Asia',
   'Australia East',
   'UK South',
@@ -27,235 +28,110 @@ const REGION_CANDIDATES = [
   'Africa'
 ];
 
-// Split JavaScript source into statement-like chunks while respecting quoted strings.
-function splitJsStatements(source) {
-  const statements = [];
-  let current = '';
-  let quote = null;
-  let escaped = false;
+function decodeJsString(value) {
+  const body = String(value || '').trim();
+  let output = '';
 
-  for (let i = 0; i < source.length; i += 1) {
-    const ch = source[i];
-    current += ch;
-
-    if (escaped) {
-      escaped = false;
+  for (let i = 0; i < body.length; i += 1) {
+    const ch = body[i];
+    if (ch !== '\\') {
+      output += ch;
       continue;
     }
 
-    if (ch === '\\') {
-      escaped = true;
-      continue;
-    }
+    i += 1;
+    if (i >= body.length) break;
+    const esc = body[i];
 
-    if (quote) {
-      if (ch === quote) {
-        quote = null;
+    if (esc === 'n') output += '\n';
+    else if (esc === 'r') output += '\r';
+    else if (esc === 't') output += '\t';
+    else if (esc === 'b') output += '\b';
+    else if (esc === 'f') output += '\f';
+    else if (esc === 'v') output += '\v';
+    else if (esc === '\\') output += '\\';
+    else if (esc === '"') output += '"';
+    else if (esc === "'") output += "'";
+    else if (esc === '/') output += '/';
+    else if (esc === 'x' && i + 2 < body.length) {
+      const code = body.slice(i + 1, i + 3);
+      if (/^[a-fA-F0-9]{2}$/.test(code)) {
+        output += String.fromCharCode(parseInt(code, 16));
+        i += 2;
+      } else {
+        output += esc;
       }
-      continue;
-    }
-
-    if (ch === '"' || ch === "'") {
-      quote = ch;
-      continue;
-    }
-
-    if (ch === ';') {
-      statements.push(current.trim());
-      current = '';
+    } else if (esc === 'u' && i + 4 < body.length) {
+      const code = body.slice(i + 1, i + 5);
+      if (/^[a-fA-F0-9]{4}$/.test(code)) {
+        output += String.fromCharCode(parseInt(code, 16));
+        i += 4;
+      } else {
+        output += esc;
+      }
+    } else if (esc === '\n' || esc === '\r') {
+      // JavaScript line continuation. Intentionally ignored.
+    } else {
+      output += esc;
     }
   }
 
-  if (current.trim()) {
-    statements.push(current.trim());
-  }
-
-  return statements;
-}
-
-function splitByPlusOutsideQuotes(value) {
-  const parts = [];
-  let current = '';
-  let quote = null;
-  let escaped = false;
-
-  for (let i = 0; i < value.length; i += 1) {
-    const ch = value[i];
-
-    if (escaped) {
-      current += ch;
-      escaped = false;
-      continue;
-    }
-
-    if (ch === '\\') {
-      current += ch;
-      escaped = true;
-      continue;
-    }
-
-    if (quote) {
-      if (ch === quote) quote = null;
-      current += ch;
-      continue;
-    }
-
-    if (ch === '"' || ch === "'") {
-      quote = ch;
-      current += ch;
-      continue;
-    }
-
-    if (ch === '+') {
-      parts.push(current.trim());
-      current = '';
-      continue;
-    }
-
-    current += ch;
-  }
-
-  if (current.trim()) {
-    parts.push(current.trim());
-  }
-
-  return parts;
+  return output;
 }
 
 function parseJsLiteral(valueLiteral) {
-  const value = valueLiteral.trim();
+  let value = String(valueLiteral || '').trim();
+  value = value.replace(/;\s*$/, '').trim();
 
-  if (!value) return '';
-
-  // Handle multiline/details assignments that concatenate string literals.
-  if (value.includes('+')) {
-    const parts = splitByPlusOutsideQuotes(value);
-    if (
-      parts.length > 1 &&
-      parts.every(
-        (part) =>
-          (part.startsWith('"') && part.endsWith('"')) ||
-          (part.startsWith("'") && part.endsWith("'"))
-      )
-    ) {
-      return parts.map((part) => parseJsLiteral(part)).join('');
-    }
-  }
-
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-    const quote = value[0];
-    const body = value.slice(1, -1);
-    let out = '';
-
-    for (let i = 0; i < body.length; i += 1) {
-      const ch = body[i];
-      if (ch !== '\\') {
-        out += ch;
-        continue;
-      }
-
-      i += 1;
-      if (i >= body.length) break;
-      const esc = body[i];
-
-      if (esc === 'n') out += '\n';
-      else if (esc === 'r') out += '\r';
-      else if (esc === 't') out += '\t';
-      else if (esc === 'b') out += '\b';
-      else if (esc === 'f') out += '\f';
-      else if (esc === 'v') out += '\v';
-      else if (esc === '\\') out += '\\';
-      else if (esc === '"') out += '"';
-      else if (esc === "'") out += "'";
-      else if (esc === '/') out += '/';
-      else if (esc === 'x' && i + 2 < body.length) {
-        const code = body.slice(i + 1, i + 3);
-        if (/^[a-fA-F0-9]{2}$/.test(code)) {
-          out += String.fromCharCode(parseInt(code, 16));
-          i += 2;
-        } else {
-          out += esc;
-        }
-      } else if (esc === 'u' && i + 4 < body.length) {
-        const code = body.slice(i + 1, i + 5);
-        if (/^[a-fA-F0-9]{4}$/.test(code)) {
-          out += String.fromCharCode(parseInt(code, 16));
-          i += 4;
-        } else {
-          out += esc;
-        }
-      } else if (esc === '\n' || esc === '\r') {
-        // Handle line continuation in JavaScript string literals.
-      } else if (esc === quote) {
-        out += quote;
-      } else {
-        out += esc;
-      }
-    }
-
-    return out;
-  }
-
-  if (/^(null|undefined)$/i.test(value)) return '';
+  if (!value || /^(null|undefined)$/i.test(value)) return '';
   if (/^(true|false)$/i.test(value)) return value.toLowerCase() === 'true';
   if (/^-?\d+(?:\.\d+)?$/.test(value)) return Number(value);
+
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
+    return decodeJsString(value.slice(1, -1));
+  }
+
   return value;
 }
 
+function parseNotificationBlocks(html, kind) {
+  const results = [];
+  const objectName = `ServiceStatus${kind}Notification`;
+  const listName = `serviceStatusNotification${kind}List`;
+  const blockRegex = new RegExp(
+    `${objectName}\\s*=\\s*new\\s+Object\\(\\s*\\)\\s*;?([\\s\\S]*?)${listName}\\.push\\(\\s*${objectName}\\s*\\)\\s*;`,
+    'g'
+  );
+
+  let blockMatch;
+  while ((blockMatch = blockRegex.exec(html)) !== null) {
+    const block = blockMatch[1];
+    const notification = {};
+    const fieldRegex = new RegExp(
+      `${objectName}\\.([A-Za-z0-9_]+)\\s*=\\s*([\\s\\S]*?)(?=\\r?\\n\\s*${objectName}\\.[A-Za-z0-9_]+\\s*=|\\r?\\n\\s*${listName}\\.push|$)`,
+      'g'
+    );
+
+    let fieldMatch;
+    while ((fieldMatch = fieldRegex.exec(block)) !== null) {
+      const [, field, rawValue] = fieldMatch;
+      notification[field] = parseJsLiteral(rawValue);
+    }
+
+    results.push(notification);
+  }
+
+  return results;
+}
+
 function parseNotifications(html) {
-  const scriptBlocks = [];
-  const scriptRegex = /<script\b[^>]*>([\s\S]*?)<\/script\s*[^>]*>/gi;
-  let scriptMatch;
-
-  while ((scriptMatch = scriptRegex.exec(html)) !== null) {
-    scriptBlocks.push(scriptMatch[1]);
-  }
-
-  const statements = splitJsStatements(scriptBlocks.join('\n'));
-  const objects = {
-    ServiceStatusActiveNotification: {},
-    ServiceStatusResolvedNotification: {}
+  return {
+    activeRaw: parseNotificationBlocks(html, 'Active'),
+    resolvedRaw: parseNotificationBlocks(html, 'Resolved')
   };
-  const activeRaw = [];
-  const resolvedRaw = [];
-
-  for (const rawStatement of statements) {
-    // splitJsStatements keeps the semicolon as part of the statement. Remove it so
-    // parser regexes can match object resets, assignments and push calls reliably.
-    const statement = rawStatement.replace(/;\s*$/, '').trim();
-
-    const resetMatch = statement.match(
-      /^(?:var|let|const)?\s*(ServiceStatus(?:Active|Resolved)Notification)\s*=\s*new\s+Object\(\s*\)$/
-    );
-    if (resetMatch) {
-      objects[resetMatch[1]] = {};
-      continue;
-    }
-
-    const assignMatch = statement.match(
-      /^(ServiceStatus(?:Active|Resolved)Notification)\.([A-Za-z0-9_]+)\s*=\s*([\s\S]+)$/
-    );
-    if (assignMatch) {
-      const [, objName, field, rawValue] = assignMatch;
-      objects[objName][field] = parseJsLiteral(rawValue);
-      continue;
-    }
-
-    const pushMatch = statement.match(
-      /^(serviceStatusNotificationActiveList|serviceStatusNotificationResolvedList)\.push\((ServiceStatus(?:Active|Resolved)Notification)\)$/
-    );
-    if (pushMatch) {
-      const [, listName, objName] = pushMatch;
-      const copy = { ...objects[objName] };
-      if (listName === 'serviceStatusNotificationActiveList') {
-        activeRaw.push(copy);
-      } else {
-        resolvedRaw.push(copy);
-      }
-    }
-  }
-
-  return { activeRaw, resolvedRaw };
 }
 
 function stripHtml(html) {
@@ -270,8 +146,10 @@ function stripHtml(html) {
 function parseDateToIso(rawValue) {
   const raw = String(rawValue || '').trim();
   if (!raw) return null;
+
   const timestamp = Date.parse(raw);
   if (Number.isNaN(timestamp)) return null;
+
   return new Date(timestamp).toISOString();
 }
 
@@ -282,9 +160,7 @@ function extractRegion(explicitRegion, detailsText) {
   for (const region of REGION_CANDIDATES) {
     const escaped = region.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const regex = new RegExp(`\\b${escaped}\\b`, 'i');
-    if (regex.test(detailsText)) {
-      return region;
-    }
+    if (regex.test(detailsText)) return region;
   }
 
   return '';
@@ -309,13 +185,12 @@ function normalizeNotification(item, type) {
   const detailsText = stripHtml(detailsHtml);
   const reportedRaw = String(item.reported || '').trim();
   const resolvedRaw = String(item.resolved || '').trim();
-  const region = extractRegion(item.region, detailsText);
 
   const normalized = {
     type,
     serviceNotificationId: String(item.serviceNotificationId || '').trim(),
     serviceStatus: String(item.serviceStatus || '').trim(),
-    region,
+    region: extractRegion(item.region, detailsText),
     reportedRaw,
     reportedAt: parseDateToIso(reportedRaw),
     resolvedRaw,
@@ -415,6 +290,11 @@ async function writeOutputFiles(outputDir, generatedAt, active, resolved, status
   ]);
 }
 
+function getOutputDir() {
+  const configured = process.env.STATUS_OUTPUT_DIR || DEFAULT_OUTPUT_DIR;
+  return path.resolve(__dirname, '..', configured);
+}
+
 async function main() {
   const checkMode = process.argv.includes('--check');
 
@@ -460,7 +340,7 @@ async function main() {
     return;
   }
 
-  const outputDir = path.resolve(__dirname, '..', 'public');
+  const outputDir = getOutputDir();
   await writeOutputFiles(outputDir, generatedAt, active, resolved, status);
   console.log(`Updated status files in ${outputDir}`);
 }

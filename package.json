@@ -2,12 +2,14 @@
   "name": "fabric-status-api",
   "version": "1.0.0",
   "private": true,
-  "description": "Unofficial static JSON mirror for Microsoft Fabric service status",
+  "description": "Unofficial static JSON mirror for Microsoft Fabric service status and roadmap updates",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
-    "update": "node scripts/fetch-status.js",
+    "update": "node scripts/fetch-status.js && node scripts/fetch-gps.js",
+    "update:status": "node scripts/fetch-status.js",
+    "update:gps": "node scripts/fetch-gps.js",
     "check": "node scripts/fetch-status.js --check"
   },
   "dependencies": {

@@ -67,42 +67,12 @@
       a { color: var(--brand); }
       .page { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 24px 0 56px; }
 
-      .topbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 16px;
-        margin-bottom: 18px;
-      }
-
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-weight: 700;
-        letter-spacing: -0.01em;
-      }
-
-      .brand-mark {
-        width: 34px;
-        height: 34px;
-        border-radius: 10px;
-        background: linear-gradient(135deg, #117865, #6bb700);
-        display: grid;
-        place-items: center;
-        color: #fff;
-        font-weight: 800;
-      }
-
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 18px; }
+      .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+      .brand-logo { width: 210px; height: auto; display: block; }
+      @media (prefers-color-scheme: dark) { .brand-logo-text { fill: #f3f2f1; } .brand-logo-subtitle { fill: #c8c6c4; } }
       .nav { display: flex; gap: 8px; flex-wrap: wrap; }
-      .nav a {
-        padding: 8px 12px;
-        border: 1px solid var(--border);
-        border-radius: 999px;
-        color: var(--text);
-        text-decoration: none;
-        background: var(--surface);
-      }
+      .nav a { padding: 8px 12px; border: 1px solid var(--border); border-radius: 999px; color: var(--text); text-decoration: none; background: var(--surface); }
       .nav a.active { background: var(--brand); color: #fff; border-color: var(--brand); }
 
       .hero {
@@ -126,13 +96,7 @@
       .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
       fluent-button::part(control) { border-radius: 8px; }
 
-      .status-card {
-        min-width: 300px;
-        padding: 20px;
-        border: 1px solid var(--border);
-        border-radius: 18px;
-        background: var(--surface-soft);
-      }
+      .status-card { min-width: 300px; padding: 20px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface-soft); }
       .label { margin: 0 0 8px; color: var(--muted); font-size: 13px; font-weight: 600; }
       .value { margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -0.03em; }
       .meta { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.5; }
@@ -147,38 +111,18 @@
       .panel-title { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
       .panel-description { margin: 5px 0 0; color: var(--muted); font-size: 14px; }
 
-      .filters {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 12px;
-        margin-bottom: 18px;
-      }
+      .filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 18px; }
       .field label { display: block; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
-      select, input {
-        width: 100%;
-        padding: 10px 12px;
-        border: 1px solid var(--border);
-        border-radius: 10px;
-        background: var(--surface);
-        color: var(--text);
-        font: inherit;
-      }
+      select, input { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); font: inherit; }
 
       .list { display: grid; gap: 12px; }
-      .notification {
-        display: grid;
-        grid-template-columns: 12px 1fr auto;
-        gap: 14px;
-        padding: 16px;
-        border: 1px solid var(--border);
-        border-radius: 16px;
-        background: var(--surface-soft);
-      }
+      .notification { display: grid; grid-template-columns: 12px 1fr auto; gap: 14px; padding: 16px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface-soft); }
       .dot { width: 12px; height: 12px; margin-top: 6px; border-radius: 999px; background: var(--info); }
       .dot.degraded, .dot.interruption, .dot.error { background: var(--danger); }
       .dot.resolved, .dot.operational { background: var(--success); }
       .dot.information { background: var(--info); }
       .notification h3 { margin: 0 0 6px; font-size: 16px; }
+      .item-meta { margin: 0 0 10px; color: var(--muted); font-size: 13px; line-height: 1.45; }
       .notification p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
       .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
       .empty, .loading, .error { padding: 28px; border: 1px dashed var(--border); border-radius: 16px; color: var(--muted); text-align: center; background: var(--surface-soft); }
@@ -187,6 +131,8 @@
 
       @media (max-width: 860px) {
         .hero, .stats, .filters { grid-template-columns: 1fr; }
+        .topbar { align-items: flex-start; flex-direction: column; }
+        .brand-logo { width: 190px; }
         .hero { padding: 24px; }
         .status-card { min-width: 0; }
         .notification { grid-template-columns: 12px 1fr; }
@@ -197,7 +143,7 @@
   <body>
     <main class="page">
       <header class="topbar">
-        <div class="brand"><span class="brand-mark">F</span> Fabric Pulse</div>
+        <a class="brand" href="./" aria-label="Fabric Pulse home"><img class="brand-logo" src="./logo.svg" alt="Fabric Pulse" /></a>
         <nav class="nav" aria-label="Site navigation">
           <a class="active" href="./">Service status</a>
           <a href="./news.html">Roadmap & updates</a>
@@ -209,15 +155,8 @@
         <div>
           <div class="eyebrow">Unofficial Microsoft Fabric status mirror</div>
           <h1 id="page-title">Service status at a glance</h1>
-          <p class="subtitle">
-            A consolidated public view of Microsoft Fabric service notifications, generated from the public Fabric support page and exposed as static JSON for dashboards, automations and operational monitoring.
-          </p>
-          <div class="actions">
-            <fluent-button appearance="accent" id="refresh-button">Refresh status</fluent-button>
-            <fluent-button appearance="neutral" onclick="window.open('./status.json', '_blank')">Open status.json</fluent-button>
-            <fluent-button appearance="neutral" onclick="window.open('./active.json', '_blank')">Open active.json</fluent-button>
-            <fluent-button appearance="neutral" onclick="window.open('./resolved.json', '_blank')">Open resolved.json</fluent-button>
-          </div>
+          <p class="subtitle">A consolidated public view of Microsoft Fabric service notifications, generated from the public Fabric support page and exposed as static JSON for dashboards, automations and operational monitoring.</p>
+          <div class="actions"><fluent-button appearance="accent" id="refresh-button">Refresh status</fluent-button></div>
         </div>
         <aside class="status-card" aria-label="Current status summary">
           <p class="label">Current public status</p>
@@ -250,63 +189,23 @@
         <div id="notification-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading notifications...</div></div>
       </section>
 
-      <p class="footer">
-        Fabric Pulse is an unofficial public mirror based on Microsoft Fabric support page content. For tenant-specific impact, combine this with Microsoft Graph Service Health and your own monitoring telemetry.
-      </p>
+      <p class="footer">Fabric Pulse is an unofficial public mirror based on Microsoft Fabric support page content. For tenant-specific impact, combine this with Microsoft Graph Service Health and your own monitoring telemetry.</p>
     </main>
 
     <script>
       const state = { active: [], resolved: [] };
       const dateFormatter = new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' });
       const relativeFormatter = new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' });
-
       const byId = (id) => document.getElementById(id);
       const escapeHtml = (value) => String(value || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
       const clean = (value) => String(value || '').trim();
 
-      function formatDate(value) {
-        if (!value) return 'Unknown';
-        const date = new Date(value);
-        return Number.isNaN(date.getTime()) ? value : dateFormatter.format(date);
-      }
-
-      function formatAge(value) {
-        if (!value) return '-';
-        const date = new Date(value);
-        if (Number.isNaN(date.getTime())) return '-';
-        const diffMs = date.getTime() - Date.now();
-        const absMinutes = Math.abs(diffMs) / 60000;
-        if (absMinutes < 60) return relativeFormatter.format(Math.round(diffMs / 60000), 'minute');
-        if (absMinutes < 1440) return relativeFormatter.format(Math.round(diffMs / 3600000), 'hour');
-        return relativeFormatter.format(Math.round(diffMs / 86400000), 'day');
-      }
-
-      function statusClass(status) {
-        const value = clean(status).toLowerCase();
-        if (value.includes('degrad') || value.includes('interrupt') || value.includes('error')) return 'degraded';
-        if (value.includes('resolved') || value.includes('operational')) return 'resolved';
-        if (value.includes('info')) return 'information';
-        return 'information';
-      }
-
-      function badgeAppearance(status) {
-        const value = clean(status).toLowerCase();
-        if (value.includes('degrad') || value.includes('interrupt') || value.includes('error')) return 'important';
-        if (value.includes('resolved') || value.includes('operational')) return 'accent';
-        return 'neutral';
-      }
-
-      function truncate(text, max = 460) {
-        const value = clean(text);
-        return value.length > max ? `${value.slice(0, max).trim()}...` : value;
-      }
-
-      async function fetchJson(url) {
-        const response = await fetch(`${url}?cacheBust=${Date.now()}`, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`${url} returned HTTP ${response.status}`);
-        return response.json();
-      }
-
+      function formatDate(value) { if (!value) return 'Unknown'; const date = new Date(value); return Number.isNaN(date.getTime()) ? value : dateFormatter.format(date); }
+      function formatAge(value) { if (!value) return '-'; const date = new Date(value); if (Number.isNaN(date.getTime())) return '-'; const diffMs = date.getTime() - Date.now(); const absMinutes = Math.abs(diffMs) / 60000; if (absMinutes < 60) return relativeFormatter.format(Math.round(diffMs / 60000), 'minute'); if (absMinutes < 1440) return relativeFormatter.format(Math.round(diffMs / 3600000), 'hour'); return relativeFormatter.format(Math.round(diffMs / 86400000), 'day'); }
+      function statusClass(status) { const value = clean(status).toLowerCase(); if (value.includes('degrad') || value.includes('interrupt') || value.includes('error')) return 'degraded'; if (value.includes('resolved') || value.includes('operational')) return 'resolved'; if (value.includes('info')) return 'information'; return 'information'; }
+      function badgeAppearance(status) { const value = clean(status).toLowerCase(); if (value.includes('degrad') || value.includes('interrupt') || value.includes('error')) return 'important'; if (value.includes('resolved') || value.includes('operational')) return 'accent'; return 'neutral'; }
+      function truncate(text, max = 460) { const value = clean(text); return value.length > max ? `${value.slice(0, max).trim()}...` : value; }
+      async function fetchJson(url) { const response = await fetch(`${url}?cacheBust=${Date.now()}`, { cache: 'no-store' }); if (!response.ok) throw new Error(`${url} returned HTTP ${response.status}`); return response.json(); }
       function unique(values) { return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b)); }
 
       function populateFilters() {
@@ -331,32 +230,25 @@
         byId('visible-badge').textContent = `${items.length} shown`;
         const list = byId('notification-list');
         list.innerHTML = '';
-
-        if (!items.length) {
-          list.innerHTML = '<div class="empty">No notifications match the selected filters.</div>';
-          return;
-        }
+        if (!items.length) { list.innerHTML = '<div class="empty">No notifications match the selected filters.</div>'; return; }
 
         items.forEach((item) => {
           const statusText = clean(item.serviceStatus) || clean(item.type) || 'Notification';
           const regionText = clean(item.region) || 'Unspecified region';
           const reported = item.reportedAt || item.reportedRaw;
           const resolved = item.resolvedAt || item.resolvedRaw;
+          const meta = [`Region: ${regionText}`, reported ? `Reported: ${formatDate(reported)}` : null, resolved ? `Resolved: ${formatDate(resolved)}` : null].filter(Boolean).join(' · ');
           const node = document.createElement('article');
           node.className = 'notification';
           node.innerHTML = `
             <span class="dot ${statusClass(statusText)}" aria-hidden="true"></span>
             <div>
-              <h3>${escapeHtml(statusText)} · ${escapeHtml(regionText)}</h3>
+              <h3>${escapeHtml(statusText)}</h3>
+              <div class="item-meta">${escapeHtml(meta)}</div>
               <p>${escapeHtml(truncate(item.detailsText || 'No additional details are available.'))}</p>
-              <div class="chips">
-                <fluent-badge appearance="neutral">Reported: ${escapeHtml(formatDate(reported))}</fluent-badge>
-                ${resolved ? `<fluent-badge appearance="neutral">Resolved: ${escapeHtml(formatDate(resolved))}</fluent-badge>` : ''}
-                ${item.serviceNotificationId ? `<fluent-badge appearance="neutral">ID: ${escapeHtml(item.serviceNotificationId)}</fluent-badge>` : ''}
-              </div>
+              <div class="chips">${item.serviceNotificationId ? `<fluent-badge appearance="neutral">ID: ${escapeHtml(item.serviceNotificationId)}</fluent-badge>` : ''}</div>
             </div>
-            <fluent-badge appearance="${badgeAppearance(statusText)}">${escapeHtml(statusText)}</fluent-badge>
-          `;
+            <fluent-badge appearance="${badgeAppearance(statusText)}">${escapeHtml(statusText)}</fluent-badge>`;
           list.appendChild(node);
         });
       }
@@ -367,7 +259,6 @@
           const status = await fetchJson('./status.json');
           state.active = Array.isArray(status.active) ? status.active : [];
           state.resolved = Array.isArray(status.resolved) ? status.resolved : [];
-
           const activeCount = status.counts?.active ?? state.active.length;
           const resolvedCount = status.counts?.resolved ?? state.resolved.length;
           byId('active-count').textContent = activeCount;
@@ -376,8 +267,7 @@
           byId('generated-at').textContent = status.generatedAt ? formatDate(status.generatedAt) : 'Unknown generation time';
           byId('overall-status').textContent = activeCount > 0 ? 'Attention required' : 'No active notifications';
           byId('metadata').innerHTML = `Generated ${escapeHtml(formatAge(status.generatedAt))}. Source: <a href="${escapeHtml(status.sourceUrl || '#')}" target="_blank" rel="noreferrer">Microsoft Fabric support</a>.`;
-          populateFilters();
-          render();
+          populateFilters(); render();
         } catch (error) {
           byId('overall-status').textContent = 'Unavailable';
           byId('metadata').textContent = error.message;

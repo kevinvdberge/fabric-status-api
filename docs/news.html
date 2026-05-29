@@ -122,19 +122,19 @@
         <div class="eyebrow">Fabric GPS roadmap intelligence</div>
         <h1 id="page-title">Roadmap and feature updates</h1>
         <p class="subtitle">
-          Track recently changed Microsoft Fabric roadmap items, upcoming capabilities and shipped features in one place. Data is loaded from the public Fabric GPS JSON API.
+          Track recently changed Microsoft Fabric roadmap items, upcoming capabilities and shipped features in one place. Data is mirrored by GitHub Actions from the public Fabric GPS API and served as static JSON from this site.
         </p>
         <div class="actions">
           <fluent-button appearance="accent" id="refresh-button">Refresh updates</fluent-button>
-          <fluent-button appearance="neutral" onclick="window.open('https://www.fabric-gps.com/api/releases?page_size=50', '_blank')">Open releases API</fluent-button>
-          <fluent-button appearance="neutral" onclick="window.open('https://www.fabric-gps.com/api/changelog?days=30', '_blank')">Open changelog API</fluent-button>
+          <fluent-button appearance="neutral" onclick="window.open('./gps-releases.json', '_blank')">Open releases mirror</fluent-button>
+          <fluent-button appearance="neutral" onclick="window.open('./gps-changelog.json', '_blank')">Open changelog mirror</fluent-button>
         </div>
       </section>
 
       <section class="stats" aria-label="Roadmap summary">
-        <div class="stat"><p class="label">Loaded releases</p><p class="stat-number" id="release-count">-</p><p class="hint">Roadmap items returned by the API query.</p></div>
-        <div class="stat"><p class="label">Changed recently</p><p class="stat-number" id="change-count">-</p><p class="hint">Items reported by the changelog endpoint.</p></div>
-        <div class="stat"><p class="label">Data source</p><p class="stat-number">GPS</p><p class="hint">Public Fabric GPS endpoints, refreshed by the browser.</p></div>
+        <div class="stat"><p class="label">Loaded releases</p><p class="stat-number" id="release-count">-</p><p class="hint">Roadmap items returned by the mirrored API query.</p></div>
+        <div class="stat"><p class="label">Changed recently</p><p class="stat-number" id="change-count">-</p><p class="hint">Items reported by the mirrored changelog.</p></div>
+        <div class="stat"><p class="label">Last mirrored</p><p class="stat-number" id="generated-age">-</p><p class="hint" id="generated-at">Waiting for data.</p></div>
       </section>
 
       <section class="panel" aria-labelledby="filters-title">
@@ -153,7 +153,7 @@
           <div class="field"><label for="status-filter">Status</label><select id="status-filter"><option value="all">All statuses</option></select></div>
         </div>
 
-        <div id="release-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading Fabric GPS data...</div></div>
+        <div id="release-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored Fabric GPS data...</div></div>
       </section>
 
       <section class="panel" aria-labelledby="changes-title">
@@ -164,23 +164,24 @@
           </div>
           <fluent-badge appearance="neutral" id="change-badge">0 changes</fluent-badge>
         </div>
-        <div id="change-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading changelog...</div></div>
+        <div id="change-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored changelog...</div></div>
       </section>
 
       <p class="footer">
-        Fabric GPS is a public community project that exposes Microsoft Fabric roadmap data through JSON and RSS endpoints. Fabric Pulse is not affiliated with Microsoft or Fabric GPS.
+        Fabric GPS is a public community project that exposes Microsoft Fabric roadmap data through JSON and RSS endpoints. Fabric Pulse mirrors selected Fabric GPS JSON responses to avoid browser CORS restrictions. Fabric Pulse is not affiliated with Microsoft or Fabric GPS.
       </p>
     </main>
 
     <script>
-      const API_BASE = 'https://www.fabric-gps.com';
       const state = { releases: [], changes: [] };
+      const dateFormatter = new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+      const relativeFormatter = new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' });
       const byId = (id) => document.getElementById(id);
       const escapeHtml = (value) => String(value || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
       const clean = (value) => String(value || '').trim();
 
       async function fetchJson(url) {
-        const response = await fetch(url, { cache: 'no-store' });
+        const response = await fetch(`${url}?cacheBust=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) throw new Error(`${url} returned HTTP ${response.status}`);
         return response.json();
       }
@@ -188,14 +189,32 @@
       function unique(values) { return [...new Set(values.map(clean).filter(Boolean))].sort((a, b) => a.localeCompare(b)); }
       function truncate(text, max = 360) { const value = clean(text); return value.length > max ? `${value.slice(0, max).trim()}...` : value; }
 
+      function formatDate(value) {
+        if (!value) return 'Unknown';
+        const date = new Date(value);
+        return Number.isNaN(date.getTime()) ? value : dateFormatter.format(date);
+      }
+
+      function formatAge(value) {
+        if (!value) return '-';
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return '-';
+        const diffMs = date.getTime() - Date.now();
+        const absMinutes = Math.abs(diffMs) / 60000;
+        if (absMinutes < 60) return relativeFormatter.format(Math.round(diffMs / 60000), 'minute');
+        if (absMinutes < 1440) return relativeFormatter.format(Math.round(diffMs / 3600000), 'hour');
+        return relativeFormatter.format(Math.round(diffMs / 86400000), 'day');
+      }
+
       function setOptions(id, values, allLabel) {
         byId(id).innerHTML = `<option value="all">${escapeHtml(allLabel)}</option>` + values.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join('');
       }
 
       function populateFilters(options) {
-        const products = options?.product_names?.length ? options.product_names : unique(state.releases.map((item) => item.product_name));
-        const types = options?.release_types?.length ? options.release_types : unique(state.releases.map((item) => item.release_type));
-        const statuses = options?.release_statuses?.length ? options.release_statuses : unique(state.releases.map((item) => item.release_status));
+        const filterOptions = options?.filterOptions || options || {};
+        const products = filterOptions?.product_names?.length ? filterOptions.product_names : unique(state.releases.map((item) => item.product_name));
+        const types = filterOptions?.release_types?.length ? filterOptions.release_types : unique(state.releases.map((item) => item.release_type));
+        const statuses = filterOptions?.release_statuses?.length ? filterOptions.release_statuses : unique(state.releases.map((item) => item.release_status));
         setOptions('product-filter', products, 'All products');
         setOptions('type-filter', types, 'All types');
         setOptions('status-filter', statuses, 'All statuses');
@@ -273,26 +292,30 @@
 
       async function loadGpsData() {
         try {
-          byId('release-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading Fabric GPS data...</div>';
-          byId('change-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading changelog...</div>';
+          byId('release-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored Fabric GPS data...</div>';
+          byId('change-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored changelog...</div>';
 
-          const [releases, changelog, options] = await Promise.all([
-            fetchJson(`${API_BASE}/api/releases?page_size=100&sort=last_modified`),
-            fetchJson(`${API_BASE}/api/changelog?days=30`),
-            fetchJson(`${API_BASE}/api/filter-options`)
+          const [releasesMirror, changelogMirror, optionsMirror] = await Promise.all([
+            fetchJson('./gps-releases.json'),
+            fetchJson('./gps-changelog.json'),
+            fetchJson('./gps-filter-options.json')
           ]);
 
+          const releases = releasesMirror.releases || releasesMirror;
+          const changelog = changelogMirror.changelog || changelogMirror;
           state.releases = Array.isArray(releases.data) ? releases.data : [];
           state.changes = Array.isArray(changelog.days) ? changelog.days.flatMap((day) => day.items || []) : [];
           byId('release-count').textContent = state.releases.length;
           byId('change-count').textContent = changelog.total_items ?? state.changes.length;
           byId('change-badge').textContent = `${state.changes.length} loaded`;
-          populateFilters(options);
+          byId('generated-age').textContent = formatAge(releasesMirror.generatedAt);
+          byId('generated-at').textContent = releasesMirror.generatedAt ? `Mirrored ${formatDate(releasesMirror.generatedAt)}` : 'Unknown mirror time';
+          populateFilters(optionsMirror);
           renderReleases();
           renderChanges();
         } catch (error) {
-          byId('release-list').innerHTML = `<div class="error">Unable to load Fabric GPS data: ${escapeHtml(error.message)}</div>`;
-          byId('change-list').innerHTML = `<div class="error">Unable to load Fabric GPS changelog: ${escapeHtml(error.message)}</div>`;
+          byId('release-list').innerHTML = `<div class="error">Unable to load mirrored Fabric GPS data: ${escapeHtml(error.message)}</div>`;
+          byId('change-list').innerHTML = `<div class="error">Unable to load mirrored Fabric GPS changelog: ${escapeHtml(error.message)}</div>`;
         }
       }
 

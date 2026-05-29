@@ -1,18 +1,31 @@
 {
-  "generatedAt": "2026-05-29T13:32:51.825Z",
+  "generatedAt": "2026-05-29T17:01:45.435Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
+    "active": 2,
     "resolved": 181,
-    "total": 182
+    "total": 183
   },
   "summary": {
-    "activeIncidents": 1,
+    "activeIncidents": 2,
     "resolvedIncidents": 181,
     "hasActive": true
   },
   "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "93a899fb-755b-f111-bec7-6045bd00f798",
+      "serviceStatus": "Degraded",
+      "region": "Europe",
+      "reportedRaw": "5/29/2026 8:48:36 AM",
+      "reportedAt": "2026-05-29T08:48:36.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span style=\"font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Web\", sans-serif;font-size:14px;\"><span style=\"white-space:pre-wrap;\" data-teams=\"true\">Fabric Customers in Europe region may experience issues while interacting with Copilot Service and, accessing ML experiments and Models. Engineers are investigating the issue and an update will be provided soon.</span></span></p></div>",
+      "detailsText": "Fabric Customers in Europe region may experience issues while interacting with Copilot Service and, accessing ML experiments and Models. Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "2d3f527bffd36782f238cee162d96f619b4b57edf82cddccec58b6bd780ff144"
+    },
     {
       "type": "active",
       "serviceNotificationId": "a46c473f-ba5a-f111-bec7-6045bd0a886d",
@@ -22,9 +35,9 @@
       "reportedAt": "2026-05-28T08:00:15.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers using the Teams mobile app may experience issues loading reports within the app. Engineers are investigating the issue and updates will be provided soon. As a workaround, customers may open the reports in a browser.</p></div>",
-      "detailsText": "Fabric customers using the Teams mobile app may experience issues loading reports within the app. Engineers are investigating the issue and updates will be provided soon. As a workaround, customers may open the reports in a browser.",
-      "hash": "2b34de7648e747e7319857ed1e6fbdc61bd7d5fa9016722b5ddb5969d345ddea"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers using the Teams mobile app may experience issues loading reports within the app. As a workaround, customers may open the reports in a browser or the Power BI app. A fix is expected to be implemented globally by 2026-06-02 11:00 PDT.</p></div>",
+      "detailsText": "Fabric customers using the Teams mobile app may experience issues loading reports within the app. As a workaround, customers may open the reports in a browser or the Power BI app. A fix is expected to be implemented globally by 2026-06-02 11:00 PDT.",
+      "hash": "30d043c14b99587cabfe53be6cb1b3c0256261d0bb1aece9fc55e2b357343595"
     }
   ],
   "resolved": [

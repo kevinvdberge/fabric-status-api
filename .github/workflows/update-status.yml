@@ -1,12 +1,19 @@
 name: Update Fabric Status JSON
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: '7,22,37,52 * * * *'
 
 permissions:
   contents: write
+
+concurrency:
+  group: fabric-status-json
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -27,11 +34,6 @@ jobs:
 
       - name: Update status files
         run: npm run update
-
-      - name: Copy generated files to docs for GitHub Pages
-        run: |
-          mkdir -p docs
-          cp -R public/. docs/
 
       - name: Commit changes (if any)
         run: |

@@ -28,6 +28,11 @@ jobs:
       - name: Update status files
         run: npm run update
 
+      - name: Copy generated files to docs for GitHub Pages
+        run: |
+          mkdir -p docs
+          cp -R public/. docs/
+
       - name: Commit changes (if any)
         run: |
           if git diff --quiet -- docs; then

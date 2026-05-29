@@ -1,0 +1,17 @@
+{
+  "generatedAt": null,
+  "sourceUrl": "https://support.fabric.microsoft.com/support/",
+  "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
+  "counts": {
+    "active": 0,
+    "resolved": 0,
+    "total": 0
+  },
+  "summary": {
+    "activeIncidents": 0,
+    "resolvedIncidents": 0,
+    "hasActive": false
+  },
+  "active": [],
+  "resolved": []
+}

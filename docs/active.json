@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-29T17:01:45.435Z",
+  "generatedAt": "2026-05-29T19:40:32.668Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 2,
   "active": [
     {
       "type": "active",
-      "serviceNotificationId": "93a899fb-755b-f111-bec7-6045bd00f798",
+      "serviceNotificationId": "f715b1a5-945b-f111-bec7-000d3a36696c",
       "serviceStatus": "Degraded",
-      "region": "Europe",
-      "reportedRaw": "5/29/2026 8:48:36 AM",
-      "reportedAt": "2026-05-29T08:48:36.000Z",
+      "region": "",
+      "reportedRaw": "5/29/2026 12:27:13 PM",
+      "reportedAt": "2026-05-29T12:27:13.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span style=\"font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Web\", sans-serif;font-size:14px;\"><span style=\"white-space:pre-wrap;\" data-teams=\"true\">Fabric Customers in Europe region may experience issues while interacting with Copilot Service and, accessing ML experiments and Models. Engineers are investigating the issue and an update will be provided soon.</span></span></p></div>",
-      "detailsText": "Fabric Customers in Europe region may experience issues while interacting with Copilot Service and, accessing ML experiments and Models. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "2d3f527bffd36782f238cee162d96f619b4b57edf82cddccec58b6bd780ff144"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers may experience issues initiating notebooks and Spark sessions. Engineers are investigating and updates will be provided soon.</p></div>",
+      "detailsText": "Fabric customers may experience issues initiating notebooks and Spark sessions. Engineers are investigating and updates will be provided soon.",
+      "hash": "d8c5cd854c6c053bfebd551b71bf7935f4edf7671f1956bb69d7ecdebb6256e8"
     },
     {
       "type": "active",

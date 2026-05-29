@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-05-29T17:01:45.435Z",
+  "generatedAt": "2026-05-29T19:40:32.668Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 181,
+  "count": 182,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "93a899fb-755b-f111-bec7-6045bd00f798",
+      "serviceStatus": "",
+      "region": "Europe",
+      "reportedRaw": "5/29/2026 8:48:36 AM",
+      "reportedAt": "2026-05-29T08:48:36.000Z",
+      "resolvedRaw": "5/29/2026 10:09:00 AM",
+      "resolvedAt": "2026-05-29T10:09:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span style=\"font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Web\", sans-serif;font-size:14px;\"><span style=\"white-space:pre-wrap;\" data-teams=\"true\">Fabric Customers in Europe region may experience issues while interacting with Copilot Service and, accessing ML experiments and Models.</span></span></p></div>",
+      "detailsText": "Fabric Customers in Europe region may experience issues while interacting with Copilot Service and, accessing ML experiments and Models.",
+      "hash": "f50b3462eadb0417c6caa31d60f8d387583cc1164d64e4dae53b779b62ca1352"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "5eabc063-225b-f111-bec7-6045bd0066ad",

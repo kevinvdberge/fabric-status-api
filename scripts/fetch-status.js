@@ -204,7 +204,7 @@ function parseJsLiteral(valueLiteral) {
 
 function parseNotifications(html) {
   const scriptBlocks = [];
-  const scriptRegex = /<script\b[^>]*>([\s\S]*?)<\/script>/gi;
+  const scriptRegex = /<script\b[^>]*>([\s\S]*?)<\/script\s*[^>]*>/gi;
   let scriptMatch;
 
   while ((scriptMatch = scriptRegex.exec(html)) !== null) {

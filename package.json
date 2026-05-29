@@ -1,0 +1,16 @@
+{
+  "name": "fabric-status-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial static JSON mirror for Microsoft Fabric service status",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "update": "node scripts/fetch-status.js",
+    "check": "node scripts/fetch-status.js --check"
+  },
+  "dependencies": {
+    "he": "^1.2.0"
+  }
+}

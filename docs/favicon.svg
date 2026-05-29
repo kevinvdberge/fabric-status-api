@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fabric Pulse">
+  <defs>
+    <linearGradient id="g" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#117865"/>
+      <stop offset="0.55" stop-color="#00A562"/>
+      <stop offset="1" stop-color="#7FBA00"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <path d="M18 18h28v7H26v8h17v7H26v14h-8V18z" fill="#fff"/>
+  <circle cx="48" cy="48" r="5" fill="#fff" opacity="0.92"/>
+</svg>

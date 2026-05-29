@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T21:31:12.133Z",
+  "generatedAt": "2026-05-29T22:59:24.286Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 2,
@@ -13,9 +13,9 @@
       "reportedAt": "2026-05-29T12:27:13.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Fabric customers may experience issues initiating notebooks and Spark sessions. The root cause has been identified, and our engineering team is actively applying mitigations. Recovery is expected within approximately 2 hours</span></p></div>",
-      "detailsText": "Fabric customers may experience issues initiating notebooks and Spark sessions. The root cause has been identified, and our engineering team is actively applying mitigations. Recovery is expected within approximately 2 hours",
-      "hash": "fd0d048350399397447de4904a1bcbedb7dd8d41f74a937b58c5b1101a035571"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Fabric customers may experience issues initiating notebooks and Spark sessions. The root cause has been identified, and our engineering team is actively applying mitigations. Recovery is expected by 2026-05-29 18:00 PDT.</span></p></div>",
+      "detailsText": "Fabric customers may experience issues initiating notebooks and Spark sessions. The root cause has been identified, and our engineering team is actively applying mitigations. Recovery is expected by 2026-05-29 18:00 PDT.",
+      "hash": "2265df82240978a2de29fa791717260f96c26288fa0bb864f6de20c3bb503a2a"
     },
     {
       "type": "active",

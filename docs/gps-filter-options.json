@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-05-29T10:05:53.327Z",
+  "sourceUrl": "https://www.fabric-gps.com/api/filter-options",
+  "filterOptions": {
+    "product_names": [
+      "Administration, Governance and Security",
+      "Cosmos DB",
+      "Data Engineering",
+      "Data Factory",
+      "Data Science",
+      "Data Warehouse",
+      "Fabric Developer Experiences",
+      "Fabric Ecosystem",
+      "IQ",
+      "OneLake",
+      "Power BI",
+      "Real-Time Intelligence",
+      "SQL database"
+    ],
+    "release_types": [
+      "General availability",
+      "Public preview"
+    ],
+    "release_statuses": [
+      "Planned",
+      "Shipped"
+    ]
+  }
+}

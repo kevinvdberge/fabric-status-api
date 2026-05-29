@@ -3,17 +3,568 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
     <title>Fabric Status API (Unofficial)</title>
+
+    <script type="module">
+      import {
+        provideFluentDesignSystem,
+        fluentBadge,
+        fluentButton,
+        fluentCard,
+        fluentDivider,
+        fluentProgressRing
+      } from 'https://unpkg.com/@fluentui/web-components?module';
+
+      provideFluentDesignSystem().register(
+        fluentBadge(),
+        fluentButton(),
+        fluentCard(),
+        fluentDivider(),
+        fluentProgressRing()
+      );
+    </script>
+
+    <style>
+      :root {
+        --fabric-brand: #117865;
+        --fabric-brand-hover: #0f6b5b;
+        --fabric-warning: #fde300;
+        --fabric-danger: #d13438;
+        --fabric-success: #107c10;
+        --fabric-info: #0078d4;
+        --page-bg: #f5f5f5;
+        --surface: #ffffff;
+        --surface-subtle: #fafafa;
+        --text-primary: #242424;
+        --text-secondary: #616161;
+        --border-subtle: #e0e0e0;
+        --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.08);
+        font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --page-bg: #11100f;
+          --surface: #1b1a19;
+          --surface-subtle: #242322;
+          --text-primary: #f3f2f1;
+          --text-secondary: #c8c6c4;
+          --border-subtle: #3b3a39;
+          --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.35);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(17, 120, 101, 0.16), transparent 28rem),
+          linear-gradient(180deg, var(--surface) 0, var(--page-bg) 24rem);
+        color: var(--text-primary);
+      }
+
+      a {
+        color: var(--fabric-brand);
+      }
+
+      .page {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 56px;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 24px;
+        align-items: center;
+        padding: 32px;
+        border: 1px solid var(--border-subtle);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.72);
+        box-shadow: var(--shadow-card);
+        backdrop-filter: blur(18px);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .hero {
+          background: rgba(27, 26, 25, 0.72);
+        }
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--fabric-brand);
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+
+      .dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 999px;
+        background: var(--fabric-brand);
+        box-shadow: 0 0 0 4px rgba(17, 120, 101, 0.14);
+      }
+
+      h1 {
+        margin: 12px 0 8px;
+        font-size: clamp(32px, 5vw, 56px);
+        line-height: 1.02;
+        letter-spacing: -0.04em;
+      }
+
+      .subtitle {
+        max-width: 760px;
+        margin: 0;
+        color: var(--text-secondary);
+        font-size: 17px;
+        line-height: 1.55;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      fluent-button::part(control) {
+        border-radius: 8px;
+      }
+
+      .hero-card {
+        width: min(360px, 100%);
+        padding: 20px;
+        border-radius: 16px;
+        background: var(--surface-subtle);
+        border: 1px solid var(--border-subtle);
+      }
+
+      .hero-card-label {
+        margin: 0 0 8px;
+        color: var(--text-secondary);
+        font-size: 13px;
+      }
+
+      .hero-card-value {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .metadata {
+        margin-top: 8px;
+        color: var(--text-secondary);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 20px;
+      }
+
+      .stat-card,
+      .section-card {
+        padding: 20px;
+        border: 1px solid var(--border-subtle);
+        border-radius: 16px;
+        background: var(--surface);
+        box-shadow: var(--shadow-card);
+      }
+
+      .stat-label {
+        margin: 0 0 6px;
+        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .stat-value {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        margin: 0;
+        font-size: 34px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+
+      .stat-hint {
+        margin: 8px 0 0;
+        color: var(--text-secondary);
+        font-size: 13px;
+      }
+
+      .section-card {
+        margin-top: 20px;
+      }
+
+      .section-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+
+      .section-title {
+        margin: 0;
+        font-size: 22px;
+        letter-spacing: -0.02em;
+      }
+
+      .section-description {
+        margin: 4px 0 0;
+        color: var(--text-secondary);
+        font-size: 14px;
+      }
+
+      .notification-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .notification {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 14px;
+        padding: 16px;
+        border: 1px solid var(--border-subtle);
+        border-radius: 14px;
+        background: var(--surface-subtle);
+      }
+
+      .status-icon {
+        width: 12px;
+        height: 12px;
+        margin-top: 6px;
+        border-radius: 999px;
+        background: var(--fabric-info);
+      }
+
+      .status-icon.degraded,
+      .status-icon.interruption,
+      .status-icon.error {
+        background: var(--fabric-danger);
+      }
+
+      .status-icon.information,
+      .status-icon.info {
+        background: var(--fabric-info);
+      }
+
+      .status-icon.resolved,
+      .status-icon.operational {
+        background: var(--fabric-success);
+      }
+
+      .notification h3 {
+        margin: 0 0 6px;
+        font-size: 16px;
+      }
+
+      .notification p {
+        margin: 0;
+        color: var(--text-secondary);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .notification-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .muted {
+        color: var(--text-secondary);
+      }
+
+      .empty-state,
+      .loading-state,
+      .error-state {
+        padding: 28px;
+        text-align: center;
+        border: 1px dashed var(--border-subtle);
+        border-radius: 16px;
+        color: var(--text-secondary);
+        background: var(--surface-subtle);
+      }
+
+      .loading-state {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+      }
+
+      .footer {
+        margin-top: 24px;
+        color: var(--text-secondary);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      code {
+        padding: 2px 6px;
+        border-radius: 6px;
+        background: var(--surface-subtle);
+        border: 1px solid var(--border-subtle);
+      }
+
+      @media (max-width: 860px) {
+        .hero {
+          grid-template-columns: 1fr;
+          padding: 24px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .notification {
+          grid-template-columns: auto 1fr;
+        }
+
+        .notification fluent-badge {
+          grid-column: 2;
+          width: fit-content;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Fabric Status API (Unofficial)</h1>
-    <p>
-      This repository publishes an unofficial JSON mirror of the Microsoft Fabric service status page.
-    </p>
-    <ul>
-      <li><a href="./status.json">status.json</a></li>
-      <li><a href="./active.json">active.json</a></li>
-      <li><a href="./resolved.json">resolved.json</a></li>
-    </ul>
+    <main class="page">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <div class="eyebrow"><span class="dot"></span>Microsoft Fabric status mirror</div>
+          <h1 id="page-title">Fabric Status API</h1>
+          <p class="subtitle">
+            Unofficial public dashboard for Microsoft Fabric service status notifications. This page reads the generated JSON files from this GitHub Pages site.
+          </p>
+          <div class="hero-actions">
+            <fluent-button appearance="accent" id="refresh-button">Refresh status</fluent-button>
+            <fluent-button appearance="neutral" onclick="window.open('./status.json', '_blank')">Open status.json</fluent-button>
+            <fluent-button appearance="neutral" onclick="window.open('./active.json', '_blank')">Open active.json</fluent-button>
+            <fluent-button appearance="neutral" onclick="window.open('./resolved.json', '_blank')">Open resolved.json</fluent-button>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Current status summary">
+          <p class="hero-card-label">Current public status</p>
+          <p class="hero-card-value" id="overall-status">Loading...</p>
+          <div class="metadata" id="metadata">Fetching generated JSON files.</div>
+        </aside>
+      </section>
+
+      <section class="grid" aria-label="Status counts">
+        <div class="stat-card">
+          <p class="stat-label">Active notifications</p>
+          <p class="stat-value" id="active-count">-</p>
+          <p class="stat-hint">Current unresolved public notifications.</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Resolved notifications</p>
+          <p class="stat-value" id="resolved-count">-</p>
+          <p class="stat-hint">Resolved notifications included in the mirror.</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Last generated</p>
+          <p class="stat-value" id="generated-age">-</p>
+          <p class="stat-hint" id="generated-at">Waiting for data.</p>
+        </div>
+      </section>
+
+      <section class="section-card" aria-labelledby="active-title">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="active-title">Active notifications</h2>
+            <p class="section-description">Signals currently published on the public Microsoft Fabric support page.</p>
+          </div>
+          <fluent-badge appearance="accent" id="active-badge">0 active</fluent-badge>
+        </div>
+        <div id="active-list" class="notification-list">
+          <div class="loading-state"><fluent-progress-ring></fluent-progress-ring>Loading active notifications...</div>
+        </div>
+      </section>
+
+      <section class="section-card" aria-labelledby="resolved-title">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="resolved-title">Recent resolved notifications</h2>
+            <p class="section-description">Latest resolved notifications from the generated JSON mirror.</p>
+          </div>
+          <fluent-badge appearance="neutral" id="resolved-badge">0 resolved</fluent-badge>
+        </div>
+        <div id="resolved-list" class="notification-list">
+          <div class="loading-state"><fluent-progress-ring></fluent-progress-ring>Loading resolved notifications...</div>
+        </div>
+      </section>
+
+      <p class="footer">
+        This is an unofficial static mirror based on public HTML scraping. For tenant-specific service health, combine this source with Microsoft Graph Service Health. Source files: <code>status.json</code>, <code>active.json</code>, <code>resolved.json</code>.
+      </p>
+    </main>
+
+    <script>
+      const formatter = new Intl.DateTimeFormat(undefined, {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      });
+
+      const relativeFormatter = new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' });
+
+      function byId(id) {
+        return document.getElementById(id);
+      }
+
+      function formatDate(value) {
+        if (!value) return 'Unknown';
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return value;
+        return formatter.format(date);
+      }
+
+      function formatAge(value) {
+        if (!value) return '-';
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return '-';
+
+        const diffMs = date.getTime() - Date.now();
+        const absMinutes = Math.abs(diffMs) / 60000;
+
+        if (absMinutes < 60) return relativeFormatter.format(Math.round(diffMs / 60000), 'minute');
+        if (absMinutes < 1440) return relativeFormatter.format(Math.round(diffMs / 3600000), 'hour');
+        return relativeFormatter.format(Math.round(diffMs / 86400000), 'day');
+      }
+
+      function truncate(value, maxLength = 420) {
+        const text = String(value || '').trim();
+        if (text.length <= maxLength) return text;
+        return `${text.slice(0, maxLength).trim()}...`;
+      }
+
+      function statusClass(status) {
+        const normalized = String(status || '').toLowerCase();
+        if (normalized.includes('degrad') || normalized.includes('interrupt') || normalized.includes('error')) {
+          return 'degraded';
+        }
+        if (normalized.includes('resolved') || normalized.includes('operational')) return 'resolved';
+        if (normalized.includes('info')) return 'information';
+        return 'info';
+      }
+
+      function badgeAppearance(status) {
+        const normalized = String(status || '').toLowerCase();
+        if (normalized.includes('degrad') || normalized.includes('interrupt') || normalized.includes('error')) {
+          return 'important';
+        }
+        if (normalized.includes('resolved') || normalized.includes('operational')) return 'accent';
+        return 'neutral';
+      }
+
+      function createNotificationCard(item, fallbackStatus) {
+        const status = item.serviceStatus || fallbackStatus || item.type || 'Notification';
+        const region = item.region ? ` · ${item.region}` : '';
+        const reported = item.reportedAt || item.reportedRaw;
+        const resolved = item.resolvedAt || item.resolvedRaw;
+        const meta = [
+          reported ? `Reported: ${formatDate(reported)}` : null,
+          resolved ? `Resolved: ${formatDate(resolved)}` : null,
+          item.serviceNotificationId ? `ID: ${item.serviceNotificationId}` : null
+        ].filter(Boolean);
+
+        const article = document.createElement('article');
+        article.className = 'notification';
+        article.innerHTML = `
+          <span class="status-icon ${statusClass(status)}" aria-hidden="true"></span>
+          <div>
+            <h3>${escapeHtml(status)}${escapeHtml(region)}</h3>
+            <p>${escapeHtml(truncate(item.detailsText || 'No details available.'))}</p>
+            <div class="notification-meta">
+              ${meta.map((entry) => `<fluent-badge appearance="neutral">${escapeHtml(entry)}</fluent-badge>`).join('')}
+            </div>
+          </div>
+          <fluent-badge appearance="${badgeAppearance(status)}">${escapeHtml(status)}</fluent-badge>
+        `;
+        return article;
+      }
+
+      function escapeHtml(value) {
+        return String(value || '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#039;');
+      }
+
+      function renderList(container, items, emptyText, limit, fallbackStatus) {
+        container.innerHTML = '';
+        if (!items.length) {
+          const empty = document.createElement('div');
+          empty.className = 'empty-state';
+          empty.textContent = emptyText;
+          container.appendChild(empty);
+          return;
+        }
+
+        items.slice(0, limit).forEach((item) => {
+          container.appendChild(createNotificationCard(item, fallbackStatus));
+        });
+      }
+
+      async function fetchJson(url) {
+        const response = await fetch(`${url}?cacheBust=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+        return response.json();
+      }
+
+      async function loadStatus() {
+        byId('active-list').innerHTML = '<div class="loading-state"><fluent-progress-ring></fluent-progress-ring>Loading active notifications...</div>';
+        byId('resolved-list').innerHTML = '<div class="loading-state"><fluent-progress-ring></fluent-progress-ring>Loading resolved notifications...</div>';
+
+        try {
+          const status = await fetchJson('./status.json');
+          const active = Array.isArray(status.active) ? status.active : [];
+          const resolved = Array.isArray(status.resolved) ? status.resolved : [];
+          const activeCount = status.counts?.active ?? active.length;
+          const resolvedCount = status.counts?.resolved ?? resolved.length;
+          const generatedAt = status.generatedAt;
+
+          byId('active-count').textContent = activeCount;
+          byId('resolved-count').textContent = resolvedCount;
+          byId('generated-age').textContent = formatAge(generatedAt);
+          byId('generated-at').textContent = generatedAt ? formatDate(generatedAt) : 'Unknown generation time';
+          byId('active-badge').textContent = `${activeCount} active`;
+          byId('resolved-badge').textContent = `${resolvedCount} resolved`;
+          byId('overall-status').textContent = activeCount > 0 ? 'Attention needed' : 'No active notifications';
+          byId('metadata').innerHTML = `Generated ${escapeHtml(formatAge(generatedAt))}. Source: <a href="${escapeHtml(status.sourceUrl || '#')}" target="_blank" rel="noreferrer">Microsoft Fabric support</a>.`;
+
+          renderList(byId('active-list'), active, 'No active public Fabric notifications found.', 25, 'Active');
+          renderList(byId('resolved-list'), resolved, 'No resolved notifications found in the mirror.', 10, 'Resolved');
+        } catch (error) {
+          byId('overall-status').textContent = 'Unavailable';
+          byId('metadata').textContent = error.message;
+          byId('active-list').innerHTML = `<div class="error-state">Could not load status.json: ${escapeHtml(error.message)}</div>`;
+          byId('resolved-list').innerHTML = `<div class="error-state">Could not load status.json: ${escapeHtml(error.message)}</div>`;
+        }
+      }
+
+      byId('refresh-button').addEventListener('click', loadStatus);
+      loadStatus();
+    </script>
   </body>
 </html>

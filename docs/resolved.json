@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-05-29T12:11:27.274Z",
+  "generatedAt": "2026-05-29T13:32:51.825Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 180,
+  "count": 181,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "5eabc063-225b-f111-bec7-6045bd0066ad",
+      "serviceStatus": "",
+      "region": "West US2",
+      "reportedRaw": "5/28/2026 10:49:47 PM",
+      "reportedAt": "2026-05-28T22:49:47.000Z",
+      "resolvedRaw": "5/29/2026 4:45:45 AM",
+      "resolvedAt": "2026-05-29T04:45:45.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers with tenants located in West US2 region may have experienced latencies and intermittent issues while interacting with the artifacts in service due to an Azure outage.</p></div>",
+      "detailsText": "Fabric customers with tenants located in West US2 region may have experienced latencies and intermittent issues while interacting with the artifacts in service due to an Azure outage.",
+      "hash": "137daf93f6a31511f853711177ea5c8c41f5652ebe69a962cba788b5f7c79fdc"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "38fcc241-c95a-f111-bec7-6045bd00f798",

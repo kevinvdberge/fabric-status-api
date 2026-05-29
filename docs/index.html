@@ -27,11 +27,9 @@
     <style>
       :root {
         --brand: #117865;
-        --brand-dark: #0b5c4f;
         --danger: #d13438;
         --success: #107c10;
         --info: #0078d4;
-        --warning: #f7630c;
         --bg: #f5f7fa;
         --surface: #ffffff;
         --surface-soft: #f8fafc;
@@ -41,7 +39,6 @@
         --shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
         font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       }
-
       @media (prefers-color-scheme: dark) {
         :root {
           --bg: #11100f;
@@ -53,68 +50,40 @@
           --shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
         }
       }
-
       * { box-sizing: border-box; }
-
-      body {
-        margin: 0;
-        background:
-          radial-gradient(circle at top left, rgba(17, 120, 101, 0.18), transparent 28rem),
-          linear-gradient(180deg, var(--surface) 0, var(--bg) 26rem);
-        color: var(--text);
-      }
-
+      body { margin: 0; background: radial-gradient(circle at top left, rgba(17, 120, 101, 0.18), transparent 28rem), linear-gradient(180deg, var(--surface) 0, var(--bg) 26rem); color: var(--text); }
       a { color: var(--brand); }
       .page { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 24px 0 56px; }
-
       .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 18px; }
-      .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
-      .brand-logo { width: 210px; height: auto; display: block; }
-      @media (prefers-color-scheme: dark) { .brand-logo-text { fill: #f3f2f1; } .brand-logo-subtitle { fill: #c8c6c4; } }
+      .brand { display: flex; align-items: center; gap: 14px; color: var(--text); text-decoration: none; }
+      .brand img { width: 54px; height: 54px; border-radius: 14px; box-shadow: 0 10px 26px rgba(17, 120, 101, 0.25); }
+      .brand-title { display: block; font-size: 24px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+      .brand-subtitle { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; font-weight: 500; }
       .nav { display: flex; gap: 8px; flex-wrap: wrap; }
       .nav a { padding: 8px 12px; border: 1px solid var(--border); border-radius: 999px; color: var(--text); text-decoration: none; background: var(--surface); }
       .nav a.active { background: var(--brand); color: #fff; border-color: var(--brand); }
-
-      .hero {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        gap: 24px;
-        align-items: center;
-        padding: 32px;
-        border: 1px solid var(--border);
-        border-radius: 24px;
-        background: rgba(255, 255, 255, 0.78);
-        box-shadow: var(--shadow);
-        backdrop-filter: blur(18px);
-      }
-
-      @media (prefers-color-scheme: dark) { .hero { background: rgba(27, 26, 25, 0.78); } }
-
+      .hero { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; padding: 32px; border: 1px solid var(--border); border-radius: 24px; background: rgba(255,255,255,.78); box-shadow: var(--shadow); backdrop-filter: blur(18px); }
+      @media (prefers-color-scheme: dark) { .hero { background: rgba(27,26,25,.78); } }
       .eyebrow { color: var(--brand); font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
       h1 { margin: 10px 0; font-size: clamp(34px, 5vw, 58px); line-height: 1.02; letter-spacing: -0.045em; }
       .subtitle { max-width: 780px; margin: 0; color: var(--muted); font-size: 17px; line-height: 1.6; }
       .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
       fluent-button::part(control) { border-radius: 8px; }
-
       .status-card { min-width: 300px; padding: 20px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface-soft); }
       .label { margin: 0 0 8px; color: var(--muted); font-size: 13px; font-weight: 600; }
       .value { margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -0.03em; }
       .meta { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.5; }
-
       .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
       .stat, .panel { padding: 20px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); box-shadow: var(--shadow); }
       .stat-number { margin: 0; font-size: 34px; font-weight: 800; }
       .hint { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
-
       .panel { margin-top: 20px; }
       .panel-header { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 18px; }
       .panel-title { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
       .panel-description { margin: 5px 0 0; color: var(--muted); font-size: 14px; }
-
       .filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 18px; }
       .field label { display: block; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
       select, input { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); font: inherit; }
-
       .list { display: grid; gap: 12px; }
       .notification { display: grid; grid-template-columns: 12px 1fr auto; gap: 14px; padding: 16px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface-soft); }
       .dot { width: 12px; height: 12px; margin-top: 6px; border-radius: 999px; background: var(--info); }
@@ -128,22 +97,16 @@
       .empty, .loading, .error { padding: 28px; border: 1px dashed var(--border); border-radius: 16px; color: var(--muted); text-align: center; background: var(--surface-soft); }
       .loading { display: flex; align-items: center; justify-content: center; gap: 12px; }
       .footer { margin-top: 24px; color: var(--muted); font-size: 13px; line-height: 1.55; }
-
-      @media (max-width: 860px) {
-        .hero, .stats, .filters { grid-template-columns: 1fr; }
-        .topbar { align-items: flex-start; flex-direction: column; }
-        .brand-logo { width: 190px; }
-        .hero { padding: 24px; }
-        .status-card { min-width: 0; }
-        .notification { grid-template-columns: 12px 1fr; }
-        .notification fluent-badge { grid-column: 2; width: fit-content; }
-      }
+      @media (max-width: 860px) { .hero, .stats, .filters { grid-template-columns: 1fr; } .topbar { align-items: flex-start; flex-direction: column; } .hero { padding: 24px; } .status-card { min-width: 0; } .notification { grid-template-columns: 12px 1fr; } .notification fluent-badge { grid-column: 2; width: fit-content; } }
     </style>
   </head>
   <body>
     <main class="page">
       <header class="topbar">
-        <a class="brand" href="./" aria-label="Fabric Pulse home"><img class="brand-logo" src="./logo.svg" alt="Fabric Pulse" /></a>
+        <a class="brand" href="./" aria-label="Fabric Pulse home">
+          <img src="./favicon.svg" alt="" aria-hidden="true" />
+          <span><span class="brand-title">Fabric Pulse</span><span class="brand-subtitle">Public Fabric status and roadmap intelligence</span></span>
+        </a>
         <nav class="nav" aria-label="Site navigation">
           <a class="active" href="./">Service status</a>
           <a href="./news.html">Roadmap & updates</a>
@@ -173,22 +136,16 @@
 
       <section class="panel" aria-labelledby="notifications-title">
         <div class="panel-header">
-          <div>
-            <h2 class="panel-title" id="notifications-title">Notifications</h2>
-            <p class="panel-description">Filter by region, status or text to quickly find relevant Fabric service messages.</p>
-          </div>
+          <div><h2 class="panel-title" id="notifications-title">Notifications</h2><p class="panel-description">Filter by region, status or text to quickly find relevant Fabric service messages.</p></div>
           <fluent-badge appearance="accent" id="visible-badge">0 shown</fluent-badge>
         </div>
-
         <div class="filters" aria-label="Notification filters">
           <div class="field"><label for="region-filter">Region</label><select id="region-filter"><option value="all">All regions</option></select></div>
           <div class="field"><label for="status-filter">Status</label><select id="status-filter"><option value="all">All statuses</option></select></div>
           <div class="field"><label for="search-filter">Search</label><input id="search-filter" type="search" placeholder="Search notifications" /></div>
         </div>
-
         <div id="notification-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading notifications...</div></div>
       </section>
-
       <p class="footer">Fabric Pulse is an unofficial public mirror based on Microsoft Fabric support page content. For tenant-specific impact, combine this with Microsoft Graph Service Health and your own monitoring telemetry.</p>
     </main>
 
@@ -199,7 +156,6 @@
       const byId = (id) => document.getElementById(id);
       const escapeHtml = (value) => String(value || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
       const clean = (value) => String(value || '').trim();
-
       function formatDate(value) { if (!value) return 'Unknown'; const date = new Date(value); return Number.isNaN(date.getTime()) ? value : dateFormatter.format(date); }
       function formatAge(value) { if (!value) return '-'; const date = new Date(value); if (Number.isNaN(date.getTime())) return '-'; const diffMs = date.getTime() - Date.now(); const absMinutes = Math.abs(diffMs) / 60000; if (absMinutes < 60) return relativeFormatter.format(Math.round(diffMs / 60000), 'minute'); if (absMinutes < 1440) return relativeFormatter.format(Math.round(diffMs / 3600000), 'hour'); return relativeFormatter.format(Math.round(diffMs / 86400000), 'day'); }
       function statusClass(status) { const value = clean(status).toLowerCase(); if (value.includes('degrad') || value.includes('interrupt') || value.includes('error')) return 'degraded'; if (value.includes('resolved') || value.includes('operational')) return 'resolved'; if (value.includes('info')) return 'information'; return 'information'; }
@@ -207,74 +163,9 @@
       function truncate(text, max = 460) { const value = clean(text); return value.length > max ? `${value.slice(0, max).trim()}...` : value; }
       async function fetchJson(url) { const response = await fetch(`${url}?cacheBust=${Date.now()}`, { cache: 'no-store' }); if (!response.ok) throw new Error(`${url} returned HTTP ${response.status}`); return response.json(); }
       function unique(values) { return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b)); }
-
-      function populateFilters() {
-        const items = [...state.active, ...state.resolved];
-        const regions = unique(items.map((item) => clean(item.region) || 'Unspecified'));
-        const statuses = unique(items.map((item) => clean(item.serviceStatus) || clean(item.type) || 'Unknown'));
-        byId('region-filter').innerHTML = '<option value="all">All regions</option>' + regions.map((r) => `<option value="${escapeHtml(r)}">${escapeHtml(r)}</option>`).join('');
-        byId('status-filter').innerHTML = '<option value="all">All statuses</option>' + statuses.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
-      }
-
-      function render() {
-        const region = byId('region-filter').value;
-        const status = byId('status-filter').value;
-        const query = clean(byId('search-filter').value).toLowerCase();
-        const items = [...state.active, ...state.resolved].filter((item) => {
-          const itemRegion = clean(item.region) || 'Unspecified';
-          const itemStatus = clean(item.serviceStatus) || clean(item.type) || 'Unknown';
-          const haystack = `${itemStatus} ${itemRegion} ${item.detailsText || ''} ${item.serviceNotificationId || ''}`.toLowerCase();
-          return (region === 'all' || itemRegion === region) && (status === 'all' || itemStatus === status) && (!query || haystack.includes(query));
-        });
-
-        byId('visible-badge').textContent = `${items.length} shown`;
-        const list = byId('notification-list');
-        list.innerHTML = '';
-        if (!items.length) { list.innerHTML = '<div class="empty">No notifications match the selected filters.</div>'; return; }
-
-        items.forEach((item) => {
-          const statusText = clean(item.serviceStatus) || clean(item.type) || 'Notification';
-          const regionText = clean(item.region) || 'Unspecified region';
-          const reported = item.reportedAt || item.reportedRaw;
-          const resolved = item.resolvedAt || item.resolvedRaw;
-          const meta = [`Region: ${regionText}`, reported ? `Reported: ${formatDate(reported)}` : null, resolved ? `Resolved: ${formatDate(resolved)}` : null].filter(Boolean).join(' · ');
-          const node = document.createElement('article');
-          node.className = 'notification';
-          node.innerHTML = `
-            <span class="dot ${statusClass(statusText)}" aria-hidden="true"></span>
-            <div>
-              <h3>${escapeHtml(statusText)}</h3>
-              <div class="item-meta">${escapeHtml(meta)}</div>
-              <p>${escapeHtml(truncate(item.detailsText || 'No additional details are available.'))}</p>
-              <div class="chips">${item.serviceNotificationId ? `<fluent-badge appearance="neutral">ID: ${escapeHtml(item.serviceNotificationId)}</fluent-badge>` : ''}</div>
-            </div>
-            <fluent-badge appearance="${badgeAppearance(statusText)}">${escapeHtml(statusText)}</fluent-badge>`;
-          list.appendChild(node);
-        });
-      }
-
-      async function loadStatus() {
-        try {
-          byId('notification-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading notifications...</div>';
-          const status = await fetchJson('./status.json');
-          state.active = Array.isArray(status.active) ? status.active : [];
-          state.resolved = Array.isArray(status.resolved) ? status.resolved : [];
-          const activeCount = status.counts?.active ?? state.active.length;
-          const resolvedCount = status.counts?.resolved ?? state.resolved.length;
-          byId('active-count').textContent = activeCount;
-          byId('resolved-count').textContent = resolvedCount;
-          byId('generated-age').textContent = formatAge(status.generatedAt);
-          byId('generated-at').textContent = status.generatedAt ? formatDate(status.generatedAt) : 'Unknown generation time';
-          byId('overall-status').textContent = activeCount > 0 ? 'Attention required' : 'No active notifications';
-          byId('metadata').innerHTML = `Generated ${escapeHtml(formatAge(status.generatedAt))}. Source: <a href="${escapeHtml(status.sourceUrl || '#')}" target="_blank" rel="noreferrer">Microsoft Fabric support</a>.`;
-          populateFilters(); render();
-        } catch (error) {
-          byId('overall-status').textContent = 'Unavailable';
-          byId('metadata').textContent = error.message;
-          byId('notification-list').innerHTML = `<div class="error">Unable to load status.json: ${escapeHtml(error.message)}</div>`;
-        }
-      }
-
+      function populateFilters() { const items = [...state.active, ...state.resolved]; const regions = unique(items.map((item) => clean(item.region) || 'Unspecified')); const statuses = unique(items.map((item) => clean(item.serviceStatus) || clean(item.type) || 'Unknown')); byId('region-filter').innerHTML = '<option value="all">All regions</option>' + regions.map((r) => `<option value="${escapeHtml(r)}">${escapeHtml(r)}</option>`).join(''); byId('status-filter').innerHTML = '<option value="all">All statuses</option>' + statuses.map((s) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join(''); }
+      function render() { const region = byId('region-filter').value; const status = byId('status-filter').value; const query = clean(byId('search-filter').value).toLowerCase(); const items = [...state.active, ...state.resolved].filter((item) => { const itemRegion = clean(item.region) || 'Unspecified'; const itemStatus = clean(item.serviceStatus) || clean(item.type) || 'Unknown'; const haystack = `${itemStatus} ${itemRegion} ${item.detailsText || ''} ${item.serviceNotificationId || ''}`.toLowerCase(); return (region === 'all' || itemRegion === region) && (status === 'all' || itemStatus === status) && (!query || haystack.includes(query)); }); byId('visible-badge').textContent = `${items.length} shown`; const list = byId('notification-list'); list.innerHTML = ''; if (!items.length) { list.innerHTML = '<div class="empty">No notifications match the selected filters.</div>'; return; } items.forEach((item) => { const statusText = clean(item.serviceStatus) || clean(item.type) || 'Notification'; const regionText = clean(item.region) || 'Unspecified region'; const reported = item.reportedAt || item.reportedRaw; const resolved = item.resolvedAt || item.resolvedRaw; const meta = [`Region: ${regionText}`, reported ? `Reported: ${formatDate(reported)}` : null, resolved ? `Resolved: ${formatDate(resolved)}` : null].filter(Boolean).join(' · '); const node = document.createElement('article'); node.className = 'notification'; node.innerHTML = `<span class="dot ${statusClass(statusText)}" aria-hidden="true"></span><div><h3>${escapeHtml(statusText)}</h3><div class="item-meta">${escapeHtml(meta)}</div><p>${escapeHtml(truncate(item.detailsText || 'No additional details are available.'))}</p><div class="chips">${item.serviceNotificationId ? `<fluent-badge appearance="neutral">ID: ${escapeHtml(item.serviceNotificationId)}</fluent-badge>` : ''}</div></div><fluent-badge appearance="${badgeAppearance(statusText)}">${escapeHtml(statusText)}</fluent-badge>`; list.appendChild(node); }); }
+      async function loadStatus() { try { byId('notification-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading notifications...</div>'; const status = await fetchJson('./status.json'); state.active = Array.isArray(status.active) ? status.active : []; state.resolved = Array.isArray(status.resolved) ? status.resolved : []; const activeCount = status.counts?.active ?? state.active.length; const resolvedCount = status.counts?.resolved ?? state.resolved.length; byId('active-count').textContent = activeCount; byId('resolved-count').textContent = resolvedCount; byId('generated-age').textContent = formatAge(status.generatedAt); byId('generated-at').textContent = status.generatedAt ? formatDate(status.generatedAt) : 'Unknown generation time'; byId('overall-status').textContent = activeCount > 0 ? 'Attention required' : 'No active notifications'; byId('metadata').innerHTML = `Generated ${escapeHtml(formatAge(status.generatedAt))}. Source: <a href="${escapeHtml(status.sourceUrl || '#')}" target="_blank" rel="noreferrer">Microsoft Fabric support</a>.`; populateFilters(); render(); } catch (error) { byId('overall-status').textContent = 'Unavailable'; byId('metadata').textContent = error.message; byId('notification-list').innerHTML = `<div class="error">Unable to load status.json: ${escapeHtml(error.message)}</div>`; } }
       byId('refresh-button').addEventListener('click', loadStatus);
       ['region-filter', 'status-filter', 'search-filter'].forEach((id) => byId(id).addEventListener('input', render));
       loadStatus();

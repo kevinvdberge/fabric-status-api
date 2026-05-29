@@ -25,11 +25,6 @@
     <style>
       :root {
         --brand: #117865;
-        --brand-dark: #0b5c4f;
-        --danger: #d13438;
-        --success: #107c10;
-        --info: #0078d4;
-        --warning: #f7630c;
         --bg: #f5f7fa;
         --surface: #ffffff;
         --surface-soft: #f8fafc;
@@ -53,29 +48,22 @@
       }
 
       * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        background:
-          radial-gradient(circle at top left, rgba(17, 120, 101, 0.18), transparent 28rem),
-          linear-gradient(180deg, var(--surface) 0, var(--bg) 26rem);
-        color: var(--text);
-      }
-
+      body { margin: 0; background: radial-gradient(circle at top left, rgba(17, 120, 101, 0.18), transparent 28rem), linear-gradient(180deg, var(--surface) 0, var(--bg) 26rem); color: var(--text); }
       a { color: var(--brand); }
       .page { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 24px 0 56px; }
       .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 18px; }
-      .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
-      .brand-logo { width: 210px; height: auto; display: block; }
+      .brand { display: flex; align-items: center; gap: 14px; color: var(--text); text-decoration: none; }
+      .brand img { width: 54px; height: 54px; border-radius: 14px; box-shadow: 0 10px 26px rgba(17, 120, 101, 0.25); }
+      .brand-title { display: block; font-size: 24px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+      .brand-subtitle { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; font-weight: 500; }
       .nav { display: flex; gap: 8px; flex-wrap: wrap; }
       .nav a { padding: 8px 12px; border: 1px solid var(--border); border-radius: 999px; color: var(--text); text-decoration: none; background: var(--surface); }
       .nav a.active { background: var(--brand); color: #fff; border-color: var(--brand); }
-
       .hero { padding: 32px; border: 1px solid var(--border); border-radius: 24px; background: rgba(255,255,255,.78); box-shadow: var(--shadow); backdrop-filter: blur(18px); }
       @media (prefers-color-scheme: dark) { .hero { background: rgba(27,26,25,.78); } }
       .eyebrow { color: var(--brand); font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
       h1 { margin: 10px 0; font-size: clamp(34px, 5vw, 58px); line-height: 1.02; letter-spacing: -0.045em; }
       .subtitle { max-width: 820px; margin: 0; color: var(--muted); font-size: 17px; line-height: 1.6; }
-
       .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
       .stat, .panel { padding: 20px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); box-shadow: var(--shadow); }
       .label { margin: 0 0 8px; color: var(--muted); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
@@ -85,11 +73,9 @@
       .panel-header { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 18px; }
       .panel-title { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
       .panel-description { margin: 5px 0 0; color: var(--muted); font-size: 14px; }
-
       .filters { display: grid; grid-template-columns: 1.3fr repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
       .field label { display: block; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
       select, input { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); font: inherit; }
-
       .list { display: grid; gap: 12px; }
       .release { padding: 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface-soft); }
       .release-head { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 6px; }
@@ -102,15 +88,17 @@
       .empty, .loading, .error { padding: 28px; border: 1px dashed var(--border); border-radius: 16px; color: var(--muted); text-align: center; background: var(--surface-soft); }
       .loading { display: flex; align-items: center; justify-content: center; gap: 12px; }
       .footer { margin-top: 24px; color: var(--muted); font-size: 13px; line-height: 1.55; }
-
       @media (max-width: 1040px) { .filters { grid-template-columns: 1fr 1fr; } }
-      @media (max-width: 720px) { .stats, .filters { grid-template-columns: 1fr; } .hero { padding: 24px; } .release-head { display: block; } .topbar { flex-direction: column; align-items: flex-start; } .brand-logo { width: 190px; } }
+      @media (max-width: 720px) { .stats, .filters { grid-template-columns: 1fr; } .hero { padding: 24px; } .release-head { display: block; } .topbar { flex-direction: column; align-items: flex-start; } }
     </style>
   </head>
   <body>
     <main class="page">
       <header class="topbar">
-        <a class="brand" href="./" aria-label="Fabric Pulse home"><img class="brand-logo" src="./logo.svg" alt="Fabric Pulse" /></a>
+        <a class="brand" href="./" aria-label="Fabric Pulse home">
+          <img src="./favicon.svg" alt="" aria-hidden="true" />
+          <span><span class="brand-title">Fabric Pulse</span><span class="brand-subtitle">Public Fabric status and roadmap intelligence</span></span>
+        </a>
         <nav class="nav" aria-label="Site navigation">
           <a href="./">Service status</a>
           <a class="active" href="./news.html">Roadmap & updates</a>
@@ -132,13 +120,9 @@
 
       <section class="panel" aria-labelledby="filters-title">
         <div class="panel-header">
-          <div>
-            <h2 class="panel-title" id="filters-title">Roadmap explorer</h2>
-            <p class="panel-description">Filter and sort Fabric roadmap items by product, release type, status, release date or latest modification date.</p>
-          </div>
+          <div><h2 class="panel-title" id="filters-title">Roadmap explorer</h2><p class="panel-description">Filter and sort Fabric roadmap items by product, release type, status, release date or latest modification date.</p></div>
           <fluent-badge appearance="accent" id="visible-badge">0 shown</fluent-badge>
         </div>
-
         <div class="filters">
           <div class="field"><label for="search-filter">Search</label><input id="search-filter" type="search" placeholder="Search features, descriptions or products" /></div>
           <div class="field"><label for="product-filter">Product</label><select id="product-filter"><option value="all">All products</option></select></div>
@@ -146,21 +130,16 @@
           <div class="field"><label for="status-filter">Status</label><select id="status-filter"><option value="all">All statuses</option></select></div>
           <div class="field"><label for="sort-filter">Sort by</label><select id="sort-filter"><option value="modified-desc">Modified date newest</option><option value="modified-asc">Modified date oldest</option><option value="release-desc">Release date newest</option><option value="release-asc">Release date oldest</option><option value="name-asc">Name A-Z</option></select></div>
         </div>
-
         <div id="release-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored Fabric GPS data...</div></div>
       </section>
 
       <section class="panel" aria-labelledby="changes-title">
         <div class="panel-header">
-          <div>
-            <h2 class="panel-title" id="changes-title">Recent roadmap changes</h2>
-            <p class="panel-description">Recent feature additions, date changes, status updates and removals from Fabric GPS.</p>
-          </div>
+          <div><h2 class="panel-title" id="changes-title">Recent roadmap changes</h2><p class="panel-description">Recent feature additions, date changes, status updates and removals from Fabric GPS.</p></div>
           <fluent-badge appearance="neutral" id="change-badge">0 changes</fluent-badge>
         </div>
         <div id="change-list" class="list"><div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored changelog...</div></div>
       </section>
-
       <p class="footer">Fabric GPS is a public community project that exposes Microsoft Fabric roadmap data through JSON and RSS endpoints. Fabric Pulse mirrors selected Fabric GPS JSON responses to avoid browser CORS restrictions. Fabric Pulse is not affiliated with Microsoft or Fabric GPS.</p>
     </main>
 
@@ -171,124 +150,20 @@
       const byId = (id) => document.getElementById(id);
       const escapeHtml = (value) => String(value || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
       const clean = (value) => String(value || '').trim();
-
       async function fetchJson(url) { const response = await fetch(`${url}?cacheBust=${Date.now()}`, { cache: 'no-store' }); if (!response.ok) throw new Error(`${url} returned HTTP ${response.status}`); return response.json(); }
       function unique(values) { return [...new Set(values.map(clean).filter(Boolean))].sort((a, b) => a.localeCompare(b)); }
       function truncate(text, max = 360) { const value = clean(text); return value.length > max ? `${value.slice(0, max).trim()}...` : value; }
       function formatDate(value) { if (!value) return 'Unknown'; const date = new Date(value); return Number.isNaN(date.getTime()) ? value : dateFormatter.format(date); }
       function formatAge(value) { if (!value) return '-'; const date = new Date(value); if (Number.isNaN(date.getTime())) return '-'; const diffMs = date.getTime() - Date.now(); const absMinutes = Math.abs(diffMs) / 60000; if (absMinutes < 60) return relativeFormatter.format(Math.round(diffMs / 60000), 'minute'); if (absMinutes < 1440) return relativeFormatter.format(Math.round(diffMs / 3600000), 'hour'); return relativeFormatter.format(Math.round(diffMs / 86400000), 'day'); }
-
-      function releaseDateScore(value) {
-        const text = clean(value);
-        const quarter = text.match(/Q([1-4])\s*(20\d{2})/i);
-        if (quarter) return Number(quarter[2]) * 10 + Number(quarter[1]);
-        const year = text.match(/(20\d{2})/);
-        if (year) return Number(year[1]) * 10;
-        const parsed = Date.parse(text);
-        return Number.isNaN(parsed) ? 0 : parsed;
-      }
-
+      function releaseDateScore(value) { const text = clean(value); const quarter = text.match(/Q([1-4])\s*(20\d{2})/i); if (quarter) return Number(quarter[2]) * 10 + Number(quarter[1]); const year = text.match(/(20\d{2})/); if (year) return Number(year[1]) * 10; const parsed = Date.parse(text); return Number.isNaN(parsed) ? 0 : parsed; }
       function dateScore(value) { const parsed = Date.parse(clean(value)); return Number.isNaN(parsed) ? 0 : parsed; }
       function microsoftLink(item) { return clean(item.blog_url); }
-
       function setOptions(id, values, allLabel) { byId(id).innerHTML = `<option value="all">${escapeHtml(allLabel)}</option>` + values.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join(''); }
-
-      function populateFilters(options) {
-        const filterOptions = options?.filterOptions || options || {};
-        const products = filterOptions?.product_names?.length ? filterOptions.product_names : unique(state.releases.map((item) => item.product_name));
-        const types = filterOptions?.release_types?.length ? filterOptions.release_types : unique(state.releases.map((item) => item.release_type));
-        const statuses = filterOptions?.release_statuses?.length ? filterOptions.release_statuses : unique(state.releases.map((item) => item.release_status));
-        setOptions('product-filter', products, 'All products');
-        setOptions('type-filter', types, 'All types');
-        setOptions('status-filter', statuses, 'All statuses');
-      }
-
-      function sortItems(items) {
-        const sort = byId('sort-filter').value;
-        return [...items].sort((a, b) => {
-          if (sort === 'modified-asc') return dateScore(a.last_modified) - dateScore(b.last_modified);
-          if (sort === 'release-desc') return releaseDateScore(b.release_date) - releaseDateScore(a.release_date);
-          if (sort === 'release-asc') return releaseDateScore(a.release_date) - releaseDateScore(b.release_date);
-          if (sort === 'name-asc') return clean(a.feature_name).localeCompare(clean(b.feature_name));
-          return dateScore(b.last_modified) - dateScore(a.last_modified);
-        });
-      }
-
-      function renderReleases() {
-        const q = clean(byId('search-filter').value).toLowerCase();
-        const product = byId('product-filter').value;
-        const type = byId('type-filter').value;
-        const status = byId('status-filter').value;
-        const filtered = sortItems(state.releases.filter((item) => {
-          const haystack = `${item.feature_name || ''} ${item.feature_description || ''} ${item.product_name || ''}`.toLowerCase();
-          return (!q || haystack.includes(q)) && (product === 'all' || clean(item.product_name) === product) && (type === 'all' || clean(item.release_type) === type) && (status === 'all' || clean(item.release_status) === status);
-        }));
-
-        byId('visible-badge').textContent = `${filtered.length} shown`;
-        const list = byId('release-list');
-        list.innerHTML = '';
-        if (!filtered.length) { list.innerHTML = '<div class="empty">No roadmap items match the selected filters.</div>'; return; }
-
-        filtered.slice(0, 80).forEach((item) => {
-          const link = microsoftLink(item);
-          const node = document.createElement('article');
-          node.className = 'release';
-          node.innerHTML = `
-            <div class="release-head">
-              <h3>${escapeHtml(item.feature_name || 'Untitled roadmap item')}</h3>
-              <fluent-badge appearance="accent">${escapeHtml(item.release_status || 'Unknown')}</fluent-badge>
-            </div>
-            <div class="release-meta">Release: ${escapeHtml(item.release_date || 'Not specified')} · Modified: ${escapeHtml(item.last_modified || 'Unknown')}</div>
-            <p>${escapeHtml(truncate(item.feature_description || 'No description available.'))}</p>
-            <div class="chips">
-              <fluent-badge appearance="neutral">${escapeHtml(item.product_name || 'Unknown product')}</fluent-badge>
-              <fluent-badge appearance="neutral">${escapeHtml(item.release_type || 'Unknown type')}</fluent-badge>
-            </div>
-            ${link ? `<a class="release-link" href="${escapeHtml(link)}" target="_blank" rel="noreferrer">Open Microsoft source →</a>` : ''}`;
-          list.appendChild(node);
-        });
-      }
-
-      function renderChanges() {
-        const list = byId('change-list');
-        list.innerHTML = '';
-        if (!state.changes.length) { list.innerHTML = '<div class="empty">No recent roadmap changes were returned.</div>'; return; }
-        state.changes.slice(0, 20).forEach((item) => {
-          const changeText = Array.isArray(item.changed_columns) ? item.changed_columns.join(', ') : clean(item.changed_columns);
-          const node = document.createElement('article');
-          node.className = 'release';
-          node.innerHTML = `
-            <div class="release-head"><h3>${escapeHtml(item.feature_name || 'Roadmap update')}</h3><fluent-badge appearance="neutral">${escapeHtml(item.release_status || 'Unknown status')}</fluent-badge></div>
-            <div class="release-meta">Release: ${escapeHtml(item.release_date || 'Not specified')} · Modified: ${escapeHtml(item.last_modified || 'Unknown')}</div>
-            <p>${escapeHtml(changeText || 'Updated roadmap item.')}</p>
-            <div class="chips"><fluent-badge appearance="neutral">${escapeHtml(item.product_name || 'Unknown product')}</fluent-badge><fluent-badge appearance="neutral">${escapeHtml(item.release_type || 'Unknown type')}</fluent-badge></div>`;
-          list.appendChild(node);
-        });
-      }
-
-      async function loadGpsData() {
-        try {
-          byId('release-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored Fabric GPS data...</div>';
-          byId('change-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored changelog...</div>';
-          const [releasesMirror, changelogMirror, optionsMirror] = await Promise.all([fetchJson('./gps-releases.json'), fetchJson('./gps-changelog.json'), fetchJson('./gps-filter-options.json')]);
-          const releases = releasesMirror.releases || releasesMirror;
-          const changelog = changelogMirror.changelog || changelogMirror;
-          state.releases = Array.isArray(releases.data) ? releases.data : [];
-          state.changes = Array.isArray(changelog.days) ? changelog.days.flatMap((day) => day.items || []) : [];
-          byId('release-count').textContent = state.releases.length;
-          byId('change-count').textContent = changelog.total_items ?? state.changes.length;
-          byId('change-badge').textContent = `${state.changes.length} loaded`;
-          byId('generated-age').textContent = formatAge(releasesMirror.generatedAt);
-          byId('generated-at').textContent = releasesMirror.generatedAt ? `Mirrored ${formatDate(releasesMirror.generatedAt)}` : 'Unknown mirror time';
-          populateFilters(optionsMirror);
-          renderReleases();
-          renderChanges();
-        } catch (error) {
-          byId('release-list').innerHTML = `<div class="error">Unable to load mirrored Fabric GPS data: ${escapeHtml(error.message)}</div>`;
-          byId('change-list').innerHTML = `<div class="error">Unable to load mirrored Fabric GPS changelog: ${escapeHtml(error.message)}</div>`;
-        }
-      }
-
+      function populateFilters(options) { const filterOptions = options?.filterOptions || options || {}; const products = filterOptions?.product_names?.length ? filterOptions.product_names : unique(state.releases.map((item) => item.product_name)); const types = filterOptions?.release_types?.length ? filterOptions.release_types : unique(state.releases.map((item) => item.release_type)); const statuses = filterOptions?.release_statuses?.length ? filterOptions.release_statuses : unique(state.releases.map((item) => item.release_status)); setOptions('product-filter', products, 'All products'); setOptions('type-filter', types, 'All types'); setOptions('status-filter', statuses, 'All statuses'); }
+      function sortItems(items) { const sort = byId('sort-filter').value; return [...items].sort((a, b) => { if (sort === 'modified-asc') return dateScore(a.last_modified) - dateScore(b.last_modified); if (sort === 'release-desc') return releaseDateScore(b.release_date) - releaseDateScore(a.release_date); if (sort === 'release-asc') return releaseDateScore(a.release_date) - releaseDateScore(b.release_date); if (sort === 'name-asc') return clean(a.feature_name).localeCompare(clean(b.feature_name)); return dateScore(b.last_modified) - dateScore(a.last_modified); }); }
+      function renderReleases() { const q = clean(byId('search-filter').value).toLowerCase(); const product = byId('product-filter').value; const type = byId('type-filter').value; const status = byId('status-filter').value; const filtered = sortItems(state.releases.filter((item) => { const haystack = `${item.feature_name || ''} ${item.feature_description || ''} ${item.product_name || ''}`.toLowerCase(); return (!q || haystack.includes(q)) && (product === 'all' || clean(item.product_name) === product) && (type === 'all' || clean(item.release_type) === type) && (status === 'all' || clean(item.release_status) === status); })); byId('visible-badge').textContent = `${filtered.length} shown`; const list = byId('release-list'); list.innerHTML = ''; if (!filtered.length) { list.innerHTML = '<div class="empty">No roadmap items match the selected filters.</div>'; return; } filtered.slice(0, 80).forEach((item) => { const link = microsoftLink(item); const node = document.createElement('article'); node.className = 'release'; node.innerHTML = `<div class="release-head"><h3>${escapeHtml(item.feature_name || 'Untitled roadmap item')}</h3><fluent-badge appearance="accent">${escapeHtml(item.release_status || 'Unknown')}</fluent-badge></div><div class="release-meta">Release: ${escapeHtml(item.release_date || 'Not specified')} · Modified: ${escapeHtml(item.last_modified || 'Unknown')}</div><p>${escapeHtml(truncate(item.feature_description || 'No description available.'))}</p><div class="chips"><fluent-badge appearance="neutral">${escapeHtml(item.product_name || 'Unknown product')}</fluent-badge><fluent-badge appearance="neutral">${escapeHtml(item.release_type || 'Unknown type')}</fluent-badge></div>${link ? `<a class="release-link" href="${escapeHtml(link)}" target="_blank" rel="noreferrer">Open Microsoft source →</a>` : ''}`; list.appendChild(node); }); }
+      function renderChanges() { const list = byId('change-list'); list.innerHTML = ''; if (!state.changes.length) { list.innerHTML = '<div class="empty">No recent roadmap changes were returned.</div>'; return; } state.changes.slice(0, 20).forEach((item) => { const changeText = Array.isArray(item.changed_columns) ? item.changed_columns.join(', ') : clean(item.changed_columns); const node = document.createElement('article'); node.className = 'release'; node.innerHTML = `<div class="release-head"><h3>${escapeHtml(item.feature_name || 'Roadmap update')}</h3><fluent-badge appearance="neutral">${escapeHtml(item.release_status || 'Unknown status')}</fluent-badge></div><div class="release-meta">Release: ${escapeHtml(item.release_date || 'Not specified')} · Modified: ${escapeHtml(item.last_modified || 'Unknown')}</div><p>${escapeHtml(changeText || 'Updated roadmap item.')}</p><div class="chips"><fluent-badge appearance="neutral">${escapeHtml(item.product_name || 'Unknown product')}</fluent-badge><fluent-badge appearance="neutral">${escapeHtml(item.release_type || 'Unknown type')}</fluent-badge></div>`; list.appendChild(node); }); }
+      async function loadGpsData() { try { byId('release-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored Fabric GPS data...</div>'; byId('change-list').innerHTML = '<div class="loading"><fluent-progress-ring></fluent-progress-ring>Loading mirrored changelog...</div>'; const [releasesMirror, changelogMirror, optionsMirror] = await Promise.all([fetchJson('./gps-releases.json'), fetchJson('./gps-changelog.json'), fetchJson('./gps-filter-options.json')]); const releases = releasesMirror.releases || releasesMirror; const changelog = changelogMirror.changelog || changelogMirror; state.releases = Array.isArray(releases.data) ? releases.data : []; state.changes = Array.isArray(changelog.days) ? changelog.days.flatMap((day) => day.items || []) : []; byId('release-count').textContent = state.releases.length; byId('change-count').textContent = changelog.total_items ?? state.changes.length; byId('change-badge').textContent = `${state.changes.length} loaded`; byId('generated-age').textContent = formatAge(releasesMirror.generatedAt); byId('generated-at').textContent = releasesMirror.generatedAt ? `Mirrored ${formatDate(releasesMirror.generatedAt)}` : 'Unknown mirror time'; populateFilters(optionsMirror); renderReleases(); renderChanges(); } catch (error) { byId('release-list').innerHTML = `<div class="error">Unable to load mirrored Fabric GPS data: ${escapeHtml(error.message)}</div>`; byId('change-list').innerHTML = `<div class="error">Unable to load mirrored Fabric GPS changelog: ${escapeHtml(error.message)}</div>`; } }
       ['search-filter', 'product-filter', 'type-filter', 'status-filter', 'sort-filter'].forEach((id) => byId(id).addEventListener('input', renderReleases));
       loadGpsData();
     </script>

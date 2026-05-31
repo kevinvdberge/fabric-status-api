@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-05-31T14:47:10.055Z",
+  "generatedAt": "2026-05-31T16:05:26.372Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 118,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-05-31",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-05-05 -> 2026-09-30"
+            ],
+            "feature_name": "show Throttling events of eventhouse at Eventhouse WS monitoring",
+            "last_modified": "2026-05-31",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-05-29",
@@ -711,7 +730,7 @@
         ]
       },
       {
-        "count": 24,
+        "count": 23,
         "date": "2026-05-13",
         "items": [
           {
@@ -1001,19 +1020,6 @@
             "release_item_id": "9059f814-2ba6-f011-bbd3-000d3a5b0efa",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Type General availability -> Public preview"
-            ],
-            "feature_name": "show Throttling events of eventhouse at Eventhouse WS monitoring",
-            "last_modified": "2026-05-13",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": false,

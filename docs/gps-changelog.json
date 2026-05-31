@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-30T23:42:04.280Z",
+  "generatedAt": "2026-05-31T01:52:45.284Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 122,
+  "count": 118,
   "changelog": {
     "days": [
       {
@@ -1660,66 +1660,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 4,
-        "date": "2026-04-30",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Job alerts - centralized management of job failure notifications",
-            "last_modified": "2026-04-30",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q1 2026",
-            "release_item_id": "dfb57116-0cbc-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Add OneLake data to Foundry IQ Knowledge with OneLake catalog discovery experience",
-            "last_modified": "2026-04-30",
-            "product_name": "OneLake",
-            "release_date": "Q1 2026",
-            "release_item_id": "d9f40f14-f401-f111-8406-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-04-30 -> 2026-05-18"
-            ],
-            "feature_name": "RTD Live Update feature",
-            "last_modified": "2026-04-30",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "92bffcc0-bf04-f111-8406-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-04-30 -> 2026-05-18"
-            ],
-            "feature_name": "RTD time series visualization",
-            "last_modified": "2026-04-30",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "5a776051-c004-f111-8406-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 122
+    "total_items": 118
   }
 }

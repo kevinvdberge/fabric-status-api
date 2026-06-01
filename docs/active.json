@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-06-01T06:33:11.454Z",
+  "generatedAt": "2026-06-01T12:21:52.632Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "a46c473f-ba5a-f111-bec7-6045bd0a886d",
-      "serviceStatus": "Information",
-      "region": "",
-      "reportedRaw": "5/28/2026 8:00:15 AM",
-      "reportedAt": "2026-05-28T08:00:15.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers using the Teams mobile app may experience issues loading reports within the app. As a workaround, customers may open the reports in a browser or the Power BI app. A fix is expected to be implemented globally by 2026-06-02 11:00 PDT.</p></div>",
-      "detailsText": "Fabric customers using the Teams mobile app may experience issues loading reports within the app. As a workaround, customers may open the reports in a browser or the Power BI app. A fix is expected to be implemented globally by 2026-06-02 11:00 PDT.",
-      "hash": "30d043c14b99587cabfe53be6cb1b3c0256261d0bb1aece9fc55e2b357343595"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

@@ -1,33 +1,45 @@
 {
-  "generatedAt": "2026-06-01T06:33:11.454Z",
+  "generatedAt": "2026-06-01T12:21:52.632Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 183,
-    "total": 184
+    "active": 0,
+    "resolved": 185,
+    "total": 185
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 183,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 185,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "a46c473f-ba5a-f111-bec7-6045bd0a886d",
-      "serviceStatus": "Information",
+      "serviceStatus": "",
       "region": "",
       "reportedRaw": "5/28/2026 8:00:15 AM",
       "reportedAt": "2026-05-28T08:00:15.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers using the Teams mobile app may experience issues loading reports within the app. As a workaround, customers may open the reports in a browser or the Power BI app. A fix is expected to be implemented globally by 2026-06-02 11:00 PDT.</p></div>",
-      "detailsText": "Fabric customers using the Teams mobile app may experience issues loading reports within the app. As a workaround, customers may open the reports in a browser or the Power BI app. A fix is expected to be implemented globally by 2026-06-02 11:00 PDT.",
-      "hash": "30d043c14b99587cabfe53be6cb1b3c0256261d0bb1aece9fc55e2b357343595"
-    }
-  ],
-  "resolved": [
+      "resolvedRaw": "6/1/2026 4:26:42 AM",
+      "resolvedAt": "2026-06-01T04:26:42.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers using the Teams mobile app may have experienced issues loading reports within the app. </p></div>",
+      "detailsText": "Fabric customers using the Teams mobile app may have experienced issues loading reports within the app.",
+      "hash": "62fd3c6b0756d883cd093ecf8f2c6cad13ca37a71bf1bc072f7658441ba6780e"
+    },
+    {
+      "type": "resolved",
+      "serviceNotificationId": "f4fa4b8d-865d-f111-a826-6045bd00f798",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "5/31/2026 11:51:54 PM",
+      "reportedAt": "2026-05-31T23:51:54.000Z",
+      "resolvedRaw": "6/1/2026 1:23:00 AM",
+      "resolvedAt": "2026-06-01T01:23:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in the Central India region may experience degraded performance while establishing SQL connections, along with failures when executing SQL queries, creating or opening warehouse artifacts and refreshing Gen2 Dataflows. Issue is mitigated. </p></div>",
+      "detailsText": "Fabric customers in the Central India region may experience degraded performance while establishing SQL connections, along with failures when executing SQL queries, creating or opening warehouse artifacts and refreshing Gen2 Dataflows. Issue is mitigated.",
+      "hash": "f18ead674a99a843dfc3f18d989117e2f8d80a4573bae95b4841f55087265500"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "f715b1a5-945b-f111-bec7-000d3a36696c",

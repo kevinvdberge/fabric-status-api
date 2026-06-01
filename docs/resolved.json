@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-06-01T12:21:52.632Z",
+  "generatedAt": "2026-06-01T21:48:29.969Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 185,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "2ee5b4ae-b55d-f111-a826-6045bd00f798",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "6/1/2026 5:29:28 AM",
+      "reportedAt": "2026-06-01T05:29:28.000Z",
+      "resolvedRaw": "6/1/2026 7:30:00 AM",
+      "resolvedAt": "2026-06-01T07:30:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers located in India Central B Primary region may have experienced issues while interacting with the <span class=\"cf0\">service.</span></p></div>",
+      "detailsText": "Fabric Customers located in India Central B Primary region may have experienced issues while interacting with the service.",
+      "hash": "2513d11ef3b7354275e12653759e9a1cde083fc50bf19f7aa82d5cea29e5f3e4"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "a46c473f-ba5a-f111-bec7-6045bd0a886d",
@@ -16,19 +29,6 @@
       "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers using the Teams mobile app may have experienced issues loading reports within the app. </p></div>",
       "detailsText": "Fabric customers using the Teams mobile app may have experienced issues loading reports within the app.",
       "hash": "62fd3c6b0756d883cd093ecf8f2c6cad13ca37a71bf1bc072f7658441ba6780e"
-    },
-    {
-      "type": "resolved",
-      "serviceNotificationId": "f4fa4b8d-865d-f111-a826-6045bd00f798",
-      "serviceStatus": "",
-      "region": "",
-      "reportedRaw": "5/31/2026 11:51:54 PM",
-      "reportedAt": "2026-05-31T23:51:54.000Z",
-      "resolvedRaw": "6/1/2026 1:23:00 AM",
-      "resolvedAt": "2026-06-01T01:23:00.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in the Central India region may experience degraded performance while establishing SQL connections, along with failures when executing SQL queries, creating or opening warehouse artifacts and refreshing Gen2 Dataflows. Issue is mitigated. </p></div>",
-      "detailsText": "Fabric customers in the Central India region may experience degraded performance while establishing SQL connections, along with failures when executing SQL queries, creating or opening warehouse artifacts and refreshing Gen2 Dataflows. Issue is mitigated.",
-      "hash": "f18ead674a99a843dfc3f18d989117e2f8d80a4573bae95b4841f55087265500"
     },
     {
       "type": "resolved",

@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-06-01T12:21:52.665Z",
+  "generatedAt": "2026-06-01T21:48:30.000Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 115,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 2,
         "date": "2026-06-01",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Capacity Planner",
+            "last_modified": "2026-06-01",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "d1728a35-5ef1-f011-8406-6045bd026004",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1153,7 +1166,7 @@
         ]
       },
       {
-        "count": 20,
+        "count": 19,
         "date": "2026-05-06",
         "items": [
           {
@@ -1379,19 +1392,6 @@
             "release_item_id": "aa43ab07-d11f-f111-8341-6045bd0a8ec1",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-05-12 -> 2026-05-26"
-            ],
-            "feature_name": "Capacity Planner",
-            "last_modified": "2026-05-06",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "d1728a35-5ef1-f011-8406-6045bd026004",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,

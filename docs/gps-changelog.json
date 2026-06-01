@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-31T23:17:26.233Z",
+  "generatedAt": "2026-06-01T01:38:19.222Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 118,
+  "count": 115,
   "changelog": {
     "days": [
       {
@@ -1621,53 +1621,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-05-01",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Outbound access protection for Mirrored DBs",
-            "last_modified": "2026-05-01",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q2 2026",
-            "release_item_id": "1006b113-9eba-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Outbound Access Protection for Data Agent",
-            "last_modified": "2026-05-01",
-            "product_name": "Data Science",
-            "release_date": "Q2 2026",
-            "release_item_id": "ce75a77c-88ba-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Eventstream Observability",
-            "last_modified": "2026-05-01",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "2f67bbdd-cda4-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 118
+    "total_items": 115
   }
 }

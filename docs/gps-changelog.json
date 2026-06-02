@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-02T19:03:46.888Z",
+  "generatedAt": "2026-06-02T22:03:43.390Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 252,
+  "count": 255,
   "changelog": {
     "days": [
       {
-        "count": 150,
+        "count": 153,
         "date": "2026-06-02",
         "items": [
           {
@@ -33,6 +33,19 @@
             "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Workspace level Private Link for SQL database",
+            "last_modified": "2026-06-02",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q1 2026",
+            "release_item_id": "fa45364e-2402-f111-8406-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -480,6 +493,19 @@
           {
             "active": true,
             "changed_columns": [
+              "Release Date 2026-06-02 -> 2026-09-30"
+            ],
+            "feature_name": "Dataflows - Dataflows Gen2 Partitioned Compute",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "385260b0-5b07-ef11-9f89-000d3a34b75c",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
               "Added to roadmap"
             ],
             "feature_name": "Dataflows - Dynamic Schema Support for Fabric Data Warehouse Destination",
@@ -656,6 +682,20 @@
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
             "release_item_id": "f8f739d4-b850-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Name Dataflows - Support for Spark low-code transformations in Dataflow Gen2 -> Dataflows - Support for Mapping Data Flow transformations in Dataflow Gen2"
+            ],
+            "feature_name": "Dataflows - Support for Mapping Data Flow transformations in Dataflow Gen2",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "9da9331f-5629-f111-8341-000d3a36696c",
             "release_status": "Planned",
             "release_type": "Public preview"
           },
@@ -3465,6 +3505,6 @@
         ]
       }
     ],
-    "total_items": 252
+    "total_items": 255
   }
 }

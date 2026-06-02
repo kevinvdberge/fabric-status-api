@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T19:03:46.888Z",
+  "generatedAt": "2026-06-02T22:03:43.390Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -1084,6 +1084,20 @@
       },
       {
         "active": true,
+        "blog_title": "Fast copy in Dataflows Gen2",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/fast-copy-in-dataflows-gen-2",
+        "feature_description": "Partitioned Compute is a capability of Dataflow Gen2 that enables parts of a dataflow to run in parallel, reducing the time to finish its evaluations.Partitioned compute targets scenarios where the Dataflow engine can efficiently fold operations that can partition the data source and process each partition in parallel. For example, in a scenario where you're connecting to multiple files stored in an Azure Data Lake Storage Gen2, you can partition the list of files from your source, efficiently retrieve the partitioned list of files using query folding, use the combine files experience, and process all files in parallel.By moving to GA, Partitioned Compute becomes a stable, supported foundation for performant and highly scalable data transformation in Fabric.",
+        "feature_name": "Dataflows - Dataflows Gen2 Partitioned Compute",
+        "last_modified": "2026-06-02",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "385260b0-5b07-ef11-9f89-000d3a34b75c",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
         "blog_title": null,
         "blog_url": null,
         "feature_description": "The Send Email action in Dataflow Gen2 enables data-driven email notifications directly within a dataflow, allowing teams to send emails that reference and include query results produced during dataflow execution.Emails can dynamically incorporate snapshots of query evaluation results into the email body, as well as use query outputs as inputs to email parameters such as recipients, subject, importance, and message content. This makes it easy to deliver contextual, data-backed notifications without post-processing or custom scripting.The Send Email action can be triggered conditionally based on dataflow results, for example when a query returns rows, exceeds a threshold, or contains specific values. This enables common operational and analytical patterns such as exception alerts, data quality notifications, threshold-based reporting, and scheduled result sharing.By embedding this capability directly into Dataflow Gen2, customers can dramatically simplify end-to-end workflows that previously required stitching together multiple components--such as writing results to a destination, orchestrating execution with pipelines, and adding a separate email or automation step. With Send Email built in, Dataflow Gen2 can act as a self-contained, low-code data preparation and notification solution, supporting familiar scenarios previously achieved with dedicated workflow and analytics tools, while benefiting from native Fabric integration, governance, and scale.",
@@ -1303,7 +1317,7 @@
         "product_name": "Data Factory",
         "release_date": "Q2 2026",
         "release_item_id": "defc6e3d-9533-f111-88b4-6045bd0a886d",
-        "release_status": "Planned",
+        "release_status": "Shipped",
         "release_type": "General availability"
       },
       {
@@ -1345,7 +1359,7 @@
         "product_name": "Data Factory",
         "release_date": "Q2 2026",
         "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
-        "release_status": "Planned",
+        "release_status": "Shipped",
         "release_type": "Public preview"
       },
       {
@@ -1389,20 +1403,6 @@
         "release_item_id": "ccbc18bb-0b03-f111-8406-6045bd00f798",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Extending Outbound Access Protection to Fabric Warehouse and SQL Analytics Endpoint",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/extending-outbound-access-protection-to-fabric-warehouse-and-sql-analytics-endpoint",
-        "feature_description": "Workspace admins responsible for safeguarding organizational data will be able to leverage Outbound Access Control (OAP) in Fabric to ensure that Semantic Models and Power BI Reports are permitted to connect only to explicitly approved data sources. OAP helps to prevent data exfiltration by blocking data connections to unapproved or potentially risky endpoints, thereby enforcing organizational data governance and compliance requirements.",
-        "feature_name": "Outbound access protection for Power BI (Reports)",
-        "last_modified": "2026-06-02",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q2 2026",
-        "release_item_id": "c897392a-504e-f111-bec7-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1020,
+      "total_items": 1019,
       "total_pages": 11
     }
   }

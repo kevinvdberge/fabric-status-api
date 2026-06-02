@@ -1,9 +1,2014 @@
 {
-  "generatedAt": "2026-06-02T15:40:03.596Z",
+  "generatedAt": "2026-06-02T19:03:46.888Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 115,
+  "count": 252,
   "changelog": {
     "days": [
+      {
+        "count": 150,
+        "date": "2026-06-02",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Find Fabric items and tables from Copilot CLI with OneLake Catalog",
+            "last_modified": "2026-06-02",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q4 2026",
+            "release_item_id": "6754378c-e14a-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "OneLake Catalog - Govern with centralized management capabilities",
+            "last_modified": "2026-06-02",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q3 2026",
+            "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Cosmos DB Mirroring for MongoDB",
+            "last_modified": "2026-06-02",
+            "product_name": "Cosmos DB",
+            "release_date": "Q4 2026",
+            "release_item_id": "794b6b48-174b-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Fabric Cosmos DB Reverse-ETL",
+            "last_modified": "2026-06-02",
+            "product_name": "Cosmos DB",
+            "release_date": "Q3 2026",
+            "release_item_id": "8275e94e-174b-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Mirroring TTL",
+            "last_modified": "2026-06-02",
+            "product_name": "Cosmos DB",
+            "release_date": "Q4 2026",
+            "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "[GA] Job Insights Library",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "add43c89-3350-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "[Monitoring] Integrate and Expose Spark Application CPU/Memory Usage",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q3 2026",
+            "release_item_id": "fe489766-3350-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Declarative file data ingestion experience in Fabric Materialized Lake Views",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "14254506-0f3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dynamic RLS support in Spark",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q3 2026",
+            "release_item_id": "ff6d38a5-4a4d-f111-bec6-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Fabric Runtime 1.3 Mariner 3.0 Upgrade",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "b8bed2a5-5943-f111-88b5-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Materialized Lake Views Support Incremental Update & Delete Propagation via Unique Key",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "a90a75b3-6753-f111-bec7-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "OneSecurity multi-table RLS support in Spark",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q3 2026",
+            "release_item_id": "e54fa8e7-494d-f111-bec6-000d3a376c0f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Spark Diagnostic Emitter for Spark 4.1",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "97bef576-3550-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Spark Workspace Monitoring v1",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q3 2026",
+            "release_item_id": "f0f360ab-3350-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Support Column-Level quality checks in Materialized Lake views",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "9c1813a3-c43e-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Track and Manage Notebook Run Dependencies & Linage View",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q3 2026",
+            "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Trigger Based Scheduling for Materialized Lake Views",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "ec2baae9-c33e-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-30 -> 2026-12-31",
+              "Description updated",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 1 (Bromine) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Connections - Enabling customers to parameterize their connections",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "cdc7d144-f9d6-ee11-9079-000d3a310f67",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2026-09-30",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Connections - Enhanced Connection Collaboration Model",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "f3579085-8c20-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2026-09-30",
+              "Restored to Roadmap",
+              "Name Connector - New connector in Copy Job and Pipeline activities -> Connectors - New connector in Copy Job and Pipeline activities",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Connectors - New connector in Copy Job and Pipeline activities",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "34eb80a4-c49a-f011-b4cc-000d3a30273e",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-16 -> 2026-06-30",
+              "Description updated",
+              "Restored to Roadmap",
+              "Name Connector - Oracle connector with built-in driver -> Connectors - Oracle connector with built-in driver",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Connectors - Oracle connector with built-in driver",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "4d357606-ef9d-f011-b41c-000d3a30273e",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - Activator support for triggering Copy jobs",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "8943d03e-433d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - Auto-enable CDF on Delta table creation from Copy job",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "30f3ad4a-423d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - Auto-partitioning on large tables with Oracle, SAP Hana and Lakehouse table",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "809be74d-1c32-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - CDC based replication from MySQL",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "7f75427b-473d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - CDC based replication from PostgreSQL",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "895d2725-473d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - CDC based replication from Salesforce",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "46b875fc-433d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - Copy data from/to Fabric Event Stream",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "6d0c6c98-1b32-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - Extended SCD Type 2 support to Fabric Warehouse and Synapse SQL",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "d9063ae9-1c32-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - Manage loads on the source and destination store",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "1304d09b-1d32-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - Support composite watermark columns for incremental copy",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "a42a4baf-483d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2026-09-30",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Copy Job/Activity - Improve read performance for Parquet format when source is a single large file",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "b918794e-059e-f011-b41c-00224808fcf0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Dataflow Diagnostics Download",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "f98cc7d2-5834-f111-88b4-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Dataflow Gen1 - Gen2 Migration Wizard",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Dataflow Gen1 - Gen2 Migration Wizard",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Dynamic Schema Support for Fabric Data Warehouse Destination",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "8ed33294-5a38-f111-88b5-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Execute Query (Streaming API)",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "defc6e3d-9533-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - My Queries",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "603ac87e-3135-f111-88b4-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - My Queries",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "40ff3bb4-e631-f111-88b4-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - New Data Destination: AWS S3",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "1f2fe2c0-3535-f111-88b3-000d3a376c0f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - New destination: Excel Workbooks (XLSX)",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "2d795c03-a033-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - New Destination: Power BI report",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "81651f86-3635-f111-88b4-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - New destination: Snowflake",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "478cfce8-9633-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Performance and Latency Improvements",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "121655f6-1144-f111-88b5-000d3a5b0273",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Performance and Latency Improvements",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "57d40a9a-3335-f111-88b4-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Recent Tables",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "9209ff64-9633-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Send Email Action",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "35473b7a-e33c-f111-88b5-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Shared Queries",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "f8f739d4-b850-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2026-06-30",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Gateways - Autoscaling gateway clusters for VNet Gateway",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "78dc21fc-7420-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power Query - Modern Power Query Editor in Power BI Desktop",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "a83463e5-6038-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power Query - Sort Rows transformation dialog",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "9f5f0427-5b38-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Consumer to Creator feedback loop",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Science",
+            "release_date": "Q3 2026",
+            "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Feature Store",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Science",
+            "release_date": "Q3 2026",
+            "release_item_id": "75004e12-2158-f111-bec7-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "GA foundry tools in Fabric",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Science",
+            "release_date": "Q2 2026",
+            "release_item_id": "be5a72e9-3c53-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Improved Data Agent Routing Across Sources",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Science",
+            "release_date": "Q2 2026",
+            "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "MLFlow 3 in Fabric : logged model and traces",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Science",
+            "release_date": "Q2 2026",
+            "release_item_id": "39e50387-3c53-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "MLOps: model alias",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Science",
+            "release_date": "Q3 2026",
+            "release_item_id": "761be85d-2358-f111-bec7-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Support tensor based models on model endpoints",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Science",
+            "release_date": "Q2 2026",
+            "release_item_id": "57c0f1aa-2358-f111-bec7-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Configurable Retention between 1-120 days",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2027",
+            "release_item_id": "c13c3e13-0d22-f011-998a-0022480939f0",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Configurable Retention between 1-120 days",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2026-09-30",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "COPY INTO - Support Workspace Identity",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "aa94dc1e-14b9-f011-bbd2-0022480a2ecf",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Create, Get, Update warehouse definition Rest API",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "5f0a14b7-1d3c-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Data Clustering",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "5cd4b9a0-1322-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap",
+              "Name Data Grid Improvements in Data Warehouse & SQL Endpoint -> Data Grid Improvements in Data Warehouse & SQL Endpoint - Milestone 1",
+              "Semester 2025 Wave 1 (Bromine) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Data Grid Improvements in Data Warehouse & SQL Endpoint - Milestone 1",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "9d7d9b3d-0d77-f011-b4cb-000d3a329ecb",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Data Grid Improvements in Data Warehouse & SQL Endpoint - Milestone 2",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "5f6edaa0-1140-f111-88b5-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Deployment Configurations Support - Fabric Warehouse & SQL Analytics Endpoint",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "b5227d15-874d-f111-bec7-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability",
+              "Restored to Roadmap",
+              "Name Get Warehouse Definition Rest API -> Get Warehouse Schema Rest API",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Get Warehouse Schema Rest API",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "f151890c-74ed-f011-8544-000d3a33bffb",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git & Deployment Pipelines Support for SQL Analytics Endpoint",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "c5a0b4cb-322e-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Identity columns",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "d7c986cd-1322-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Migrate to Fabric DW using SQL files",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "7ebaa322-593f-f111-88b5-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Migration Assistant - Direct connect to the source system",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "850cf325-573f-f111-88b5-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Object Explorer & SQL Editor -- Scalability and Performance Improvements",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "d0e74e09-322e-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Optimized DELETE",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "bfd72f56-e13c-f111-88b5-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Reliable Fabric Warehouse Connectivity using Redirect Mode for general workspaces",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "539d149d-093e-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Reliable Fabric Warehouse Connectivity with Workspace Private Link using Redirect Mode",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "7cb7649b-352e-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Reliable Warehouse Connectivity via TDS Redirect",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "a037d13b-a84d-f111-bec6-000d3a376c0f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Schema Compare in VS Code for Fabric Warehouse",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "af276605-e9b8-f011-bbd3-000d3a3740cc",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "SQL Analytics Endpoint - New Metadata sync",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "511823c2-744d-f111-bec7-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Transaction Support for Git Integration & Deployment Pipelines",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "9185ea8e-342e-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "f4c0ce02-2e61-f011-bec2-000d3a302e4a",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Associate an identity with Fabric items and schedules",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "74c64750-0a4f-f111-bec7-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Azure Monitor and Fabric Data Integration",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "69713c41-ad50-f111-bec7-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Bulk import and export item definition API",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "ca270588-652c-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Close one or all open workspaces in a single action",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q2 2026",
+            "release_item_id": "34d69eb1-bf49-f111-bec7-6045bd006301",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git Integration - Allow non-admin users to switch branch",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git Integration - Branch workspace delegation",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "79538350-662c-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git Integration - Branched Workspaces",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "50289248-632c-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git integration - compare code changes",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "72fd68d2-642c-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git Integration - File level commit",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "c5945cb2-662c-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git Integration - Selective Branching",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "44beb659-642c-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Open Fabric content in a new tab with right-click",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q2 2026",
+            "release_item_id": "5616e2fd-bd49-f111-bec6-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Organize multitasking tabs in groups",
+            "last_modified": "2026-06-02",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q2 2026",
+            "release_item_id": "a5e7e388-2eba-f011-bbd3-000d3a30273e",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "[Ontology for A365] - Ontology integration with Agent 365",
+            "last_modified": "2026-06-02",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "c0831fd2-0a03-f111-8406-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "[Ontology for Copilot Studio] Ontology integration with CoPilot Studio",
+            "last_modified": "2026-06-02",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "d52b1f9e-3e40-f111-88b4-000d3a308b7b",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "[Ontology for Data Agent] - Ontology integration with Data Agent",
+            "last_modified": "2026-06-02",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "ccbc18bb-0b03-f111-8406-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "[Ontology for Foundry IQ] - Ontology integration with Foundry IQ",
+            "last_modified": "2026-06-02",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "e7ec864d-0a03-f111-8406-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Ontology Health",
+            "last_modified": "2026-06-02",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Ontology private links",
+            "last_modified": "2026-06-02",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "a045d9a4-b602-f111-8406-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Data Quality: Persist and Inspect Corrupt Rows in Shortcut Transformations",
+            "last_modified": "2026-06-02",
+            "product_name": "OneLake",
+            "release_date": "Q2 2026",
+            "release_item_id": "b99d1d6c-103f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Inbound network protection to OneLake with resource instance rules",
+            "last_modified": "2026-06-02",
+            "product_name": "OneLake",
+            "release_date": "Q3 2026",
+            "release_item_id": "b3262a41-1a40-f111-88b4-000d3a376c0f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "OneLake malware scanning",
+            "last_modified": "2026-06-02",
+            "product_name": "OneLake",
+            "release_date": "Q4 2026",
+            "release_item_id": "b99f2796-064f-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "OneLake Storage Lifecycle Management Policies",
+            "last_modified": "2026-06-02",
+            "product_name": "OneLake",
+            "release_date": "Q3 2026",
+            "release_item_id": "70f85dde-1a40-f111-88b4-000d3a376c0f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Agent Skill for Power BI Reports",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "22f2a06d-942c-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "DirectQuery support for editing semantic models in the Power BI service",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "b18efefe-e55a-f111-bec7-6045bd006301",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Modeling Copilot",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "18e80601-8e2c-f111-88b4-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "OneLake file URLs for report visuals",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "2774e8e2-ed5a-f111-bec7-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound access protection for Power BI (Reports)",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "c897392a-504e-f111-bec7-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped",
+              "Restored to Roadmap",
+              "Name Outbound access protection for Power BI (Reports and Semantic Model) -> Outbound access protection for Power BI (Semantic Models)",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Outbound access protection for Power BI (Semantic Models)",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "e586fbe4-1b02-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2026-06-30",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "TMDL View in the Web",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "58e4e1b5-83c5-f011-bbd3-00224808fcf0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Visuals categorical axis &quot;scroll starts from&quot; option (scroll from right)",
+            "last_modified": "2026-06-02",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "8b284de2-eb5a-f111-bec7-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Activator: Stateful conditions in event-based triggers",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "3e080e94-cd53-f111-bec7-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Add Data Source Connector for Business Events in Real-Time Hub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "ddd81a72-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Apache Kafka source connector - GA",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "c2142195-8d3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Azure blob storage events enablement with Tenant Private Links",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "c6846700-9e3e-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Business Events as a Source in Eventstream",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "0ba4b543-d83d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Business events selector when publishing events from Notebook",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "766d62fa-d63d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Continuous ingestion from Azure blob storage files",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "c300a8cf-863f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-02-26 -> 2026-06-30",
+              "Restored to Roadmap",
+              "Name define Throttling Protection for Eventhouses in Production -> define Throttling Protection - Capacity overdue for Eventhouses in Production",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "define Throttling Protection - Capacity overdue for Eventhouses in Production",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "8e0248a6-b555-f011-877a-00224804ca88",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "DeltaFlow: Seamless stream processing of Database CDC Feeds (GA)",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dynamic thresholds in Activator rules",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "4833aefd-cc53-f111-bec7-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Enable stream processing and real-time analytics on Mirror DB change feeds",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "1dbe5728-0aa4-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Enterprise Promises: Variable Library PuPr",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "83351219-da49-f111-bec7-000d3a5b0273",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventhouse: Reference Accelerated Shortcuts in Update Policy",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "4c1e5d6a-ff3f-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventstream as a Business Events Publisher",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "d9ba17dc-d73d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventstream connector vNet/On-Prem support - GA",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "efd5c877-8f3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventstream Event Metadata Propagation",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "bf0b473d-cb3d-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventstream HTTP Connector GA - with OAuth Support",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "714d2deb-263e-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventstream Integrated Activator Alert Setup Experience",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "3aac4279-ca3d-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "IoThub connector extended feature",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "83266d3d-873f-f111-88b5-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "JDBC Connector (open-source model for custom stream connector)",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "6457e054-8d3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "JMS source connector",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "eb22e174-8e3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-06-30 -> 2026-12-31",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Lakehouse Streaming Tables in the Real Time hub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "a9abe16a-7faf-f011-bbd3-000d3a3740cc",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Monitor Eventhouse activity by application",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "38e581bb-4541-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "New Eventstream source: SAP Datasphere",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "4ec2618a-d849-f111-bec7-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Notebook as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "aa858b30-d73d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound access protection for PubSub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "143d1e3b-84bb-f011-bbd3-000d3a3740cc",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Pagination Support for Eventstrem HTTP Connector",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "89eb68a0-263e-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Publish Business Events Samples from Real-Time Hub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "d0437aab-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Real-Time hub Makes it Easier for Users to Discover New Features or Capabilities",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "2bd88c0c-d1a3-f011-bbd3-6045bd00f9db",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Real-Time hub surfaces recommended tasks based on what you are working on at the moment",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "46118e1c-6122-f111-8341-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-06-30 -> 2026-09-30",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Secure Fabric Eventstreams with customer-managed keys",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "61963fc1-c6f0-f011-8407-000d3a3ac4a5",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Sync OneLake shortcut tables schema",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "3ee3efc1-4641-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Unified GetEvents for Fabric RTI",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "5087315d-e93e-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "User Data Function as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "136ee5c3-d63d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Workspace identity auth support for Eventstream Event hub source",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "246e8c98-903f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Workspace Private Links for Eventstream Custom Endpoint",
+            "last_modified": "2026-06-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "53a8b940-263e-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-13 -> 2026-06-30",
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Workspace level Private Link for SQL database",
+            "last_modified": "2026-06-02",
+            "product_name": "SQL database",
+            "release_date": "Q2 2026",
+            "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-06-01",
@@ -762,7 +2767,7 @@
         ]
       },
       {
-        "count": 23,
+        "count": 17,
         "date": "2026-05-13",
         "items": [
           {
@@ -857,19 +2862,6 @@
             "release_type": "Public preview"
           },
           {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Data Clustering",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "5cd4b9a0-1322-f011-998a-0022480939f0",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
             "active": true,
             "changed_columns": [
               "Release Date 2025-09-30 -> 2026-06-30"
@@ -880,19 +2872,6 @@
             "release_date": "Q2 2026",
             "release_item_id": "d153a715-e29d-f011-b41c-000d3a30273e",
             "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Identity columns",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "d7c986cd-1322-f011-998a-0022480939f0",
-            "release_status": "Planned",
             "release_type": "General availability"
           },
           {
@@ -908,19 +2887,6 @@
             "release_item_id": "c418b243-333f-f111-88b5-6045bd0a8ec1",
             "release_status": "Planned",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "f4c0ce02-2e61-f011-bec2-000d3a302e4a",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": true,
@@ -961,32 +2927,6 @@
             "release_item_id": "e48ce514-09b9-f011-bbd3-000d3a5972d8",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Outbound access protection for Power BI (Reports and Semantic Model)",
-            "last_modified": "2026-05-13",
-            "product_name": "Power BI",
-            "release_date": "Q2 2026",
-            "release_item_id": "e586fbe4-1b02-f111-8406-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "TMDL View in the Web",
-            "last_modified": "2026-05-13",
-            "product_name": "Power BI",
-            "release_date": "Q1 2026",
-            "release_item_id": "58e4e1b5-83c5-f011-bbd3-00224808fcf0",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": true,
@@ -1052,24 +2992,11 @@
             "release_item_id": "9059f814-2ba6-f011-bbd3-000d3a5b0efa",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Workspace level Private Link for SQL database",
-            "last_modified": "2026-05-13",
-            "product_name": "SQL database",
-            "release_date": "Q1 2026",
-            "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           }
         ]
       },
       {
-        "count": 7,
+        "count": 5,
         "date": "2026-05-07",
         "items": [
           {
@@ -1086,19 +3013,6 @@
             "release_type": "General availability"
           },
           {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Organize multitasking tabs in groups",
-            "last_modified": "2026-05-07",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q2 2026",
-            "release_item_id": "a5e7e388-2eba-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
             "active": true,
             "changed_columns": [
               "Release Status Planned -> Shipped"
@@ -1109,19 +3023,6 @@
             "release_date": "Q2 2026",
             "release_item_id": "b1f0bc28-efba-f011-bbd3-000d3a3740cc",
             "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Enable stream processing and real-time analytics on Mirror DB change feeds",
-            "last_modified": "2026-05-07",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "1dbe5728-0aa4-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
             "release_type": "Public preview"
           },
           {
@@ -1166,7 +3067,7 @@
         ]
       },
       {
-        "count": 19,
+        "count": 16,
         "date": "2026-05-06",
         "items": [
           {
@@ -1261,45 +3162,6 @@
             "release_date": "Q2 2026",
             "release_item_id": "be6cef7e-4597-f011-b4cc-6045bd00f9db",
             "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Configurable Retention between 1-120 days",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2027",
-            "release_item_id": "c13c3e13-0d22-f011-998a-0022480939f0",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Configurable Retention between 1-120 days",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "COPY INTO - Support Workspace Identity",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Warehouse",
-            "release_date": "Q1 2026",
-            "release_item_id": "aa94dc1e-14b9-f011-bbd2-0022480a2ecf",
-            "release_status": "Planned",
             "release_type": "Public preview"
           },
           {
@@ -1422,7 +3284,7 @@
         ]
       },
       {
-        "count": 8,
+        "count": 6,
         "date": "2026-05-05",
         "items": [
           {
@@ -1477,32 +3339,6 @@
             "product_name": "Administration, Governance and Security",
             "release_date": "Q4 2026",
             "release_item_id": "184cc3ee-22b8-f011-bbd3-000d3a3740cc",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "[Ontology for A365] - Ontology integration with Agent 365",
-            "last_modified": "2026-05-05",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "c0831fd2-0a03-f111-8406-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "[Ontology for Foundry IQ] - Ontology integration with Foundry IQ",
-            "last_modified": "2026-05-05",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "e7ec864d-0a03-f111-8406-6045bd00f798",
             "release_status": "Planned",
             "release_type": "Public preview"
           },
@@ -1629,6 +3465,6 @@
         ]
       }
     ],
-    "total_items": 115
+    "total_items": 252
   }
 }

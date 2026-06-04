@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-03T23:59:56.439Z",
+  "generatedAt": "2026-06-04T04:57:59.047Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 253,
+  "count": 250,
   "changelog": {
     "days": [
       {
@@ -473,9 +473,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -486,9 +486,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3425,53 +3425,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-05-04",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Data Agent Audit logs with Purview",
-            "last_modified": "2026-05-04",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "2e298f0f-3801-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "GA AutoML in Fabric",
-            "last_modified": "2026-05-04",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "2b64b096-5eb3-f011-bbd3-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "General Availability of Fabric Data Agents",
-            "last_modified": "2026-05-04",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "0b5b5933-5ac0-f011-bbd3-6045bd05dd14",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 253
+    "total_items": 250
   }
 }

@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-04T08:54:01.883Z",
+  "generatedAt": "2026-06-04T11:51:18.288Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Inline Scalar user-defined functions (UDFs) in Microsoft Fabric Warehouse (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/inline-scalar-user-defined-functions-udfs-in-microsoft-fabric-warehouse-preview",
+        "feature_description": "We're expanding scalar user-defined functions with new capabilities, including INLINE = AUTO, improved error messaging, support for special built-in functions, and CONTINUE/BREAK statements in **computation**-based UDFs.",
+        "feature_name": "Scalar User-defined functions (UDFs)",
+        "last_modified": "2026-06-04",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "edb33b5b-7f5d-f011-bec2-0022480939f0",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1388,20 +1402,6 @@
         "release_date": "Q2 2026",
         "release_item_id": "d9063ae9-1c32-f111-88b4-000d3a376137",
         "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Updates to default data destination behavior in Dataflow Gen2",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/updates-to-default-data-destination-behavior-dataflow-gen-2",
-        "feature_description": "Dataflow Gen2 will deliver targeted performance improvements for a common pattern where data is processed in a Staging Warehouse (compute) and written to a Lakehouse data destination, such as when persisting the output of Computed Entities.These enhancements optimize how transformed data is materialized from warehouse compute into the Lakehouse, reducing data movement overhead, lowering end-to-end refresh times, and improving throughput for large and complex pipelines. Customers benefit from faster data availability in the Lakehouse, more reliable refresh performance at scale, and a smoother experience when using warehouses for intermediate computation before landing curated data for analytics, AI, and downstream consumption.This is especially valuable for organizations standardizing on Lakehouse architectures while leveraging Staging Warehouse Compute for transformation and shaping, enabling fresher insights with less operational friction.",
-        "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q2 2026",
-        "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
-        "release_status": "Shipped",
         "release_type": "Public preview"
       }
     ],

@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-06-04T14:54:38.475Z",
+  "generatedAt": "2026-06-04T17:44:16.794Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 186,
+  "count": 187,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "82cd4410-1160-f111-a826-6045bd00f798",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "6/4/2026 5:18:35 AM",
+      "reportedAt": "2026-06-04T05:18:35.000Z",
+      "resolvedRaw": "6/4/2026 9:19:35 AM",
+      "resolvedAt": "2026-06-04T09:19:35.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI Customers may experience failures while refreshing Power BI Dataflow Gen1 objects, encountering the error: “You’ve reached the refresh limit for your account. Please try again later\". This behavior is by design as the limits discussed in <a style=\"background-color:rgb(255, 255, 255);color:rgb(108, 169, 254);font-family:Calibri, Arial, Helvetica, sans-serif;font-size:14.6667px;font-style:normal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;\" href=\"https://learn.microsoft.com/en-us/power-query/power-query-online-limits\" tabindex=\"0\" target=\"_blank\">Power Query Online Usage Limits - Power Query | Microsoft Learn</a> are being enforced as of 2026-06-01.</p></div>",
+      "detailsText": "Power BI Customers may experience failures while refreshing Power BI Dataflow Gen1 objects, encountering the error: “You’ve reached the refresh limit for your account. Please try again later\". This behavior is by design as the limits discussed in Power Query Online Usage Limits - Power Query | Microsoft Learn are being enforced as of 2026-06-01.",
+      "hash": "78c391845c93b46f64c4619cb5db1acdc337ae9f045edbed874698dec4ddf7af"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "ac8ea7cd-525f-f111-a826-6045bd00fc61",

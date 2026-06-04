@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-06-04T11:51:18.250Z",
+  "generatedAt": "2026-06-04T14:54:38.475Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 186,
-    "total": 186
+    "total": 187
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 186,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "82cd4410-1160-f111-a826-6045bd00f798",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "6/4/2026 5:18:35 AM",
+      "reportedAt": "2026-06-04T05:18:35.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI Customers may experience failures while refreshing Power BI Dataflow Gen1 objects, encountering the error: “You’ve reached the refresh limit for your account. Please try again later\".Engineers are investigating the issue and an update will be provided soon.</p></div>",
+      "detailsText": "Power BI Customers may experience failures while refreshing Power BI Dataflow Gen1 objects, encountering the error: “You’ve reached the refresh limit for your account. Please try again later\".Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "4d6afe034326dc91ff2fb222619cbdf016ccdc0b452a33e17a63b585e6ef5163"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

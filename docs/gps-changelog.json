@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-04T22:53:56.423Z",
+  "generatedAt": "2026-06-05T00:04:40.358Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 252,
+  "count": 246,
   "changelog": {
     "days": [
       {
@@ -3367,98 +3367,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 6,
-        "date": "2026-05-05",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-05-04 -> 2026-05-05",
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Capacity Metrics App - Health",
-            "last_modified": "2026-05-05",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q2 2026",
-            "release_item_id": "b693a00d-5eb0-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-05-04 -> 2026-05-05",
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Capacity Metrics App - Timepoint Summary & Detail",
-            "last_modified": "2026-05-05",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q2 2026",
-            "release_item_id": "9d8a208b-5eb0-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-05-04 -> 2026-05-05",
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Fabric Chargeback app",
-            "last_modified": "2026-05-05",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q2 2026",
-            "release_item_id": "ba53be36-59b0-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "OneLake Catalog - Govern with centralized management capabilities",
-            "last_modified": "2026-05-05",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q4 2026",
-            "release_item_id": "184cc3ee-22b8-f011-bbd3-000d3a3740cc",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-03-07 -> 2026-04-30",
-              "Release Status Planned -> Shipped",
-              "Restored to Roadmap",
-              "Name Ontology integration with Operations Agent -> [Ontology for Operational Agent] - Ontology integration with Operations Agent"
-            ],
-            "feature_name": "[Ontology for Operational Agent] - Ontology integration with Operations Agent",
-            "last_modified": "2026-05-05",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "18c74921-f1ce-f011-bbd3-6045bd00f9db",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-04-30 -> 2026-11-30"
-            ],
-            "feature_name": "Public API for Ontology",
-            "last_modified": "2026-05-05",
-            "product_name": "IQ",
-            "release_date": "Q4 2026",
-            "release_item_id": "419cfd8b-face-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 252
+    "total_items": 246
   }
 }

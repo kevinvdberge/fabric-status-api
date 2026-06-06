@@ -1,9 +1,134 @@
 {
-  "generatedAt": "2026-06-05T23:45:23.514Z",
+  "generatedAt": "2026-06-06T02:53:02.503Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 246,
+  "count": 235,
   "changelog": {
     "days": [
+      {
+        "count": 9,
+        "date": "2026-06-06",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - SAP with ABAP add-on",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "07513d58-4161-f111-a826-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Copy job - SAP with ABAP add-on",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "dbee8e7c-c29a-f011-b4cc-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-06-30 -> 2026-09-30"
+            ],
+            "feature_name": "Dataflows - New Destination: PostgreSQL",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "78a9449f-c85e-f111-a826-000d3a366c85",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated"
+            ],
+            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "b3ac7ba8-4461-f111-a826-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Performance: Disable V-Order Compression",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "eed6fd49-4461-f111-a826-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Name Dataflows - Performance and Latency Improvements -> Dataflows - Performance: Disable V-Order Compression"
+            ],
+            "feature_name": "Dataflows - Performance: Disable V-Order Compression",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "121655f6-1144-f111-88b5-000d3a5b0273",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Name Dataflows - Performance and Latency Improvements -> Dataflows - Performance: Optimized Writes from Staging Warehouse Compute to Lakehouse Destinations"
+            ],
+            "feature_name": "Dataflows - Performance: Optimized Writes from Staging Warehouse Compute to Lakehouse Destinations",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "57d40a9a-3335-f111-88b4-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Mirroring - SAP Datasphere",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2026",
+            "release_item_id": "71f7af86-d2b8-f011-bbd3-00224808fcf0",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 4,
         "date": "2026-06-04",
@@ -63,7 +188,7 @@
         ]
       },
       {
-        "count": 152,
+        "count": 148,
         "date": "2026-06-02",
         "items": [
           {
@@ -644,19 +769,6 @@
             "changed_columns": [
               "Added to roadmap"
             ],
-            "feature_name": "Dataflows - New Destination: PostgreSQL",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Factory",
-            "release_date": "Q2 2026",
-            "release_item_id": "78a9449f-c85e-f111-a826-000d3a366c85",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
             "feature_name": "Dataflows - New Destination: Power BI report",
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
@@ -677,45 +789,6 @@
             "release_item_id": "478cfce8-9633-f111-88b4-6045bd0a886d",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Dataflows - Performance and Latency Improvements",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Factory",
-            "release_date": "Q2 2026",
-            "release_item_id": "121655f6-1144-f111-88b5-000d3a5b0273",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Dataflows - Performance and Latency Improvements",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "57d40a9a-3335-f111-88b4-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Factory",
-            "release_date": "Q2 2026",
-            "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -3150,225 +3223,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 16,
-        "date": "2026-05-06",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-02-28 -> 2026-06-30"
-            ],
-            "feature_name": "CSV Support for Native Execution Engine",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Engineering",
-            "release_date": "Q2 2026",
-            "release_item_id": "bfd0bc17-7dba-f011-bbd2-0022480a2ecf",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-03-31 -> 2026-06-30",
-              "Release Type Public preview -> General availability"
-            ],
-            "feature_name": "Custom Live Pools",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Engineering",
-            "release_date": "Q2 2026",
-            "release_item_id": "11fd2c23-e28c-ef11-ac21-00224804e9b4",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Type Public preview -> General availability"
-            ],
-            "feature_name": "Job Queueing and Concurrency Monitoring",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Engineering",
-            "release_date": "Q1 2026",
-            "release_item_id": "1a98d2aa-7bba-f011-bbd2-0022480a2ecf",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Resource Profiles for Fabric Data Engineering",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Engineering",
-            "release_date": "Q1 2026",
-            "release_item_id": "be21e5f9-7dba-f011-bbd2-0022480a2ecf",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-06-01 -> 2026-08-01"
-            ],
-            "feature_name": "Copy job - CDC based replication to Oracle",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "71ffb0dc-c99a-f011-b4cc-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "[PuPr] Assisted Setup Mode in Data Agent",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Science",
-            "release_date": "Q2 2026",
-            "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped",
-              "Description updated",
-              "Name ALTER TABLE ALTER COLUMN (Public Preview) -> ALTER COLUMN (Public Preview)"
-            ],
-            "feature_name": "ALTER COLUMN (Public Preview)",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "be6cef7e-4597-f011-b4cc-6045bd00f9db",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-05-31 -> 2026-09-30"
-            ],
-            "feature_name": "Fabric Functions in DW",
-            "last_modified": "2026-05-06",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "64884d05-7482-ef11-ac21-6045bd062aa2",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Spectral Core Workload Migration",
-            "last_modified": "2026-05-06",
-            "product_name": "Fabric Ecosystem",
-            "release_date": "Q1 2026",
-            "release_item_id": "ff9764d8-9e00-f111-8406-6045bd0a886d",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "[Ontology MCP Endpoint] Initial Query tools",
-            "last_modified": "2026-05-06",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "53e80eeb-efce-f011-bbd3-6045bd00f9db",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-03-17 -> 2026-06-30"
-            ],
-            "feature_name": "OneLake security - ReadWrite permission - GA",
-            "last_modified": "2026-05-06",
-            "product_name": "OneLake",
-            "release_date": "Q2 2026",
-            "release_item_id": "5d44c899-f7d1-f011-bbd3-00224808fcf0",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "OneLake security APIs for external engines",
-            "last_modified": "2026-05-06",
-            "product_name": "OneLake",
-            "release_date": "Q1 2026",
-            "release_item_id": "60638d9d-68d1-f011-bbd3-00224808fcf0",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "OneLake security granular APIs",
-            "last_modified": "2026-05-06",
-            "product_name": "OneLake",
-            "release_date": "Q1 2026",
-            "release_item_id": "5446bfac-7c90-ef11-ac21-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-05-15 -> 2026-06-15"
-            ],
-            "feature_name": "Tooltip options for Power BI visuals",
-            "last_modified": "2026-05-06",
-            "product_name": "Power BI",
-            "release_date": "Q2 2026",
-            "release_item_id": "aa43ab07-d11f-f111-8341-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Eventhouse Endpoint - for Lakehouse",
-            "last_modified": "2026-05-06",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "10d5069c-5df1-f011-8406-6045bd026004",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Eventhouse Endpoint for DWH",
-            "last_modified": "2026-05-06",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "e2e8767a-5df1-f011-8406-6045bd026004",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 246
+    "total_items": 235
   }
 }

@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-06-07T11:46:20.244Z",
+  "generatedAt": "2026-06-07T13:47:42.692Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 230,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 3,
         "date": "2026-06-07",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated"
+            ],
+            "feature_name": "OneLake Catalog - govern with centralized management capabilities",
+            "last_modified": "2026-06-07",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q3 2026",
+            "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -220,7 +233,7 @@
         ]
       },
       {
-        "count": 146,
+        "count": 145,
         "date": "2026-06-02",
         "items": [
           {
@@ -235,19 +248,6 @@
             "release_item_id": "6754378c-e14a-f111-bec7-6045bd0a8ec1",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "OneLake Catalog - Govern with centralized management capabilities",
-            "last_modified": "2026-06-02",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q3 2026",
-            "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": false,

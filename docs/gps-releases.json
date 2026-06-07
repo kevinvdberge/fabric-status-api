@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T11:46:20.244Z",
+  "generatedAt": "2026-06-07T13:47:42.692Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -29,6 +29,20 @@
         "product_name": "Fabric Developer Experiences",
         "release_date": "Q3 2026",
         "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s new in OneLake catalog: Data governance and more",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-in-onelake-catalog-data-governance-and-more",
+        "feature_description": "The OneLake Catalog - Govern experience is expanding by introducing a comprehensive set of management tools designed to reduce fragmentation and simplify day-to-day administration. Enable admins to centrally govern the data they own from a single, unified place, supporting operations at scale while maintaining speed and agility. Deliver a consistent and intuitive admin experience across tenant, domain, capacity, and workspace scopes, ensuring governance is predictable and easy to apply regardless of where data resides. Provide flexible and granular governance controls that adapt to different organizational needs, maturity levels, and operating models. Enhance visibility by offering deeper insights, contextual signals, and proactive recommendations, helping admins understand the current governance posture and take informed action.",
+        "feature_name": "OneLake Catalog - govern with centralized management capabilities",
+        "last_modified": "2026-06-07",
+        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
+        "product_name": "Administration, Governance and Security",
+        "release_date": "Q3 2026",
+        "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1331,20 +1345,6 @@
         "product_name": "Data Factory",
         "release_date": "Q3 2026",
         "release_item_id": "1f2fe2c0-3535-f111-88b3-000d3a376c0f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Govern in OneLake Catalog for Fabric admins (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/onelake-catalog-govern-for-fabric-admins",
-        "feature_description": "The OneLake Catalog - Govern experience is expanding with management tools to reduce fragmentation and enable admins to centrally govern the data they own from one place, at scale, and with speed. It delivers unified admin experience across scopes (tenant/domain/capacity and workspace) and governance concepts, with flexible controls",
-        "feature_name": "OneLake Catalog - Govern with centralized management capabilities",
-        "last_modified": "2026-06-02",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q3 2026",
-        "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
         "release_status": "Planned",
         "release_type": "Public preview"
       },

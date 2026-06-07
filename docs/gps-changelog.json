@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-06T23:34:33.205Z",
+  "generatedAt": "2026-06-07T01:54:59.361Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 235,
+  "count": 230,
   "changelog": {
     "days": [
       {
@@ -656,9 +656,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -669,9 +669,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -3152,79 +3152,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 5,
-        "date": "2026-05-07",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Allow users to reorder open workspaces in the nav bar",
-            "last_modified": "2026-05-07",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q2 2026",
-            "release_item_id": "11114dc9-41ba-f011-bbd3-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Shortcut Transformations - Excel to Delta",
-            "last_modified": "2026-05-07",
-            "product_name": "OneLake",
-            "release_date": "Q2 2026",
-            "release_item_id": "b1f0bc28-efba-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Eventstream reference data join with one lake delta tables",
-            "last_modified": "2026-05-07",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "816ee551-33a5-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Eventstream supports large message size",
-            "last_modified": "2026-05-07",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "fc3ce8fd-6e2f-f011-8c4d-000d3a34671f",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Unify batch & streaming data platforms with CopyJob & Real-Time Intelligence",
-            "last_modified": "2026-05-07",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "403b7b13-0ca4-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 235
+    "total_items": 230
   }
 }

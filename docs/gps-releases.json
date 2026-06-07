@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-06-07T06:22:19.163Z",
+  "generatedAt": "2026-06-07T09:45:48.912Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-new-branching-capabilities-in-fabric-git-integration",
+        "feature_description": "Commit individual files within a supported Fabric item to Git, rather than committing the entire item at once. File-level commits give developers granular change history, support partial commits of in-progress work, and produce smaller, easier-to-review pull requests.",
+        "feature_name": "Git Integration - File level commit",
+        "last_modified": "2026-06-07",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "c5945cb2-662c-f111-88b4-6045bd0a886d",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-new-branching-capabilities-in-fabric-git-integration",
+        "feature_description": "Today, when a Fabric workspace is connected to a Git repository, only workspace admins can switch the selected branch. With this change, Contributor and above users can also switch branches. Additionally, Contributor and above users will be able to branch out to existing workspaces that have this setting enabled, even if they aren't admins on the target workspace.",
+        "feature_name": "Git Integration - Allow contributor and above users to switch branch",
+        "last_modified": "2026-06-07",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Boost performance and save costs with Fast Copy in Dataflows Gen2",
@@ -440,20 +468,6 @@
       },
       {
         "active": true,
-        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-new-branching-capabilities-in-fabric-git-integration",
-        "feature_description": "Commit individual files within a Fabric item to Git, rather than committing the entire item at once. File-level commits give developers granular change history, support partial commits of in-progress work, and produce smaller, easier-to-review pull requests.",
-        "feature_name": "Git Integration - File level commit",
-        "last_modified": "2026-06-02",
-        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
-        "product_name": "Fabric Developer Experiences",
-        "release_date": "Q3 2026",
-        "release_item_id": "c5945cb2-662c-f111-88b4-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Continuous Ingestion from Azure Storage to Eventhouse (Preview)",
         "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/continuous-ingestion-from-azure-storage-to-eventhouse-preview",
         "feature_description": "Continuously ingesting file content from Azure blob stroage to Eventhouse through Eventstream",
@@ -869,20 +883,6 @@
         "product_name": "Data Science",
         "release_date": "Q3 2026",
         "release_item_id": "761be85d-2358-f111-bec7-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-new-branching-capabilities-in-fabric-git-integration",
-        "feature_description": "Today, when a Fabric workspace is connected to a Git repository, only workspace admins can switch the selected branch. With this change, Contributor and above users can also switch branches. Additionally, Contributor and above users will be able to branch out to existing workspaces that have this setting enabled, even if they aren't admins on the target workspace.",
-        "feature_name": "Git Integration - Allow non-admin users to switch branch",
-        "last_modified": "2026-06-02",
-        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
-        "product_name": "Fabric Developer Experiences",
-        "release_date": "Q3 2026",
-        "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
         "release_status": "Planned",
         "release_type": "Public preview"
       },

@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-06-07T06:22:19.163Z",
+  "generatedAt": "2026-06-07T09:45:48.912Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 230,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-06-07",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Git Integration - Allow non-admin users to switch branch -> Git Integration - Allow contributor and above users to switch branch"
+            ],
+            "feature_name": "Git Integration - Allow contributor and above users to switch branch",
+            "last_modified": "2026-06-07",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated"
+            ],
+            "feature_name": "Git Integration - File level commit",
+            "last_modified": "2026-06-07",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "c5945cb2-662c-f111-88b4-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 9,
         "date": "2026-06-06",
@@ -16,10 +48,10 @@
             "feature_name": "Copy job - SAP with ABAP add-on",
             "last_modified": "2026-06-06",
             "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "07513d58-4161-f111-a826-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "General availability"
+            "release_date": "Q2 2026",
+            "release_item_id": "dbee8e7c-c29a-f011-b4cc-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -29,10 +61,10 @@
             "feature_name": "Copy job - SAP with ABAP add-on",
             "last_modified": "2026-06-06",
             "product_name": "Data Factory",
-            "release_date": "Q2 2026",
-            "release_item_id": "dbee8e7c-c29a-f011-b4cc-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_date": "Q3 2026",
+            "release_item_id": "07513d58-4161-f111-a826-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -188,7 +220,7 @@
         ]
       },
       {
-        "count": 148,
+        "count": 146,
         "date": "2026-06-02",
         "items": [
           {
@@ -1332,19 +1364,6 @@
             "changed_columns": [
               "Added to roadmap"
             ],
-            "feature_name": "Git Integration - Allow non-admin users to switch branch",
-            "last_modified": "2026-06-02",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2026",
-            "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
             "feature_name": "Git Integration - Branch workspace delegation",
             "last_modified": "2026-06-02",
             "product_name": "Fabric Developer Experiences",
@@ -1378,19 +1397,6 @@
             "release_item_id": "72fd68d2-642c-f111-88b4-6045bd0a886d",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Git Integration - File level commit",
-            "last_modified": "2026-06-02",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2026",
-            "release_item_id": "c5945cb2-662c-f111-88b4-6045bd0a886d",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,

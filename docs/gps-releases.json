@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T21:07:28.646Z",
+  "generatedAt": "2026-06-08T22:49:23.265Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -34,6 +34,20 @@
       },
       {
         "active": true,
+        "blog_title": "Running Apache Airflow jobs seamlessly in Microsoft Fabric",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/running-apache-airflow-jobs-seamlessly-in-microsoft-fabric",
+        "feature_description": "With Microsoft Fabric Apache Airflow Job, you can easily orchestrate your Fabric processes. Now with a built-in Microsoft provider to run Dataflow refreshes from your Airlfow DAG, you can easliy leverage Dataflows from your DAG.",
+        "feature_name": "Airflow - Dataflow Gen2 Refresh",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "138f1e38-7d63-f111-a826-000d3a376137",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
         "blog_title": "dbt Job in Microsoft Fabric: Ship Trustworthy SQL Models Faster (Preview)",
         "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/dbt-job-in-microsoft-fabric-ship-trustworthy-sql-models-faster-preview",
         "feature_description": "We are adding support **dbt Fusion runtime** in dbt job in Microsoft Fabric as an execution environment, in addition to the existing dbt Core-based runtime.Customers can select the Fusion runtime when creating or configuring a dbt job to run their transformations on the next-generation dbt engine -- natively inside Fabric, with no local tooling or external orchestration to manage.",
@@ -45,6 +59,34 @@
         "release_item_id": "11c809b6-6563-f111-a826-6045bd0a8ec1",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Simplifying Medallion Implementation with Materialized Lake Views in Fabric",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-materialized-lake-views-at-build-2025",
+        "feature_description": "Fabric Materialized Lake Views are a revolutionary way to declaratively define views, built on data stored in your lakehouse that automatically materializes the results of the data transformation as a physical Delta table. Now we have a pipeline activity that you can automate and schedule to regularly refresh your MLV or add it to the end of your ETL pipeline.",
+        "feature_name": "Pipelines - Refresh Materialized Lake View Activity",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q2 2026",
+        "release_item_id": "fb27d618-16b1-f011-bbd3-000d3a30273e",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Hyper-parametrization in Data Factory pipelines enables powerful reusable generic patterns and is very popular in Data Factory. Now with parameter support in schedules you can create schedules that have specific parameter values to create complex execution patterns.",
+        "feature_name": "Pipelines - Support added for schedule parameters",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q2 2026",
+        "release_item_id": "da6082f1-1a9e-f011-b41c-000d3a5b0efa",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -62,6 +104,20 @@
       },
       {
         "active": true,
+        "blog_title": "Exciting Enhancements Announced for Fabric Data Factory Pipelines!",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/exciting-enhancements-announced-for-fabric-data-factory-pipelines",
+        "feature_description": "We've enabled a key new capability in Data Factory pipelines in Fabric that extends the use of pipelines beyond just data integration and ETL. Now you can create powerful business workflows with pipelines with our new approval activity that allows you to gate the execution of your pipeline by setting an approver.",
+        "feature_name": "Pipelines - Approvals Activity",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q2 2026",
+        "release_item_id": "d6e09340-c39d-f011-b41c-6045bd00f9db",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
         "blog_title": null,
         "blog_url": null,
         "feature_description": "Copy Job Auto-partitioning automatically splits large tables into parallel partitions when copying data from Oracle, SAP HANA, and Lakehouse tables, improving throughput, scalability, and overall copy performance for large-scale ingestions.",
@@ -73,6 +129,20 @@
         "release_item_id": "809be74d-1c32-f111-88b4-000d3a376137",
         "release_status": "Shipped",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Fabric Data Pipelines – Advanced Scheduling Techniques (Part 2: Run a Pipeline on a Specific Day)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/fabric-data-pipelines-advanced-scheduling-techniques-part-2-run-a-pipeline-on-a-specific-day",
+        "feature_description": "Pipelines in Fabric Data Factory emphasize general re-use patterns and metadata driven methodologies. Now with support for pipeline parameters in schedules you can create multiple schedules per pipeline with different parameter values enabling incredibly powerful generic pipeline workflow patterns.",
+        "feature_name": "Pipelines - Support pipeline parameters in schedules",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q2 2026",
+        "release_item_id": "422e1a3d-056f-f011-bec2-00224804b6c3",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1333,76 +1403,6 @@
         "release_item_id": "44beb659-642c-f111-88b4-6045bd0a886d",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Eventhouse Accelerated OneLake Table Shortcuts (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/eventhouse-accelerated-onelake-table-shortcuts-generally-available",
-        "feature_description": "OneLake Shortcut tables automatically reflect schema changes from their source tables. This improvement applies to all shortcut tables, including existing ones, across Eventhouse endpoints and standard shortcuts, eliminating the need for manual updates or recreation.",
-        "feature_name": "Sync OneLake shortcut tables schema",
-        "last_modified": "2026-06-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "3ee3efc1-4641-f111-88b5-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Configure and manage Activator rules directly in Eventstream (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/configure-and-manage-activator-rules-directly-in-eventstream-preview",
-        "feature_description": "The new Activator Alert feature in Eventstream allows users to set up alerts in a single step, streamlining the process. With this enhancement, customers can quickly create alerts directly within Eventstream, saving time and reducing complexity.",
-        "feature_name": "Eventstream Integrated Activator Alert Setup Experience",
-        "last_modified": "2026-06-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "3aac4279-ca3d-f111-88b5-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fast copy in Dataflows Gen2",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/fast-copy-in-dataflows-gen-2",
-        "feature_description": "Partitioned Compute is a capability of Dataflow Gen2 that enables parts of a dataflow to run in parallel, reducing the time to finish its evaluations.Partitioned compute targets scenarios where the Dataflow engine can efficiently fold operations that can partition the data source and process each partition in parallel. For example, in a scenario where you're connecting to multiple files stored in an Azure Data Lake Storage Gen2, you can partition the list of files from your source, efficiently retrieve the partitioned list of files using query folding, use the combine files experience, and process all files in parallel.By moving to GA, Partitioned Compute becomes a stable, supported foundation for performant and highly scalable data transformation in Fabric.",
-        "feature_name": "Dataflows - Dataflows Gen2 Partitioned Compute",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "385260b0-5b07-ef11-9f89-000d3a34b75c",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The Send Email action in Dataflow Gen2 enables data-driven email notifications directly within a dataflow, allowing teams to send emails that reference and include query results produced during dataflow execution.Emails can dynamically incorporate snapshots of query evaluation results into the email body, as well as use query outputs as inputs to email parameters such as recipients, subject, importance, and message content. This makes it easy to deliver contextual, data-backed notifications without post-processing or custom scripting.The Send Email action can be triggered conditionally based on dataflow results, for example when a query returns rows, exceeds a threshold, or contains specific values. This enables common operational and analytical patterns such as exception alerts, data quality notifications, threshold-based reporting, and scheduled result sharing.By embedding this capability directly into Dataflow Gen2, customers can dramatically simplify end-to-end workflows that previously required stitching together multiple components--such as writing results to a destination, orchestrating execution with pipelines, and adding a separate email or automation step. With Send Email built in, Dataflow Gen2 can act as a self-contained, low-code data preparation and notification solution, supporting familiar scenarios previously achieved with dedicated workflow and analytics tools, while benefiting from native Fabric integration, governance, and scale.",
-        "feature_name": "Dataflows - Send Email Action",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "35473b7a-e33c-f111-88b5-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "New connectors are planned in Copy job, and Pipeline activities 1. Impala (as source)2. Jira (as source)3. Netezza (as source)3. Hive (as source)4. HubSpot (as source)5. Shopify (as source)6. Square (as source)7. Xero (as source)",
-        "feature_name": "Connectors - New connector in Copy Job and Pipeline activities",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "34eb80a4-c49a-f011-b4cc-000d3a30273e",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1025,
+      "total_items": 1026,
       "total_pages": 11
     }
   }

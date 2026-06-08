@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-06-08T21:07:28.646Z",
+  "generatedAt": "2026-06-08T22:49:23.265Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 233,
+  "count": 237,
   "changelog": {
     "days": [
       {
-        "count": 8,
+        "count": 13,
         "date": "2026-06-08",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Airflow - Dataflow Gen2 Refresh",
+            "last_modified": "2026-06-08",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "138f1e38-7d63-f111-a826-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -98,6 +111,62 @@
             "release_item_id": "78dc21fc-7420-f011-998a-0022480939f0",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-06-30",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Pipelines - Approvals Activity",
+            "last_modified": "2026-06-08",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "d6e09340-c39d-f011-b41c-6045bd00f9db",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-06-30",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Pipelines - Refresh Materialized Lake View Activity",
+            "last_modified": "2026-06-08",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "fb27d618-16b1-f011-bbd3-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-06-30",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Pipelines - Support added for schedule parameters",
+            "last_modified": "2026-06-08",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "da6082f1-1a9e-f011-b41c-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-06-30",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Pipelines - Support pipeline parameters in schedules",
+            "last_modified": "2026-06-08",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "422e1a3d-056f-f011-bec2-00224804b6c3",
+            "release_status": "Shipped",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -755,9 +824,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -768,9 +837,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -2969,7 +3038,7 @@
         ]
       },
       {
-        "count": 17,
+        "count": 16,
         "date": "2026-05-13",
         "items": [
           {
@@ -3036,19 +3105,6 @@
             "release_item_id": "99108f89-076f-f011-bec2-00224804b6c3",
             "release_status": "Planned",
             "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-05-01 -> 2026-09-30"
-            ],
-            "feature_name": "Pipelines - Support pipeline parameters in schedules",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "422e1a3d-056f-f011-bec2-00224804b6c3",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3198,6 +3254,6 @@
         ]
       }
     ],
-    "total_items": 233
+    "total_items": 237
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T18:41:45.075Z",
+  "generatedAt": "2026-06-08T21:07:28.646Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -31,6 +31,20 @@
         "release_item_id": "4d357606-ef9d-f011-b41c-000d3a30273e",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "dbt Job in Microsoft Fabric: Ship Trustworthy SQL Models Faster (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/dbt-job-in-microsoft-fabric-ship-trustworthy-sql-models-faster-preview",
+        "feature_description": "We are adding support **dbt Fusion runtime** in dbt job in Microsoft Fabric as an execution environment, in addition to the existing dbt Core-based runtime.Customers can select the Fusion runtime when creating or configuring a dbt job to run their transformations on the next-generation dbt engine -- natively inside Fabric, with no local tooling or external orchestration to manage.",
+        "feature_name": "Support for dbt Fusion runtime in dbt job",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "11c809b6-6563-f111-a826-6045bd0a8ec1",
+        "release_status": "Planned",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -85,6 +99,20 @@
         "product_name": "Data Factory",
         "release_date": "Q2 2026",
         "release_item_id": "d5aeaf0b-2701-f111-8406-000d3a376137",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "dbt Job in Microsoft Fabric: Ship Trustworthy SQL Models Faster (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/dbt-job-in-microsoft-fabric-ship-trustworthy-sql-models-faster-preview",
+        "feature_description": "dbt job introduces native authoring and operationalization of dbt workflows within Microsoft Fabric, eliminating the need for external orchestration tools. This feature enables customers to build, schedule, and manage dbt SQL transformations in Fabric Data Warehouse and external data wareshouses, streamlining data transformation processes and improving productivity.",
+        "feature_name": "dbt job - New dbt job support in Fabric",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q4 2025",
+        "release_item_id": "ac18ff0a-9f06-ef11-9f89-000d3a33ff0b",
         "release_status": "Shipped",
         "release_type": "Public preview"
       },
@@ -1375,34 +1403,6 @@
         "release_item_id": "34eb80a4-c49a-f011-b4cc-000d3a30273e",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Simplifying Data Ingestion with Copy job – Introducing Change Data Capture (CDC) Support (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplifying-data-ingestion-with-copy-job-introducing-change-data-capture-cdc-support",
-        "feature_description": "Change Data Feed can be automatically enabled for Delta tables created by Copy job, allowing downstream workloads to directly leverage the Delta Change Data Feed to track all data changes.",
-        "feature_name": "Copy job - Auto-enable CDF on Delta table creation from Copy job",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "30f3ad4a-423d-f111-88b5-002248085b3f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-dataflow-gen2-data-destinations-and-experience-improvements",
-        "feature_description": "We plan to make the Excel Workbook (XLSX) Data Destination in Dataflow Gen2 generally available, enabling customers to publish curated, refreshed data directly into Excel files using Fabric's low-code transformation experience.Taking this feature to GA means it is ready for production usage, with the reliability, consistency, and support required for operational and business-critical workflows.Key benefits and scenarios:* Write transformed outputs from Dataflow Gen2 directly to Excel workbooks for broad accessibility* Enable business users to consume governed, regularly refreshed data in familiar Excel-based workflows* Support file-based sharing, automation, and downstream processes where Excel remains the system of recordBy bringing the Excel Workbook data destination to GA, Dataflow Gen2 becomes a production-ready bridge between governed Fabric transformations and everyday Excel-centric business processes.",
-        "feature_name": "Dataflows - New destination: Excel Workbooks (XLSX)",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "2d795c03-a033-f111-88b4-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1024,
+      "total_items": 1025,
       "total_pages": 11
     }
   }

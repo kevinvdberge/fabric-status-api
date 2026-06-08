@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-08T18:41:45.075Z",
+  "generatedAt": "2026-06-08T21:07:28.646Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 231,
+  "count": 233,
   "changelog": {
     "days": [
       {
-        "count": 6,
+        "count": 8,
         "date": "2026-06-08",
         "items": [
           {
@@ -76,6 +76,19 @@
           {
             "active": true,
             "changed_columns": [
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "dbt job - New dbt job support in Fabric",
+            "last_modified": "2026-06-08",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2025",
+            "release_item_id": "ac18ff0a-9f06-ef11-9f89-000d3a33ff0b",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
               "Release Date 2026-06-30 -> 2026-09-30"
             ],
             "feature_name": "Gateways - Autoscaling gateway clusters for VNet Gateway",
@@ -83,6 +96,19 @@
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
             "release_item_id": "78dc21fc-7420-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Support for dbt Fusion runtime in dbt job",
+            "last_modified": "2026-06-08",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "11c809b6-6563-f111-a826-6045bd0a8ec1",
             "release_status": "Planned",
             "release_type": "Public preview"
           }
@@ -729,9 +755,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -742,9 +768,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3172,6 +3198,6 @@
         ]
       }
     ],
-    "total_items": 231
+    "total_items": 233
   }
 }

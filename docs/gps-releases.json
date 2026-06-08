@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-08T16:18:39.953Z",
+  "generatedAt": "2026-06-08T18:41:45.075Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "New Features and Enhancements for Virtual Network Data Gateway",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-features-and-enhancements-for-virtual-network-data-gateway",
+        "feature_description": "For VNet data gateways, the fixed node setup can be inefficient during high-demand periods. To improve this, we're introducing auto-scaling, which dynamically adjusts the number of nodes based on demand.",
+        "feature_name": "Gateways - Autoscaling gateway clusters for VNet Gateway",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "78dc21fc-7420-f011-998a-0022480939f0",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -43,6 +57,20 @@
         "product_name": "Data Factory",
         "release_date": "Q2 2026",
         "release_item_id": "809be74d-1c32-f111-88b4-000d3a376137",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Unlocking the Next Generation of Data Transformations with Dataflow Gen2 – FabCon Europe 2025 Announcements",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/unlocking-the-next-generation-of-data-transformations-with-dataflow-gen2-fabcon-europe-2025-announcements",
+        "feature_description": "Mapping Data Flow transformations are coming to Dataflow Gen2, bringing the proven, low-code Spark-based transformation capabilities of Azure Data Factory and Azure Synapse directly into Microsoft Fabric. With this enhancement, customers can author and run complex data transformations at scale using the same visual, code-free experience they rely on today--now natively integrated into the Fabric Dataflow Gen2 experience.This capability unlocks the full power of Mapping Data Flows within Fabric, enabling advanced transformations that are optimized for large datasets and predictable performance. Data engineers and analytics teams can take advantage of Spark-based execution while staying within a unified Fabric Data Factory environment, reducing the need for separate tools and simplifying operational management.Just as importantly, upcoming support for Mapping Data Flow transformations in Dataflow Gen2 enables a seamless migration path for existing Azure Data Factory and Synapse customers. Teams can move their existing Mapping Data Flow assets into Fabric Data Factory with minimal rework, preserving investments in transformation logic while modernizing their data integration architecture on Fabric.",
+        "feature_name": "Dataflows - Support for Mapping Data Flow transformations in Dataflow Gen2",
+        "last_modified": "2026-06-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q2 2026",
+        "release_item_id": "9da9331f-5629-f111-8341-000d3a36696c",
         "release_status": "Shipped",
         "release_type": "Public preview"
       },
@@ -1375,34 +1403,6 @@
         "release_item_id": "2d795c03-a033-f111-88b4-6045bd0a886d",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Bring your local files to OneLake with OneLake file explorer (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/bring-your-local-files-to-onelake-with-onelake-file-explorer-generally-available",
-        "feature_description": "Reference OneLake files directly in your report visuals for images and maps.",
-        "feature_name": "OneLake file URLs for report visuals",
-        "last_modified": "2026-06-02",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "2774e8e2-ed5a-f111-bec7-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-dataflow-gen2-data-destinations-and-experience-improvements",
-        "feature_description": "We are introducing Amazon S3 as a new data destination for Dataflow Gen2 in Preview, enabling customers to publish transformed data from Microsoft Fabric directly into Amazon S3 using Dataflow Gen2's low-code Power Query experience.This preview expands Dataflow Gen2's destination ecosystem to better support multi-cloud data architectures, making it easier for customers with existing AWS investments to integrate Fabric-based transformations into their broader data lake and analytics environments.Key benefits and scenarios:* Publish curated outputs from Dataflow Gen2 directly to Amazon S3 buckets* Support AWS-based data lake and downstream analytics scenarios while keeping transformation logic centralized in Fabric* Enable teams to prepare, standardize, and shape data in Fabric before making it available to AWS services such as Athena, Glue, or other S3-based processing pipelinesDuring Preview, the Amazon S3 data destination is intended for evaluation and early adoption, allowing customers to validate cross-cloud integration patterns, performance characteristics, and operational workflows before using it for business-critical pipelines.This preview is part of our broader effort to make Dataflow Gen2 a flexible, low-code transformation layer across clouds, with continued investments planned to mature and expand multi-cloud destination support in Microsoft Fabric.",
-        "feature_name": "Dataflows - New Data Destination: AWS S3",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "1f2fe2c0-3535-f111-88b3-000d3a376c0f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {

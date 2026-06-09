@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-06-09T19:11:58.703Z",
+  "generatedAt": "2026-06-09T21:13:21.814Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 237,
+  "count": 240,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-06-09",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Fabric Graph - Generally Available",
+            "last_modified": "2026-06-09",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "bf4b5edc-820b-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Fabric Graph enables fast insight with no/low code graph modelling, querying and exploration",
+            "last_modified": "2026-06-09",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "ad7276d3-2202-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Outbound Access Protection for Fabric Graph",
+            "last_modified": "2026-06-09",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "2241e980-2402-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 13,
         "date": "2026-06-08",
@@ -824,9 +869,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -837,9 +882,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3254,6 +3299,6 @@
         ]
       }
     ],
-    "total_items": 237
+    "total_items": 240
   }
 }

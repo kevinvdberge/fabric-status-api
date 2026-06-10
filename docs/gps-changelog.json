@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-10T12:18:40.927Z",
+  "generatedAt": "2026-06-10T16:13:40.768Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 242,
+  "count": 247,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 7,
         "date": "2026-06-10",
         "items": [
           {
@@ -20,6 +20,72 @@
             "release_date": "Q2 2026",
             "release_item_id": "1a98d2aa-7bba-f011-bbd2-0022480a2ecf",
             "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-16 -> 2026-06-30",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Date picker slicer to set relative and manual date ranges",
+            "last_modified": "2026-06-10",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "48ffc4ba-fa13-f111-8406-002248085b3f",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "DAX User Defined Functions",
+            "last_modified": "2026-06-10",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "e48e6300-9a33-f111-88b4-6045bd00fc61",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Modern visual defaults and customizing theme improvements",
+            "last_modified": "2026-06-10",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "10e2a1c0-d664-f111-a826-000d3a5a7aa2",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Shape map visual in Power BI reports",
+            "last_modified": "2026-06-10",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "3e7a7252-d11f-f111-8341-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Tooltip options for Power BI visuals",
+            "last_modified": "2026-06-10",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "aa43ab07-d11f-f111-8341-6045bd0a8ec1",
+            "release_status": "Shipped",
             "release_type": "General availability"
           },
           {
@@ -1195,20 +1261,6 @@
           {
             "active": true,
             "changed_columns": [
-              "Restored to Roadmap",
-              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
-            ],
-            "feature_name": "Configurable Retention between 1-120 days",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
               "Release Status Planned -> Shipped",
               "Restored to Roadmap",
               "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
@@ -1220,6 +1272,20 @@
             "release_item_id": "c13c3e13-0d22-f011-998a-0022480939f0",
             "release_status": "Shipped",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Configurable Retention between 1-120 days",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3332,6 +3398,6 @@
         ]
       }
     ],
-    "total_items": 242
+    "total_items": 247
   }
 }

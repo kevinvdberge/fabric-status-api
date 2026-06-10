@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-06-10T12:18:40.927Z",
+  "generatedAt": "2026-06-10T16:13:40.768Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "New visual defaults to overhaul the Power BI base report theme to create professional looking reports in seconds. This update incorporates many of the latest updates we have made to reports and report theming. This update also includes increasing the default page size to 1080x1920. Report theme customizaton improvements such as color palettes and custom theme authoring from the formatting pane available in both Desktop and web.",
+        "feature_name": "Modern visual defaults and customizing theme improvements",
+        "last_modified": "2026-06-10",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q3 2026",
+        "release_item_id": "10e2a1c0-d664-f111-a826-000d3a5a7aa2",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Adds a **date picker** mode for date slicers so authors can pick a relative default range (e.g., 'last full month') that automatically rolls forward as time passes when published, without authors having to update the report each period. Report viewers can override it to filter to other relative ranges or any manual date range.",
+        "feature_name": "Date picker slicer to set relative and manual date ranges",
+        "last_modified": "2026-06-10",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q2 2026",
+        "release_item_id": "48ffc4ba-fa13-f111-8406-002248085b3f",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -16,6 +44,48 @@
         "release_date": "Q2 2026",
         "release_item_id": "1a98d2aa-7bba-f011-bbd2-0022480a2ecf",
         "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Control which tooltips show and how the tooltips display on your visual",
+        "feature_name": "Tooltip options for Power BI visuals",
+        "last_modified": "2026-06-10",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q2 2026",
+        "release_item_id": "aa43ab07-d11f-f111-8341-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Built-in shape map support coming with topojson, geojson, and URL support",
+        "feature_name": "Shape map visual in Power BI reports",
+        "last_modified": "2026-06-10",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q2 2026",
+        "release_item_id": "3e7a7252-d11f-f111-8341-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "User-Defined Functions (UDFs) allow you to encapsulate reusable, parameterized DAX logic into named functions that  can be called across measures, calculated columns, and visual calculations throughout your semantic model. UDFs  support both value and expression parameters, enabling you to centralize complex business logic--like tax  calculations or currency conversions--so it's written once and maintained in a single place. Functions can be created  in DAX Query View or TMDL View and appear as first-class objects under a dedicated &quot;Functions&quot; node in Model  Explorer",
+        "feature_name": "DAX User Defined Functions",
+        "last_modified": "2026-06-10",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q2 2026",
+        "release_item_id": "e48e6300-9a33-f111-88b4-6045bd00fc61",
+        "release_status": "Shipped",
         "release_type": "General availability"
       },
       {
@@ -1333,76 +1403,6 @@
         "release_item_id": "5f6edaa0-1140-f111-88b5-000d3a376137",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The primary goal is to enable creators to understand how consumers interact with their data agents and bridge the gap between the data agent creators and the consumers. This comprehensive monitoring system will enable creators to have access to the feedback provided by consumer across consumption channels such as M365 Copilot, Fabric, Org App so they can refine the data agent based on customer feedback.",
-        "feature_name": "Consumer to Creator feedback loop",
-        "last_modified": "2026-06-02",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q3 2026",
-        "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Welcome to Fabric Data Warehouse",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/welcome-to-fabric-data-warehouse",
-        "feature_description": "Fabric Warehouse Connectivity Redirect Mode optimizes connection paths by bypassing unnecessary network hops and routing traffic directly to the Data Warehouse. This improves connection reliability during deployments and reduces disruption from infrastructure changes, while delivering better performance and consistency for large-dataset and long running workloads.",
-        "feature_name": "Reliable Fabric Warehouse Connectivity using Redirect Mode for general workspaces",
-        "last_modified": "2026-06-02",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q3 2026",
-        "release_item_id": "539d149d-093e-f111-88b5-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Unlock the Power of Real-Time Intelligence in Fabric: Connect and stream events effortlessly with the Get events experience (preview)!",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/unlock-the-power-of-real-time-intelligence-in-fabric-connect-and-stream-events-effortlessly-with-the-get-events-experience",
-        "feature_description": "Building a unified GetEvents experience across Fabric Real-Time Intelligence (RTI), ensuring consistency across Eventstream, Real-Time Hub, KQL/Eventhouse, Activator, Notebook, and Lakehouse. No more jumping between different wizards or piecing together workflows. With one streamlined flow, you can connect a source, preview your data, map your schema, and land it directly into any RTI destination -- all in a few guided steps.Key capabilities:- One consistent ingestion experience across every RTI workload- Built-in data preview to validate events before ingestion- Schema inference and table mapping- Native integration with Eventstream, Eventhouse, Activator, Lakehouse, and Notebook",
-        "feature_name": "Unified GetEvents for Fabric RTI",
-        "last_modified": "2026-06-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "5087315d-e93e-f111-88b5-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-new-branching-capabilities-in-fabric-git-integration",
-        "feature_description": "Branched workspaces introduce a redesigned developer experience for branch-out operations. Visual cues now show which workspaces are related, making it easier to navigate feature branches. New capabilities streamline the branch-out workflow and give developers more control over their feature workspaces.",
-        "feature_name": "Git Integration - Branched Workspaces",
-        "last_modified": "2026-06-02",
-        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
-        "product_name": "Fabric Developer Experiences",
-        "release_date": "Q3 2026",
-        "release_item_id": "50289248-632c-f111-88b4-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Acquiring Real-Time Data from New Sources with Enhanced Eventstream",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/acquiring-real-time-data-from-new-sources-with-enhanced-eventstream",
-        "feature_description": "New Eventstream source: SAP Datasphere. Provide a dedicated custom endpoint for SAP Datasphere replication flow to replicate data to Eventstream.",
-        "feature_name": "New Eventstream source: SAP Datasphere",
-        "last_modified": "2026-06-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "4ec2618a-d849-f111-bec7-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1026,
+      "total_items": 1027,
       "total_pages": 11
     }
   }

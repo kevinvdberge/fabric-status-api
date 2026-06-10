@@ -1,13 +1,27 @@
 {
-  "generatedAt": "2026-06-10T04:48:17.269Z",
+  "generatedAt": "2026-06-10T08:47:10.176Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 241,
+  "count": 242,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 2,
         "date": "2026-06-10",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-01-31 -> 2026-06-30",
+              "Name Job Queueing and Concurrency Monitoring -> Display the job concurrency and queueing limits to users as part of workspace settings"
+            ],
+            "feature_name": "Display the job concurrency and queueing limits to users as part of workspace settings",
+            "last_modified": "2026-06-10",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "1a98d2aa-7bba-f011-bbd2-0022480a2ecf",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1181,6 +1195,20 @@
           {
             "active": true,
             "changed_columns": [
+              "Restored to Roadmap",
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Configurable Retention between 1-120 days",
+            "last_modified": "2026-06-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
               "Release Status Planned -> Shipped",
               "Restored to Roadmap",
               "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
@@ -1192,20 +1220,6 @@
             "release_item_id": "c13c3e13-0d22-f011-998a-0022480939f0",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
-            ],
-            "feature_name": "Configurable Retention between 1-120 days",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3318,6 +3332,6 @@
         ]
       }
     ],
-    "total_items": 241
+    "total_items": 242
   }
 }

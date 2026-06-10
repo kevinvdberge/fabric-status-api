@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-10T00:10:34.798Z",
+  "generatedAt": "2026-06-10T04:48:17.269Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Auditing for Fabric SQL database (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-public-preview-auditing-for-fabric-sql-database",
+        "feature_description": "**SQL Audit for Fabric SQL Database**Auditing is an essential enterprise-ready feature and a critical requirement for SQL Database in Fabric. Default Auditing:auditing for Fabric SQL Database is designed to deliver security by default. This default auditing mechanism audits all activities, aligning with the standards of Azure SQL Database. It enables customers to meet compliance requirements for the Fabric SQL Database and ensures that all audit logs are written to a single lake target.Custom Auditing:custom auditing, allowing customers to configure auditing based on specific scenarios such as auditing data reads and writes, schema changes, or all activities. Customers will have the flexibility to select custom action groups tailored to their compliance needs. Additionally, they can configure retention policies and predicate expressions to achieve precise filtering of audit logs.",
+        "feature_name": "Auditing for Fabric SQL DB",
+        "last_modified": "2026-06-10",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q1 2026",
+        "release_item_id": "92e9ba56-9111-f111-8406-6045bd0a886d",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Graph in Fabric (Generally Available)",
@@ -1389,20 +1403,6 @@
         "release_item_id": "4c1e5d6a-ff3f-f111-88b5-002248085b3f",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-dataflow-gen2-data-destinations-and-experience-improvements",
-        "feature_description": "We plan to make the Snowflake Data Destination in Dataflow Gen2 generally available, enabling customers to publish curated, transformed data directly into Snowflake using Fabric's low-code data preparation experience.Moving this feature to GA means it is ready for production usage, with the reliability, consistency, and support expectations required for business-critical workloads.Key benefits and scenarios:* Publish standardized outputs from Dataflow Gen2 directly to Snowflake as part of governed Fabric workflows* Support hybrid and multi-cloud data architectures while keeping transformation logic centralized in Fabric* Enable teams to use Dataflow Gen2 as a production-grade ingestion and transformation layer for Snowflake-based analyticsBy taking the Snowflake Data Destination to GA, we're making it easier to operationalize end-to-end, production-scale data pipelines across Fabric and Snowflake with confidence.",
-        "feature_name": "Dataflows - New destination: Snowflake",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "478cfce8-9633-f111-88b4-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {

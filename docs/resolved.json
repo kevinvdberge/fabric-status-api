@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-06-10T16:13:40.734Z",
+  "generatedAt": "2026-06-10T18:43:48.980Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 187,
+  "count": 188,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "75a170f9-c064-f111-a826-6045bd00f798",
+      "serviceStatus": "",
+      "region": "East US",
+      "reportedRaw": "6/10/2026 4:38:22 AM",
+      "reportedAt": "2026-06-10T04:38:22.000Z",
+      "resolvedRaw": "6/10/2026 10:20:00 AM",
+      "resolvedAt": "2026-06-10T10:20:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\" lang=\"en-IN\">Microsoft Fabric customers with tenants located in East US region may have experienced issues with submitting Spark jobs, executing notebook operations, or rendering Python and R visuals.</p></div>",
+      "detailsText": "Microsoft Fabric customers with tenants located in East US region may have experienced issues with submitting Spark jobs, executing notebook operations, or rendering Python and R visuals.",
+      "hash": "7901d2e95e4bfd548dc89b072013f411c74fd77492c0e47248891bc35fb5932d"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "82cd4410-1160-f111-a826-6045bd00f798",

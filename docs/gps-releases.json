@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-06-11T18:11:14.136Z",
+  "generatedAt": "2026-06-11T20:35:30.946Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "You can now organize large instructions into topics, allowing the Data Agent to automatically select only the most relevant context for each question. This helps the NL2SQL tool focus on what matters, even when working with extensive guidance or complex scenarios. By enabling more targeted use of instructions, this improvement supports better query generation and gives you a scalable way to provide richer context without overwhelming the model.",
+        "feature_name": "Large Instructions & Topic-Aware Context for Smarter NL2SQL",
+        "last_modified": "2026-06-11",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q3 2026",
+        "release_item_id": "dc64604a-d948-f111-bec7-6045bd0a8ec1",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Data Agent automatically follows the foreign key relationships in your SQL source to query the right tables -- including ones you didn't explicitly select. When you scope an agent to a schema or just a couple of base tables, the agent expands along those foreign keys to bring in the other tables a question needs and generates SQL that joins them correctly, so you get accurate multi-table answers from a small starting selection. For relationships that aren't defined in the source or live only in how your business uses the data, creators and advanced users can define additional relationships through the SDK & Data Agent experience. These configurations are stored alongside the rest of the agent configuration in a consistent, source-controllable format -- so they flow through your CI/CD pipeline",
+        "feature_name": "Relationship Context for SQL Sources",
+        "last_modified": "2026-06-11",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q3 2026",
+        "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -16,6 +44,20 @@
         "release_date": "Q2 2026",
         "release_item_id": "a89ad580-f7bb-f011-bbd2-0022480a2ecf",
         "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Recent NL2SQL improvements make the system more reliable and flexible by better leveraging few-shot examples, asking clarifying questions when queries are ambiguous, and using data exploration to handle gaps or novel scenarios. It also improves accuracy through smarter filter mapping and provides clearer debugging via visible run steps, example usage, and structured diagnostics.",
+        "feature_name": "Improved NL2SQL Experiences",
+        "last_modified": "2026-06-11",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q2 2026",
+        "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
+        "release_status": "Planned",
         "release_type": "Public preview"
       },
       {
@@ -1361,48 +1403,6 @@
         "release_item_id": "6457e054-8d3f-f111-88b5-6045bd00f798",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Customer-managed keys for Fabric workspaces (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/customer-managed-keys-for-fabric-workspaces-generally-available",
-        "feature_description": "Apply Fabric workspace customer managed keys to Eventstreams to add an extra layer of encryption for data at rest. When CMK is enabled for a workspace, Eventstreams automatically use the workspace key configuration via Azure Key Vault, including key rotation and revocation handling.",
-        "feature_name": "Secure Fabric Eventstreams with customer-managed keys",
-        "last_modified": "2026-06-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "61963fc1-c6f0-f011-8407-000d3a3ac4a5",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "From repetition to reuse: accelerate data prep with My queries in Dataflow Gen2",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-repetition-to-reuse-accelerate-data-prep-with-My-queries-in/ba-p/5176763",
-        "feature_description": "We plan to make My Queries in Dataflow Gen2 generally available, enabling users to save commonly used Power Query transformations to a personal library and reuse them across multiple dataflows.Moving My Queries to GA means it is ready for production usage, with the reliability, consistency, and support required for standardizing data preparation at scale.Key benefits and scenarios:* Reuse proven transformation logic--such as cleansing steps, business rules, or standard joins--without rebuilding queries from scratch* Promote consistency and reduce duplication when building multiple dataflows against similar source systems* Make shared logic easier to maintain and evolve over time while accelerating the creation of new Dataflow Gen2 artifactsBy taking My Queries to GA, Dataflow Gen2 makes reuse, standardization, and long-term maintainability first-class capabilities for production-scale data preparation.",
-        "feature_name": "Dataflows - My Queries",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "603ac87e-3135-f111-88b4-000d3a36696c",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-dataflow-gen2-data-destinations-and-experience-improvements",
-        "feature_description": "The Dataflow Gen1 - Gen2 Migration Wizard provides a guided, end-to-end experience to help customers upgrade existing Power BI Dataflows (Gen1) to Dataflow Gen2 in Microsoft Fabric with minimal effort.The wizard supports both single-item and bulk upgrades, allowing customers to migrate one dataflow or multiple dataflows within a workspace in a single flow. It is available for Dataflow Gen1 items in Premium workspaces and requires Fabric to be enabled to run the upgraded Dataflow Gen2 items.Beyond upgrading the dataflow itself, the Migration Wizard automatically handles downstream dependencies, seamlessly redirecting references from Dataflow Gen1 outputs to the new Dataflow Gen2 outputs--without requiring any manual changes to reports, semantic models, or other dependent items.This experience dramatically simplifies Gen1 - Gen2 migration scenarios, making it easy to bring existing Power BI Dataflows into Fabric and immediately benefit from Dataflow Gen2 innovations, including improved performance, deeper Fabric integration, and a modern Data Transformation foundation.",
-        "feature_name": "Dataflows - Dataflow Gen1 - Gen2 Migration Wizard",
-        "last_modified": "2026-06-02",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1028,
+      "total_items": 1029,
       "total_pages": 11
     }
   }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-11T18:11:14.136Z",
+  "generatedAt": "2026-06-11T20:35:30.946Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 248,
+  "count": 251,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 6,
         "date": "2026-06-11",
         "items": [
           {
@@ -19,6 +19,71 @@
             "release_date": "Q2 2026",
             "release_item_id": "a89ad580-f7bb-f011-bbd2-0022480a2ecf",
             "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Improved NL2SQL Experiences",
+            "last_modified": "2026-06-11",
+            "product_name": "Data Science",
+            "release_date": "Q2 2026",
+            "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Large Instructions & Topic-Aware Context for Smarter NL2SQL",
+            "last_modified": "2026-06-11",
+            "product_name": "Data Science",
+            "release_date": "Q3 2026",
+            "release_item_id": "dc64604a-d948-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Relationship Context for SQL Sources",
+            "last_modified": "2026-06-11",
+            "product_name": "Data Science",
+            "release_date": "Q3 2026",
+            "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Real-Time hub Makes it Easier for Users to Discover New Features or Capabilities",
+            "last_modified": "2026-06-11",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "2bd88c0c-d1a3-f011-bbd3-6045bd00f9db",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Real-Time hub surfaces recommended tasks based on what you are working on at the moment",
+            "last_modified": "2026-06-11",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "46118e1c-6122-f111-8341-000d3a36696c",
+            "release_status": "Planned",
             "release_type": "Public preview"
           }
         ]
@@ -437,19 +502,6 @@
           {
             "active": true,
             "changed_columns": [
-              "Description updated"
-            ],
-            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
-            "last_modified": "2026-06-06",
-            "product_name": "Data Factory",
-            "release_date": "Q2 2026",
-            "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
               "Added to roadmap"
             ],
             "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
@@ -459,6 +511,19 @@
             "release_item_id": "b3ac7ba8-4461-f111-a826-000d3a376137",
             "release_status": "Planned",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated"
+            ],
+            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q2 2026",
+            "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -575,7 +640,7 @@
         ]
       },
       {
-        "count": 140,
+        "count": 138,
         "date": "2026-06-02",
         "items": [
           {
@@ -2334,34 +2399,6 @@
           {
             "active": true,
             "changed_columns": [
-              "Restored to Roadmap",
-              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
-            ],
-            "feature_name": "Real-Time hub Makes it Easier for Users to Discover New Features or Capabilities",
-            "last_modified": "2026-06-02",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "2bd88c0c-d1a3-f011-bbd3-6045bd00f9db",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
-            ],
-            "feature_name": "Real-Time hub surfaces recommended tasks based on what you are working on at the moment",
-            "last_modified": "2026-06-02",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "46118e1c-6122-f111-8341-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
               "Release Date 2026-06-30 -> 2026-09-30",
               "Restored to Roadmap",
               "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
@@ -3417,6 +3454,6 @@
         ]
       }
     ],
-    "total_items": 248
+    "total_items": 251
   }
 }

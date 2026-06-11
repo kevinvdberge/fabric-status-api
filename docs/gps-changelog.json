@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-06-11T14:53:52.286Z",
+  "generatedAt": "2026-06-11T18:11:14.136Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 247,
+  "count": 248,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-06-11",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for (RTI) Real Time Dashboards",
+            "last_modified": "2026-06-11",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q2 2026",
+            "release_item_id": "a89ad580-f7bb-f011-bbd2-0022480a2ecf",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 7,
         "date": "2026-06-10",
@@ -3398,6 +3417,6 @@
         ]
       }
     ],
-    "total_items": 247
+    "total_items": 248
   }
 }

@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-11T14:53:52.286Z",
+  "generatedAt": "2026-06-11T18:11:14.136Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "",
+        "feature_name": "Outbound Access Protection for (RTI) Real Time Dashboards",
+        "last_modified": "2026-06-11",
+        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
+        "product_name": "Administration, Governance and Security",
+        "release_date": "Q2 2026",
+        "release_item_id": "a89ad580-f7bb-f011-bbd2-0022480a2ecf",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The Data Grid feature for data warehouses and SQL analytics endpoints includes:* Data Handling: Supports large datasets with virtualization for performance.* Column & Row Features: Reorder, hide/show, group, pin, define dynamic columns, sort, filter, and select multiple rows.* Filtering & Sorting: Multi-column sorting and custom filters for data types (string, integer, date).* Search: Search across columns.* Grid-Level Options: Copy data with/without headers, select multiple rows, and export data in various formats.",
-        "feature_name": "Data Grid Improvements in Data Warehouse & SQL Endpoint - Milestone 2",
-        "last_modified": "2026-06-02",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q3 2026",
-        "release_item_id": "5f6edaa0-1140-f111-88b5-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1027,
+      "total_items": 1028,
       "total_pages": 11
     }
   }

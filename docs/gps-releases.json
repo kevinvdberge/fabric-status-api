@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-12T22:05:37.222Z",
+  "generatedAt": "2026-06-12T23:49:08.773Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Fabric Data Agent's visualization support turns natural-language questions into clear and interactive visuals, such as line charts, bar charts, area charts, and more. By choosing visualizations that fit the data and intent, the agent helps users quickly spot trends and validate insights, making analytics faster, clearer, and more accessible.",
+        "feature_name": "Data Agent Visualization Support",
+        "last_modified": "2026-06-12",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q2 2026",
+        "release_item_id": "f00fb079-0b06-f111-8406-000d3a36696c",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "69713c41-ad50-f111-bec7-000d3a376137",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The JDBC connector will be released as a open-source Kafka connector plugin in Github for custom stream connector",
-        "feature_name": "JDBC Connector (open-source model for custom stream connector)",
-        "last_modified": "2026-06-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "6457e054-8d3f-f111-88b5-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1029,
+      "total_items": 1030,
       "total_pages": 11
     }
   }

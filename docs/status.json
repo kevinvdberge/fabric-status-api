@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-06-12T22:05:37.187Z",
+  "generatedAt": "2026-06-12T23:49:08.736Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 189,
+    "active": 0,
+    "resolved": 190,
     "total": 190
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 189,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 190,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "b53edc9d-8766-f111-a826-6045bd00f798",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "",
       "reportedRaw": "6/12/2026 10:52:21 AM",
       "reportedAt": "2026-06-12T10:52:21.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
+      "resolvedRaw": "6/12/2026 2:53:57 PM",
+      "resolvedAt": "2026-06-12T14:53:57.000Z",
       "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers may experience issues opening or creating Activator artifacts. Engineers are investigating the issue, and updates will be provided soon.</p></div>",
       "detailsText": "Fabric customers may experience issues opening or creating Activator artifacts. Engineers are investigating the issue, and updates will be provided soon.",
-      "hash": "1ff4775474dd8a4366df0d0f35781da47a9ff1a45ee77b2b3d35b2d10094bb83"
-    }
-  ],
-  "resolved": [
+      "hash": "af20f737f9c22007912c8234c33b704cd929124032289b0fe3968c32ccbc3e05"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "6ff20b5e-ca64-f111-a826-6045bd03540c",

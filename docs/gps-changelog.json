@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-06-12T22:05:37.222Z",
+  "generatedAt": "2026-06-12T23:49:08.773Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 251,
+  "count": 252,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-06-12",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Data Agent Visualization Support",
+            "last_modified": "2026-06-12",
+            "product_name": "Data Science",
+            "release_date": "Q2 2026",
+            "release_item_id": "f00fb079-0b06-f111-8406-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 6,
         "date": "2026-06-11",
@@ -3454,6 +3473,6 @@
         ]
       }
     ],
-    "total_items": 251
+    "total_items": 252
   }
 }

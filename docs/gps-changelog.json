@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-06-12T23:49:08.773Z",
+  "generatedAt": "2026-06-13T03:29:18.992Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 252,
+  "count": 237,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-06-13",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Improved Semantic Model Querying in the Data Agent",
+            "last_modified": "2026-06-13",
+            "product_name": "Data Science",
+            "release_date": "Q3 2026",
+            "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-06-12",
@@ -521,19 +540,6 @@
           {
             "active": true,
             "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
-            "last_modified": "2026-06-06",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "b3ac7ba8-4461-f111-a826-000d3a376137",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
               "Description updated"
             ],
             "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
@@ -543,6 +549,19 @@
             "release_item_id": "d5fe9cea-e731-f111-88b4-6045bd00f798",
             "release_status": "Shipped",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Performance Enhancements for Computed Entities to Lakehouse Destinations",
+            "last_modified": "2026-06-06",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "b3ac7ba8-4461-f111-a826-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3255,224 +3274,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 16,
-        "date": "2026-05-13",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Workload Cosmos DB (NoSQL) -> Cosmos DB"
-            ],
-            "feature_name": "Azure Cosmos DB Mirroring in Microsoft Fabric",
-            "last_modified": "2026-05-13",
-            "product_name": "Cosmos DB",
-            "release_date": "Q4 2025",
-            "release_item_id": "5d4dfe86-26a5-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Workload Cosmos DB (NoSQL) -> Cosmos DB"
-            ],
-            "feature_name": "Cosmos DB in Fabric",
-            "last_modified": "2026-05-13",
-            "product_name": "Cosmos DB",
-            "release_date": "Q4 2025",
-            "release_item_id": "c0d03300-26a5-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name Data Pipelines - \"Triggered By\" information for Data Pipeline activities -> Data Pipelines - &quot;Triggered By&quot; information for Data Pipeline activities"
-            ],
-            "feature_name": "Data Pipelines - &quot;Triggered By&quot; information for Data Pipeline activities",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2025",
-            "release_item_id": "e1155791-5721-f011-9989-000d3a329ecb",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name Dataflows - Relative references to Fabric items within the \"current workspace\" -> Dataflows - Relative references to Fabric items within the &quot;current workspace&quot;"
-            ],
-            "feature_name": "Dataflows - Relative references to Fabric items within the &quot;current workspace&quot;",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Factory",
-            "release_date": "Q1 2026",
-            "release_item_id": "d8e9db43-99b3-f011-bbd3-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name Pipelines - Set the \"Run As\" identity of the pipeline from the pipeline schedule -> Pipelines - Set the &quot;Run As&quot; identity of the pipeline from the pipeline schedule"
-            ],
-            "feature_name": "Pipelines - Set the &quot;Run As&quot; identity of the pipeline from the pipeline schedule",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "99108f89-076f-f011-bec2-00224804b6c3",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-21 -> 2026-06-30"
-            ],
-            "feature_name": "BCP",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "d58f4693-ca80-ef11-ac21-6045bd062aa2",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2025-09-30 -> 2026-06-30"
-            ],
-            "feature_name": "External data sources",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "d153a715-e29d-f011-b41c-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Scalar User-defined functions (UDFs) - Complex control flows in computation-based UDFs -> Scalar UDFs - Expanded T-SQL constructs and query shapes for computation-based UDFs"
-            ],
-            "feature_name": "Scalar UDFs - Expanded T-SQL constructs and query shapes for computation-based UDFs",
-            "last_modified": "2026-05-13",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "c418b243-333f-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name CI/CD - GitHub Enterprise Cloud with data residency support -> Git Integration provider - GitHub Enterprise Cloud with data residency support"
-            ],
-            "feature_name": "Git Integration provider - GitHub Enterprise Cloud with data residency support",
-            "last_modified": "2026-05-13",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q2 2026",
-            "release_item_id": "76396892-86db-f011-8544-000d3a3b0571",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-02-27 -> 2026-06-30",
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Multiple task flows in a workspace",
-            "last_modified": "2026-05-13",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q2 2026",
-            "release_item_id": "3039617f-f9f5-f011-8406-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "OneLake Storage Lifecycle Management Policies",
-            "last_modified": "2026-05-13",
-            "product_name": "OneLake",
-            "release_date": "Q2 2026",
-            "release_item_id": "e48ce514-09b9-f011-bbd3-000d3a5972d8",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name \"Get data from Eventstream\" in multiple Fabric items -> &quot;Get data from Eventstream&quot; in multiple Fabric items"
-            ],
-            "feature_name": "&quot;Get data from Eventstream&quot; in multiple Fabric items",
-            "last_modified": "2026-05-13",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2024",
-            "release_item_id": "b07941c2-87d7-ee11-9079-000d3a310f67",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name \"Get Events\" from Activator -> &quot;Get Events&quot; from Activator"
-            ],
-            "feature_name": "&quot;Get Events&quot; from Activator",
-            "last_modified": "2026-05-13",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2024",
-            "release_item_id": "e62ba56e-8492-ef11-ac21-000d3a32c2f2",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name [KQL DB] Entities diagram (\"lineage\") - include Evenstreams in the diagram -> [KQL DB] Entities diagram (&quot;lineage&quot;) - include Evenstreams in the diagram"
-            ],
-            "feature_name": "[KQL DB] Entities diagram (&quot;lineage&quot;) - include Evenstreams in the diagram",
-            "last_modified": "2026-05-13",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2025",
-            "release_item_id": "3c4582d0-f1e9-ef11-a730-0022480939f0",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Continuous Ingestion of files from OneLake using Fabric Events",
-            "last_modified": "2026-05-13",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "f2c46e0b-7f35-f011-8c4e-000d3a34671f",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Eventstream streaming connector source: Azure Data Explorer table GA",
-            "last_modified": "2026-05-13",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "9059f814-2ba6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 252
+    "total_items": 237
   }
 }

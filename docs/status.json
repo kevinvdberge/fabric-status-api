@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-06-14T15:24:22.239Z",
+  "generatedAt": "2026-06-14T16:55:04.868Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 190,
-    "total": 190
+    "resolved": 191,
+    "total": 191
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 190,
+    "resolvedIncidents": 191,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "d8c8eea1-0b68-f111-a826-6045bd00f798",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "6/14/2026 9:03:45 AM",
+      "reportedAt": "2026-06-14T09:03:45.000Z",
+      "resolvedRaw": "6/14/2026 9:26:32 AM",
+      "resolvedAt": "2026-06-14T09:26:32.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span class=\"fui-ChatMessage__body rvyqtlr ___15qwclx f10pi13n ftqa4ok f2hkw1w f8hki3x f1d2448m f1bjia2o ffh67wi f1j6vpng f1pniga2 f987i1v f1ffjurs f15bsgw9 f14e48fq f18yb2kv fd6o370 ffwy5si f3znvyf f57olzd f4stah7 f480a47 fs1por5 fk6fouc figsok6 fkhj508 f19n0e5 f9ijwd5 fx91ewl f1o0qvyv f9ggezi f1xp5gbu f150uoa4 ffyari3 f16xq7d1 fo7qwa0 fxowb0n f11ghf3q f13aoclr flypziy f10kwr27 fquw1qa fftr39l f13lathq f15hsm81 f2ss68y ffb60jq f8nuap2 f13nk4fk f7jacry fq08z5q fd9af6s fr74w9q fcl9uv6 f13sm7pj f1u6qqly f16wpxbl faim3u9 f6cs3qo fa2w2z3 fd39nx6 f10gn8j9 frcqmxy f1w9ws4k f1ddxkqj fd10euv fvuz61 f1nbc6gw f1h272qk f1ywigw8 fzvs3e4 f1rvyk3c f5fplu3 f1l4y2qi f4yr49c fxgblah faww4f1 f1oqrsiv f1nn8nf5 f1wss724 f2ub9nf fpr7uzl f86vlxv f7ay0zw f1j33hpw fp3omr5 fpqnlqw f1y5pldk f16ozm6t f83zfrz f1ygr8g5 f1bt2lqj f1dfpw40 f1sapace f1eq4dpx fim7mkj fdc55jo f16aewt4 frche94 f1pn7o2n fg127dc fanjz1e f6h47bw ffd45wr f1j14d18 fui-Primitive ___11tzqds f1oy3dpc f89hs3r fqtknz5 fyvcxda\" data-teams=\"true\" id=\"content-1781452680391\" aria-label=\"Fabric customers in EastUS2 region might experience issues while performing control plane operations.\" dir=\"auto\">Fabric customers in EastUS2 region might experience issues while performing control plane operations. Engineers are investigating the issue and the update will be provided soon.</span></p></div>",
+      "detailsText": "Fabric customers in EastUS2 region might experience issues while performing control plane operations. Engineers are investigating the issue and the update will be provided soon.",
+      "hash": "c7388e1726d9b5ebcd01c10e9cbbf773032401de2d6d73c2f939d4d54bdc5fe8"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "b53edc9d-8766-f111-a826-6045bd00f798",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-13T22:45:43.341Z",
+  "generatedAt": "2026-06-14T00:04:34.259Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 237,
+  "count": 234,
   "changelog": {
     "days": [
       {
@@ -3228,54 +3228,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-05-14",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Connectors - Oracle Connector support without requiring a gateway",
-            "last_modified": "2026-05-14",
-            "product_name": "Data Factory",
-            "release_date": "Q2 2026",
-            "release_item_id": "5f825c8c-6021-f011-998a-0022480939f0",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name SQL audit logs -> SQL Audit Logs Improvments"
-            ],
-            "feature_name": "SQL Audit Logs Improvments",
-            "last_modified": "2026-05-14",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "e75dc0ae-3722-f011-9989-000d3a302e4a",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Scaled Configuration Canvas",
-            "last_modified": "2026-05-14",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "b126ea44-39d5-f011-8544-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 237
+    "total_items": 234
   }
 }

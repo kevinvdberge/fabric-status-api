@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T23:49:53.501Z",
+  "generatedAt": "2026-06-15T04:00:24.461Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 234,
+  "count": 233,
   "changelog": {
     "days": [
       {
@@ -1090,9 +1090,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -1103,9 +1103,9 @@
             "last_modified": "2026-06-02",
             "product_name": "Data Factory",
             "release_date": "Q3 2026",
-            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
             "release_status": "Planned",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -3209,27 +3209,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-05-15",
-        "items": [
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Cross workspace monitoring",
-            "last_modified": "2026-05-15",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2026",
-            "release_item_id": "a0744248-48b9-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 234
+    "total_items": 233
   }
 }

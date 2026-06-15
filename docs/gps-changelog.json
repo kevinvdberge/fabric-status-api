@@ -1,9 +1,80 @@
 {
-  "generatedAt": "2026-06-15T04:00:24.461Z",
+  "generatedAt": "2026-06-15T10:32:29.320Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 233,
+  "count": 235,
   "changelog": {
     "days": [
+      {
+        "count": 5,
+        "date": "2026-06-15",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Materialized Lake Views Support Incremental Update & Delete Propagation via Unique Key",
+            "last_modified": "2026-06-15",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "a90a75b3-6753-f111-bec7-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Support Column-Level quality checks in Materialized Lake views",
+            "last_modified": "2026-06-15",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "9c1813a3-c43e-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Trigger Based Scheduling for Materialized Lake Views",
+            "last_modified": "2026-06-15",
+            "product_name": "Data Engineering",
+            "release_date": "Q2 2026",
+            "release_item_id": "ec2baae9-c33e-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "RTD Live Update feature",
+            "last_modified": "2026-06-15",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "92bffcc0-bf04-f111-8406-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "RTD time series visualization",
+            "last_modified": "2026-06-15",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "5a776051-c004-f111-8406-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-06-13",
@@ -678,7 +749,7 @@
         ]
       },
       {
-        "count": 138,
+        "count": 135,
         "date": "2026-06-02",
         "items": [
           {
@@ -816,19 +887,6 @@
             "changed_columns": [
               "Added to roadmap"
             ],
-            "feature_name": "Materialized Lake Views Support Incremental Update & Delete Propagation via Unique Key",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Engineering",
-            "release_date": "Q2 2026",
-            "release_item_id": "a90a75b3-6753-f111-bec7-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
             "feature_name": "OneSecurity multi-table RLS support in Spark",
             "last_modified": "2026-06-02",
             "product_name": "Data Engineering",
@@ -868,19 +926,6 @@
             "changed_columns": [
               "Added to roadmap"
             ],
-            "feature_name": "Support Column-Level quality checks in Materialized Lake views",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Engineering",
-            "release_date": "Q2 2026",
-            "release_item_id": "9c1813a3-c43e-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
             "feature_name": "Track and Manage Notebook Run Dependencies & Linage View",
             "last_modified": "2026-06-02",
             "product_name": "Data Engineering",
@@ -888,19 +933,6 @@
             "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
             "release_status": "Planned",
             "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Trigger Based Scheduling for Materialized Lake Views",
-            "last_modified": "2026-06-02",
-            "product_name": "Data Engineering",
-            "release_date": "Q2 2026",
-            "release_item_id": "ec2baae9-c33e-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": true,
@@ -3211,6 +3243,6 @@
         ]
       }
     ],
-    "total_items": 233
+    "total_items": 235
   }
 }

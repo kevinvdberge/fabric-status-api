@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-17T20:55:47.391Z",
+  "generatedAt": "2026-06-17T22:44:21.674Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1036,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 22,
         "date": "2026-06-17",
         "items": [
           {
@@ -20,11 +20,292 @@
             "release_item_id": "c57ad776-e3b8-f011-bbd3-000d3a30273e",
             "release_status": "Shipped",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap"
+            ],
+            "feature_name": "[Ontology for A365] - Ontology integration with Agent 365",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "c0831fd2-0a03-f111-8406-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap"
+            ],
+            "feature_name": "[Ontology for Copilot Studio] Ontology integration with CoPilot Studio",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "d52b1f9e-3e40-f111-88b4-000d3a308b7b",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap"
+            ],
+            "feature_name": "[Ontology for Data Agent] - Ontology integration with Data Agent",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "ccbc18bb-0b03-f111-8406-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap"
+            ],
+            "feature_name": "[Ontology for Foundry IQ] - Ontology integration with Foundry IQ",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "e7ec864d-0a03-f111-8406-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap"
+            ],
+            "feature_name": "[Ontology for Operational Agent] - Ontology integration with Operations Agent",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "18c74921-f1ce-f011-bbd3-6045bd00f9db",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap",
+              "Name [Ontology MCP Endpoint] Initial Query tools -> [Ontology MCP Endpoint] Query Tools"
+            ],
+            "feature_name": "[Ontology MCP Endpoint] Query Tools",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "53e80eeb-efce-f011-bbd3-6045bd00f9db",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Fabric Graph - Generally Available",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "bf4b5edc-820b-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Fabric Graph delivers reliable performance at billion scale",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "e7719142-2202-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Fabric Graph enables fast insight with no/low code graph modelling, querying and exploration",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "ad7276d3-2202-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Fabric Graph enforces OneLake security for governed graph access",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "a23feddf-2302-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Fabric Graph expands GQL support for real world relationship queries",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "2365a2ad-2302-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Fabric Graph makes connected data accessible through natural language data agents",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "3fc4034c-2302-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Fabric Graph supports private network access for enterprise environments",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "fc241721-2402-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Modeling Untyped Properties",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "dbfb5522-a703-f111-8406-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Ontology Health",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Ontology Public Preview Release",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q4 2025",
+            "release_item_id": "ad65ada2-2f9e-f011-b41c-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for Fabric Graph",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "2241e980-2402-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Public API for Ontology",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q4 2026",
+            "release_item_id": "419cfd8b-face-f011-bbd3-000d3a30273e",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Resource Links - Link PBI Reports",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "1bfc0233-f9ce-f011-bbd3-0022480a2ecf",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Rules for Ontology",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q1 2026",
+            "release_item_id": "9c64d5e2-fdce-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap"
+            ],
+            "feature_name": "Scaled Configuration Canvas",
+            "last_modified": "2026-06-17",
+            "product_name": "IQ",
+            "release_date": "Q2 2026",
+            "release_item_id": "b126ea44-39d5-f011-8544-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           }
         ]
       },
       {
-        "count": 1030,
+        "count": 1009,
         "date": "2026-06-16",
         "items": [
           {
@@ -3870,10 +4151,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q3 2025",
-            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
+            "release_date": "Q2 2025",
+            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -3883,10 +4164,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q2 2025",
-            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
+            "release_date": "Q3 2025",
+            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -8248,285 +8529,12 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "[Ontology for A365] - Ontology integration with Agent 365",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "c0831fd2-0a03-f111-8406-6045bd00f798",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[Ontology for Copilot Studio] Ontology integration with CoPilot Studio",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "d52b1f9e-3e40-f111-88b4-000d3a308b7b",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[Ontology for Data Agent] - Ontology integration with Data Agent",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "ccbc18bb-0b03-f111-8406-6045bd00f798",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[Ontology for Foundry IQ] - Ontology integration with Foundry IQ",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "e7ec864d-0a03-f111-8406-6045bd00f798",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[Ontology for Operational Agent] - Ontology integration with Operations Agent",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "18c74921-f1ce-f011-bbd3-6045bd00f9db",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[Ontology MCP Endpoint] Initial Query tools",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "53e80eeb-efce-f011-bbd3-6045bd00f9db",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Graph - Generally Available",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "bf4b5edc-820b-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Graph delivers reliable performance at billion scale",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "e7719142-2202-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Graph enables fast insight with no/low code graph modelling, querying and exploration",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "ad7276d3-2202-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Graph enforces OneLake security for governed graph access",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "a23feddf-2302-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Graph expands GQL support for real world relationship queries",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "2365a2ad-2302-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Graph makes connected data accessible through natural language data agents",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "3fc4034c-2302-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Graph supports private network access for enterprise environments",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "fc241721-2402-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Modeling Untyped Properties",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "dbfb5522-a703-f111-8406-6045bd00f798",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Ontology Health",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q3 2026",
-            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Ontology private links",
             "last_modified": "2026-06-16",
             "product_name": "IQ",
             "release_date": "Q2 2026",
             "release_item_id": "a045d9a4-b602-f111-8406-6045bd0a8ec1",
             "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Ontology Public Preview Release",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q4 2025",
-            "release_item_id": "ad65ada2-2f9e-f011-b41c-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Outbound Access Protection for Fabric Graph",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "2241e980-2402-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Public API for Ontology",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q4 2026",
-            "release_item_id": "419cfd8b-face-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Resource Links - Link PBI Reports",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "1bfc0233-f9ce-f011-bbd3-0022480a2ecf",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Rules for Ontology",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q1 2026",
-            "release_item_id": "9c64d5e2-fdce-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Scaled Configuration Canvas",
-            "last_modified": "2026-06-16",
-            "product_name": "IQ",
-            "release_date": "Q2 2026",
-            "release_item_id": "b126ea44-39d5-f011-8544-000d3a30273e",
-            "release_status": "Shipped",
             "release_type": "Public preview"
           },
           {
@@ -12606,10 +12614,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
+            "release_date": "Q3 2025",
+            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -12619,10 +12627,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2025",
-            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_date": "Q3 2026",
+            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": false,

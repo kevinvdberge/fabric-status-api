@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-17T16:03:17.485Z",
+  "generatedAt": "2026-06-17T18:33:39.531Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Migration Assistant for Fabric Data Warehouse will support SQL database project file along with DACPAC file format to migrate from the source system like Azure Synapse Analytics to Fabric Data Warehouse.",
+        "feature_name": "Offline migration with SQL database project file",
+        "last_modified": "2026-06-17",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q2 2026",
+        "release_item_id": "c57ad776-e3b8-f011-bbd3-000d3a30273e",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Configurable Data Retention in Microsoft Fabric Warehouse (Preview)",
@@ -1387,20 +1401,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q3 2026",
         "release_item_id": "4a7a41b4-e2c0-f011-bbd3-000d3a5b0efa",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-dataflow-gen2-data-destinations-and-experience-improvements",
-        "feature_description": "We plan to make the Snowflake Data Destination in Dataflow Gen2 generally available, enabling customers to publish curated, transformed data directly into Snowflake using Fabric's low-code data preparation experience.Moving this feature to GA means it is ready for production usage, with the reliability, consistency, and support expectations required for business-critical workloads.Key benefits and scenarios:* Publish standardized outputs from Dataflow Gen2 directly to Snowflake as part of governed Fabric workflows* Support hybrid and multi-cloud data architectures while keeping transformation logic centralized in Fabric* Enable teams to use Dataflow Gen2 as a production-grade ingestion and transformation layer for Snowflake-based analyticsBy taking the Snowflake Data Destination to GA, we're making it easier to operationalize end-to-end, production-scale data pipelines across Fabric and Snowflake with confidence.",
-        "feature_name": "Dataflows - New destination: Snowflake",
-        "last_modified": "2026-06-16",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "478cfce8-9633-f111-88b4-6045bd0a886d",
         "release_status": "Planned",
         "release_type": "General availability"
       }

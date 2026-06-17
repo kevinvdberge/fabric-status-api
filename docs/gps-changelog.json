@@ -1,11 +1,30 @@
 {
-  "generatedAt": "2026-06-17T16:03:17.485Z",
+  "generatedAt": "2026-06-17T18:33:39.531Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1036,
   "changelog": {
     "days": [
       {
-        "count": 1031,
+        "count": 1,
+        "date": "2026-06-17",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Offline migration with SQL database project file",
+            "last_modified": "2026-06-17",
+            "product_name": "Data Warehouse",
+            "release_date": "Q2 2026",
+            "release_item_id": "c57ad776-e3b8-f011-bbd3-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
+      {
+        "count": 1030,
         "date": "2026-06-16",
         "items": [
           {
@@ -6169,19 +6188,6 @@
             "release_item_id": "d0e74e09-322e-f111-88b4-000d3a376137",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Offline migration with SQL database project file",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "c57ad776-e3b8-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": false,

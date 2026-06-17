@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-06-17T16:03:17.455Z",
+  "generatedAt": "2026-06-17T18:33:39.498Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 191,
+  "count": 192,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "24a4eb74-4f6a-f111-a826-6045bd03540c",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "6/17/2026 6:10:33 AM",
+      "reportedAt": "2026-06-17T06:10:33.000Z",
+      "resolvedRaw": "6/17/2026 9:45:56 AM",
+      "resolvedAt": "2026-06-17T09:45:56.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:Segoe UI;font-size:11pt;\">Power BI customers may experience an issue when downloading PBIX files from a semantic model, where the downloaded file contains a blank report instead of the original report content. As a workaround, customers can download the PBIX directly from the report, which correctly includes both the report and the semantic model.</div></div>",
+      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Power BI customers may experience an issue when downloading PBIX files from a semantic model, where the downloaded file contains a blank report instead of the original report content. As a workaround, customers can download the PBIX directly from the report, which correctly includes both the report and the semantic model.",
+      "hash": "56ac9244c09e0bb76e1a58288885781e2ccbef349ad4389c4d74cd0463013701"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "d8c8eea1-0b68-f111-a826-6045bd00f798",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T18:41:03.805Z",
+  "generatedAt": "2026-06-18T21:13:25.645Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -944,8 +944,8 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
+        "blog_title": "New string functions and operators in Fabric Data Warehouse (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-string-functions-and-operators-in-Fabric-Data-Warehouse/ba-p/5195232",
         "feature_description": "Fabric Data Warehouse will introduce T-SQL functions for pattern matching, text extraction, and transformation using regular expressions. These capabilities will make it easier to validate, search, and manipulate text data directly within your queries.New functions include:* REGEXP_LIKE - Returns a Boolean indicating if the text matches the regex pattern.* REGEXP_REPLACE - Replaces occurrences of a regex pattern with a specified string.* REGEXP_SUBSTR - Extracts parts of a string based on a regex pattern, including Nth occurrence.* REGEXP_INSTR - Returns the position (start or end) of a matched substring.* REGEXP_COUNT - Counts how many times a regex pattern occurs in a string.* REGEXP_MATCHES - Returns a table of captured substrings matching the regex pattern.* REGEXP_SPLIT_TO_TABLE - Splits a string into rows using a regex delimiter.",
         "feature_name": "Regular expressions",
         "last_modified": "2026-06-16",

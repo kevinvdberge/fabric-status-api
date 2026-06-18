@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-06-17T22:44:21.674Z",
+  "generatedAt": "2026-06-18T05:01:25.051Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1036,
+  "count": 1037,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-06-18",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Fabric Planning",
+            "last_modified": "2026-06-18",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "69db5ef2-7f01-f111-8406-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 22,
         "date": "2026-06-17",
@@ -12614,10 +12633,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2025",
-            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_date": "Q3 2026",
+            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -12627,10 +12646,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
+            "release_date": "Q3 2025",
+            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -13517,6 +13536,6 @@
         ]
       }
     ],
-    "total_items": 1036
+    "total_items": 1037
   }
 }

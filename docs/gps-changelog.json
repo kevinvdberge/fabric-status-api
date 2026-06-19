@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-19T19:13:55.107Z",
+  "generatedAt": "2026-06-19T20:47:28.274Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1037,
+  "count": 1038,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 3,
         "date": "2026-06-19",
         "items": [
           {
@@ -33,6 +33,19 @@
             "release_date": "Q2 2026",
             "release_item_id": "d6f8f431-d3b5-f011-bbd2-0022480a2ecf",
             "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Enable Eventstreams as CopyJob source & destination",
+            "last_modified": "2026-06-19",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "fe5f1d37-f13f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
             "release_type": "Public preview"
           }
         ]
@@ -13543,6 +13556,6 @@
         ]
       }
     ],
-    "total_items": 1037
+    "total_items": 1038
   }
 }

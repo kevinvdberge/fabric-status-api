@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-19T19:13:55.107Z",
+  "generatedAt": "2026-06-19T20:47:28.274Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "",
+        "feature_name": "Enable Eventstreams as CopyJob source & destination",
+        "last_modified": "2026-06-19",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q2 2026",
+        "release_item_id": "fe5f1d37-f13f-f111-88b5-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "ServiceNow Zero-Copy Querying of Enterprise Data in Microsoft OneLake (Preview)",
@@ -1389,25 +1403,11 @@
         "release_item_id": "754bc857-509d-f011-b41c-6045bd00f9db",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Fabric feature store is a centralized system that manages the data inputs, called features, that power machine learning models. It bridges raw data and ML models, giving teams one place to define, store, serve, and discover features instead of each team building its own pipelines.",
-        "feature_name": "Feature Store",
-        "last_modified": "2026-06-16",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q3 2026",
-        "release_item_id": "75004e12-2158-f111-bec7-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
       "first": "/api/releases?page_size=100&page=1",
-      "last": "/api/releases?page_size=100&page=10",
+      "last": "/api/releases?page_size=100&page=11",
       "next": "/api/releases?page_size=100&page=2",
       "prev": null,
       "self": "/api/releases?page_size=100&page=1"
@@ -1419,8 +1419,8 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1000,
-      "total_pages": 10
+      "total_items": 1001,
+      "total_pages": 11
     }
   }
 }

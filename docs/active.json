@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-06-21T08:34:57.735Z",
+  "generatedAt": "2026-06-21T11:34:36.192Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "03d16c8c-306d-f111-ab0d-6045bd0a8ec1",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "6/20/2026 10:16:42 PM",
-      "reportedAt": "2026-06-20T22:16:42.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers in UAE North region might intermittently experience issues while interacting with Copilot Service and, accessing ML experiments and Models.</p></div>",
-      "detailsText": "Fabric Customers in UAE North region might intermittently experience issues while interacting with Copilot Service and, accessing ML experiments and Models.",
-      "hash": "eb60e14e7c7cf12bcf1737fee3d49ac53372eb19701eacb513a01c40186fbcbf"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

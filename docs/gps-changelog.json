@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-06-21T11:34:36.223Z",
+  "generatedAt": "2026-06-21T13:25:39.370Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1051,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-06-21",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated"
+            ],
+            "feature_name": "Git Integration - Allow contributor and above users to switch branch",
+            "last_modified": "2026-06-21",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Git Integration provider - GitHub Enterprise Cloud with data residency support",
+            "last_modified": "2026-06-21",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q2 2026",
+            "release_item_id": "76396892-86db-f011-8544-000d3a3b0571",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-06-20",
@@ -571,7 +603,7 @@
         ]
       },
       {
-        "count": 1006,
+        "count": 1004,
         "date": "2026-06-16",
         "items": [
           {
@@ -7472,10 +7504,10 @@
             "feature_name": "Deployment pipelines new UI",
             "last_modified": "2026-06-16",
             "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2025",
-            "release_item_id": "f0c20973-f412-f011-9989-000d3a34671f",
+            "release_date": "Q3 2024",
+            "release_item_id": "8d7e4e5e-da0a-ef11-9f89-000d3a34b75c",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -7485,10 +7517,10 @@
             "feature_name": "Deployment pipelines new UI",
             "last_modified": "2026-06-16",
             "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2024",
-            "release_item_id": "8d7e4e5e-da0a-ef11-9f89-000d3a34b75c",
+            "release_date": "Q3 2025",
+            "release_item_id": "f0c20973-f412-f011-9989-000d3a34671f",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -7898,19 +7930,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Git Integration - Allow contributor and above users to switch branch",
-            "last_modified": "2026-06-16",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2026",
-            "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Git Integration - Branch workspace delegation",
             "last_modified": "2026-06-16",
             "product_name": "Fabric Developer Experiences",
@@ -8061,19 +8080,6 @@
             "release_item_id": "71d4e7c7-6d0b-ef11-9f89-000d3a34b75c",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Git Integration provider - GitHub Enterprise Cloud with data residency support",
-            "last_modified": "2026-06-16",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q2 2026",
-            "release_item_id": "76396892-86db-f011-8544-000d3a3b0571",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": false,

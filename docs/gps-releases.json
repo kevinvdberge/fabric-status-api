@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-06-22T17:48:52.122Z",
+  "generatedAt": "2026-06-22T20:43:20.520Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Building real-time, event-driven applications on Mirrored Database Change Feeds with Fabric Eventstreams (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Building-real-time-event-driven-applications-on-Mirrored/ba-p/5190893",
+        "feature_description": "### Mirrored Database Change Feed ConnectorThe Mirrored Database Change Feed Connector streams Delta Change Feed (CDF) updates from Fabric Mirrored Databases directly into Eventstreams. Build real-time analytics, dashboards, alerts, and automated actions using familiar no-code and SQL experiences in Eventstream, Eventhouse & Activator. Supports all Mirrored Database sources that expose Delta Change Feeds through Mirror Database Extended Capabilities.",
+        "feature_name": "Enable stream processing and real-time analytics on Mirror DB change feeds (GA)",
+        "last_modified": "2026-06-22",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "d71ecbb9-9b41-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Building real-time, event-driven applications with Database CDC feeds and Fabric Eventstreams DeltaFlow (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/building-real-time-event-driven-applications-with-database-cdc-feeds-and-fabric-eventstreams-deltaflow-preview",
+        "feature_description": "DeltaFlow is an enhancement to Eventstreams that simplifies real-time analytics on Change Data Capture (CDC) feeds. By automatically transforming raw Debezium change events into structured tables that mirror the source schema, DeltaFlow enables developers and analysts to work with change data as if it were regular tables--eliminating the need to interpret complex CDC semantics. This streamlined approach accelerates the development of operational dashboards, event-driven applications, and real-time analytics solutions, allowing users to extract insights, build AI-powered workflows, and react instantly to changes in their data sources with minimal manual setup and maintenance.",
+        "feature_name": "DeltaFlow: Seamless stream processing of Database CDC Feeds (GA)",
+        "last_modified": "2026-06-22",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "What’s new in Fabric Eventstream: July–December 2025 updates",
@@ -17,6 +45,34 @@
         "release_item_id": "4dc5810b-2040-f111-88b5-6045bd0066ad",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Bridging Fabric Lakehouses: Delta Change Data Feed for Seamless ETL",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/bridging-fabric-lakehouses-delta-change-data-feed-for-seamless-etl",
+        "feature_description": "### Lakehouse Delta Table Change Feed ConnectorThe Lakehouse Delta Table Change Feed Connector reads Delta Change Feed records directly from change-enabled Delta tables and streams them into Eventstreams, enabling incremental processing, real-time analytics & dashboards, and AI-powered applications using Eventstream no-code/SQL operators, Eventhouse Real-Time Dashboards and Activator.",
+        "feature_name": "Lakehouse Delta Table Change Feed Connector (Preview)",
+        "last_modified": "2026-06-22",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/bringing-together-fabric-real-time-intelligence-notebook-and-spark-structured-streaming-preview",
+        "feature_description": "### Eventstream & Spark IntegrationFabric Eventstream & Spark Integration brinsg together Real-Time Intelligence and Fabric Spark in a single end-to-end experience. It enables data engineers and data scientists to seamlessly discover, consume, and process Eventstream data using Fabric Notebooks and Spark jobs to build real-time analytics, AI applications, dashboards, and event-driven actions.",
+        "feature_name": "Easily use Spark Structured Streaming with Fabric Eventstreams (GA)",
+        "last_modified": "2026-06-22",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "294ed21d-9d41-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -90,20 +146,6 @@
       },
       {
         "active": true,
-        "blog_title": "Building real-time, event-driven applications on Mirrored Database Change Feeds with Fabric Eventstreams (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Building-real-time-event-driven-applications-on-Mirrored/ba-p/5190893",
-        "feature_description": "",
-        "feature_name": "Enable stream processing and real-time analytics on Mirror DB change feeds (GA)",
-        "last_modified": "2026-06-19",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "d71ecbb9-9b41-f111-88b5-002248085b3f",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
         "blog_title": "Acquiring Real-Time Data from New Sources with Enhanced Eventstream",
         "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/acquiring-real-time-data-from-new-sources-with-enhanced-eventstream",
         "feature_description": "",
@@ -149,40 +191,12 @@
         "blog_title": null,
         "blog_url": null,
         "feature_description": "",
-        "feature_name": "Lakehouse Delta Table Change Feed Connector (Preview)",
-        "last_modified": "2026-06-19",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "",
         "feature_name": "Azure Data Explorer source connector - GA",
         "last_modified": "2026-06-19",
         "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
         "product_name": "Real-Time Intelligence",
         "release_date": "Q3 2026",
         "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/bringing-together-fabric-real-time-intelligence-notebook-and-spark-structured-streaming-preview",
-        "feature_description": "",
-        "feature_name": "Easily use Spark Structured Streaming with Fabric Eventstreams (GA)",
-        "last_modified": "2026-06-19",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "294ed21d-9d41-f111-88b5-002248085b3f",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -1389,20 +1403,6 @@
         "release_item_id": "8b284de2-eb5a-f111-bec7-000d3a376137",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Simplifying Data Ingestion with Copy job – Introducing Change Data Capture (CDC) Support (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplifying-data-ingestion-with-copy-job-introducing-change-data-capture-cdc-support",
-        "feature_description": "With the PostgreSQL CDC connector in Copy job, you can capture inserts, updates, and deletes from PostgreSQL and copy them to any supported destination.",
-        "feature_name": "Copy job - CDC based replication from PostgreSQL",
-        "last_modified": "2026-06-16",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "895d2725-473d-f111-88b5-002248085b3f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1014,
+      "total_items": 1013,
       "total_pages": 11
     }
   }

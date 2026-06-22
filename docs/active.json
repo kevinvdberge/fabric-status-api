@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-06-22T07:05:01.400Z",
+  "generatedAt": "2026-06-22T13:05:43.395Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 0,
-  "active": []
+  "count": 1,
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "4459d699-386e-f111-ab0d-000d3a36696c",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "6/22/2026 5:35:07 AM",
+      "reportedAt": "2026-06-22T05:35:07.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers with Tenants located in the BRAZIL-SOUTH-D-PRIMARY cluster may experience issues accessing the Power BI service. Engineers are investigating the issue and an update will be provided soon.</p></div>",
+      "detailsText": "Power BI customers with Tenants located in the BRAZIL-SOUTH-D-PRIMARY cluster may experience issues accessing the Power BI service. Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "aba0e581a7b9566bac116388737d03d727f528788be3f7b4f95ddc8efe596c68"
+    }
+  ]
 }

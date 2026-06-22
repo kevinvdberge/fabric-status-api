@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:10:25.092Z",
+  "generatedAt": "2026-06-22T01:40:54.077Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
@@ -23,9 +23,9 @@
       "reportedAt": "2026-06-20T22:16:42.000Z",
       "resolvedRaw": "6/21/2026 1:00:27 AM",
       "resolvedAt": "2026-06-21T01:00:27.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers in UAE North region might intermittently experience issues while interacting with Copilot Service and, accessing ML experiments and Models.</p></div>",
-      "detailsText": "Fabric Customers in UAE North region might intermittently experience issues while interacting with Copilot Service and, accessing ML experiments and Models.",
-      "hash": "2470b8b766e37e6e11267894f3470510fdb6ea15c19187e8fb1cedb5a4b987a4"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);font-family:Calibri, Arial, Helvetica, sans-serif;font-size:14.6667px;\"><span style=\"display:inline !important;float:none;font-style:normal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;\">Fabric customers in UAE North might experience issue interacting with service and refresh failures.</span></span></p></div>",
+      "detailsText": "Fabric customers in UAE North might experience issue interacting with service and refresh failures.",
+      "hash": "f05a4af9cdf86c486077e51697af88977f0478ef2be84aaa45c440881e0b278b"
     },
     {
       "type": "resolved",

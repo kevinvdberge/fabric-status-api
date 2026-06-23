@@ -1,34 +1,7 @@
 {
-  "generatedAt": "2026-06-23T16:13:49.669Z",
+  "generatedAt": "2026-06-23T18:15:45.848Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 2,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "970aecbe-196f-f111-ab0d-6045bd00f798",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "6/23/2026 8:37:27 AM",
-      "reportedAt": "2026-06-23T08:37:27.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Power BI Customers may experience issues when exporting reports with sensitivity labels, resulting in intermittent export failures or incomplete export operations. </span><span style=\"font-family:Calibri;font-size:11.0pt;\">Engineers are investigating the issue and an update will be provided soon.</span></p></div>",
-      "detailsText": "Power BI Customers may experience issues when exporting reports with sensitivity labels, resulting in intermittent export failures or incomplete export operations. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "0078e8f5b6d762cf617b75a1f14622cff7c4627e7df5f56869416f8b1483a118"
-    },
-    {
-      "type": "active",
-      "serviceNotificationId": "b99775f6-f86e-f111-ab0d-000d3a36696c",
-      "serviceStatus": "Information",
-      "region": "UK South",
-      "reportedRaw": "6/23/2026 4:42:35 AM",
-      "reportedAt": "2026-06-23T04:42:35.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:Segoe UI;font-size:11pt;\">Fabric customers using Data Pipelines in UK South may have experienced elevated queue times, resulting in delays in pipeline execution. Mitigation steps have been implemented, and customers should begin to see pipeline processing recover. The next update will be provided by 08:30 AM PDT.</div></div>",
-      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric customers using Data Pipelines in UK South may have experienced elevated queue times, resulting in delays in pipeline execution. Mitigation steps have been implemented, and customers should begin to see pipeline processing recover. The next update will be provided by 08:30 AM PDT.",
-      "hash": "8e95348d8f6c05524690edf7a5809d433ba3d744ee7173f2f005aae973e83f8c"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

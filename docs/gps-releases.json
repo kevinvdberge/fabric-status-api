@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:04:20.477Z",
+  "generatedAt": "2026-06-23T23:20:54.326Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -29,6 +29,20 @@
         "product_name": "Data Science",
         "release_date": "Q3 2026",
         "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Data Factory Increases Maximum Activities Per Pipeline to 80",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/add-up-to-80-activities-to-your-pipeline",
+        "feature_description": "With pipeline Actions, you can now easily define a simple pipeline template that can be a single activity or multiple acitvities, without using the pipeline canvas. Simply tell Copilot what you want to achieve, answer a few configuration prompts, and then reuse your Actions in multiple pipelines or from other Fabric items like Data Activator or Functions.",
+        "feature_name": "Pipelines - Actions",
+        "last_modified": "2026-06-23",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "89223235-516f-f111-ab0d-6045bd006301",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1389,20 +1403,6 @@
         "release_item_id": "a037d13b-a84d-f111-bec6-000d3a376c0f",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Power Query will introduce a new Sort Rows transformation dialog, delivering a clearer and more powerful experience for defining row ordering as part of data preparation.The new dialog makes it easy to sort data by one or multiple columns with explicit control over precedence and sort direction, all through a guided, visual interface. By centralizing sort logic into a dedicated dialog, Power Query helps users express intent more clearly and reduces the need to manage sorting through repetitive or hard-to-interpret steps.Why this matters:* Clearer sort intent: Define multi-column sorting and precedence in a single, easy-to-understand experience.* Improved usability: Reduce trial-and-error and make sorting more approachable for both self-service and advanced users.* Better maintainability: Sorting logic is easier to review, edit, and understand when revisiting or sharing queries.This enhancement continues Power Query's evolution toward a more modern, discoverable, and consistent transformation experience across Microsoft products, while supporting advanced scenarios that depend on well-defined row ordering.",
-        "feature_name": "Power Query - Sort Rows transformation dialog",
-        "last_modified": "2026-06-16",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "9f5f0427-5b38-f111-88b5-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1017,
+      "total_items": 1018,
       "total_pages": 11
     }
   }

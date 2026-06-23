@@ -1,9 +1,79 @@
 {
-  "generatedAt": "2026-06-22T23:50:08.826Z",
+  "generatedAt": "2026-06-23T02:56:31.663Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Creator Agent is expanding support for Semantic Models in Data Agent, helping users generate semantic-model specific instructions and example queries more easily. The feature can explore Semantic Model tables, measures, columns, and recent query patterns to produce more relevant configurations while preserving transparency through visible run steps and explored queries. Users remain in control by reviewing, refining, and committing generated configurations before they update their Data Agent setup.",
+        "feature_name": "[PuPr] CreatorAgent: Support Semantic Models",
+        "last_modified": "2026-06-23",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q3 2026",
+        "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s New for Fabric Data Agents at Ignite 2025: Unlocking Deeper Data Reasoning and Seamless AI Interoperability",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-for-fabric-data-agents-at-ignite-2025-unlocking-deeper-data-reasoning-and-seamless-ai-interoperability",
+        "feature_description": "Microsoft Fabric Data Agent is improving its Ontology experience so customers can build agents that deliver more accurate, reliable, and verifiable answers grounded in their business concepts and relationships. With this release, customers should see better support for complex questions, clearer visibility into answer generation, stronger customization and scoping, and improved confidence as ontologies evolve over time.",
+        "feature_name": "[PuPr] Data Agent to Upgrade Ontology Integration",
+        "last_modified": "2026-06-23",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q3 2026",
+        "release_item_id": "8640c298-fc68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Creator Agent file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
+        "feature_name": "[PuPr] Creator Agent Supports Files as Context",
+        "last_modified": "2026-06-23",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q3 2026",
+        "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Expands right-click support across key Fabric surfaces, enabling users to quickly open content in a new browser tab without navigating away.",
+        "feature_name": "Open Fabric content in a new tab with right-click",
+        "last_modified": "2026-06-23",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q2 2026",
+        "release_item_id": "5616e2fd-bd49-f111-bec6-6045bd00f798",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Stay focused when working across many open items by grouping tabs. Create named groups, organize related work, and collapse or expand them as needed.",
+        "feature_name": "Organize multitasking tabs in groups",
+        "last_modified": "2026-06-23",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q2 2026",
+        "release_item_id": "a5e7e388-2eba-f011-bbd3-000d3a30273e",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Building real-time, event-driven applications on Mirrored Database Change Feeds with Fabric Eventstreams (Preview)",
@@ -1333,76 +1403,6 @@
         "release_item_id": "9493500e-e1ce-f011-bbd3-000d3a30273e",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Unlocking Real-Time Operational Intelligence: Azure Monitor Logs Integration in Fabric via Eventstream",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/unlocking-real-time-operational-intelligence-azure-monitor-logs-integration-in-fabric-via-eventstream",
-        "feature_description": "This integration simplifies the discovery of Azure resource diagnostic logs in Fabric RTI, and automatic creation of Eventstream operators, allowing users to focus more on analysis and less on setup. User can directly feed Azure diagnostic logs into Fabric without any coding, perform comprehensive analysis by combining diagnostic logs with other data sources and gain operational insights that enhance decision-making capabilities.",
-        "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
-        "last_modified": "2026-06-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Recent data: Get back to your data faster in Fabric (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/recent-data-get-back-to-your-data-faster-in-fabric-preview",
-        "feature_description": "We plan to make Recent Tables in Dataflow Gen2 generally available, helping users quickly reconnect to tables they've used before and accelerate the Modern Get Data experience.Going GA means Recent Tables is ready for production usage, with the reliability, consistency, and support required for everyday and business-critical data preparation workflows.Key benefits and scenarios:* Quickly re-access previously used tables without re-browsing or re-discovering sources* Faster iteration when building or updating multiple dataflows that reuse familiar data* A more efficient, streamlined Modern Get Data experience--especially in complex or shared environmentsBy bringing Recent Tables to GA, we're reducing friction in day-to-day authoring and making Dataflow Gen2 faster and more productive for repeat, production-scale data preparation.",
-        "feature_name": "Dataflows - Recent Tables",
-        "last_modified": "2026-06-16",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "9209ff64-9633-f111-88b4-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Simplify your Warehouse ALM with DacFx integration in Git and Deployment pipelines for Fabric Warehouse",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplify-your-warehouse-alm-with-dacfx-integration-in-git-and-deployment-pipelines-for-fabric-warehouse",
-        "feature_description": "Fabric Warehouse deployments via Git integration and deployment pipelines  execute under a transaction. If any step in a deployment fails, all changes are automatically rolled back -- leaving your warehouse in its exact pre-deployment state with no manual cleanup required.**Atomic Deployments** - All changes in a deployment now execute as a single transaction. On success, changes are committed atomically. On failure, the entire deployment is rolled back automatically -- no partial state, no manual remediation.**Automatic Rollback on Failure** - If any change in a deployment fails, workflows automatically rolls back all changes made during that deployment. Your warehouse is restored to its prior state instantly, and a clear error message tells you what failed and that the rollback was successful.",
-        "feature_name": "Transaction Support for Git Integration & Deployment Pipelines",
-        "last_modified": "2026-06-16",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q3 2026",
-        "release_item_id": "9185ea8e-342e-f111-88b4-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-dataflow-gen2-data-destinations-and-experience-improvements",
-        "feature_description": "Dataflows Gen2 will expand support for Dynamic Schema mode when writing to Fabric Data Warehouse destinations, making it easier to handle evolving data without manual rework.With Dynamic Schema, Dataflow Gen2 can automatically adapt to changes in your query schema--such as added or modified columns--when publishing data to a warehouse. This removes the need to pre-define and rigidly maintain table schemas as your data evolves.Why this matters:* Faster iteration: Update transformations without blocking on schema alignment.* Schema-flexible pipelines: Land evolving datasets into a warehouse with less friction.* Simpler migrations: Common Gen1 and self-service scenarios that rely on schema evolution become easier to move to Gen2.This capability is especially valuable for transformation-heavy pipelines and self-service data preparation, where schemas naturally change over time, and aligns Dataflow Gen2 more closely with the flexible, modern data engineering patterns supported across Microsoft Fabric.",
-        "feature_name": "Dataflows - Dynamic Schema Support for Fabric Data Warehouse Destination",
-        "last_modified": "2026-06-16",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "8ed33294-5a38-f111-88b5-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Formatting pane options for where the scroll bar starts from when visible on the axis of a visual. For example, if I have a line chart showing trends over time, I can set this to scroll from right and when viewers open the report the latest data points show first and they can scroll to the left to see the historical trend.",
-        "feature_name": "Visuals categorical axis &quot;scroll starts from&quot; option (scroll from right)",
-        "last_modified": "2026-06-16",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "8b284de2-eb5a-f111-bec7-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1013,
+      "total_items": 1015,
       "total_pages": 11
     }
   }

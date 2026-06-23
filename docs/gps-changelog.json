@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-23T13:30:35.669Z",
+  "generatedAt": "2026-06-23T16:13:49.700Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1054,
+  "count": 1056,
   "changelog": {
     "days": [
       {
-        "count": 6,
+        "count": 8,
         "date": "2026-06-23",
         "items": [
           {
@@ -84,6 +84,32 @@
             "release_date": "Q2 2026",
             "release_item_id": "a5e7e388-2eba-f011-bbd3-000d3a30273e",
             "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Donut Chart - Center Value",
+            "last_modified": "2026-06-23",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "735659bf-146f-f111-ab0d-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Matrix expand and collapse icons on column headers",
+            "last_modified": "2026-06-23",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "a5e3a618-146f-f111-ab0d-000d3a376137",
+            "release_status": "Planned",
             "release_type": "Public preview"
           }
         ]
@@ -4552,10 +4578,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q2 2025",
-            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
+            "release_date": "Q3 2025",
+            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -4565,10 +4591,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q3 2025",
-            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
+            "release_date": "Q2 2025",
+            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -13782,6 +13808,6 @@
         ]
       }
     ],
-    "total_items": 1054
+    "total_items": 1056
   }
 }

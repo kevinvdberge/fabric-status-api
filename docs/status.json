@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-06-23T10:35:25.843Z",
+  "generatedAt": "2026-06-23T13:30:35.638Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 194,
-    "total": 194
+    "resolved": 195,
+    "total": 195
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 194,
+    "resolvedIncidents": 195,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "b99775f6-f86e-f111-ab0d-000d3a36696c",
+      "serviceStatus": "",
+      "region": "UK South",
+      "reportedRaw": "6/23/2026 4:42:35 AM",
+      "reportedAt": "2026-06-23T04:42:35.000Z",
+      "resolvedRaw": "6/23/2026 5:00:00 AM",
+      "resolvedAt": "2026-06-23T05:00:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:'Segoe UI';font-size:14px;font-style:normal;font-weight:400;line-height:20px;\">Fabric customers using Data Pipelines in UK South may have experienced elevated queue times, resulting in delays in pipeline execution.</div></div>",
+      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric customers using Data Pipelines in UK South may have experienced elevated queue times, resulting in delays in pipeline execution.",
+      "hash": "b9d8eadc80a1967c3cc693e467bf2413d58f50382e60e0fe4b7c5201e2e7af96"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "4459d699-386e-f111-ab0d-000d3a36696c",

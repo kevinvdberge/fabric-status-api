@@ -1,13 +1,497 @@
 {
-  "generatedAt": "2026-06-24T13:52:59.492Z",
+  "generatedAt": "2026-06-24T16:18:46.810Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1057,
+  "count": 1060,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 35,
         "date": "2026-06-24",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "[PuPr] Assisted Setup Mode in Data Agent",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q2 2026",
+            "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "[PuPr] Data Agent to Support Kusto External Tables",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "3a1e1a9b-1b12-f111-8406-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "[PuPr] Data Agent to Support Kusto UDF",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "ea64bc96-e805-f111-8406-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "[PuPr] DataAgent - Graph As a DataSource",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "397e4a71-ccf0-f011-8407-002248096d54",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [GA]",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2025",
+            "release_item_id": "9f3e8191-53b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [Public Preview]",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2025",
+            "release_item_id": "39d793d1-b79c-ef11-8a6a-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "AI functions in Data Wrangler [Public Preview]",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2025",
+            "release_item_id": "c638bc4d-6f5e-f011-bec2-0022480939f0",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability",
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "AI Skill becomes a conversational AI agent",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2025",
+            "release_item_id": "a6cf3d58-6aa0-ef11-8a6a-6045bd062aa2",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "CI/CD for Fabric Data Agent",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2025",
+            "release_item_id": "4ec0e5ee-2a22-f011-9989-6045bd030c4d",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Consumer to Creator feedback loop",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics",
+              "Semester 2025 Wave 1 (Bromine) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Data Agent as an MCP Server",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2025",
+            "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Data Agent Audit logs with Purview",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "2e298f0f-3801-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Data Agent to Support Mirrored Databases",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2025",
+            "release_item_id": "fdb2922d-4b24-f011-8c4d-00224804b6c3",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped",
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Data Agent Visualization Support",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q2 2026",
+            "release_item_id": "f00fb079-0b06-f111-8406-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Data Agent: Support for SQL Views + Functions",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "504f8364-4a24-f011-8c4d-00224804b6c3",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Enhanced Data Agent Visualizations with Fabric Visuals",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "71a7bef8-b766-f111-a826-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2025-09-30 -> 2026-09-30",
+              "Description updated",
+              "Restored to Roadmap",
+              "Name Data Agent Large Schema Support -> Explore Large Schemas in the Data Agent Schema Explorer",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Explore Large Schemas in the Data Agent Schema Explorer",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "a6aadfd9-4924-f011-8c4d-00224804b6c3",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Fabric data agent integration with Azure AI Foundry",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2025",
+            "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "GA AutoML in Fabric",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "2b64b096-5eb3-f011-bbd3-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "General Availability of Fabric Data Agents",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "0b5b5933-5ac0-f011-bbd3-6045bd05dd14",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Improved Data Agent Routing Across Sources",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q2 2026",
+            "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Improved NL2SQL Experiences",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q2 2026",
+            "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Improved Semantic Model Querying in the Data Agent",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability",
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "KQL database as new data source in AI Skill",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2025",
+            "release_item_id": "7c9a04b4-0997-ef11-8a6a-6045bd062aa2",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Large Instructions & Topic-Aware Context for Smarter NL2SQL",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "dc64604a-d948-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Low Code AutoML",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2024",
+            "release_item_id": "a05607d1-c758-ef11-a317-0022480abf3c",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [GA]",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2025",
+            "release_item_id": "053c13db-53b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [Public Preview]",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q2 2025",
+            "release_item_id": "6a229e5c-1a03-ef11-a1fd-000d3a33ff0b",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Multi-Tasking Configuration Experience for Data Agent Creators",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2025",
+            "release_item_id": "878ac7c1-a461-f011-bec1-000d3a35e553",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Multimodal Support for AI Functions [Public Preview]",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "cda45361-58b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Outbound Access Protection for Data Agent",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q2 2026",
+            "release_item_id": "ce75a77c-88ba-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Relationship Context for SQL Sources",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Restored to Roadmap",
+              "Workload Data Science -> Conversational Analytics"
+            ],
+            "feature_name": "Semantic Models as new data source for AI Skill",
+            "last_modified": "2026-06-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2025",
+            "release_item_id": "b53e0bb7-4c95-ef11-8a6a-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Card Visual - Trend Chart",
+            "last_modified": "2026-06-24",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "df66c8a5-d46f-f111-ab0d-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": false,
             "changed_columns": [
@@ -777,7 +1261,7 @@
         ]
       },
       {
-        "count": 998,
+        "count": 967,
         "date": "2026-06-16",
         "items": [
           {
@@ -5699,219 +6183,11 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "[PuPr] Assisted Setup Mode in Data Agent",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q2 2026",
-            "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[PuPr] Data Agent to Support Kusto External Tables",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "3a1e1a9b-1b12-f111-8406-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[PuPr] Data Agent to Support Kusto UDF",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "ea64bc96-e805-f111-8406-6045bd0a886d",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "[PuPr] DataAgent - Graph As a DataSource",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "397e4a71-ccf0-f011-8407-002248096d54",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [GA]",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q4 2025",
-            "release_item_id": "9f3e8191-53b3-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [Public Preview]",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2025",
-            "release_item_id": "39d793d1-b79c-ef11-8a6a-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "AI functions in Data Wrangler [Public Preview]",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2025",
-            "release_item_id": "c638bc4d-6f5e-f011-bec2-0022480939f0",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "AI Skill becomes a conversational AI agent",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2025",
-            "release_item_id": "a6cf3d58-6aa0-ef11-8a6a-6045bd062aa2",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "CI/CD for Fabric Data Agent",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2025",
-            "release_item_id": "4ec0e5ee-2a22-f011-9989-6045bd030c4d",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "CI/CD for Models and Experiments",
             "last_modified": "2026-06-16",
             "product_name": "Data Science",
             "release_date": "Q3 2025",
             "release_item_id": "bc4db3eb-ed23-f011-8c4d-000d3a34671f",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Consumer to Creator feedback loop",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2026",
-            "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Data Agent as an MCP Server",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q4 2025",
-            "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Data Agent Audit logs with Purview",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "2e298f0f-3801-f111-8406-000d3a36696c",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Data Agent to Support Mirrored Databases",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2025",
-            "release_item_id": "fdb2922d-4b24-f011-8c4d-00224804b6c3",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Data Agent Visualization Support",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q2 2026",
-            "release_item_id": "f00fb079-0b06-f111-8406-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Data Agent: Support for SQL Views + Functions",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "504f8364-4a24-f011-8c4d-00224804b6c3",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric data agent integration with Azure AI Foundry",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2025",
-            "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
             "release_status": "Shipped",
             "release_type": "Public preview"
           },
@@ -5933,19 +6209,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "GA AutoML in Fabric",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "2b64b096-5eb3-f011-bbd3-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "GA foundry tools in Fabric",
             "last_modified": "2026-06-16",
             "product_name": "Data Science",
@@ -5953,123 +6216,6 @@
             "release_item_id": "be5a72e9-3c53-f111-bec7-6045bd00fc61",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "General Availability of Fabric Data Agents",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "0b5b5933-5ac0-f011-bbd3-6045bd05dd14",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Improved Data Agent Routing Across Sources",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q2 2026",
-            "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Improved NL2SQL Experiences",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q2 2026",
-            "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Improved Semantic Model Querying in the Data Agent",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2026",
-            "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "KQL database as new data source in AI Skill",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2025",
-            "release_item_id": "7c9a04b4-0997-ef11-8a6a-6045bd062aa2",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Large Instructions & Topic-Aware Context for Smarter NL2SQL",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2026",
-            "release_item_id": "dc64604a-d948-f111-bec7-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Low Code AutoML",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q4 2024",
-            "release_item_id": "a05607d1-c758-ef11-a317-0022480abf3c",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [GA]",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2025",
-            "release_item_id": "053c13db-53b3-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [Public Preview]",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q2 2025",
-            "release_item_id": "6a229e5c-1a03-ef11-a1fd-000d3a33ff0b",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -6115,45 +6261,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Multi-Tasking Configuration Experience for Data Agent Creators",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q4 2025",
-            "release_item_id": "878ac7c1-a461-f011-bec1-000d3a35e553",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Multimodal Support for AI Functions [Public Preview]",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2026",
-            "release_item_id": "cda45361-58b3-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Outbound Access Protection for Data Agent",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q2 2026",
-            "release_item_id": "ce75a77c-88ba-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Outbound Access Protection for ML Experiment",
             "last_modified": "2026-06-16",
             "product_name": "Data Science",
@@ -6185,32 +6292,6 @@
             "product_name": "Data Science",
             "release_date": "Q3 2025",
             "release_item_id": "a3b61e19-5da0-ef11-8a6a-00224804e9b4",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Relationship Context for SQL Sources",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q3 2026",
-            "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Semantic Models as new data source for AI Skill",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Science",
-            "release_date": "Q1 2025",
-            "release_item_id": "b53e0bb7-4c95-ef11-8a6a-002248098a98",
             "release_status": "Shipped",
             "release_type": "Public preview"
           },
@@ -7652,10 +7733,10 @@
             "feature_name": "Deployment pipelines new UI",
             "last_modified": "2026-06-16",
             "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2024",
-            "release_item_id": "8d7e4e5e-da0a-ef11-9f89-000d3a34b75c",
+            "release_date": "Q3 2025",
+            "release_item_id": "f0c20973-f412-f011-9989-000d3a34671f",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -7665,10 +7746,10 @@
             "feature_name": "Deployment pipelines new UI",
             "last_modified": "2026-06-16",
             "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2025",
-            "release_item_id": "f0c20973-f412-f011-9989-000d3a34671f",
+            "release_date": "Q3 2024",
+            "release_item_id": "8d7e4e5e-da0a-ef11-9f89-000d3a34b75c",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -9745,10 +9826,10 @@
             "feature_name": "Create and run DAX queries with Query view in Power BI Desktop",
             "last_modified": "2026-06-16",
             "product_name": "Power BI",
-            "release_date": "Q2 2024",
-            "release_item_id": "c3e08972-3e07-ef11-9f89-000d3a33ff0b",
+            "release_date": "Q1 2024",
+            "release_item_id": "42360780-9afc-ee11-a1ff-000d3a341a60",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -9758,10 +9839,10 @@
             "feature_name": "Create and run DAX queries with Query view in Power BI Desktop",
             "last_modified": "2026-06-16",
             "product_name": "Power BI",
-            "release_date": "Q1 2024",
-            "release_item_id": "42360780-9afc-ee11-a1ff-000d3a341a60",
+            "release_date": "Q2 2024",
+            "release_item_id": "c3e08972-3e07-ef11-9f89-000d3a33ff0b",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -12956,10 +13037,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2025",
-            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_date": "Q3 2026",
+            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -12969,10 +13050,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
+            "release_date": "Q3 2025",
+            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -13827,6 +13908,6 @@
         ]
       }
     ],
-    "total_items": 1057
+    "total_items": 1060
   }
 }

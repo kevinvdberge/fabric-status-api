@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-06-24T13:52:59.492Z",
+  "generatedAt": "2026-06-24T16:18:46.810Z",
   "sourceUrl": "https://www.fabric-gps.com/api/filter-options",
   "filterOptions": {
     "product_names": [
       "Administration, Governance and Security",
+      "Conversational Analytics",
       "Cosmos DB",
       "Data Engineering",
       "Data Factory",

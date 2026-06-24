@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:52:53.867Z",
+  "generatedAt": "2026-06-24T23:01:57.861Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,20 @@
         "product_name": "Power BI",
         "release_date": "Q4 2026",
         "release_item_id": "df66c8a5-d46f-f111-ab0d-000d3a376137",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "The REST API allows users to export the full warehouse definition, including schemas, tables, views, functions, and stored procedures, with filtering options to support exporting a subset of the warehouse definition.",
+        "feature_name": "Get Warehouse Schema Rest API",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "f151890c-74ed-f011-8544-000d3a33bffb",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -85,6 +99,20 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2026",
         "release_item_id": "71a7bef8-b766-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Allow users to define scripts that run automatically immediately before (pre-script) and immediately after (post-script) a warehouse deployment or git operations. This gives teams a controlled hook to prepare the environment beforehand and finalize or clean up afterward.",
+        "feature_name": "Pre/Post Scripts in GIT & Deployment Workflows",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "6b398705-1970-f111-ab0d-000d3a376137",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1375,34 +1403,6 @@
         "release_item_id": "fc3ce8fd-6e2f-f011-8c4d-000d3a34671f",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Dataflow Gen2: Dataflow Diagnostics Download (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/dataflow-gen2-dataflow-diagnostics-download-preview",
-        "feature_description": "We plan to make Diagnostics Download in Dataflow Gen2 generally available, providing a production-ready way to capture and share detailed runtime diagnostics for dataflow executions.Moving this feature to GA means it is ready for production usage, with consistent behavior, reliability, and support suitable for business-critical data pipelines.Key benefits and scenarios:* Download run-level diagnostic packages including execution details and runtime metadata* Speed up troubleshooting, root-cause analysis, and performance investigations* Enable easier collaboration between data teams, administrators, and Microsoft support using standardized diagnostic artifactsBy taking Diagnostics Download to GA, we're strengthening observability and supportability for Dataflow Gen2, making it easier to operate, troubleshoot, and trust dataflows at production scale.",
-        "feature_name": "Dataflows - Dataflow Diagnostics Download",
-        "last_modified": "2026-06-16",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "f98cc7d2-5834-f111-88b4-6045bd00f506",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "From repetition to reuse: accelerate data prep with My queries in Dataflow Gen2",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-repetition-to-reuse-accelerate-data-prep-with-My-queries-in/ba-p/5176763",
-        "feature_description": "Shared Queries in Dataflow Gen2 will be available in Preview, enabling users to save commonly used Power Query transformations within a Fabric workspace, share and reuse them across multiple dataflows and collaborators.This preview extends the reuse-first authoring model to teams, making it easy to apply trusted, reusable logic--such as data cleansing steps, business rules, or standard joins--consistently across projects without rebuilding queries from scratch.Key benefits and scenarios:* Share common transformation logic across workspace members to accelerate team-wide development* Promote consistency and standardization of data preparation patterns across dataflows* Reduce duplication and improve maintainability by centralizing reusable query logic* Enable faster onboarding and collaboration when multiple authors work with similar source systemsDuring Preview, Shared Queries is intended for experimentation and early team adoption, helping organizations validate collaborative transformation patterns and provide feedback as we continue evolving the experience.",
-        "feature_name": "Dataflows - Shared Queries",
-        "last_modified": "2026-06-16",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "f8f739d4-b850-f111-bec7-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1051,
+      "total_items": 1052,
       "total_pages": 11
     }
   }

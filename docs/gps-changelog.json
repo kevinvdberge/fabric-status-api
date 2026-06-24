@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-24T21:52:53.867Z",
+  "generatedAt": "2026-06-24T23:01:57.861Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1060,
+  "count": 1061,
   "changelog": {
     "days": [
       {
-        "count": 38,
+        "count": 40,
         "date": "2026-06-24",
         "items": [
           {
@@ -519,6 +519,32 @@
             "release_date": "Q1 2025",
             "release_item_id": "b53e0bb7-4c95-ef11-8a6a-002248098a98",
             "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-05-05 -> 2026-09-30"
+            ],
+            "feature_name": "Get Warehouse Schema Rest API",
+            "last_modified": "2026-06-24",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "f151890c-74ed-f011-8544-000d3a33bffb",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Pre/Post Scripts in GIT & Deployment Workflows",
+            "last_modified": "2026-06-24",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "6b398705-1970-f111-ab0d-000d3a376137",
+            "release_status": "Planned",
             "release_type": "Public preview"
           },
           {
@@ -1264,7 +1290,7 @@
         ]
       },
       {
-        "count": 967,
+        "count": 966,
         "date": "2026-06-16",
         "items": [
           {
@@ -6791,19 +6817,6 @@
             "release_item_id": "9b0e4fae-ecb8-f011-bbd3-000d3a30273e",
             "release_status": "Planned",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Get Warehouse Schema Rest API",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "f151890c-74ed-f011-8544-000d3a33bffb",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": false,
@@ -13911,6 +13924,6 @@
         ]
       }
     ],
-    "total_items": 1060
+    "total_items": 1061
   }
 }

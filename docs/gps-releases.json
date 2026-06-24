@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:18:46.810Z",
+  "generatedAt": "2026-06-24T18:16:27.220Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -17,6 +17,20 @@
         "release_item_id": "df66c8a5-d46f-f111-ab0d-000d3a376137",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Creator Agent is expanding support for Semantic Models in Data Agent, helping users generate semantic-model specific instructions and example queries more easily. The feature can explore Semantic Model tables, measures, columns, and recent query patterns to produce more relevant configurations while preserving transparency through visible run steps and explored queries. Users remain in control by reviewing, refining, and committing generated configurations before they update their Data Agent setup.",
+        "feature_name": "CreatorAgent: Support Semantic Models",
+        "last_modified": "2026-06-24",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q3 2026",
+        "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -43,6 +57,20 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2026",
         "release_item_id": "a6aadfd9-4924-f011-8c4d-00224804b6c3",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s New for Fabric Data Agents at Ignite 2025: Unlocking Deeper Data Reasoning and Seamless AI Interoperability",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-for-fabric-data-agents-at-ignite-2025-unlocking-deeper-data-reasoning-and-seamless-ai-interoperability",
+        "feature_description": "Microsoft Fabric Data Agent is improving its Ontology experience so customers can build agents that deliver more accurate, reliable, and verifiable answers grounded in their business concepts and relationships. With this release, customers should see better support for complex questions, clearer visibility into answer generation, stronger customization and scoping, and improved confidence as ontologies evolve over time.",
+        "feature_name": "Data Agent to Upgrade Ontology Integration",
+        "last_modified": "2026-06-24",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q3 2026",
+        "release_item_id": "8640c298-fc68-f111-a826-6045bd0066ad",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -85,6 +113,20 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2026",
         "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Creator Agent file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
+        "feature_name": "Creator Agent Supports Files as Context",
+        "last_modified": "2026-06-24",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q3 2026",
+        "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -496,20 +538,6 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Creator Agent is expanding support for Semantic Models in Data Agent, helping users generate semantic-model specific instructions and example queries more easily. The feature can explore Semantic Model tables, measures, columns, and recent query patterns to produce more relevant configurations while preserving transparency through visible run steps and explored queries. Users remain in control by reviewing, refining, and committing generated configurations before they update their Data Agent setup.",
-        "feature_name": "[PuPr] CreatorAgent: Support Semantic Models",
-        "last_modified": "2026-06-23",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q3 2026",
-        "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Data Factory Increases Maximum Activities Per Pipeline to 80",
         "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/add-up-to-80-activities-to-your-pipeline",
         "feature_description": "With pipeline Actions, you can now easily define a simple pipeline template that can be a single activity or multiple acitvities, without using the pipeline canvas. Simply tell Copilot what you want to achieve, answer a few configuration prompts, and then reuse your Actions in multiple pipelines or from other Fabric items like Data Activator or Functions.",
@@ -519,20 +547,6 @@
         "product_name": "Data Factory",
         "release_date": "Q3 2026",
         "release_item_id": "89223235-516f-f111-ab0d-6045bd006301",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s New for Fabric Data Agents at Ignite 2025: Unlocking Deeper Data Reasoning and Seamless AI Interoperability",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-for-fabric-data-agents-at-ignite-2025-unlocking-deeper-data-reasoning-and-seamless-ai-interoperability",
-        "feature_description": "Microsoft Fabric Data Agent is improving its Ontology experience so customers can build agents that deliver more accurate, reliable, and verifiable answers grounded in their business concepts and relationships. With this release, customers should see better support for complex questions, clearer visibility into answer generation, stronger customization and scoping, and improved confidence as ontologies evolve over time.",
-        "feature_name": "[PuPr] Data Agent to Upgrade Ontology Integration",
-        "last_modified": "2026-06-23",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q3 2026",
-        "release_item_id": "8640c298-fc68-f111-a826-6045bd0066ad",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -549,20 +563,6 @@
         "release_item_id": "735659bf-146f-f111-ab0d-000d3a376137",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Creator Agent file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
-        "feature_name": "[PuPr] Creator Agent Supports Files as Context",
-        "last_modified": "2026-06-23",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q3 2026",
-        "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       },
       {
         "active": true,

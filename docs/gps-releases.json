@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:01:57.861Z",
+  "generatedAt": "2026-06-25T00:21:12.928Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -62,6 +62,20 @@
       },
       {
         "active": true,
+        "blog_title": "Simplify your Warehouse ALM with DacFx integration in Git and Deployment pipelines for Fabric Warehouse",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplify-your-warehouse-alm-with-dacfx-integration-in-git-and-deployment-pipelines-for-fabric-warehouse",
+        "feature_description": "SQL Analytics Endpoint  supports Git integration and deployment pipelines in Fabric. Teams can version control endpoint changes and promote them across environments as part of their existing CI/CD workflows.**Git Integration for SQL Analytics Endpoint** - The SQL Analytics Endpoint changes are tracked, committed, and managed in source control alongside the rest of your Fabric items -- giving you full version history, diff visibility, and the ability to roll back to any prior state.**Deployment Pipeline Support** - SQL Analytics Endpoint can be included in Fabric deployment pipelines. Promote changes across development, test, and production stages with the same pipeline experience available for Warehouse -- consistently and without manual steps.",
+        "feature_name": "Git & Deployment Pipelines Support for SQL Analytics Endpoint",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "c5a0b4cb-322e-f111-88b4-000d3a376137",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
         "blog_title": null,
         "blog_url": null,
         "feature_description": "Production Datawarehouses, Lakehouses, Semantic Models, and SQL DBs contain hundreds to tens of thousands of Tables, Views, Functions, and Measures. This feature highlights the requirements to support production scale database systems and semantic models across data agent scenarios within the Data Agent UX seamlessly:  - Enabling the UX to allow users to load large schemas into Data Agent and select Objects easily and efficiently.- Enabling the UX to search for elements allowing users to easily identify key entities required for data agent input - Enabling pagination in the UX to seamlessly browse the schema in the Object explorer.",
@@ -71,6 +85,20 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2026",
         "release_item_id": "a6aadfd9-4924-f011-8c4d-00224804b6c3",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Simplify your Warehouse ALM with DacFx integration in Git and Deployment pipelines for Fabric Warehouse",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplify-your-warehouse-alm-with-dacfx-integration-in-git-and-deployment-pipelines-for-fabric-warehouse",
+        "feature_description": "DacFx onboarding in the Fabric Web editor enables seamless Git integration and supports deployment pipelines for Fabric Warehouse. With DacFx, developers can reliably manage schema changes, version control database projects, and execute incremental, non-destructive deployments directly from the web editor. This integration ensures that changes are tracked, deployments are safe, and pipelines can be automated, aligning with best practices for CI/CD in enterprise data environments.",
+        "feature_name": "Fabric Web: Streamlined Git and Deployment Pipeline Support with DacFx",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "a59cad5e-ddb8-f011-bbd3-6045bd05dd14",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -132,6 +160,34 @@
       },
       {
         "active": true,
+        "blog_title": "What’s new with OneLake shortcuts",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-with-onelake-shortcuts",
+        "feature_description": "This is OneLake representing SF DC360 data in Fabric via shortcut.",
+        "feature_name": "OneLake reading from Salesforce Data Cloud 360 via Shortcut",
+        "last_modified": "2026-06-24",
+        "product_id": "94e84e43-aa69-f011-bec2-00224804b6c3",
+        "product_name": "Fabric Ecosystem",
+        "release_date": "Q3 2026",
+        "release_item_id": "6776491d-2170-f111-ab0d-6045bd0a886d",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "The Create, Get, and Update Warehouse Definition REST APIs enable programmatic lifecycle management of Fabric warehouses by allowing developers to create warehouses from definitions, retrieve existing warehouse definitions, and apply updates using definition-based payloads. This unlocks automation-first scenarios such as CI/CD, Git integration, and environment promotion, eliminating reliance on manual or UI-driven changes.* Create with Definition - Provision a new warehouse initialized from an item definition payload that supports Dacpac and SQL project artifacts.* Get Definition - Retrieve the definition as Dacpac and SQL projects that contains all object definitions.* Update Definition - Apply incremental updates to an existing warehouse using definition payloads,  that supports Dacpac and SQL project artifacts.",
+        "feature_name": "Create, Get, Update warehouse definition Rest API",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "5f0a14b7-1d3c-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
         "blog_title": null,
         "blog_url": null,
         "feature_description": "The primary goal is to enable creators to understand how consumers interact with their data agents and bridge the gap between the data agent creators and the consumers. This comprehensive monitoring system will enable creators to have access to the feedback provided by consumer across consumption channels such as M365 Copilot, Fabric, Org App so they can refine the data agent based on customer feedback.Our initial release will only cover the M365 Copilot and will then expand to other consumption channels.",
@@ -160,6 +216,20 @@
       },
       {
         "active": true,
+        "blog_title": "Connection string changes in Fabric Warehouse: What to expect for auditing (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connection-string-changes-in-Fabric-Warehouse-What-to-expect-for/ba-p/5185022",
+        "feature_description": "We are updating the TDS (Tabular Data Stream) connection behavior in Fabric Warehouse to ensure consistent and predictable connections based on the specified Initial Catalog value.Previously, connections with an empty or invalid database name could redirect users to a random data warehouse. With this update, connections now honor the target database explicitly or throw validation errors when the database does not exist.",
+        "feature_name": "Connection Behavior When Connecting to Fabric Warehouse",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "512eea0a-39bf-f011-bbd3-00224808fcf0",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
         "blog_title": null,
         "blog_url": null,
         "feature_description": "Data Agent automatically follows the foreign key relationships in your SQL source to query the right tables -- including ones you didn't explicitly select. When you scope an agent to a schema or just a couple of base tables, the agent expands along those foreign keys to bring in the other tables a question needs and generates SQL that joins them correctly, so you get accurate multi-table answers from a small starting selection. For relationships that aren't defined in the source or live only in how your business uses the data, creators and advanced users can define additional relationships through the SDK & Data Agent experience. These configurations are stored alongside the rest of the agent configuration in a consistent, source-controllable format -- so they flow through your CI/CD pipeline",
@@ -184,6 +254,34 @@
         "release_date": "Q2 2026",
         "release_item_id": "f00fb079-0b06-f111-8406-000d3a36696c",
         "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Open your warehouse instantly -- your warehouse opens immediately, ready to work, with no delays regardless of size.Explore your warehouse instantly -- browse schemas, tables, views, and columns across your entire warehouse without waiting for objects to load.Find any object in seconds -- search and filter across tens of thousands of tables, views, and columns by name or type.Write queries with confidence -- get fast, accurate autocomplete suggestions scoped to your query context, no matter how large your warehouse is.Navigate large schemas effortlessly -- expand only what you need; objects load on demand as you explore.Work without interruption -- no more sluggish editors or stalled autocomplete when your warehouse scales up.Author complex queries faster --Auto-complete suggestions are automatically scoped to tables referenced in your active query, keeping autocomplete relevant, precise and write complex and large queries",
+        "feature_name": "Object Explorer & SQL Editor -- Scalability and Performance Improvements",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q2 2026",
+        "release_item_id": "d0e74e09-322e-f111-88b4-000d3a376137",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Building Common Data Architectures with OneLake in Microsoft Fabric",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/building-common-data-architectures-with-onelake-in-microsoft-fabric",
+        "feature_description": "With this Salesforce Data Cloud 260 customer's can access data from OneLake with zero copy.https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-set-up-microsoftfabriconelake-connection.htmlWe plan to announce it through a blog both on Salesforce and Fabric, planned date July 14th.",
+        "feature_name": "Salesforce DC360 reading from OneLake",
+        "last_modified": "2026-06-24",
+        "product_id": "94e84e43-aa69-f011-bec2-00224804b6c3",
+        "product_name": "Fabric Ecosystem",
+        "release_date": "Q2 2026",
+        "release_item_id": "ce1e0ca7-2070-f111-ab0d-6045bd0a886d",
+        "release_status": "Planned",
         "release_type": "Public preview"
       },
       {
@@ -227,6 +325,20 @@
         "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "The Data Grid feature for data warehouses and SQL analytics endpoints includes:* Data Handling: Supports large datasets with virtualization for performance.* Performance Optimization: Virtual scrolling, row virtualization, and lazy loading.* Search: Search across columns.* Column & Row Features: Resize and sort.* Grid-Level Options: Copy data with/without headers",
+        "feature_name": "Data Grid Improvements in Data Warehouse & SQL Endpoint - Milestone 1",
+        "last_modified": "2026-06-24",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q2 2026",
+        "release_item_id": "9d7d9b3d-0d77-f011-b4cb-000d3a329ecb",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1291,118 +1403,6 @@
         "release_item_id": "953fb7bc-2ca6-f011-bbd3-000d3a5b0efa",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Set a Time-to-Live (TTL) on your mirrored Azure Cosmos DB data in OneLake, independent of the TTL on your source container. Retain analytics history in OneLake longer than the source, or expire mirrored data sooner to control storage and meet retention policies. This brings retention parity with Azure Synapse Link, making it easier to migrate analytics workloads from Synapse Link to Fabric Mirroring.",
-        "feature_name": "Mirroring TTL",
-        "last_modified": "2026-06-16",
-        "product_id": "0e17459c-141b-f011-998a-00224804b6c3",
-        "product_name": "Cosmos DB",
-        "release_date": "Q4 2026",
-        "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Cosmos DB in Microsoft Fabric and Cosmos DB Mirroring (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-ga-of-cosmos-db-in-microsoft-fabric-and-cosmos-db-mirroring",
-        "feature_description": "Bring your Azure Cosmos DB for MongoDB data into Microsoft Fabric with Mirroring. Replicate your operational MongoDB data into OneLake in near real time and run analytics across it without ETL pipelines or impact to your transactional workload.",
-        "feature_name": "Cosmos DB Mirroring for MongoDB",
-        "last_modified": "2026-06-16",
-        "product_id": "0e17459c-141b-f011-998a-00224804b6c3",
-        "product_name": "Cosmos DB",
-        "release_date": "Q4 2026",
-        "release_item_id": "794b6b48-174b-f111-bec7-6045bd00f506",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Discover Fabric items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/discover-fabric-items-across-workspaces-with-the-onelake-catalog-search-api-mcp-and-cli-tools-preview",
-        "feature_description": "As part of Skills for Fabric, AI coding assistants like GitHub Copilot can discover Fabric items and tables. Developers can find existing, governed data before writing code, enabling a &quot;find before you build&quot; workflow that bridges AI tools and Fabric's enterprise data platform.",
-        "feature_name": "Find Fabric items and tables from Copilot CLI with OneLake Catalog",
-        "last_modified": "2026-06-16",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q4 2026",
-        "release_item_id": "6754378c-e14a-f111-bec7-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Take the formatting on an individual visual and add it to the custom report theme for re-use on other visuals in the same report or a new report.",
-        "feature_name": "Add to preset for Power BI visuals",
-        "last_modified": "2026-06-16",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q4 2026",
-        "release_item_id": "e326538e-d31f-f111-8341-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Organizational themes (preview) allow Power BI administrators to centrally manage and distribute custom report themes across the organization. Maintaining a consistent visual identity across Power BI reports is now simpler and more scalable, thanks to organizational themes. Whether reports are built manually or generated with Copilot, this feature ensures that styling and branding stay aligned with your organization's identity and design standards.",
-        "feature_name": "Organizational themes for Power BI reports",
-        "last_modified": "2026-06-16",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q4 2026",
-        "release_item_id": "6cda5cd3-d31f-f111-8341-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "How Spark Supports OneLake Security with Row and Column Level Policies",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/how-spark-supports-onelake-security-with-row-and-column-level-security-policies",
-        "feature_description": "OneLake Security supports Dynamic Row-Level Security (RLS), so each user sees only the rows that match their identity. This work brings Spark on Fabric into parity with that capability: Spark queries against tables protected by a Dynamic RLS role correctly return only the rows the calling user is allowed to see.With this release, Security Admins can define a single set of Dynamic RLS roles in OneLake Security and have those policies enforced uniformly across Spark, T-SQL, and Power BI. Existing Dynamic RLS roles defined in OneLake Security start working for Spark notebooks and jobs without any policy or query changes. Customers no longer have to choose between Dynamic RLS and Spark access for the same dataset.",
-        "feature_name": "Dynamic RLS support in Spark",
-        "last_modified": "2026-06-16",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q3 2026",
-        "release_item_id": "ff6d38a5-4a4d-f111-bec6-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Enhanced Monitoring for Spark High Concurrency Workloads in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/enhanced-monitoring-for-spark-high-concurrency-workloads-in-microsoft-fabric",
-        "feature_description": "This feature is designed to visualize real-time metrics for Spark applications through a dashboard that allows users to monitor CPU and memory utilization at the application level for both executors and drivers, across running and completed applications. It aligns with the Fabric SaaS offering and extends Spark vCore allocation and utilization analysis. Additional details about user scenarios are available in the discussion.",
-        "feature_name": "[Monitoring] Integrate and Expose Spark Application CPU/Memory Usage",
-        "last_modified": "2026-06-16",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q3 2026",
-        "release_item_id": "fe489766-3350-f111-bec7-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Currently the largest message size Eventstream can support is 1MB. This new feature will push this limit to bigger size to meet broader requirements.",
-        "feature_name": "Eventstream supports large message size",
-        "last_modified": "2026-06-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "fc3ce8fd-6e2f-f011-8c4d-000d3a34671f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1052,
+      "total_items": 1054,
       "total_pages": 11
     }
   }

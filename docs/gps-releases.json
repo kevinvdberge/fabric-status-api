@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-06-26T06:08:34.831Z",
+  "generatedAt": "2026-06-26T09:51:22.922Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Associated identities for items (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/associated-identities-for-items-preview",
+        "feature_description": "Microsoft Fabric items and their schedules today implicitly execute under user identities (owner or creator), which makes production workloads fragile: pipelines, schedules, copy jobs, and shortcuts break when owners leave the organization or their tokens expire, and existing takeover flows only shift the dependency to another user rather than removing it.  With this release, Fabric introduces associated Identity: a durable, user-selected execution identity that can be attached to an item through new UI and APIs, starting with Workspace Identity support and Schedule Run-as. You will be able to assciate workspace identity and other app-based identity types with items, schedules, and interative executions. This decouples execution from ownership so pipelines and schedules keep running through org churn and credential changes, reduces SPN and secret-management overhead, strengthens security by eliminating reliance on user tokens for background execution, and establishes a consistent identity model that workloads across Fabric leverage.",
+        "feature_name": "Associate an identity with Fabric items and schedules",
+        "last_modified": "2026-06-26",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q4 2026",
+        "release_item_id": "74c64750-0a4f-f111-bec7-000d3a376137",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "a9abe16a-7faf-f011-bbd3-000d3a3740cc",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New Solace PubSub+ Connector: seamlessly connect Fabric Eventstream with Solace PubSub+ (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-solace-pubsub-connector-seamlessly-connect-fabric-eventstream-with-solace-pubsub-preview",
-        "feature_description": "Eventstream streaming connector source: Solace PubSub+",
-        "feature_name": "Eventstream streaming connector source: Solace PubSub+ GA",
-        "last_modified": "2026-06-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q4 2026",
-        "release_item_id": "953fb7bc-2ca6-f011-bbd3-000d3a5b0efa",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {

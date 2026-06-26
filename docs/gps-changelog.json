@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-06-26T06:08:34.831Z",
+  "generatedAt": "2026-06-26T09:51:22.922Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1063,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-06-26",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Associate an identity with Fabric items and schedules",
+            "last_modified": "2026-06-26",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q4 2026",
+            "release_item_id": "74c64750-0a4f-f111-bec7-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 48,
         "date": "2026-06-24",
@@ -1394,7 +1413,7 @@
         ]
       },
       {
-        "count": 960,
+        "count": 959,
         "date": "2026-06-16",
         "items": [
           {
@@ -7675,19 +7694,6 @@
             "release_item_id": "11114dc9-41ba-f011-bbd3-000d3a30273e",
             "release_status": "Shipped",
             "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Associate an identity with Fabric items and schedules",
-            "last_modified": "2026-06-16",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2026",
-            "release_item_id": "74c64750-0a4f-f111-bec7-000d3a376137",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": false,

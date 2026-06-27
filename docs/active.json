@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-06-27T19:43:13.994Z",
+  "generatedAt": "2026-06-27T20:43:26.937Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "d62c1c58-5c72-f111-ab0f-000d3a36696c",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "6/27/2026 12:13:26 PM",
-      "reportedAt": "2026-06-27T12:13:26.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span style=\"background-color:rgb(255,255,255);color:rgb(41,40,39);font-family:\"Segoe UI\";font-size:15px;\"><span style=\"display:inline !important;float:none;font-style:normal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;\">Fabric customers in UAE North might experience issues while interacting with the service. Engineers are actively working on it, and an update will be provided soon.</span></span></p></div>",
-      "detailsText": "Fabric customers in UAE North might experience issues while interacting with the service. Engineers are actively working on it, and an update will be provided soon.",
-      "hash": "10d4b01fe97896175866456b6662f7c7aef443da98ce59bdd0584b992ae1c77b"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

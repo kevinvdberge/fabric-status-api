@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-06-29T11:30:47.602Z",
+  "generatedAt": "2026-06-29T15:03:00.967Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1063,
+  "count": 1064,
   "changelog": {
     "days": [
       {
-        "count": 29,
+        "count": 30,
         "date": "2026-06-29",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "OneLake catalog - tables data preview and quick actions",
+            "last_modified": "2026-06-29",
+            "product_name": "OneLake",
+            "release_date": "Q3 2026",
+            "release_item_id": "25d26f63-36b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -13984,6 +13997,6 @@
         ]
       }
     ],
-    "total_items": 1063
+    "total_items": 1064
   }
 }

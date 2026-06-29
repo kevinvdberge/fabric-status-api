@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T11:30:47.602Z",
+  "generatedAt": "2026-06-29T15:03:00.967Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -311,6 +311,20 @@
         "release_item_id": "294ed21d-9d41-f111-88b5-002248085b3f",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s new in OneLake catalog: Data governance and more",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-in-onelake-catalog-data-governance-and-more",
+        "feature_description": "With this new feature, OneLake catalog can display user-defined descriptions for tables and columns, helping users quickly understand data context. Once a table is identified as relevant, users can instantly preview its data with a single click - streamlining discovery and accelerating informed decision-making. This enhancement fosters trust, promotes collaboration, and encourages a culture of data reuse across the organization.",
+        "feature_name": "OneLake catalog - tables data preview and quick actions",
+        "last_modified": "2026-06-29",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q3 2026",
+        "release_item_id": "25d26f63-36b3-f011-bbd3-000d3a3740cc",
+        "release_status": "Planned",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1389,20 +1403,6 @@
         "release_item_id": "e7719142-2202-f111-8406-000d3a36696c",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Graph in Fabric (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Graph-in-Fabric-Generally-Available/ba-p/5190748",
-        "feature_description": "Fabric Graph is now Generally Available, delivering a secure, scalable, and enterprise-ready graph analytics capability powering Fabric IQ and natively integrated with Microsoft Fabric.Fabric Graph is engineered to operate at billion-scale, providing predictable performance, improved ingestion throughput, resilient query execution, and enhanced diagnostic visibility to support production-grade graph workloads. It expands GQL feature coverage to support advanced relationship modeling scenarios, including nested data, OPTIONAL MATCH, extended FOR semantics, result shaping functions, quantified edge patterns, and shortest-path queries.Fabric Graph lowers the barrier to graph adoption with no-code and low-code experiences for modeling, querying, and exploration, while still enabling full GQL control for advanced users. It also integrates in public preveiw with Fabric Data Agent and supports natural language to GQL (NL2GQL), allowing users to query connected data through conversational experiences while maintaining transparency through executable query inspection.From a governance and security standpoint, Fabric Graph will shortly enforce OneLake security policies end-to-end, including row-, column-, and object-level controls, ensuring consistent data governance without introducing alternate access paths. The service supports private network connectivity via Fabric private endpoints and private links, complies with Workspace Outbound Access Protection (OAP) to prevent unauthorized data exfiltration, and supports Realms for regional isolation in regulated and Microsoft first-party environments.With GA, Fabric Graph provides a fully integrated, secure, and scalable foundation for connected data analytics, operational workloads, and AI-driven agent scenarios within Microsoft Fabric.",
-        "feature_name": "Fabric Graph - Generally Available",
-        "last_modified": "2026-06-17",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q2 2026",
-        "release_item_id": "bf4b5edc-820b-f111-8406-000d3a36696c",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1052,
+      "total_items": 1053,
       "total_pages": 11
     }
   }

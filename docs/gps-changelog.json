@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-29T22:35:50.797Z",
+  "generatedAt": "2026-06-29T23:40:00.821Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1064,
+  "count": 1065,
   "changelog": {
     "days": [
       {
-        "count": 30,
+        "count": 31,
         "date": "2026-06-29",
         "items": [
           {
@@ -87,6 +87,19 @@
             "product_name": "Real-Time Intelligence",
             "release_date": "Q3 2026",
             "release_item_id": "704213db-f23f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Create Activator rules in Fabric Database Hub to monitor resource health and performance",
+            "last_modified": "2026-06-29",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "8afe9065-0c74-f111-ab0f-6045bd00f798",
             "release_status": "Planned",
             "release_type": "Public preview"
           },
@@ -13997,6 +14010,6 @@
         ]
       }
     ],
-    "total_items": 1064
+    "total_items": 1065
   }
 }

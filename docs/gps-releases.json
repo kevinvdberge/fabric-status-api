@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-06-30T21:04:18.671Z",
+  "generatedAt": "2026-06-30T22:39:12.907Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Fine-grained ReadWrite access to data with OneLake security (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/fine-grained-readwrite-access-to-lakehouse-data-with-onelake-security",
+        "feature_description": "Configure write permissions for folders in a lakehouse using OneLake security. With this feature, viewers can be given selective write access to certain folders in the lakehouse enabling teams to write data without having Contributor or higher roles in the workspace.",
+        "feature_name": "OneLake security - ReadWrite permission - GA",
+        "last_modified": "2026-06-30",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q2 2026",
+        "release_item_id": "5d44c899-f7d1-f011-bbd3-00224808fcf0",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "OneLake data access roles APIs announcement",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/onelake-data-access-roles-apis-announcement",
+        "feature_description": "In addition to the existing bulk API for managing OneLake security roles, we will add a new set of APIs for performing granular actions against roles.Examples include: create a single role, add a single member to a role, etc.",
+        "feature_name": "OneLake security granular APIs",
+        "last_modified": "2026-06-30",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q2 2026",
+        "release_item_id": "5446bfac-7c90-ef11-ac21-002248098a98",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "New Solace PubSub+ Connector: seamlessly connect Fabric Eventstream with Solace PubSub+ (Preview)",
@@ -1375,34 +1403,6 @@
         "release_item_id": "d52b1f9e-3e40-f111-88b4-000d3a308b7b",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Fabric IQ Ontology empowers the Data Agent to query and reason over your business data using natural language, grounded in a well-defined semantic model. Users can ask complex analytical questions and receive trustworthy, explainable answers with citations that trace back to the underlying ontology and data sources -- giving teams confidence that insights are accurate, verifiable, and rooted in the true structure of their enterprise data.",
-        "feature_name": "[Ontology for Data Agent] - Ontology integration with Data Agent",
-        "last_modified": "2026-06-17",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q2 2026",
-        "release_item_id": "ccbc18bb-0b03-f111-8406-6045bd00f798",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Tenant level private link support for Microsoft Fabric API for GraphQL (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/34710",
-        "feature_description": "Fabric Graph supports private connectivity using Fabric private endpoints and private links. This allows customers to access graph workloads over private networks, keep traffic off the public internet, and deploy Fabric Graph in locked down enterprise network environments. The service validates graph APIs under private access configurations and propagates the required access context for trusted service to service communication.",
-        "feature_name": "Fabric Graph supports private network access for enterprise environments",
-        "last_modified": "2026-06-17",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q2 2026",
-        "release_item_id": "fc241721-2402-f111-8406-000d3a36696c",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {

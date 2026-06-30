@@ -1,32 +1,19 @@
 {
-  "generatedAt": "2026-06-30T22:39:12.869Z",
+  "generatedAt": "2026-06-30T23:49:15.634Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 197,
-    "total": 197
+    "resolved": 196,
+    "total": 196
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 197,
+    "resolvedIncidents": 196,
     "hasActive": false
   },
   "active": [],
   "resolved": [
-    {
-      "type": "resolved",
-      "serviceNotificationId": "d62c1c58-5c72-f111-ab0f-000d3a36696c",
-      "serviceStatus": "",
-      "region": "",
-      "reportedRaw": "6/27/2026 12:13:26 PM",
-      "reportedAt": "2026-06-27T12:13:26.000Z",
-      "resolvedRaw": "6/27/2026 12:32:06 PM",
-      "resolvedAt": "2026-06-27T12:32:06.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span style=\"background-color:rgb(255,255,255);color:rgb(41,40,39);font-family:\"Segoe UI\";font-size:15px;\"><span style=\"display:inline !important;float:none;font-style:normal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;\">Fabric customers in UAE North might experience issues while interacting with the service.</span></span></p></div>",
-      "detailsText": "Fabric customers in UAE North might experience issues while interacting with the service.",
-      "hash": "36d650afaebb52c0ce1c774ef7c2a7e6d3995343662c317d8747966fe8daae5c"
-    },
     {
       "type": "resolved",
       "serviceNotificationId": "970aecbe-196f-f111-ab0d-6045bd00f798",

@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-07-01T11:29:19.078Z",
+  "generatedAt": "2026-07-01T13:52:49.386Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 196,
+  "count": 197,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "daf7c332-4975-f111-ab0f-000d3a376137",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "7/1/2026 5:33:10 AM",
+      "reportedAt": "2026-07-01T05:33:10.000Z",
+      "resolvedRaw": "7/1/2026 6:14:58 AM",
+      "resolvedAt": "2026-07-01T06:14:58.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers in Brazil South D cluster may have experienced intermittent delays while interacting with the service.</p></div>",
+      "detailsText": "Fabric Customers in Brazil South D cluster may have experienced intermittent delays while interacting with the service.",
+      "hash": "477d7fa04d2d26eaa27677fb22b3e581012708311523bd760ba8018b968bcb97"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "970aecbe-196f-f111-ab0d-6045bd00f798",

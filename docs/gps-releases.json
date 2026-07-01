@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:23:58.542Z",
+  "generatedAt": "2026-07-01T20:22:52.899Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1054,
+      "total_items": 1053,
       "total_pages": 11
     }
   }

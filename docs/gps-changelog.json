@@ -1,13 +1,117 @@
 {
-  "generatedAt": "2026-07-02T18:56:27.825Z",
+  "generatedAt": "2026-07-02T20:18:39.132Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1065,
   "changelog": {
     "days": [
       {
-        "count": 11,
+        "count": 19,
         "date": "2026-07-02",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2026-09-30"
+            ],
+            "feature_name": "Mirroring TTL",
+            "last_modified": "2026-07-02",
+            "product_name": "Cosmos DB",
+            "release_date": "Q3 2026",
+            "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Workload Conversational Analytics -> Data Science"
+            ],
+            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [GA]",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Science",
+            "release_date": "Q4 2025",
+            "release_item_id": "9f3e8191-53b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Workload Conversational Analytics -> Data Science"
+            ],
+            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [Public Preview]",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Science",
+            "release_date": "Q1 2025",
+            "release_item_id": "39d793d1-b79c-ef11-8a6a-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Workload Conversational Analytics -> Data Science"
+            ],
+            "feature_name": "AI functions in Data Wrangler [Public Preview]",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Science",
+            "release_date": "Q3 2025",
+            "release_item_id": "c638bc4d-6f5e-f011-bec2-0022480939f0",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Workload Conversational Analytics -> Data Science"
+            ],
+            "feature_name": "GA AutoML in Fabric",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Science",
+            "release_date": "Q1 2026",
+            "release_item_id": "2b64b096-5eb3-f011-bbd3-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Workload Conversational Analytics -> Data Science"
+            ],
+            "feature_name": "Low Code AutoML",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Science",
+            "release_date": "Q4 2024",
+            "release_item_id": "a05607d1-c758-ef11-a317-0022480abf3c",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Workload Conversational Analytics -> Data Science"
+            ],
+            "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [GA]",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Science",
+            "release_date": "Q3 2025",
+            "release_item_id": "053c13db-53b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Workload Conversational Analytics -> Data Science"
+            ],
+            "feature_name": "Multimodal Support for AI Functions [Public Preview]",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Science",
+            "release_date": "Q1 2026",
+            "release_item_id": "cda45361-58b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -758,7 +862,7 @@
         ]
       },
       {
-        "count": 48,
+        "count": 41,
         "date": "2026-06-24",
         "items": [
           {
@@ -814,48 +918,6 @@
             "product_name": "Conversational Analytics",
             "release_date": "Q1 2026",
             "release_item_id": "397e4a71-ccf0-f011-8407-002248096d54",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
-            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [GA]",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2025",
-            "release_item_id": "9f3e8191-53b3-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
-            "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [Public Preview]",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q1 2025",
-            "release_item_id": "39d793d1-b79c-ef11-8a6a-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
-            "feature_name": "AI functions in Data Wrangler [Public Preview]",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2025",
-            "release_item_id": "c638bc4d-6f5e-f011-bec2-0022480939f0",
             "release_status": "Shipped",
             "release_type": "Public preview"
           },
@@ -1068,20 +1130,6 @@
               "Restored to Roadmap",
               "Workload Data Science -> Conversational Analytics"
             ],
-            "feature_name": "GA AutoML in Fabric",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q1 2026",
-            "release_item_id": "2b64b096-5eb3-f011-bbd3-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
             "feature_name": "General Availability of Fabric Data Agents",
             "last_modified": "2026-06-24",
             "product_name": "Conversational Analytics",
@@ -1168,34 +1216,6 @@
               "Restored to Roadmap",
               "Workload Data Science -> Conversational Analytics"
             ],
-            "feature_name": "Low Code AutoML",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2024",
-            "release_item_id": "a05607d1-c758-ef11-a317-0022480abf3c",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
-            "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [GA]",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2025",
-            "release_item_id": "053c13db-53b3-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
             "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [Public Preview]",
             "last_modified": "2026-06-24",
             "product_name": "Conversational Analytics",
@@ -1215,20 +1235,6 @@
             "product_name": "Conversational Analytics",
             "release_date": "Q4 2025",
             "release_item_id": "878ac7c1-a461-f011-bec1-000d3a35e553",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
-            "feature_name": "Multimodal Support for AI Functions [Public Preview]",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q1 2026",
-            "release_item_id": "cda45361-58b3-f011-bbd3-000d3a3740cc",
             "release_status": "Shipped",
             "release_type": "Public preview"
           },
@@ -1978,7 +1984,7 @@
         ]
       },
       {
-        "count": 921,
+        "count": 920,
         "date": "2026-06-16",
         "items": [
           {
@@ -2992,19 +2998,6 @@
             "product_name": "Cosmos DB",
             "release_date": "Q3 2026",
             "release_item_id": "8275e94e-174b-f111-bec7-6045bd00f506",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Mirroring TTL",
-            "last_modified": "2026-06-16",
-            "product_name": "Cosmos DB",
-            "release_date": "Q4 2026",
-            "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
             "release_status": "Planned",
             "release_type": "Public preview"
           },

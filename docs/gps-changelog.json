@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-02T17:19:01.399Z",
+  "generatedAt": "2026-07-02T18:56:27.825Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1065,
   "changelog": {
     "days": [
       {
-        "count": 10,
+        "count": 11,
         "date": "2026-07-02",
         "items": [
           {
@@ -137,6 +137,19 @@
             "release_item_id": "efd5c877-8f3f-f111-88b5-6045bd00f798",
             "release_status": "Shipped",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Outbound access protection for Azure and Fabric Events",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "143d1e3b-84bb-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           }
         ]
       },
@@ -1965,7 +1978,7 @@
         ]
       },
       {
-        "count": 922,
+        "count": 921,
         "date": "2026-06-16",
         "items": [
           {
@@ -12951,19 +12964,6 @@
             "release_date": "Q4 2025",
             "release_item_id": "56a6595c-7532-f011-8c4e-0022480939f0",
             "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Outbound access protection for Azure and Fabric Events",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "143d1e3b-84bb-f011-bbd3-000d3a3740cc",
-            "release_status": "Planned",
             "release_type": "Public preview"
           },
           {

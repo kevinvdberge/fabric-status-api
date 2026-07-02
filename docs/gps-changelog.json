@@ -1,13 +1,78 @@
 {
-  "generatedAt": "2026-07-02T01:31:32.804Z",
+  "generatedAt": "2026-07-02T05:42:05.519Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1065,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 10,
         "date": "2026-07-02",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-04-30 -> 2026-09-30"
+            ],
+            "feature_name": "Managing Multi-Warehouse Dependencies with DacFx",
+            "last_modified": "2026-07-02",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "e45e0d20-dfb8-f011-bbd3-0022480b30e4",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Add Data Source Connector for Business Events in Real-Time Hub",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "ddd81a72-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Anomaly Detection Events in Real-Time Hub",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "02b2d2a5-ecc0-f011-bbd3-6045bd05dd14",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Business Events as a Source in Eventstream",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "0ba4b543-d83d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Business events selector when publishing events from Notebook",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "766d62fa-d63d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -19,6 +84,45 @@
             "release_date": "Q3 2026",
             "release_item_id": "e54c5e9c-8f3f-f111-88b5-6045bd00f798",
             "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Notebook as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-07-02",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "aa858b30-d73d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Planned",
             "release_type": "General availability"
           },
           {
@@ -1861,7 +1965,7 @@
         ]
       },
       {
-        "count": 930,
+        "count": 922,
         "date": "2026-06-16",
         "items": [
           {
@@ -7368,13 +7472,13 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Managing Multi-Warehouse Dependencies with DacFx",
+            "feature_name": "MERGE (T-SQL)",
             "last_modified": "2026-06-16",
             "product_name": "Data Warehouse",
-            "release_date": "Q2 2026",
-            "release_item_id": "e45e0d20-dfb8-f011-bbd3-0022480b30e4",
-            "release_status": "Planned",
-            "release_type": "Public preview"
+            "release_date": "Q1 2026",
+            "release_item_id": "57d46f23-e1b8-f011-bbd3-000d3a366ca0",
+            "release_status": "Shipped",
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -7388,19 +7492,6 @@
             "release_item_id": "bd35ecc1-4880-ef11-ac21-6045bd062aa2",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "MERGE (T-SQL)",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Warehouse",
-            "release_date": "Q1 2026",
-            "release_item_id": "57d46f23-e1b8-f011-bbd3-000d3a366ca0",
-            "release_status": "Shipped",
-            "release_type": "General availability"
           },
           {
             "active": false,
@@ -10231,10 +10322,10 @@
             "feature_name": "Create and run DAX queries with Query view in Power BI Desktop",
             "last_modified": "2026-06-16",
             "product_name": "Power BI",
-            "release_date": "Q1 2024",
-            "release_item_id": "42360780-9afc-ee11-a1ff-000d3a341a60",
+            "release_date": "Q2 2024",
+            "release_item_id": "c3e08972-3e07-ef11-9f89-000d3a33ff0b",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -10244,10 +10335,10 @@
             "feature_name": "Create and run DAX queries with Query view in Power BI Desktop",
             "last_modified": "2026-06-16",
             "product_name": "Power BI",
-            "release_date": "Q2 2024",
-            "release_item_id": "c3e08972-3e07-ef11-9f89-000d3a33ff0b",
+            "release_date": "Q1 2024",
+            "release_item_id": "42360780-9afc-ee11-a1ff-000d3a341a60",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -11203,19 +11294,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Add Data Source Connector for Business Events in Real-Time Hub",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "ddd81a72-da3d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Additional Fabric system events",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
@@ -11236,19 +11314,6 @@
             "release_item_id": "2de278c1-86d7-ee11-9079-000d3a310f67",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Anomaly Detection Events in Real-Time Hub",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "02b2d2a5-ecc0-f011-bbd3-6045bd05dd14",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": false,
@@ -11353,32 +11418,6 @@
             "release_item_id": "8b17d0f4-2022-f011-8c4c-6045bd0555b7",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Business Events as a Source in Eventstream",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "0ba4b543-d83d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Business events selector when publishing events from Notebook",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "766d62fa-d63d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": false,
@@ -12009,19 +12048,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Eventstream as a Business Events Publisher",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
@@ -12029,19 +12055,6 @@
             "release_item_id": "d9ba17dc-d73d-f111-88b5-6045bd0a8ec1",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
           },
           {
             "active": false,
@@ -12893,19 +12906,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Notebook as a Business Events Publisher from Real-Time Hub",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "aa858b30-d73d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Notebook integration",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
@@ -13208,10 +13208,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
+            "release_date": "Q3 2025",
+            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -13221,10 +13221,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2025",
-            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_date": "Q3 2026",
+            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": false,

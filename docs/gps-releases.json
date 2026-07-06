@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-06T13:30:50.530Z",
+  "generatedAt": "2026-07-06T16:44:05.161Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Inline Scalar user-defined functions (UDFs) in Microsoft Fabric Warehouse (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/inline-scalar-user-defined-functions-udfs-in-microsoft-fabric-warehouse-preview",
+        "feature_description": "Computation-based scalar UDFs now support WHILE loops, multiple RETURN statements and deeply nested IF-THEN-ELSE blocks in the function body. They can also be used in queries that include Common Table Expressions (CTEs), and within GROUP BY, HAVING, and ORDER BY clauses.",
+        "feature_name": "Scalar UDFs - Expanded T-SQL constructs and query shapes for computation-based UDFs",
+        "last_modified": "2026-07-06",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "c418b243-333f-f111-88b5-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Supercharge your real-time data ingestion: What's new in Fabric Eventstream connectors",
@@ -1389,20 +1403,6 @@
         "release_item_id": "7c9a04b4-0997-ef11-8a6a-6045bd062aa2",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Adding expand and collapse icons to the column headers when more than one column is added, like how there are expand and collapse icons for row headers when there are more than one row added to the matrix in Power BI.",
-        "feature_name": "Matrix expand and collapse icons on column headers",
-        "last_modified": "2026-06-23",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q4 2026",
-        "release_item_id": "a5e3a618-146f-f111-ab0d-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {

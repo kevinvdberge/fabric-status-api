@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-07T22:11:57.938Z",
+  "generatedAt": "2026-07-07T23:14:45.825Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Alerting and acting on data from the Real-Time hub",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/alerting-and-acting-on-data-from-the-real-time-hub",
+        "feature_description": "**Anomaly Detection Events in Real-Time Hub****Overview**Enable Real-Time hub to surface anomaly detection signals as Business Events--allowing users to monitor, react, and automate responses to unusual patterns in real time.**Key Capabilities*** Anomaly Signals as Business Events: Represent detected anomalies (e.g., spikes, drops, deviations) as standardized Business Events that can be consumed across Fabric.* Real-time Event Monitoring & Alerts: Continuously monitor event streams and trigger anomaly events when defined conditions or thresholds are met.* Customizable Detection Conditions: Configure rules, filters, and thresholds to detect anomalies relevant to specific business scenarios.* Seamless Integration with Consumers: Route anomaly events to Eventstream, Activator, or downstream systems for automated actions and workflows.* End-to-End Event-Driven Automation: Trigger notifications, workflows, or remediation actions automatically when anomalies are detected.",
+        "feature_name": "Anomaly Detection Events in Real-Time Hub",
+        "last_modified": "2026-07-07",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q1 2027",
+        "release_item_id": "02b2d2a5-ecc0-f011-bbd3-6045bd05dd14",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Inline Scalar user-defined functions (UDFs) in Microsoft Fabric Warehouse (Preview)",
@@ -101,20 +115,6 @@
         "release_item_id": "0ba4b543-d83d-f111-88b5-6045bd0a8ec1",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Alerting and acting on data from the Real-Time hub",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/alerting-and-acting-on-data-from-the-real-time-hub",
-        "feature_description": "**Anomaly Detection Events in Real-Time Hub****Overview**Enable Real-Time hub to surface anomaly detection signals as Business Events--allowing users to monitor, react, and automate responses to unusual patterns in real time.**Key Capabilities*** Anomaly Signals as Business Events: Represent detected anomalies (e.g., spikes, drops, deviations) as standardized Business Events that can be consumed across Fabric.* Real-time Event Monitoring & Alerts: Continuously monitor event streams and trigger anomaly events when defined conditions or thresholds are met.* Customizable Detection Conditions: Configure rules, filters, and thresholds to detect anomalies relevant to specific business scenarios.* Seamless Integration with Consumers: Route anomaly events to Eventstream, Activator, or downstream systems for automated actions and workflows.* End-to-End Event-Driven Automation: Trigger notifications, workflows, or remediation actions automatically when anomalies are detected.",
-        "feature_name": "Anomaly Detection Events in Real-Time Hub",
-        "last_modified": "2026-07-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q4 2026",
-        "release_item_id": "02b2d2a5-ecc0-f011-bbd3-6045bd05dd14",
-        "release_status": "Planned",
-        "release_type": "General availability"
       },
       {
         "active": true,

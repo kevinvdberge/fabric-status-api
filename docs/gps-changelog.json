@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-07-07T22:11:57.938Z",
+  "generatedAt": "2026-07-07T23:14:45.825Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1063,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-07-07",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2027-03-31"
+            ],
+            "feature_name": "Anomaly Detection Events in Real-Time Hub",
+            "last_modified": "2026-07-07",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "02b2d2a5-ecc0-f011-bbd3-6045bd05dd14",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-07-06",
@@ -26,7 +45,7 @@
         ]
       },
       {
-        "count": 19,
+        "count": 18,
         "date": "2026-07-02",
         "items": [
           {
@@ -156,19 +175,6 @@
             "product_name": "Real-Time Intelligence",
             "release_date": "Q4 2026",
             "release_item_id": "ddd81a72-da3d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Anomaly Detection Events in Real-Time Hub",
-            "last_modified": "2026-07-02",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2026",
-            "release_item_id": "02b2d2a5-ecc0-f011-bbd3-6045bd05dd14",
             "release_status": "Planned",
             "release_type": "General availability"
           },

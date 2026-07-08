@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-07-08T00:13:57.226Z",
+  "generatedAt": "2026-07-08T06:26:04.059Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1063,
+  "count": 1064,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-07-08",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "OneLake security - dynamic and multi-table RLS",
+            "last_modified": "2026-07-08",
+            "product_name": "OneLake",
+            "release_date": "Q3 2026",
+            "release_item_id": "dd026247-931f-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-07-07",
@@ -13996,6 +14015,6 @@
         ]
       }
     ],
-    "total_items": 1063
+    "total_items": 1064
   }
 }

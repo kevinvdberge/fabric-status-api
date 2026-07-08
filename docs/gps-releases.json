@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-08T00:13:57.226Z",
+  "generatedAt": "2026-07-08T06:26:04.059Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "OneLake Security on the SQL Analytics Endpoint",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/onelake-security-on-the-sql-analytics-endpoint",
+        "feature_description": "OneLake security is adding support for dynamic and multi-table row level security. With dynamic RLS, users can create roles in OneLake that secure data differently for each user that queries the data. In addition, multi-table RLS allows data to be secured by querying values in a lookup table. Combined, these features empower users to complex RLS rules for securing enterprise data.",
+        "feature_name": "OneLake security - dynamic and multi-table RLS",
+        "last_modified": "2026-07-08",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q3 2026",
+        "release_item_id": "dd026247-931f-f011-998a-0022480939f0",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Alerting and acting on data from the Real-Time hub",
@@ -1389,20 +1403,6 @@
         "release_item_id": "a6cf3d58-6aa0-ef11-8a6a-6045bd062aa2",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Introducing Copilot for Real-Time Dashboards: Write KQL with natural language",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-copilot-for-real-time-dashboards-write-kql-with-natural-language",
-        "feature_description": "This feature allows users to query their Kusto databases in Fabric using natural language, receiving both a concise answer and the corresponding KQL (Kusto Query Language) query. Users can ask questions like 'What was the total number of logins last week?' and get not only the result but also the underlying KQL query for transparency and reuse. To enhance accuracy, users can provide few-shot examples--sample questions with expected answers. The system supports iterative queries, enabling users to refine their questions or update notes for more precise outputs, making data analysis more accessible while empowering advanced users with greater control.",
-        "feature_name": "KQL database as new data source in AI Skill",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2025",
-        "release_item_id": "7c9a04b4-0997-ef11-8a6a-6045bd062aa2",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1053,
+      "total_items": 1054,
       "total_pages": 11
     }
   }

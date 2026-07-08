@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T17:07:11.826Z",
+  "generatedAt": "2026-07-08T18:43:27.136Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -31,6 +31,48 @@
         "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
         "release_status": "Shipped",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Resolving Write Conflicts in Microsoft Fabric Data Warehouse",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/concurrency-control-and-conflict-resolution-in-microsoft-fabric-data-warehouse",
+        "feature_description": "This feature is part of the concurrency control strategy for Fabric DW. File-level write-write conflict detection is a mechanism designed to prevent two concurrent transactions from modifying the same physical file in a data warehouse at the same time. More precise than table-level detection (which blocks any concurrent changes to the same table).What It Does?Scope: Operates at the file level (e.g., Parquet files in Fabric DW), rather than at the table or row level.Goal: Detect overlapping changes (updates, deletes) to the same file during concurrent transactions.Trigger: When a transaction tries to commit changes, the system checks if any newer manifests indicate modifications to the same file since the transaction started.Lays groundwork for even finer-grained detection (row-level) in later releases.",
+        "feature_name": "File-Level write-write conflict detection (Generally Available)",
+        "last_modified": "2026-07-08",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "This improvement to Power BI's Org Apps will add support for defining user access and content display by audience(s), like the functionality in Power BI workspace apps. Audiences will allow for conditional display of content in the org app according to the audience or audiences a user belongs to. For instance, app creators can create one audience that can see only a subset of report within the app, but another audience with managerial oversite to make use of all of the reporting.",
+        "feature_name": "Audience support in Org Apps",
+        "last_modified": "2026-07-08",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q2 2026",
+        "release_item_id": "c70db653-4d92-ef11-ac21-6045bd062aa2",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Org Apps allows you to easily create different apps for different pruposes with full source control support. In this upcomming release we will close alot of the most requested features and take Org Apps to General Availability.",
+        "feature_name": "Org Apps GA",
+        "last_modified": "2026-07-08",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q2 2026",
+        "release_item_id": "6ebbadfc-1dc5-f011-bbd3-6045bd00f9db",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1359,48 +1401,6 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2025",
         "release_item_id": "4ec0e5ee-2a22-f011-9989-6045bd030c4d",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Accelerate Data Transformation with AI Functions in Data Wrangler (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/accelerate-data-transformation-with-ai-functions-in-data-wrangler",
-        "feature_description": "A new suite of AI-powered operations in Data Wrangler will allow users to describe code transformations with natural language and generate the corresponding Python; translate custom Python code into PySpark code; and view high-confidence suggestions for operations based on their working data.",
-        "feature_name": "Low-Code AI-Powered Operations in Data Wrangler [Public Preview]",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q2 2025",
-        "release_item_id": "6a229e5c-1a03-ef11-a1fd-000d3a33ff0b",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Empowering agentic AI by integrating Fabric with Azure AI Foundry",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/empowering-agentic-ai-by-integrating-fabric-with-azure-ai-foundry",
-        "feature_description": "With the Fabric data agent integration in Azure AI Foundry, Fabric data agent will serve as a knowledge source for Agent Service in Microsoft Azure AI Foundry. This enables the agent to use Fabric as a data hub, tapping into the insights available within Fabric to answer user queries accurately and efficiently. By connecting to Fabric data agent, the agent can retrieve data insights directly from Fabric, allowing consumers to interact with and analyze their Fabric data seamlessly through the AI applications in Azure AI Foundry.",
-        "feature_name": "Fabric data agent integration with Azure AI Foundry",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2025",
-        "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Semantic link in Microsoft Fabric: Bridging BI and Data Science",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/semantic-link-use-fabric-notebooks-and-power-bi-datasets-for-machine-learning-data-validation-and-more",
-        "feature_description": "This feature allows users to query their Power BI Semantic Models in Fabric using natural language, receiving both a concise answer and the corresponding DAX query. Users can ask questions like 'What were the total sales over the last 12 months?' and get not only the result but also the underlying DAX query for transparency and reuse. In future, user should also be able to provide few-shot examples--sample questions- to guide the AI Skill that semantic model is the best tool to answer those questions. This approach makes data insights more accessible to all users while providing advanced users with greater control and transparency over the analysis.",
-        "feature_name": "Semantic Models as new data source for AI Skill",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2025",
-        "release_item_id": "b53e0bb7-4c95-ef11-8a6a-002248098a98",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-07-08T17:07:11.826Z",
+  "generatedAt": "2026-07-08T18:43:27.136Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1064,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 5,
         "date": "2026-07-08",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "File-Level write-write conflict detection (Generally Available)",
+            "last_modified": "2026-07-08",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -33,6 +46,32 @@
             "release_item_id": "dd026247-931f-f011-998a-0022480939f0",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Audience support in Org Apps",
+            "last_modified": "2026-07-08",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "c70db653-4d92-ef11-ac21-6045bd062aa2",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Org Apps GA",
+            "last_modified": "2026-07-08",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "6ebbadfc-1dc5-f011-bbd3-6045bd00f9db",
+            "release_status": "Shipped",
+            "release_type": "General availability"
           }
         ]
       },
@@ -2030,7 +2069,7 @@
         ]
       },
       {
-        "count": 919,
+        "count": 916,
         "date": "2026-06-16",
         "items": [
           {
@@ -7394,19 +7433,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "File-Level write-write conflict detection (Generally Available)",
-            "last_modified": "2026-06-16",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Full Query Text in Query Insights",
             "last_modified": "2026-06-16",
             "product_name": "Data Warehouse",
@@ -10072,19 +10098,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Audience support in Org Apps",
-            "last_modified": "2026-06-16",
-            "product_name": "Power BI",
-            "release_date": "Q2 2026",
-            "release_item_id": "c70db653-4d92-ef11-ac21-6045bd062aa2",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Author calculation groups",
             "last_modified": "2026-06-16",
             "product_name": "Power BI",
@@ -10818,19 +10831,6 @@
             "product_name": "Power BI",
             "release_date": "Q3 2026",
             "release_item_id": "2774e8e2-ed5a-f111-bec7-000d3a376137",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Org Apps GA",
-            "last_modified": "2026-06-16",
-            "product_name": "Power BI",
-            "release_date": "Q2 2026",
-            "release_item_id": "6ebbadfc-1dc5-f011-bbd3-6045bd00f9db",
             "release_status": "Planned",
             "release_type": "General availability"
           },

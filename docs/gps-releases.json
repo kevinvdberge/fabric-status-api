@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T13:00:55.601Z",
+  "generatedAt": "2026-07-08T15:33:20.147Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -16,6 +16,20 @@
         "release_date": "Q3 2026",
         "release_item_id": "dd026247-931f-f011-998a-0022480939f0",
         "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-new-branching-capabilities-in-fabric-git-integration",
+        "feature_description": "Today, when a Fabric workspace is connected to a Git repository, only workspace admins can switch the selected branch. With this change, Contributor and above users can also switch branches. Additionally, Contributor and above users will be able to branch out to existing workspaces that have this setting enabled, even if they aren't admins on the target workspace. This new capability will be available via Fabric UI and Fabric REST API.",
+        "feature_name": "Git Integration - Allow contributor and above users to switch branch",
+        "last_modified": "2026-07-08",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
+        "release_status": "Shipped",
         "release_type": "Public preview"
       },
       {
@@ -1389,20 +1403,6 @@
         "release_item_id": "b53e0bb7-4c95-ef11-8a6a-002248098a98",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New improvements coming to the AI Skill",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-improvements-coming-to-the-ai-skill",
-        "feature_description": "The AI Skill is now conversational, enabling users to engage in natural, back-and-forth dialogue to explore and understand their data with ease. This enhancement allows users to ask follow-up questions, refine queries, and receive dynamic insights, making data exploration more intuitive and interactive.",
-        "feature_name": "AI Skill becomes a conversational AI agent",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2025",
-        "release_item_id": "a6cf3d58-6aa0-ef11-8a6a-6045bd062aa2",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {

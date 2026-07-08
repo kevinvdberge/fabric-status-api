@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-08T20:10:29.202Z",
+  "generatedAt": "2026-07-08T21:30:27.348Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "We are introducing Ontology Health in Microsoft Fabric to help modelers quickly assess whether an ontology is ready for real-world use. With this capability, ontology quality is continuously evaluated across three core areas--foundation, validation, and refinement--ensuring models are structurally sound, properly configured, and operationally ready. With this capability, you can: * Identify structural issues and inconsistencies through foundation checks to ensure the ontology is sound. * Verify required configurations using validation checks to confirm completeness and correctness. * Improve clarity, coverage, and usability with refinement checks for downstream consumption. * Quickly prioritize fixes with results categorized as Critical, Warning, or Information. * Navigate directly to impacted elements with guided actions, enabling faster issue resolution and increased trust in queries, graph experiences, and AI-powered outcomes.",
+        "feature_name": "Ontology Health",
+        "last_modified": "2026-07-08",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "OneLake Security on the SQL Analytics Endpoint",
@@ -1387,20 +1401,6 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q4 2025",
         "release_item_id": "878ac7c1-a461-f011-bec1-000d3a35e553",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Unlocking LLM-Powered through Data Agent from your Mirrored Databases in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/unlocking-llm-powered-through-data-agent-from-your-mirrored-databases-in-microsoft-fabric",
-        "feature_description": "Supporting Mirrored SQL DBs in Data Agent will bridge the gap between technical and non-technical users, allowing them to collaborate more efficiently and make informed decisions based on accurate and timely data. This integration will also ensure that businesses can maximize the value of their existing SQL DB investments while benefiting from the advanced capabilities of Microsoft Fabric's Data Agent.",
-        "feature_name": "Data Agent to Support Mirrored Databases",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2025",
-        "release_item_id": "fdb2922d-4b24-f011-8c4d-00224804b6c3",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

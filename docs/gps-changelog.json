@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-08T20:10:29.202Z",
+  "generatedAt": "2026-07-08T21:30:27.348Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1064,
   "changelog": {
     "days": [
       {
-        "count": 6,
+        "count": 7,
         "date": "2026-07-08",
         "items": [
           {
@@ -46,6 +46,20 @@
             "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
             "release_status": "Shipped",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31",
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "Ontology Health",
+            "last_modified": "2026-07-08",
+            "product_name": "IQ",
+            "release_date": "Q4 2026",
+            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -1782,7 +1796,7 @@
         ]
       },
       {
-        "count": 22,
+        "count": 21,
         "date": "2026-06-17",
         "items": [
           {
@@ -1985,20 +1999,6 @@
             "release_date": "Q2 2026",
             "release_item_id": "dbfb5522-a703-f111-8406-6045bd00f798",
             "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Restored to Roadmap"
-            ],
-            "feature_name": "Ontology Health",
-            "last_modified": "2026-06-17",
-            "product_name": "IQ",
-            "release_date": "Q3 2026",
-            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
-            "release_status": "Planned",
             "release_type": "Public preview"
           },
           {
@@ -10374,10 +10374,10 @@
             "feature_name": "Create and run DAX queries with Query view in Power BI Desktop",
             "last_modified": "2026-06-16",
             "product_name": "Power BI",
-            "release_date": "Q2 2024",
-            "release_item_id": "c3e08972-3e07-ef11-9f89-000d3a33ff0b",
+            "release_date": "Q1 2024",
+            "release_item_id": "42360780-9afc-ee11-a1ff-000d3a341a60",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -10387,10 +10387,10 @@
             "feature_name": "Create and run DAX queries with Query view in Power BI Desktop",
             "last_modified": "2026-06-16",
             "product_name": "Power BI",
-            "release_date": "Q1 2024",
-            "release_item_id": "42360780-9afc-ee11-a1ff-000d3a341a60",
+            "release_date": "Q2 2024",
+            "release_item_id": "c3e08972-3e07-ef11-9f89-000d3a33ff0b",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -13234,10 +13234,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2025",
-            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_date": "Q3 2026",
+            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -13247,10 +13247,10 @@
             "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
+            "release_date": "Q3 2025",
+            "release_item_id": "95ca1631-45b8-ef11-b8e9-002248098a98",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": false,

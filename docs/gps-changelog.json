@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-11T23:10:06.016Z",
+  "generatedAt": "2026-07-12T00:10:07.656Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1064,
+  "count": 1062,
   "changelog": {
     "days": [
       {
@@ -8320,10 +8320,10 @@
             "feature_name": "Deployment pipelines new UI",
             "last_modified": "2026-06-16",
             "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2024",
-            "release_item_id": "8d7e4e5e-da0a-ef11-9f89-000d3a34b75c",
+            "release_date": "Q3 2025",
+            "release_item_id": "f0c20973-f412-f011-9989-000d3a34671f",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -8333,10 +8333,10 @@
             "feature_name": "Deployment pipelines new UI",
             "last_modified": "2026-06-16",
             "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2025",
-            "release_item_id": "f0c20973-f412-f011-9989-000d3a34671f",
+            "release_date": "Q3 2024",
+            "release_item_id": "8d7e4e5e-da0a-ef11-9f89-000d3a34b75c",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -13981,40 +13981,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 2,
-        "date": "2026-06-11",
-        "items": [
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Real-Time hub Makes it Easier for Users to Discover New Features or Capabilities",
-            "last_modified": "2026-06-11",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "2bd88c0c-d1a3-f011-bbd3-6045bd00f9db",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Real-Time hub surfaces recommended tasks based on what you are working on at the moment",
-            "last_modified": "2026-06-11",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "46118e1c-6122-f111-8341-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 1064
+    "total_items": 1062
   }
 }

@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-07-12T19:50:01.989Z",
+  "generatedAt": "2026-07-12T20:41:37.472Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1062,
+  "count": 1063,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-07-12",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Airflow - Support for Apache Airflow 3.x",
+            "last_modified": "2026-07-12",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "e31334da-267e-f111-ab0f-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 7,
         "date": "2026-07-08",
@@ -5824,10 +5843,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q2 2025",
-            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
+            "release_date": "Q3 2025",
+            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -5837,10 +5856,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q3 2025",
-            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
+            "release_date": "Q2 2025",
+            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -13983,6 +14002,6 @@
         ]
       }
     ],
-    "total_items": 1062
+    "total_items": 1063
   }
 }

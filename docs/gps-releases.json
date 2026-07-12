@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-12T20:41:37.472Z",
+  "generatedAt": "2026-07-12T21:32:56.862Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Running Apache Airflow jobs seamlessly in Microsoft Fabric",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/running-apache-airflow-jobs-seamlessly-in-microsoft-fabric",
+        "feature_description": "Microsoft Fabric Apache Airflow Jobs provided the easiest and quickest way to build enterprise-ready DAGs without any infrastructure requirements. They are based on open-source Apache Airflow and we have now updated our support to version 3.3 of Apache Airflow.",
+        "feature_name": "Airflow - Support for Apache Airflow 3.x",
+        "last_modified": "2026-07-12",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "e31334da-267e-f111-ab0f-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Creator Improvements in the Data Agent",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/creator-improvements-in-the-data-agent",
-        "feature_description": "The new multi-tasking experience in the Data Agent is designed to make it easier for creators to switch between different configurations and chat with their data more fluidly. With this update, users can navigate across multiple configuration setups--such as different data sources, instructions, or example queries--without losing context or progress in their conversations.This experience directly addresses key user feedback around the friction of managing and testing configurations, especially when iterating on prompt quality. By streamlining how configurations are accessed and switched, creators can move faster, compare results across variations, and troubleshoot more effectively--all within a unified interface.",
-        "feature_name": "Multi-Tasking Configuration Experience for Data Agent Creators",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q4 2025",
-        "release_item_id": "878ac7c1-a461-f011-bec1-000d3a35e553",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1054,
+      "total_items": 1055,
       "total_pages": 11
     }
   }

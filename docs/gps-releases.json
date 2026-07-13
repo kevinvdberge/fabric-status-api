@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-13T22:00:37.991Z",
+  "generatedAt": "2026-07-13T23:11:55.978Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "When automating pipeline execution across complex data ecosystems, it is very important to only invoke those pipelines when specific requirements have first been met. In Fabric Data Factory, we refer to these as &quot;pipeine dependencies&quot;. With this new feature, you will be able to set independent rules for each pipeline that requires data presences, trigger status, and pipeline status as optional depedency parameters for your pipeline runs.",
+        "feature_name": "Pipelines - Pipeline Dependencies",
+        "last_modified": "2026-07-13",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "6c71cf1a-007f-f111-ab0f-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Data Factory Increases Maximum Activities Per Pipeline to 80",
@@ -1389,20 +1403,6 @@
         "release_item_id": "397e4a71-ccf0-f011-8407-002248096d54",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "With the increasing integration of artificial intelligence in business tools, Copilots have introduced new challenges in data protection, governance and compliance. This situation demands a refined approach to how AI interacts with and manages organizational data. Purview for AI intends to address these challenges by providing a set of capabilities that enable organizations to monitor, audit, and prevent data loss and risk while their users interact with LLMs from their managed devices.Microsoft Purview enables Copilot and Data Agent to leverage data security, governance, and compliance features in their apps. It provides a smooth integration path to embed data protection capabilities into their workflows, ensuring robust enterprise security, such as:*  Audit: Send prompt and response telemetry along with all associated user and system context to Purview for auditing purposes.*  eDiscovery: Send prompt and response contents, including all associated user and system context, to Purview to support electronic discovery processes.*  Data Lifecycle Management (DLM): Send prompt and response contents with all associated user and system context to Purview to manage the data lifecycle effectively.*  Communications Compliance (CC): Send prompt and response contents, along with all associated user and system context, to Purview to detect and address unethical or improper uses of AI.*  Classification: Send prompt and response contents with all associated user and system context to Purview for classification and store the classification results in compliant storage.",
-        "feature_name": "Data Agent Audit logs with Purview",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2026",
-        "release_item_id": "2e298f0f-3801-f111-8406-000d3a36696c",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1056,
+      "total_items": 1057,
       "total_pages": 11
     }
   }

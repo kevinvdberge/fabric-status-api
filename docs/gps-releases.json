@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-07-14T17:34:20.311Z",
+  "generatedAt": "2026-07-14T18:46:31.401Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Tenant level private link support for Microsoft Fabric API for GraphQL (Generally Available)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/34710",
+        "feature_description": "Azure blob storage events enablement with Tenant Private Links",
+        "feature_name": "Azure blob storage events enablement with Tenant Private Links",
+        "last_modified": "2026-07-14",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "c6846700-9e3e-f111-88b5-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "ML Endpoints are currently available for a limited set of ML model flavors, including Keras, LightGBM, Sklearn, and XGBoost. This feature allows users to activate ML endpoints for models with tensor-based schemas or no schemas.",
+        "feature_name": "Support tensor based models on model endpoints",
+        "last_modified": "2026-07-14",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q3 2026",
+        "release_item_id": "57c0f1aa-2358-f111-bec7-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1373,34 +1401,6 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q1 2026",
         "release_item_id": "ea64bc96-e805-f111-8406-6045bd0a886d",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Fabric Data Agent's support for External Tables allows data agent users to include data that lives outside Eventhouse while keeping a single, governed agent configuration and schema context.This enables simpler setup and reuse of existing KQL data definitions, reducing duplication and manual query logic within data agent..",
-        "feature_name": "[PuPr] Data Agent to Support Kusto External Tables",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2026",
-        "release_item_id": "3a1e1a9b-1b12-f111-8406-6045bd0a8ec1",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Graph in Fabric (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Graph-in-Fabric-Generally-Available/ba-p/5190748",
-        "feature_description": "The Fabric Graph is introduced as a new structured data source in the Fabric Data Agent, enabling the agent to reason over entities and relationships using a native graph model rather than flat tables. By leveraging Graph schemas and NL2GQL, the Data Agent can answer complex questions that require relationship traversal, multi-hop reasoning, and entity-centric insights more naturally and accurately. Fabric Graph integrates seamlessly alongside existing Fabric sources (such as Lakehouse and Eventhouse), allowing the agent orchestrator to select graphs when relational context is critical. This unlocks more intuitive analytical experiences, including plain-English answers with the ability to pivot into visual or interactive graph exploration. Overall, Fabric Graph expands the Data Agent's reasoning depth and makes relationship-driven insights first-class in conversational analytics.",
-        "feature_name": "[PuPr] DataAgent - Graph As a DataSource",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2026",
-        "release_item_id": "397e4a71-ccf0-f011-8407-002248096d54",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

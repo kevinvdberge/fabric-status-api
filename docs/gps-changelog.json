@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-07-15T21:38:41.115Z",
+  "generatedAt": "2026-07-15T22:39:19.650Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1069,
   "changelog": {
     "days": [
       {
-        "count": 8,
+        "count": 9,
         "date": "2026-07-15",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Improved Data Agent Routing Across Sources",
+            "last_modified": "2026-07-15",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q2 2026",
+            "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1180,7 +1193,7 @@
         ]
       },
       {
-        "count": 41,
+        "count": 40,
         "date": "2026-06-24",
         "items": [
           {
@@ -1454,20 +1467,6 @@
             "release_date": "Q1 2026",
             "release_item_id": "0b5b5933-5ac0-f011-bbd3-6045bd05dd14",
             "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
-            "feature_name": "Improved Data Agent Routing Across Sources",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q2 2026",
-            "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
-            "release_status": "Planned",
             "release_type": "General availability"
           },
           {

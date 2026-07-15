@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T21:38:41.115Z",
+  "generatedAt": "2026-07-15T22:39:19.650Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -115,6 +115,20 @@
         "release_item_id": "0733b6d7-0440-f111-88b5-002248085b3f",
         "release_status": "Shipped",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "The Data Agent is now better at selecting the right data source when answering your questions--especially in setups with multiple sources. It more effectively evaluates schema, example queries, and source descriptions to determine the best place to route each request. This leads to more accurate results and fewer misrouted queries across both SQL, Semantic Model, and KQL sources.",
+        "feature_name": "Improved Data Agent Routing Across Sources",
+        "last_modified": "2026-07-15",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q2 2026",
+        "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1389,20 +1403,6 @@
         "release_item_id": "d0e74e09-322e-f111-88b4-000d3a376137",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Building Common Data Architectures with OneLake in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/building-common-data-architectures-with-onelake-in-microsoft-fabric",
-        "feature_description": "With this Salesforce Data Cloud 260 customer's can access data from OneLake with zero copy.https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-set-up-microsoftfabriconelake-connection.htmlWe plan to announce it through a blog both on Salesforce and Fabric, planned date July 14th.",
-        "feature_name": "Salesforce DC360 reading from OneLake",
-        "last_modified": "2026-06-24",
-        "product_id": "94e84e43-aa69-f011-bec2-00224804b6c3",
-        "product_name": "Fabric Ecosystem",
-        "release_date": "Q2 2026",
-        "release_item_id": "ce1e0ca7-2070-f111-ab0d-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {

@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-07-15T00:05:59.921Z",
+  "generatedAt": "2026-07-15T03:32:50.888Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 197,
-    "total": 197
+    "resolved": 198,
+    "total": 198
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 197,
+    "resolvedIncidents": 198,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "36f404cb-b97f-f111-ab0f-6045bd00f798",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "7/14/2026 12:22:04 PM",
+      "reportedAt": "2026-07-14T12:22:04.000Z",
+      "resolvedRaw": "7/14/2026 1:00:00 PM",
+      "resolvedAt": "2026-07-14T13:00:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers may experience issues installing or refreshing first-party template apps. Our engineering team has mitigated the issue and first-party apps are working as intended.</p></div>",
+      "detailsText": "Fabric customers may experience issues installing or refreshing first-party template apps. Our engineering team has mitigated the issue and first-party apps are working as intended.",
+      "hash": "17fed0beef42593db31d6dc80093939f230555a67b443baa5f5cadd605e79e7c"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "daf7c332-4975-f111-ab0f-000d3a376137",

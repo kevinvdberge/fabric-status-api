@@ -1,9 +1,51 @@
 {
-  "generatedAt": "2026-07-15T00:05:59.956Z",
+  "generatedAt": "2026-07-15T03:32:50.921Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Python Notebooks now integrate with Environments, enabling users to upload and use custom libraries and packages.",
+        "feature_name": "Environment - Support for Python Notebook",
+        "last_modified": "2026-07-15",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q3 2026",
+        "release_item_id": "f5495e72-de01-f111-8406-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Fabric Notebooks: Resources Folder Support in Git",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-notebooks-resources-folder-support-in-git",
+        "feature_description": "Modules and files stored in the Notebook Resource folder can now be committed to Git and published through Deployment Pipelines.",
+        "feature_name": "CI/CD: notebook resources in git and deployment pipeline and support for API",
+        "last_modified": "2026-07-15",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q3 2026",
+        "release_item_id": "f4f6862a-e001-f111-8406-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Modernize your ADF pipelines to unlock Fabric",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/modernize-your-adf-pipelines-to-unlock-fabric",
+        "feature_description": "In order to gain productivity boosts with AI in Fabric Data Factory, you can now easily upgrade your existing ADF factories to Fabric in a super easy friction-free way. Previously we had multi-step processes that were run from button clicks in ADF. Now your existing ADF factories can be automatically bridged from Fabric trial capacities and then easily upgraded as-is to native Fabric pipelines and data flows.",
+        "feature_name": "Pipelines - Simplified Upgrade Experience",
+        "last_modified": "2026-07-15",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "6c647278-de7f-f111-ab0f-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Tenant level private link support for Microsoft Fabric API for GraphQL (Generally Available)",
@@ -1361,48 +1403,6 @@
         "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The Data Grid feature for data warehouses and SQL analytics endpoints includes:* Data Handling: Supports large datasets with virtualization for performance.* Performance Optimization: Virtual scrolling, row virtualization, and lazy loading.* Search: Search across columns.* Column & Row Features: Resize and sort.* Grid-Level Options: Copy data with/without headers",
-        "feature_name": "Data Grid Improvements in Data Warehouse & SQL Endpoint - Milestone 1",
-        "last_modified": "2026-06-24",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q2 2026",
-        "release_item_id": "9d7d9b3d-0d77-f011-b4cb-000d3a329ecb",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Extending Outbound Access Protection to Fabric Warehouse and SQL Analytics Endpoint",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/extending-outbound-access-protection-to-fabric-warehouse-and-sql-analytics-endpoint",
-        "feature_description": "Outbound access protection is one of the top security asks from the Fabric Enterprise customers. Today WS OAP support only limited set of items which limits the adoption of Fabric for Customers. Our aim is to support Fabric Data Agent in OAP so that customers can prevent sensitive data from getting exfiltrated.",
-        "feature_name": "Outbound Access Protection for Data Agent",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q2 2026",
-        "release_item_id": "ce75a77c-88ba-f011-bbd3-000d3a5b0efa",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Expanded Data Agent Support for Large Data Sources",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/expanded-data-agent-support-for-large-data-sources",
-        "feature_description": "Fabric Data Agent's support for KQL UDFs enables richer, more optimized reasoning over Eventhouse and KQL-backed data sources, improving both accuracy and performance of generated KQL queries. By leveraging governed, reusable functions, the agent can translate natural-language questions into more efficient queries while honoring Fabric's security and schema semantics. This expands the breadth of scenarios the agent can handle, making KQL-based analytics faster and more consistent.",
-        "feature_name": "[PuPr] Data Agent to Support Kusto UDF",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2026",
-        "release_item_id": "ea64bc96-e805-f111-8406-6045bd0a886d",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1057,
+      "total_items": 1058,
       "total_pages": 11
     }
   }

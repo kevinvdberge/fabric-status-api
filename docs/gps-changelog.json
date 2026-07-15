@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-15T15:24:10.657Z",
+  "generatedAt": "2026-07-15T16:50:03.997Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1068,
   "changelog": {
     "days": [
       {
-        "count": 5,
+        "count": 7,
         "date": "2026-07-15",
         "items": [
           {
@@ -59,6 +59,32 @@
             "release_item_id": "a144449e-0780-f111-ab0f-6045bd0a8ec1",
             "release_status": "Planned",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Eventstream supports customers to upload own connector",
+            "last_modified": "2026-07-15",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "60246c0e-762f-f011-8c4d-000d3a34671f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Live delivery insights in Eventstream",
+            "last_modified": "2026-07-15",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "8790f16d-f23f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -680,7 +706,7 @@
         ]
       },
       {
-        "count": 29,
+        "count": 27,
         "date": "2026-06-29",
         "items": [
           {
@@ -793,19 +819,6 @@
             "release_type": "Public preview"
           },
           {
-            "active": true,
-            "changed_columns": [
-              "Description updated"
-            ],
-            "feature_name": "Eventstream supports customers to upload own connector",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "60246c0e-762f-f011-8c4d-000d3a34671f",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
             "active": false,
             "changed_columns": [
               "Removed from Roadmap"
@@ -871,19 +884,6 @@
             "product_name": "Real-Time Intelligence",
             "release_date": "Q3 2026",
             "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated"
-            ],
-            "feature_name": "Live delivery insights in Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "8790f16d-f23f-f111-88b5-6045bd00f798",
             "release_status": "Planned",
             "release_type": "Public preview"
           },

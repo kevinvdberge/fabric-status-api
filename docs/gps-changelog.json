@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-15T03:32:50.921Z",
+  "generatedAt": "2026-07-15T05:58:27.785Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 1066,
+  "count": 1067,
   "changelog": {
     "days": [
       {
-        "count": 3,
+        "count": 4,
         "date": "2026-07-15",
         "items": [
           {
@@ -46,6 +46,19 @@
             "release_item_id": "6c647278-de7f-f111-ab0f-6045bd00f798",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventhouse Update Policies referencing Accelerated Shortcuts",
+            "last_modified": "2026-07-15",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "a144449e-0780-f111-ab0f-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
           }
         ]
       },
@@ -14059,6 +14072,6 @@
         ]
       }
     ],
-    "total_items": 1066
+    "total_items": 1067
   }
 }

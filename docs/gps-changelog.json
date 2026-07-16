@@ -1,9 +1,236 @@
 {
-  "generatedAt": "2026-07-16T01:07:36.797Z",
+  "generatedAt": "2026-07-16T04:25:02.769Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 1069,
   "changelog": {
     "days": [
+      {
+        "count": 17,
+        "date": "2026-07-16",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Analytics ready for database change capture CDC data in Eventstream",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-03-31"
+            ],
+            "feature_name": "Azure Data Explorer source connector for Eventstream",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2026",
+            "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Bring your own Eventhub to Fabric Eventstream",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "ee5af75d-3f4a-f111-bec7-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Continuous ingestion from Azure Blob Storage files",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "c300a8cf-863f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Enable CopyJob as source in Eventstream and Real-time Hub",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "704213db-f23f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Eventstream Event Metadata Propagation",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "bf0b473d-cb3d-f111-88b5-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Improved Eventstream experience for non-schematized events",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "b1a70168-24a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "JDBC source connector for Eventstream",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "6457e054-8d3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "JMS Eventstream connector",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "eb22e174-8e3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Lakehouse Delta table change feed connector for Eventstream",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Large message support ( 20 MB) for Fabric Event streams",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "4dc5810b-2040-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "OAuth support for the Eventstream HTTP connector",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "714d2deb-263e-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-03-31"
+            ],
+            "feature_name": "Salesforce change data capture source connector",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2026",
+            "release_item_id": "f661c4f7-8d3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Salesforce platform events source connector",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "17ed2f32-8e3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Unified GetEvents for Fabric RTI",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "5087315d-e93e-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Unify batch & streaming data platforms with CopyJob & Real-Time Intelligence",
+            "last_modified": "2026-07-16",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "403b7b13-0ca4-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 9,
         "date": "2026-07-15",
@@ -732,7 +959,7 @@
         ]
       },
       {
-        "count": 27,
+        "count": 15,
         "date": "2026-06-29",
         "items": [
           {
@@ -766,20 +993,6 @@
             "active": true,
             "changed_columns": [
               "Description updated",
-              "Name Azure Data Explorer source connector - GA -> Azure Data Explorer source connector for Eventstream"
-            ],
-            "feature_name": "Azure Data Explorer source connector for Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
               "Name Eventstream connector: Service  Bus (GA) -> Azure Service Bus source connector for Eventstream"
             ],
             "feature_name": "Azure Service Bus source connector for Eventstream",
@@ -789,33 +1002,6 @@
             "release_item_id": "9493500e-e1ce-f011-bbd3-000d3a30273e",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated"
-            ],
-            "feature_name": "Continuous ingestion from Azure Blob Storage files",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "c300a8cf-863f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Enable CopyJob sources in Eventstream (PuPr) + RTH integration -> CopyJob sources for Eventstream"
-            ],
-            "feature_name": "CopyJob sources for Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "704213db-f23f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -861,76 +1047,6 @@
             "active": true,
             "changed_columns": [
               "Description updated",
-              "Name Enhanced Eventstream UX for non-schematized events GA -> Improved Eventstream experience for non-schematized events"
-            ],
-            "feature_name": "Improved Eventstream experience for non-schematized events",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "b1a70168-24a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name JDBC Connector (open-source model for custom stream connector) -> JDBC source connector for Eventstream"
-            ],
-            "feature_name": "JDBC source connector for Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "6457e054-8d3f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name JMS source connector -> JMS source connector for Eventstream"
-            ],
-            "feature_name": "JMS source connector for Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "eb22e174-8e3f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Lakehouse Delta Table Change Feed Connector (Preview) -> Lakehouse Delta table change feed connector for Eventstream"
-            ],
-            "feature_name": "Lakehouse Delta table change feed connector for Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Bring your own Event Hub to Fabric Eventstreams (Mounted eventstreams) -> Mount an Event Hub as a fully featured Eventstream"
-            ],
-            "feature_name": "Mount an Event Hub as a fully featured Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "ee5af75d-3f4a-f111-bec7-002248085b3f",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
               "Name Eventstream streaming connector source: MQTT broker GA -> MQTT broker source connector for Eventstream"
             ],
             "feature_name": "MQTT broker source connector for Eventstream",
@@ -945,20 +1061,6 @@
             "active": true,
             "changed_columns": [
               "Description updated",
-              "Name Eventstream HTTP Connector GA - with OAuth Support -> OAuth support for the Eventstream HTTP connector"
-            ],
-            "feature_name": "OAuth support for the Eventstream HTTP connector",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "714d2deb-263e-f111-88b5-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
               "Name Pagination Support for Eventstrem HTTP Connector -> Pagination support for the Eventstream HTTP connector"
             ],
             "feature_name": "Pagination support for the Eventstream HTTP connector",
@@ -966,33 +1068,6 @@
             "product_name": "Real-Time Intelligence",
             "release_date": "Q2 2026",
             "release_item_id": "89eb68a0-263e-f111-88b5-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Salesforce CDC source connector -> Salesforce change data capture source connector"
-            ],
-            "feature_name": "Salesforce change data capture source connector",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "f661c4f7-8d3f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated"
-            ],
-            "feature_name": "Salesforce platform events source connector",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "17ed2f32-8e3f-f111-88b5-6045bd00f798",
             "release_status": "Planned",
             "release_type": "Public preview"
           },
@@ -1035,19 +1110,6 @@
             "product_name": "Real-Time Intelligence",
             "release_date": "Q3 2026",
             "release_item_id": "294ed21d-9d41-f111-88b5-002248085b3f",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name DeltaFlow: Seamless stream processing of Database CDC Feeds (GA) -> Stream processing for database change data capture feeds in Eventstream"
-            ],
-            "feature_name": "Stream processing for database change data capture feeds in Eventstream",
-            "last_modified": "2026-06-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
             "release_status": "Planned",
             "release_type": "General availability"
           },
@@ -1840,7 +1902,7 @@
         ]
       },
       {
-        "count": 2,
+        "count": 1,
         "date": "2026-06-22",
         "items": [
           {
@@ -1853,19 +1915,6 @@
             "product_name": "Data Engineering",
             "release_date": "Q3 2026",
             "release_item_id": "9f72b035-86ba-f011-bbd3-6045bd00f9db",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated"
-            ],
-            "feature_name": "Large message support ( 20 MB) for Fabric Event streams",
-            "last_modified": "2026-06-22",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "4dc5810b-2040-f111-88b5-6045bd0066ad",
             "release_status": "Planned",
             "release_type": "Public preview"
           }
@@ -2274,7 +2323,7 @@
         ]
       },
       {
-        "count": 909,
+        "count": 905,
         "date": "2026-06-16",
         "items": [
           {
@@ -5977,10 +6026,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q2 2025",
-            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
+            "release_date": "Q3 2025",
+            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
             "release_status": "Shipped",
-            "release_type": "Public preview"
+            "release_type": "General availability"
           },
           {
             "active": false,
@@ -5990,10 +6039,10 @@
             "feature_name": "Dataflows - New Output Destination: SharePoint CSV Files",
             "last_modified": "2026-06-16",
             "product_name": "Data Factory",
-            "release_date": "Q3 2025",
-            "release_item_id": "fd98de79-3f21-f011-9989-000d3a34671f",
+            "release_date": "Q2 2025",
+            "release_item_id": "fcd697cd-e59a-ef11-8a6a-6045bd062aa2",
             "release_status": "Shipped",
-            "release_type": "General availability"
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -12318,19 +12367,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Eventstream Event Metadata Propagation",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "bf0b473d-cb3d-f111-88b5-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "Eventstream Integrated Activator Alert Setup Experience",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
@@ -13358,19 +13394,6 @@
             "changed_columns": [
               "Removed from Roadmap"
             ],
-            "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
             "feature_name": "RTD Live Update feature",
             "last_modified": "2026-06-16",
             "product_name": "Real-Time Intelligence",
@@ -13650,32 +13673,6 @@
             "release_date": "Q1 2024",
             "release_item_id": "0c61a2b6-88d7-ee11-9079-000d3a310f67",
             "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Unified GetEvents for Fabric RTI",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "5087315d-e93e-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Unify batch & streaming data platforms with CopyJob & Real-Time Intelligence",
-            "last_modified": "2026-06-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "403b7b13-0ca4-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
             "release_type": "Public preview"
           },
           {

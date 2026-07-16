@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:01:46.174Z",
+  "generatedAt": "2026-07-16T11:11:22.899Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -213,6 +213,34 @@
         "release_item_id": "b1a70168-24a6-f011-bbd3-000d3a5b0efa",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Terraform Provider for Microsoft Fabric (Generally Available)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/terraform-provider-for-microsoft-fabric-now-generally-available",
+        "feature_description": "# Fabric Terraform Provider Changes## New Resources and Data Sources| Feature | Type | Description ||---|---|---|| `fabric_operations_agent` | Data source | Added support for retrieving Operations Agent configuration || `fabric_operations_agent` | Resource | Added support for managing Operations Agent resources || `fabric_data_agent` | Data source | Added support for retrieving Data Agent configuration || `fabric_data_agent` | Resource | Added support for managing Data Agent resources || `fabric_eventstream_destination_connection` | Data source | Added support for retrieving Eventstream Destination Connection configuration || `fabric_eventstream_destination_connection` | Ephemeral resource | Added support for ephemeral Eventstream Destination Connection operations || `fabric_warehouse_sql_audit_settings` | Resource | Added support for managing Warehouse SQL Audit Settings || `fabric_warehouse_sql_audit_settings` | Data source | Added support for retrieving Warehouse SQL Audit Settings |## Enhancements| Feature | Type | Description ||---|---|---|| `shortcut_conflict_policy` attribute in `fabric_shortcut` resource | Enhancement | Added support for configuring shortcut conflict handling behavior || `one_drive_share_point` attribute in `fabric_shortcut` resource | Enhancement | Added support for OneDrive and SharePoint shortcut configuration || `one_drive_share_point` attribute in `fabric_shortcut` data source | Enhancement | Added support for retrieving OneDrive and SharePoint shortcut configuration || `allow_usage_in_user_controlled_code` attribute in `fabric_connection` resource and data source | Enhancement | Added support for controlling usage in user-controlled code scenarios || DataPipeline Execute job type support in `fabric_item_job_scheduler` resource and data source | Enhancement | Added support for scheduling and retrieving DataPipeline Execute job types |## SummaryThis update expands Fabric Terraform provider capabilities with:- New support for Fabric Agents resources and data sources- Eventstream destination connection support- Warehouse SQL Audit Settings management- Enhanced shortcut configuration capabilities- Improved connection configuration controls- Additional DataPipeline job scheduling support",
+        "feature_name": "Terraform Provider for Fabric V1.11.0",
+        "last_modified": "2026-07-16",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q2 2026",
+        "release_item_id": "ffb33b61-f380-f111-ab0f-6045bd00f506",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Terraform Provider for Microsoft Fabric (Generally Available)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/terraform-provider-for-microsoft-fabric-now-generally-available",
+        "feature_description": "# Fabric Terraform Provider Changes## New Resources and Data Sources| Feature | Type | Description ||---|---|---|| `fabric_onelake_data_access_security` | Data source | Added support for retrieving OneLake Data Access Security configuration || `fabric_onelake_data_access_security` | Resource | Added support for managing OneLake Data Access Security configuration || `fabric_mirrored_catalog` | Resource | Added support for managing Mirrored Catalog resources || `fabric_mirrored_catalog` | Data source | Added support for retrieving a Mirrored Catalog || `fabric_mirrored_catalogs` | Data source | Added support for retrieving multiple Mirrored Catalogs |## Enhancements| Feature | Type | Description ||---|---|---|| Tags support in `fabric_item` data source | Enhancement | Added support for retrieving tags associated with Fabric items || Tags support in `fabric_item` resource | Enhancement | Added support for managing tags associated with Fabric items |## SummaryThis update expands Fabric Terraform provider capabilities with:- OneLake Data Access Security management support- Mirrored Catalog resource and data source support- Improved metadata management through Fabric item tag support",
+        "feature_name": "Terraform Provider for Fabric V1.12.0",
+        "last_modified": "2026-07-16",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q2 2026",
+        "release_item_id": "a01bdd91-f480-f111-ab0f-6045bd00f506",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1375,34 +1403,6 @@
         "release_item_id": "6776491d-2170-f111-ab0d-6045bd0a886d",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The Create, Get, and Update Warehouse Definition REST APIs enable programmatic lifecycle management of Fabric warehouses by allowing developers to create warehouses from definitions, retrieve existing warehouse definitions, and apply updates using definition-based payloads. This unlocks automation-first scenarios such as CI/CD, Git integration, and environment promotion, eliminating reliance on manual or UI-driven changes.* Create with Definition - Provision a new warehouse initialized from an item definition payload that supports Dacpac and SQL project artifacts.* Get Definition - Retrieve the definition as Dacpac and SQL projects that contains all object definitions.* Update Definition - Apply incremental updates to an existing warehouse using definition payloads,  that supports Dacpac and SQL project artifacts.",
-        "feature_name": "Create, Get, Update warehouse definition Rest API",
-        "last_modified": "2026-06-24",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q3 2026",
-        "release_item_id": "5f0a14b7-1d3c-f111-88b5-002248085b3f",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The primary goal is to enable creators to understand how consumers interact with their data agents and bridge the gap between the data agent creators and the consumers. This comprehensive monitoring system will enable creators to have access to the feedback provided by consumer across consumption channels such as M365 Copilot, Fabric, Org App so they can refine the data agent based on customer feedback.Our initial release will only cover the M365 Copilot and will then expand to other consumption channels.",
-        "feature_name": "Consumer to Creator feedback loop",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2026",
-        "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1061,
+      "total_items": 1063,
       "total_pages": 11
     }
   }

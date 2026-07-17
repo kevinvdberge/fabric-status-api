@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T21:50:35.089Z",
+  "generatedAt": "2026-07-17T22:45:58.592Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -29,6 +29,20 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q3 2026",
         "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Expanding Real-Time Intelligence data sources with Cribl source (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/expanding-real-time-intelligence-data-sources-with-cribl-source-preview",
+        "feature_description": "The Cribl source for Eventstream allows you to stream data from Cribl Stream into Fabric Eventstream. You can add Cribl as a source to your eventstream to capture, transform, and route real-time events to various destinations in Fabric.",
+        "feature_name": "Eventstream connector: Cribl",
+        "last_modified": "2026-07-17",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "4ec67f5b-2c82-f111-ab0f-002248085b3f",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -1389,20 +1403,6 @@
         "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s new with OneLake shortcuts",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-with-onelake-shortcuts",
-        "feature_description": "This is OneLake representing SF DC360 data in Fabric via shortcut.",
-        "feature_name": "OneLake reading from Salesforce Data Cloud 360 via Shortcut",
-        "last_modified": "2026-06-24",
-        "product_id": "94e84e43-aa69-f011-bec2-00224804b6c3",
-        "product_name": "Fabric Ecosystem",
-        "release_date": "Q3 2026",
-        "release_item_id": "6776491d-2170-f111-ab0d-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1063,
+      "total_items": 1064,
       "total_pages": 11
     }
   }

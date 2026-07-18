@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-07-18T05:04:57.204Z",
+  "generatedAt": "2026-07-18T07:07:43.709Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "db1030e5-5582-f111-ab0e-0022480432a3",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "7/17/2026 8:07:03 PM",
-      "reportedAt": "2026-07-17T20:07:03.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in Northcentral US region may experience issues while connecting to SQL endpoints and executing SQL Queries for warehouse artifacts.<br>Engineers are actively investigating the issue, and an update will be provided soon<br> </p><table class=\"table\"><tbody><tr><td aria-label=\"Table cell\"> </td></tr></tbody></table></div>",
-      "detailsText": "Fabric customers in Northcentral US region may experience issues while connecting to SQL endpoints and executing SQL Queries for warehouse artifacts. Engineers are actively investigating the issue, and an update will be provided soon",
-      "hash": "b22b08fc9a4f0d65bbe0ffdb882250c848c42a49f0e25e9c028d98787c4f2828"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

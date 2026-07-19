@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-07-19T03:53:25.176Z",
+  "generatedAt": "2026-07-19T06:27:30.571Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 199,
+    "active": 0,
+    "resolved": 200,
     "total": 200
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 199,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 200,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "c7e4b212-0583-f111-ab0e-002248043546",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "",
       "reportedRaw": "7/18/2026 4:55:25 PM",
       "reportedAt": "2026-07-18T16:55:25.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
+      "resolvedRaw": "7/18/2026 11:00:00 PM",
+      "resolvedAt": "2026-07-18T23:00:00.000Z",
       "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:'Segoe UI';font-size:14px;font-style:normal;font-weight:400;line-height:20px;\">Fabric users may encounter replication issues with mirrored databases if any columns contain invalid characters. Engineers are actively working on mitigating the issue and an update will be provided soon</div></div>",
       "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric users may encounter replication issues with mirrored databases if any columns contain invalid characters. Engineers are actively working on mitigating the issue and an update will be provided soon",
-      "hash": "9a39b209128ef1cb87dd93ca98c7638e140ad979edd5d4a4c30f6a61e544ae6c"
-    }
-  ],
-  "resolved": [
+      "hash": "e5bbec12aa9c442d6a11bf3126941960a01a0bc23f91c8130540d654559fc7d3"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "db1030e5-5582-f111-ab0e-0022480432a3",

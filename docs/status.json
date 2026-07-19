@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-07-18T23:12:17.393Z",
+  "generatedAt": "2026-07-19T00:10:28.389Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 199,
-    "total": 199
+    "total": 200
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 199,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "c7e4b212-0583-f111-ab0e-002248043546",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "7/18/2026 4:55:25 PM",
+      "reportedAt": "2026-07-18T16:55:25.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:'Segoe UI';font-size:14px;font-style:normal;font-weight:400;line-height:20px;\">Fabric users may encounter replication issues with mirrored databases if any columns contain invalid characters. Engineers are actively working on mitigating the issue and an update will be provided soon</div></div>",
+      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric users may encounter replication issues with mirrored databases if any columns contain invalid characters. Engineers are actively working on mitigating the issue and an update will be provided soon",
+      "hash": "9a39b209128ef1cb87dd93ca98c7638e140ad979edd5d4a4c30f6a61e544ae6c"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

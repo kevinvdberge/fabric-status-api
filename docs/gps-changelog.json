@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-18T23:12:17.433Z",
+  "generatedAt": "2026-07-19T00:10:28.422Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 146,
+  "count": 145,
   "changelog": {
     "days": [
       {
@@ -2061,27 +2061,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-06-18",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Fabric Planning",
-            "last_modified": "2026-06-18",
-            "product_name": "IQ",
-            "release_date": "Q3 2026",
-            "release_item_id": "69db5ef2-7f01-f111-8406-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 146
+    "total_items": 145
   }
 }

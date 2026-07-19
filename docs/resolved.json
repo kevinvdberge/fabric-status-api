@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:27:30.571Z",
+  "generatedAt": "2026-07-19T08:53:37.970Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 200,
@@ -11,11 +11,11 @@
       "region": "",
       "reportedRaw": "7/18/2026 4:55:25 PM",
       "reportedAt": "2026-07-18T16:55:25.000Z",
-      "resolvedRaw": "7/18/2026 11:00:00 PM",
-      "resolvedAt": "2026-07-18T23:00:00.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:'Segoe UI';font-size:14px;font-style:normal;font-weight:400;line-height:20px;\">Fabric users may encounter replication issues with mirrored databases if any columns contain invalid characters. Engineers are actively working on mitigating the issue and an update will be provided soon</div></div>",
-      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric users may encounter replication issues with mirrored databases if any columns contain invalid characters. Engineers are actively working on mitigating the issue and an update will be provided soon",
-      "hash": "e5bbec12aa9c442d6a11bf3126941960a01a0bc23f91c8130540d654559fc7d3"
+      "resolvedRaw": "7/18/2026 10:30:00 PM",
+      "resolvedAt": "2026-07-18T22:30:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric users might have encountered replication issues with mirrored databases if any columns contain invalid characters.</p></div>",
+      "detailsText": "Fabric users might have encountered replication issues with mirrored databases if any columns contain invalid characters.",
+      "hash": "fe6f6dfa42d2da42b09c30d72185d68cf369b23d68f60df976dea7dc8338416f"
     },
     {
       "type": "resolved",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-19T22:26:16.763Z",
+  "generatedAt": "2026-07-20T02:56:38.783Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 145,
+  "count": 141,
   "changelog": {
     "days": [
       {
@@ -2002,67 +2002,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 4,
-        "date": "2026-06-19",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Intuigence AI",
-            "last_modified": "2026-06-19",
-            "product_name": "Fabric Ecosystem",
-            "release_date": "Q2 2026",
-            "release_item_id": "6a3dbbe1-9d00-f111-8406-6045bd0a886d",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2025-11-17 -> 2026-06-30",
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "ServiceNow zero-copy integration",
-            "last_modified": "2026-06-19",
-            "product_name": "Fabric Ecosystem",
-            "release_date": "Q2 2026",
-            "release_item_id": "d6f8f431-d3b5-f011-bbd2-0022480a2ecf",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Eventstream Integrated Activator Alert Setup Experience",
-            "last_modified": "2026-06-19",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2026",
-            "release_item_id": "6e475f46-09a4-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Outbound access protection for Eventstream",
-            "last_modified": "2026-06-19",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2026",
-            "release_item_id": "b9cdb593-9fbb-f011-bbd3-000d3a3740cc",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 145
+    "total_items": 141
   }
 }

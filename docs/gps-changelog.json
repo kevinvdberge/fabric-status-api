@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-21T16:53:51.096Z",
+  "generatedAt": "2026-07-21T18:14:15.697Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 143,
+  "count": 144,
   "changelog": {
     "days": [
       {
-        "count": 3,
+        "count": 4,
         "date": "2026-07-21",
         "items": [
           {
@@ -18,6 +18,19 @@
             "product_name": "Data Engineering",
             "release_date": "Q3 2026",
             "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Connections - Tenant Admin APIs for connections",
+            "last_modified": "2026-07-21",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "79c8ba5e-fd3c-f111-88b5-6045bd00f798",
             "release_status": "Planned",
             "release_type": "Public preview"
           },
@@ -2029,6 +2042,6 @@
         ]
       }
     ],
-    "total_items": 143
+    "total_items": 144
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T16:53:51.096Z",
+  "generatedAt": "2026-07-21T18:14:15.697Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -30,6 +30,20 @@
         "release_date": "Q3 2026",
         "release_item_id": "c418b243-333f-f111-88b5-6045bd0a8ec1",
         "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Announcing the Availability of REST APIs for Connections and Gateways in Microsoft Fabric",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-the-availability-of-rest-apis-for-connections-and-gateways-in-microsoft-fabric",
+        "feature_description": "New tenant admin REST APIs for end-to-end visibility and lifecycle management of all cloud connections in Microsoft Fabric -- list, get, delete, manage permissions/ take over.",
+        "feature_name": "Connections - Tenant Admin APIs for connections",
+        "last_modified": "2026-07-21",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "79c8ba5e-fd3c-f111-88b5-6045bd00f798",
+        "release_status": "Planned",
         "release_type": "Public preview"
       },
       {
@@ -1389,20 +1403,6 @@
         "release_item_id": "a59cad5e-ddb8-f011-bbd3-6045bd05dd14",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s New for Fabric Data Agents at Ignite 2025: Unlocking Deeper Data Reasoning and Seamless AI Interoperability",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/whats-new-for-fabric-data-agents-at-ignite-2025-unlocking-deeper-data-reasoning-and-seamless-ai-interoperability",
-        "feature_description": "Microsoft Fabric Data Agent is improving its Ontology experience so customers can build agents that deliver more accurate, reliable, and verifiable answers grounded in their business concepts and relationships. With this release, customers should see better support for complex questions, clearer visibility into answer generation, stronger customization and scoping, and improved confidence as ontologies evolve over time.",
-        "feature_name": "Data Agent to Upgrade Ontology Integration",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2026",
-        "release_item_id": "8640c298-fc68-f111-a826-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1064,
+      "total_items": 1065,
       "total_pages": 11
     }
   }

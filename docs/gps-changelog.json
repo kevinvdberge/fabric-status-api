@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-21T09:59:48.911Z",
+  "generatedAt": "2026-07-21T11:53:22.590Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 142,
+  "count": 143,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 3,
         "date": "2026-07-21",
         "items": [
           {
@@ -19,6 +19,33 @@
             "release_date": "Q3 2026",
             "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
             "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Scalar User-defined functions (UDFs)",
+            "last_modified": "2026-07-21",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "edb33b5b-7f5d-f011-bec2-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Name Scalar UDFs - Expanded T-SQL constructs and query shapes for computation-based UDFs -> Scalar User-defined functions (UDFs) - Procedural SQL"
+            ],
+            "feature_name": "Scalar User-defined functions (UDFs) - Procedural SQL",
+            "last_modified": "2026-07-21",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "c418b243-333f-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
             "release_type": "Public preview"
           }
         ]
@@ -712,27 +739,6 @@
             "release_item_id": "02b2d2a5-ecc0-f011-bbd3-6045bd05dd14",
             "release_status": "Planned",
             "release_type": "General availability"
-          }
-        ]
-      },
-      {
-        "count": 1,
-        "date": "2026-07-06",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-06-30 -> 2026-09-30",
-              "Release Status Planned -> Shipped",
-              "Semester 2025 Wave 2 (Krypton) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
-            ],
-            "feature_name": "Scalar UDFs - Expanded T-SQL constructs and query shapes for computation-based UDFs",
-            "last_modified": "2026-07-06",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "c418b243-333f-f111-88b5-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
           }
         ]
       },
@@ -2023,6 +2029,6 @@
         ]
       }
     ],
-    "total_items": 142
+    "total_items": 143
   }
 }

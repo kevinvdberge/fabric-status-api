@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-20T23:39:36.574Z",
+  "generatedAt": "2026-07-21T01:08:09.528Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 142,
+  "count": 141,
   "changelog": {
     "days": [
       {
@@ -2002,27 +2002,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-06-20",
-        "items": [
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Route Dataverse data events to Eventstream",
-            "last_modified": "2026-06-20",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "cb7b0382-4fb8-ef11-b8e9-002248098a98",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 142
+    "total_items": 141
   }
 }

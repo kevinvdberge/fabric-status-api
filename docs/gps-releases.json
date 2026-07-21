@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-21T04:30:49.079Z",
+  "generatedAt": "2026-07-21T07:19:23.392Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "This feature delivers a comprehensive Notebook Run Lineage experience for Spark applications, enabling data engineers to monitor and analyze complex notebook workflows with ease. It provides an at-a-glance view of all notebook run statuses, helps quickly identify root-cause failures across nested executions, and highlights performance bottlenecks. Users can filter and explore large execution graphs, access detailed error and run-level information, and view aggregated summaries of execution health and resource usage--all in one place.",
+        "feature_name": "Track and Manage Notebook Run Dependencies & Lineage View",
+        "last_modified": "2026-07-21",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q3 2026",
+        "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Eventhouse Accelerated OneLake Table Shortcuts (Generally Available)",
@@ -1387,20 +1401,6 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2026",
         "release_item_id": "71a7bef8-b766-f111-a826-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Allow users to define scripts that run automatically immediately before (pre-script) and immediately after (post-script) a warehouse deployment or git operations. This gives teams a controlled hook to prepare the environment beforehand and finalize or clean up afterward.",
-        "feature_name": "Pre/Post Scripts in GIT & Deployment Workflows",
-        "last_modified": "2026-06-24",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q3 2026",
-        "release_item_id": "6b398705-1970-f111-ab0d-000d3a376137",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-07-21T04:30:49.079Z",
+  "generatedAt": "2026-07-21T07:19:23.392Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 141,
+  "count": 142,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-07-21",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Track and Manage Notebook Run Dependencies & Linage View -> Track and Manage Notebook Run Dependencies & Lineage View"
+            ],
+            "feature_name": "Track and Manage Notebook Run Dependencies & Lineage View",
+            "last_modified": "2026-07-21",
+            "product_name": "Data Engineering",
+            "release_date": "Q3 2026",
+            "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-07-20",
@@ -2004,6 +2023,6 @@
         ]
       }
     ],
-    "total_items": 141
+    "total_items": 142
   }
 }

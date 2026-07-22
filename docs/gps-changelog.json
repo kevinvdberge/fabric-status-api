@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-22T00:07:39.010Z",
+  "generatedAt": "2026-07-22T03:44:41.970Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 144,
+  "count": 143,
   "changelog": {
     "days": [
       {
@@ -2021,27 +2021,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-06-21",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Git Integration provider - GitHub Enterprise Cloud with data residency support",
-            "last_modified": "2026-06-21",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q2 2026",
-            "release_item_id": "76396892-86db-f011-8544-000d3a3b0571",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 144
+    "total_items": 143
   }
 }

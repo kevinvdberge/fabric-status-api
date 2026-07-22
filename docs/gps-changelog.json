@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-07-22T15:03:55.780Z",
+  "generatedAt": "2026-07-22T16:44:44.393Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 143,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-07-22",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Name Improved Semantic Model Querying in the Data Agent -> Advanced DAX Generation for Semantic Models in Data Agents"
+            ],
+            "feature_name": "Advanced DAX Generation for Semantic Models in Data Agents",
+            "last_modified": "2026-07-22",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 4,
         "date": "2026-07-21",
@@ -1357,7 +1377,7 @@
         ]
       },
       {
-        "count": 40,
+        "count": 39,
         "date": "2026-06-24",
         "items": [
           {
@@ -1644,21 +1664,6 @@
             "product_name": "Conversational Analytics",
             "release_date": "Q2 2026",
             "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Restored to Roadmap",
-              "Workload Data Science -> Conversational Analytics"
-            ],
-            "feature_name": "Improved Semantic Model Querying in the Data Agent",
-            "last_modified": "2026-06-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2026",
-            "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
             "release_status": "Planned",
             "release_type": "Public preview"
           },

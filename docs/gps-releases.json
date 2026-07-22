@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-22T17:55:40.762Z",
+  "generatedAt": "2026-07-22T19:15:25.132Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Build Agent with AI mode is expanding support for Semantic Models in Data Agent, helping users generate semantic-model specific instructions and example queries more easily. The feature can explore Semantic Model tables, measures, columns, and recent query patterns to produce more relevant configurations while preserving transparency through visible run steps and explored queries. Users remain in control by reviewing, refining, and committing generated configurations before they update their Data Agent setup.",
+        "feature_name": "Build Agent with AI Mode: Support Semantic Models",
+        "last_modified": "2026-07-22",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q3 2026",
+        "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -15,6 +29,34 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2026",
         "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Build Agent with AI Mode file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
+        "feature_name": "Build Agent with AI Mode Supports Files as Context",
+        "last_modified": "2026-07-22",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q3 2026",
+        "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Creator Improvements in the Data Agent",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/creator-improvements-in-the-data-agent",
+        "feature_description": "The Build Agent with AI mode is a specialized AI assistant designed to help data agent creators configure, improve, and optimize their data agents by generating and refining Agent Instructions, Data Source Instructions, and Few-Shot Examples. It addresses common customer pain points such as confusion about where to put instructions, uncertainty about the effectiveness of few shots, and difficulty diagnosing why an agent produces poor results. The agent works in a collaborative, chat-based 'setup' mode, where it analyzes existing configurations, explores database schemas and query patterns, and recommends improvements that users can explicitly accept or reject. It is designed to detect ambiguity and contradictions across configurations and suggest clearer, more consistent alternatives. Initially focused on SQL data sources, the Build Agent with AI mode is intended to expand to additional data sources (e.g., KQL, semantic models) over time. Overall, it enables a faster, more scalable, and more understandable way to build high-quality data agents without requiring deep knowledge of the underlying system.",
+        "feature_name": "Build Agent with AI Mode in Data Agent",
+        "last_modified": "2026-07-22",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q2 2026",
+        "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1352,20 +1394,6 @@
         "active": true,
         "blog_title": null,
         "blog_url": null,
-        "feature_description": "Creator Agent is expanding support for Semantic Models in Data Agent, helping users generate semantic-model specific instructions and example queries more easily. The feature can explore Semantic Model tables, measures, columns, and recent query patterns to produce more relevant configurations while preserving transparency through visible run steps and explored queries. Users remain in control by reviewing, refining, and committing generated configurations before they update their Data Agent setup.",
-        "feature_name": "CreatorAgent: Support Semantic Models",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2026",
-        "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
         "feature_description": "You can now organize large instructions into topics, allowing the Data Agent to automatically select only the most relevant context for each question. This helps the NL2SQL tool focus on what matters, even when working with extensive guidance or complex scenarios. By enabling more targeted use of instructions, this improvement supports better query generation and gives you a scalable way to provide richer context without overwhelming the model.",
         "feature_name": "Large Instructions & Topic-Aware Context for Smarter NL2SQL",
         "last_modified": "2026-06-24",
@@ -1373,34 +1401,6 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q3 2026",
         "release_item_id": "dc64604a-d948-f111-bec7-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Simplify your Warehouse ALM with DacFx integration in Git and Deployment pipelines for Fabric Warehouse",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplify-your-warehouse-alm-with-dacfx-integration-in-git-and-deployment-pipelines-for-fabric-warehouse",
-        "feature_description": "SQL Analytics Endpoint  supports Git integration and deployment pipelines in Fabric. Teams can version control endpoint changes and promote them across environments as part of their existing CI/CD workflows.**Git Integration for SQL Analytics Endpoint** - The SQL Analytics Endpoint changes are tracked, committed, and managed in source control alongside the rest of your Fabric items -- giving you full version history, diff visibility, and the ability to roll back to any prior state.**Deployment Pipeline Support** - SQL Analytics Endpoint can be included in Fabric deployment pipelines. Promote changes across development, test, and production stages with the same pipeline experience available for Warehouse -- consistently and without manual steps.",
-        "feature_name": "Git & Deployment Pipelines Support for SQL Analytics Endpoint",
-        "last_modified": "2026-06-24",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q3 2026",
-        "release_item_id": "c5a0b4cb-322e-f111-88b4-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Production Datawarehouses, Lakehouses, Semantic Models, and SQL DBs contain hundreds to tens of thousands of Tables, Views, Functions, and Measures. This feature highlights the requirements to support production scale database systems and semantic models across data agent scenarios within the Data Agent UX seamlessly:  - Enabling the UX to allow users to load large schemas into Data Agent and select Objects easily and efficiently.- Enabling the UX to search for elements allowing users to easily identify key entities required for data agent input - Enabling pagination in the UX to seamlessly browse the schema in the Object explorer.",
-        "feature_name": "Explore Large Schemas in the Data Agent Schema Explorer",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2026",
-        "release_item_id": "a6aadfd9-4924-f011-8c4d-00224804b6c3",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

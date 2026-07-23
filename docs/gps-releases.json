@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-07-23T17:18:37.262Z",
+  "generatedAt": "2026-07-23T18:44:33.996Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Announcing the General Availability of Enhanced Eventstream and Connector Sources",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-the-general-availability-of-enhanced-eventstream-and-connector-sources",
+        "feature_description": "Eventstream now provides a Salesforce change data capture source connector, streaming record changes from Salesforce into Microsoft Fabric. Teams can react to business changes as they happen.With this capability, you can:- Stream Salesforce record changes into Eventstream in real time.- Build dashboards and alerts on customer and sales activity.- Route Salesforce changes to Fabric destinations without custom code.",
+        "feature_name": "Salesforce change data capture source connector",
+        "last_modified": "2026-07-23",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q1 2027",
+        "release_item_id": "f661c4f7-8d3f-f111-88b5-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather-event-grid",
+        "feature_description": "The Azure Data Explorer source connector for Eventstream extends ingestion limits and adds streaming from a custom query, so you can bring Azure Data Explorer data into Microsoft Fabric for further real-time processing.With this capability, you can:- Stream data from Azure Data Explorer into Eventstream.- Use a custom query to select the data you ingest.- Route results to Fabric destinations for downstream analytics.",
+        "feature_name": "Azure Data Explorer source connector for Eventstream",
+        "last_modified": "2026-07-23",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q1 2027",
+        "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -436,34 +464,6 @@
         "release_date": "Q2 2026",
         "release_item_id": "a01bdd91-f480-f111-ab0f-6045bd00f506",
         "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Announcing the General Availability of Enhanced Eventstream and Connector Sources",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-the-general-availability-of-enhanced-eventstream-and-connector-sources",
-        "feature_description": "Eventstream now provides a Salesforce change data capture source connector, streaming record changes from Salesforce into Microsoft Fabric. Teams can react to business changes as they happen.With this capability, you can:- Stream Salesforce record changes into Eventstream in real time.- Build dashboards and alerts on customer and sales activity.- Route Salesforce changes to Fabric destinations without custom code.",
-        "feature_name": "Salesforce change data capture source connector",
-        "last_modified": "2026-07-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q1 2026",
-        "release_item_id": "f661c4f7-8d3f-f111-88b5-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather-event-grid",
-        "feature_description": "The Azure Data Explorer source connector for Eventstream extends ingestion limits and adds streaming from a custom query, so you can bring Azure Data Explorer data into Microsoft Fabric for further real-time processing.With this capability, you can:- Stream data from Azure Data Explorer into Eventstream.- Use a custom query to select the data you ingest.- Route results to Fabric destinations for downstream analytics.",
-        "feature_name": "Azure Data Explorer source connector for Eventstream",
-        "last_modified": "2026-07-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q1 2026",
-        "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
-        "release_status": "Planned",
         "release_type": "General availability"
       },
       {

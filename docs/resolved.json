@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-07-23T17:18:37.228Z",
+  "generatedAt": "2026-07-23T18:44:33.961Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 201,
+  "count": 202,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "0cec0fd0-ac86-f111-ab0e-002248043b4f",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "7/23/2026 8:20:35 AM",
+      "reportedAt": "2026-07-23T08:20:35.000Z",
+      "resolvedRaw": "7/23/2026 9:26:00 AM",
+      "resolvedAt": "2026-07-23T09:26:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast might have experienced intermittent delays in accessing artifacts in the service. </p></div>",
+      "detailsText": "Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast might have experienced intermittent delays in accessing artifacts in the service.",
+      "hash": "40d5fdd21307504a7ad60566c927fbc9d0a68adb9cfb26167e4588635dc207db"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "eff14a43-8185-f111-ab0e-002248043634",

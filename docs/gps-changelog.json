@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-07-23T17:18:37.262Z",
+  "generatedAt": "2026-07-23T18:44:33.996Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 142,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-07-23",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2027-03-31"
+            ],
+            "feature_name": "Azure Data Explorer source connector for Eventstream",
+            "last_modified": "2026-07-23",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-03-31 -> 2027-03-31"
+            ],
+            "feature_name": "Salesforce change data capture source connector",
+            "last_modified": "2026-07-23",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q1 2027",
+            "release_item_id": "f661c4f7-8d3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 4,
         "date": "2026-07-22",
@@ -216,7 +248,7 @@
         ]
       },
       {
-        "count": 19,
+        "count": 17,
         "date": "2026-07-16",
         "items": [
           {
@@ -255,19 +287,6 @@
             "product_name": "Real-Time Intelligence",
             "release_date": "Q1 2027",
             "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-03-31"
-            ],
-            "feature_name": "Azure Data Explorer source connector for Eventstream",
-            "last_modified": "2026-07-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2026",
-            "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
             "release_status": "Planned",
             "release_type": "General availability"
           },
@@ -413,19 +432,6 @@
             "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-03-31"
-            ],
-            "feature_name": "Salesforce change data capture source connector",
-            "last_modified": "2026-07-16",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2026",
-            "release_item_id": "f661c4f7-8d3f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,

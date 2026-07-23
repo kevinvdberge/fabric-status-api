@@ -1,31 +1,18 @@
 {
-  "generatedAt": "2026-07-23T17:18:37.228Z",
+  "generatedAt": "2026-07-23T18:44:33.961Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 2,
-    "resolved": 201,
+    "active": 1,
+    "resolved": 202,
     "total": 203
   },
   "summary": {
-    "activeIncidents": 2,
-    "resolvedIncidents": 201,
+    "activeIncidents": 1,
+    "resolvedIncidents": 202,
     "hasActive": true
   },
   "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "0cec0fd0-ac86-f111-ab0e-002248043b4f",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "7/23/2026 8:20:35 AM",
-      "reportedAt": "2026-07-23T08:20:35.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast may experience intermittent delays in accessing artifacts in the service. Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast may experience intermittent delays in accessing artifacts in the service. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "031f90225c7dcfb75d7d8eb3bb5a03e9bf443e10c0ce9cb05b7a413871eae9ba"
-    },
     {
       "type": "active",
       "serviceNotificationId": "80ec894e-a986-f111-ab0e-002248043546",
@@ -35,12 +22,25 @@
       "reportedAt": "2026-07-23T08:08:46.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers whose tenants are located in the West US region may encounter issues accessing Publish to Web reports. There is an ongoing Azure outage and engineers are investigating the issue, up to date status on the investigation can be found at <a href=\"https://azure.microsoft.com/en-us/status/\">Azure Service Health</a> for now.</p></div>",
-      "detailsText": "Power BI customers whose tenants are located in the West US region may encounter issues accessing Publish to Web reports. There is an ongoing Azure outage and engineers are investigating the issue, up to date status on the investigation can be found at Azure Service Health for now.",
-      "hash": "56f2c31833077d5c240c017efd304e93573e207cf039a28d0e9213b53caf551b"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI Customers with tenants in the West US region may encounter issues accessing Publish to Web reports. The outage also resulted in intermittent delays accessing Fabric artifacts for some customers in EU and APAC regions due to service dependencies in West US. The Fabric related impact has been mitigated. The Publish to Web scenario remains actively impacted and under investigation. There is an ongoing Azure outage and Azure engineers are investigating the issue, up to date status on the investigation can be found at <a href=\"https://azure.microsoft.com/en-us/status/\">Azure Service Health</a> for now. The next status update is expected by 12:30 PM PDT.</p></div>",
+      "detailsText": "Power BI Customers with tenants in the West US region may encounter issues accessing Publish to Web reports. The outage also resulted in intermittent delays accessing Fabric artifacts for some customers in EU and APAC regions due to service dependencies in West US. The Fabric related impact has been mitigated. The Publish to Web scenario remains actively impacted and under investigation. There is an ongoing Azure outage and Azure engineers are investigating the issue, up to date status on the investigation can be found at Azure Service Health for now. The next status update is expected by 12:30 PM PDT.",
+      "hash": "f2bda5f517898fcdd32a52e7f5eca8d1b3ba62b7a87298a87094ee9c6fb57832"
     }
   ],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "0cec0fd0-ac86-f111-ab0e-002248043b4f",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "7/23/2026 8:20:35 AM",
+      "reportedAt": "2026-07-23T08:20:35.000Z",
+      "resolvedRaw": "7/23/2026 9:26:00 AM",
+      "resolvedAt": "2026-07-23T09:26:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast might have experienced intermittent delays in accessing artifacts in the service. </p></div>",
+      "detailsText": "Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast might have experienced intermittent delays in accessing artifacts in the service.",
+      "hash": "40d5fdd21307504a7ad60566c927fbc9d0a68adb9cfb26167e4588635dc207db"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "eff14a43-8185-f111-ab0e-002248043634",

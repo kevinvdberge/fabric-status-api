@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-22T23:42:50.553Z",
+  "generatedAt": "2026-07-23T01:14:08.004Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 143,
+  "count": 142,
   "changelog": {
     "days": [
       {
@@ -2007,27 +2007,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-06-22",
-        "items": [
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Spark Real-Time Performance Monitoring for CPU, Memory, and vCores",
-            "last_modified": "2026-06-22",
-            "product_name": "Data Engineering",
-            "release_date": "Q3 2026",
-            "release_item_id": "9f72b035-86ba-f011-bbd3-6045bd00f9db",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 143
+    "total_items": 142
   }
 }

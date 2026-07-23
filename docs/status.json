@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:53:16.356Z",
+  "generatedAt": "2026-07-23T17:18:37.228Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
@@ -22,9 +22,9 @@
       "reportedAt": "2026-07-23T08:20:35.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers may experience intermittent delays in accessing service. <span style=\"background-color:rgb(255,249,245);color:rgb(66,66,66);font-family:\"Segoe UI\";font-size:14px;\"><span style=\"display:inline !important;float:none;font-style:normal;font-weight:400;letter-spacing:0%;text-align:left;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;\">Engineers are investigating the issue and an update will be provided soon.</span></span></p></div>",
-      "detailsText": "Fabric Customers may experience intermittent delays in accessing service. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "3664c7999a2a253e04f37e53d74df5cc47faee1183ecc32216d3efa09b0a4502"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast may experience intermittent delays in accessing artifacts in the service. Engineers are investigating the issue and an update will be provided soon.</p></div>",
+      "detailsText": "Fabric Customers whose tenants are located in Spain Central, New Zealand North and Australia SouthEast may experience intermittent delays in accessing artifacts in the service. Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "031f90225c7dcfb75d7d8eb3bb5a03e9bf443e10c0ce9cb05b7a413871eae9ba"
     },
     {
       "type": "active",
@@ -35,9 +35,9 @@
       "reportedAt": "2026-07-23T08:08:46.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers whose tenants are located in the West US region may encounter issues accessing Publish to Web reports. Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Power BI customers whose tenants are located in the West US region may encounter issues accessing Publish to Web reports. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "e08aa49ae9fc33158fab66863868067a01264f28c0c0a47bcabf68abe655779d"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers whose tenants are located in the West US region may encounter issues accessing Publish to Web reports. There is an ongoing Azure outage and engineers are investigating the issue, up to date status on the investigation can be found at <a href=\"https://azure.microsoft.com/en-us/status/\">Azure Service Health</a> for now.</p></div>",
+      "detailsText": "Power BI customers whose tenants are located in the West US region may encounter issues accessing Publish to Web reports. There is an ongoing Azure outage and engineers are investigating the issue, up to date status on the investigation can be found at Azure Service Health for now.",
+      "hash": "56f2c31833077d5c240c017efd304e93573e207cf039a28d0e9213b53caf551b"
     }
   ],
   "resolved": [

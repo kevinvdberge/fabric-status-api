@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:44:33.996Z",
+  "generatedAt": "2026-07-23T20:01:22.437Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -29,6 +29,20 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q1 2027",
         "release_item_id": "34fee3ee-8e3f-f111-88b5-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Mirroring for Google BigQuery in Microsoft Fabric (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-public-preview-mirroring-for-google-bigquery-in-microsoft-fabric",
+        "feature_description": "Mirroring for Google BigQuery enables customers to continuously replicate BigQuery data into Fabric OneLake, making it easier to use BigQuery data with Power BI, data engineering, data science, and AI experiences in Fabric. Customers can bring data from Google BigQuery into the Fabric analytics estate without maintaining separate ETL pipelines for common replication scenarios.",
+        "feature_name": "Mirroring - Google BigQuery",
+        "last_modified": "2026-07-23",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "e64919b9-5163-f111-a826-000d3a36696c",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -1389,20 +1403,6 @@
         "release_item_id": "f151890c-74ed-f011-8544-000d3a33bffb",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "You can now organize large instructions into topics, allowing the Data Agent to automatically select only the most relevant context for each question. This helps the NL2SQL tool focus on what matters, even when working with extensive guidance or complex scenarios. By enabling more targeted use of instructions, this improvement supports better query generation and gives you a scalable way to provide richer context without overwhelming the model.",
-        "feature_name": "Large Instructions & Topic-Aware Context for Smarter NL2SQL",
-        "last_modified": "2026-06-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2026",
-        "release_item_id": "dc64604a-d948-f111-bec7-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1065,
+      "total_items": 1066,
       "total_pages": 11
     }
   }

@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-07-23T18:44:33.961Z",
+  "generatedAt": "2026-07-23T20:01:22.412Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "80ec894e-a986-f111-ab0e-002248043546",
-      "serviceStatus": "Degraded",
-      "region": "West US",
-      "reportedRaw": "7/23/2026 8:08:46 AM",
-      "reportedAt": "2026-07-23T08:08:46.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI Customers with tenants in the West US region may encounter issues accessing Publish to Web reports. The outage also resulted in intermittent delays accessing Fabric artifacts for some customers in EU and APAC regions due to service dependencies in West US. The Fabric related impact has been mitigated. The Publish to Web scenario remains actively impacted and under investigation. There is an ongoing Azure outage and Azure engineers are investigating the issue, up to date status on the investigation can be found at <a href=\"https://azure.microsoft.com/en-us/status/\">Azure Service Health</a> for now. The next status update is expected by 12:30 PM PDT.</p></div>",
-      "detailsText": "Power BI Customers with tenants in the West US region may encounter issues accessing Publish to Web reports. The outage also resulted in intermittent delays accessing Fabric artifacts for some customers in EU and APAC regions due to service dependencies in West US. The Fabric related impact has been mitigated. The Publish to Web scenario remains actively impacted and under investigation. There is an ongoing Azure outage and Azure engineers are investigating the issue, up to date status on the investigation can be found at Azure Service Health for now. The next status update is expected by 12:30 PM PDT.",
-      "hash": "f2bda5f517898fcdd32a52e7f5eca8d1b3ba62b7a87298a87094ee9c6fb57832"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

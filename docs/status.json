@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-07-24T09:43:13.220Z",
+  "generatedAt": "2026-07-24T11:25:57.243Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 202,
-    "total": 202
+    "total": 203
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 202,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "8988f0ae-4d87-f111-ab0e-0022480433a6",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "7/24/2026 3:46:12 AM",
+      "reportedAt": "2026-07-24T03:46:12.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Web\", sans-serif;font-size:14px;\"><span style=\"white-space:pre-wrap;\" data-teams=\"true\">Fabric customers in WABI-US-CENTRAL-B-Primary cluster may experience issues while interacting with the service. </span></span>Engineers are investigating the issue and an update will be provided soon.</p></div>",
+      "detailsText": "Fabric customers in WABI-US-CENTRAL-B-Primary cluster may experience issues while interacting with the service. Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "09a9040f11ae1485db63644b712e9fa1a95bda99f2a33ef6e9e711ff2f76ac2c"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

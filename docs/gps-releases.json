@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T21:37:11.078Z",
+  "generatedAt": "2026-07-27T22:41:18.654Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -43,7 +43,7 @@
         "product_name": "IQ",
         "release_date": "Q3 2026",
         "release_item_id": "675ce012-f144-f111-88b5-6045bd006301",
-        "release_status": "Planned",
+        "release_status": "Shipped",
         "release_type": "Public preview"
       },
       {

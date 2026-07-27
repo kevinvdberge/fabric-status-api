@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-07-27T12:19:26.712Z",
+  "generatedAt": "2026-07-27T15:22:32.234Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 204,
-    "total": 204
+    "total": 205
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 204,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "e69579e6-c389-f111-ab0f-6045bd03ede5",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "7/27/2026 6:30:24 AM",
+      "reportedAt": "2026-07-27T06:30:24.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers in Central India may experience issues while accessing artifacts in service. Engineers are investigating the issue and an update will be provided soon.</p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p></div>",
+      "detailsText": "Fabric Customers in Central India may experience issues while accessing artifacts in service. Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "2479b5b6eaa00c6f4f2328c36052f770c68311737b7e2c529f392d4f14d7872e"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

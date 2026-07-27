@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T18:54:23.781Z",
+  "generatedAt": "2026-07-27T20:19:37.751Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -29,6 +29,20 @@
         "product_name": "Data Engineering",
         "release_date": "Q3 2026",
         "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Outbound access protection for Data Factory (Generally Available)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/outbound-access-protection-for-data-factory-generally-available",
+        "feature_description": "We are delivering Outbound Access Protection for Operations Agent in Microsoft Fabric, enabling administrators to enforce workspace-level security controls on all outbound actions performed by AI-driven automation.With this capability, you can:- Ensure all outbound actions--such as triggering Power Automate flows, executing Fabric jobs, or sending Teams notifications--are governed by administrator-defined connection rules.- Block outbound connections by default when OAP is enabled, permitting traffic only through approved endpoints to prevent unauthorized data movement.- Leverage a hybrid enforcement model that applies direct checks for external services like Teams while using Activator-managed enforcement for workflow and job execution across workspaces.Outbound Access Protection is available in Public Preview for all Fabric customers using Operations Agent. Configure access rules from the workspace security settings.------ GA ADO Link:Link to GA Scope: https://dev.azure.com/powerbi/Trident/_workitems/edit/2208353Tentative GA Scope:  * Activator OAP toggle for OA * Ontology OAP toggle for OA * Power Automate OAP toggle for OA OAP Fundamentals for GA guidance : https://dev.azure.com/powerbi/RTI%20UX/_workitems/edit/1671486 Fundamentals:  https://dev.azure.com/powerbi/RTI%20UX/_workitems/edit/1671486",
+        "feature_name": "Outbound access protection for Operations Agent",
+        "last_modified": "2026-07-27",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "675ce012-f144-f111-88b5-6045bd006301",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1389,20 +1403,6 @@
         "release_item_id": "89eb68a0-263e-f111-88b5-6045bd0066ad",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Associated identities for items (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/associated-identities-for-items-preview",
-        "feature_description": "Microsoft Fabric items and their schedules today implicitly execute under user identities (owner or creator), which makes production workloads fragile: pipelines, schedules, copy jobs, and shortcuts break when owners leave the organization or their tokens expire, and existing takeover flows only shift the dependency to another user rather than removing it.  With this release, Fabric introduces associated Identity: a durable, user-selected execution identity that can be attached to an item through new UI and APIs, starting with Workspace Identity support and Schedule Run-as. You will be able to assciate workspace identity and other app-based identity types with items, schedules, and interative executions. This decouples execution from ownership so pipelines and schedules keep running through org churn and credential changes, reduces SPN and secret-management overhead, strengthens security by eliminating reliance on user tokens for background execution, and establishes a consistent identity model that workloads across Fabric leverage.",
-        "feature_name": "Associate an identity with Fabric items and schedules",
-        "last_modified": "2026-06-26",
-        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
-        "product_name": "Fabric Developer Experiences",
-        "release_date": "Q4 2026",
-        "release_item_id": "74c64750-0a4f-f111-bec7-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1068,
+      "total_items": 1069,
       "total_pages": 11
     }
   }

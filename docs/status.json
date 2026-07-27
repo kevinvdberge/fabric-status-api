@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-07-27T17:16:46.306Z",
+  "generatedAt": "2026-07-27T18:54:23.746Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 204,
+    "active": 0,
+    "resolved": 205,
     "total": 205
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 204,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 205,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "e69579e6-c389-f111-ab0f-6045bd03ede5",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "",
       "reportedRaw": "7/27/2026 6:30:24 AM",
       "reportedAt": "2026-07-27T06:30:24.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers in Central India may experience issues while accessing artifacts in service and submitting Spark jobs, executing notebook operations, or rendering Python and R visuals.  Engineers are actively working on mitigation, and an update will be provided by 2026-07-27 10:30 AM PST</p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p></div>",
-      "detailsText": "Fabric Customers in Central India may experience issues while accessing artifacts in service and submitting Spark jobs, executing notebook operations, or rendering Python and R visuals. Engineers are actively working on mitigation, and an update will be provided by 2026-07-27 10:30 AM PST",
-      "hash": "100601a59a09e031b39b95afc408476484c76e0b2b81b07360d3f7ff567a3c32"
-    }
-  ],
-  "resolved": [
+      "resolvedRaw": "7/27/2026 10:15:05 AM",
+      "resolvedAt": "2026-07-27T10:15:05.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers in Central India might have experienced issues while accessing artifacts in service and submitting Spark jobs, executing notebook operations, or rendering Python and R visuals. </p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p></div>",
+      "detailsText": "Fabric Customers in Central India might have experienced issues while accessing artifacts in service and submitting Spark jobs, executing notebook operations, or rendering Python and R visuals.",
+      "hash": "c6aafe65cf3abb5405b0032fa24501ec7c5542ac27aa959f9176f9d94327c695"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "67df5f8a-8d88-f111-ab0f-6045bd03e1bc",

@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-07-29T16:10:11.112Z",
+  "generatedAt": "2026-07-29T17:37:34.047Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 103,
+  "count": 104,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 3,
         "date": "2026-07-29",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-07-15 -> 2026-12-31"
+            ],
+            "feature_name": "Shortcuts in Fabric Data Warehouse (Public Preview)",
+            "last_modified": "2026-07-29",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "ce7f2f21-9421-f011-9989-000d3a302e4a",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1477,6 +1490,6 @@
         ]
       }
     ],
-    "total_items": 103
+    "total_items": 104
   }
 }

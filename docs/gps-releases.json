@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T16:10:11.112Z",
+  "generatedAt": "2026-07-29T17:37:34.047Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,20 @@
         "product_name": "Fabric Developer Experiences",
         "release_date": "Q4 2026",
         "release_item_id": "fbee65ff-2b8b-f111-ab0f-6045bd03ee11",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Data Warehouse Utilization Reporting in Fabric Capacity Metrics App",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/data-warehouse-utilization-reporting-in-fabric-capacity-metrics-app",
+        "feature_description": "Shortcuts in Fabric DW allow users to directly access and query data that is present in internal and external data sources, without loading them into Fabric DW. Users will have the capability to create Table Shortcuts via TSQL & UX",
+        "feature_name": "Shortcuts in Fabric Data Warehouse (Public Preview)",
+        "last_modified": "2026-07-29",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q4 2026",
+        "release_item_id": "ce7f2f21-9421-f011-9989-000d3a302e4a",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1387,20 +1401,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q2 2026",
         "release_item_id": "c2142195-8d3f-f111-88b5-6045bd00f798",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather-event-grid",
-        "feature_description": "Eventstream now provides a generally available Azure Service Bus source connector. Customers can bring messages from Service Bus queues and topics into Microsoft Fabric for real-time processing without custom code.With this capability, you can:- Connect Eventstream to Azure Service Bus queues and topics.- Route Service Bus data to Fabric destinations for analysis and alerts.",
-        "feature_name": "Azure Service Bus source connector for Eventstream",
-        "last_modified": "2026-06-29",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q2 2026",
-        "release_item_id": "9493500e-e1ce-f011-bbd3-000d3a30273e",
         "release_status": "Shipped",
         "release_type": "General availability"
       }

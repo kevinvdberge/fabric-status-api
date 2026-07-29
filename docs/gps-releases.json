@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-29T10:06:31.398Z",
+  "generatedAt": "2026-07-29T12:20:03.926Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Introducing the New Deployment Pipelines design: A leap forward in deployment Efficiency",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-the-new-deployment-pipelines-design-a-leap-forward-in-deployment-efficiency",
+        "feature_description": "**Release:** Public Preview &nbsp;|&nbsp; **Product area:** Fabric CI/CD**Deployment plan** is a new first-class Fabric workspace item that lets you **define, order, and automate** how your content is deployed across environments.Instead of relying on system-inferred lineage order, you author a plan on a **visual canvas** (with **YAML as the source of truth**) to:- **Declare the exact sequence** in which items deploy- **Add pre and post deployment steps** -- for example, running a Notebook to hydrate a Lakehouse, or a Data Pipeline before dependent items go liveDeployment plans **attach to the deployment operations available in Fabric**, including **Git** (branch-out, initial sync, update from Git), **Deployment Pipelines**, **Bulk Import**, and the **CI/CD library**, and are **honored at deploy time**.The result: every promotion follows your intended orchestration and produces a **working, reproducible solution**, not just a set of deployed definitions.",
+        "feature_name": "Deployment Plan",
+        "last_modified": "2026-07-29",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q4 2026",
+        "release_item_id": "fbee65ff-2b8b-f111-ab0f-6045bd03ee11",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "9493500e-e1ce-f011-bbd3-000d3a30273e",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The Eventstream HTTP connector now supports pagination, letting you ingest data from REST APIs that return results across multiple pages. Many third-party services cap each response and require follow-up requests to retrieve the full data set; pagination handling lets Eventstream collect those pages automatically.With this capability, you can:- Ingest complete data sets from paginated REST endpoints without custom code.- Configure page navigation rules so the connector follows next-page links or tokens.- Stream API results continuously into Eventstream destinations for real-time analysis.",
-        "feature_name": "Pagination support for the Eventstream HTTP connector",
-        "last_modified": "2026-06-29",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q2 2026",
-        "release_item_id": "89eb68a0-263e-f111-88b5-6045bd0066ad",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1069,
+      "total_items": 1070,
       "total_pages": 11
     }
   }

@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-07-29T10:06:31.398Z",
+  "generatedAt": "2026-07-29T12:20:03.926Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 102,
+  "count": 103,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-07-29",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Deployment Plan",
+            "last_modified": "2026-07-29",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q4 2026",
+            "release_item_id": "fbee65ff-2b8b-f111-ab0f-6045bd03ee11",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 7,
         "date": "2026-07-27",
@@ -1458,6 +1477,6 @@
         ]
       }
     ],
-    "total_items": 102
+    "total_items": 103
   }
 }

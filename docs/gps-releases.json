@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-07-30T15:22:33.694Z",
+  "generatedAt": "2026-07-30T16:58:29.136Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Announcing Data Clustering in Fabric Data Warehouse (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-data-clustering-in-fabric-data-warehouse-preview",
+        "feature_description": "Data Clustering enables faster read performance by allowing users to specify columns for co-locating data on ingestion and perform file skipping on read.",
+        "feature_name": "Data Clustering",
+        "last_modified": "2026-07-30",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q4 2026",
+        "release_item_id": "5cd4b9a0-1322-f011-998a-0022480939f0",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Introducing support for Workspace Identity Authentication in Fabric Connectors",
@@ -1388,20 +1402,6 @@
         "release_date": "Q3 2026",
         "release_item_id": "1a98d2aa-7bba-f011-bbd2-0022480a2ecf",
         "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fine-grained ReadWrite access to data with OneLake security (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/fine-grained-readwrite-access-to-lakehouse-data-with-onelake-security",
-        "feature_description": "Configure write permissions for folders in a lakehouse using OneLake security. With this feature, viewers can be given selective write access to certain folders in the lakehouse enabling teams to write data without having Contributor or higher roles in the workspace.",
-        "feature_name": "OneLake security - ReadWrite permission - GA",
-        "last_modified": "2026-06-30",
-        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "OneLake",
-        "release_date": "Q2 2026",
-        "release_item_id": "5d44c899-f7d1-f011-bbd3-00224808fcf0",
-        "release_status": "Shipped",
         "release_type": "General availability"
       }
     ],

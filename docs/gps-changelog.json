@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-07-30T15:22:33.694Z",
+  "generatedAt": "2026-07-30T16:58:29.136Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 102,
+  "count": 103,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 2,
         "date": "2026-07-30",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-07-31 -> 2026-12-31"
+            ],
+            "feature_name": "Data Clustering",
+            "last_modified": "2026-07-30",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "5cd4b9a0-1322-f011-998a-0022480939f0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1454,6 +1467,6 @@
         ]
       }
     ],
-    "total_items": 102
+    "total_items": 103
   }
 }

@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-07-30T20:00:09.527Z",
+  "generatedAt": "2026-07-30T21:30:28.508Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 103,
+  "count": 104,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 3,
         "date": "2026-07-30",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-06-30 -> 2026-09-30"
+            ],
+            "feature_name": "Declarative file data ingestion experience in Fabric Materialized Lake Views",
+            "last_modified": "2026-07-30",
+            "product_name": "Data Engineering",
+            "release_date": "Q3 2026",
+            "release_item_id": "14254506-0f3f-f111-88b5-6045bd00f798",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1467,6 +1480,6 @@
         ]
       }
     ],
-    "total_items": 103
+    "total_items": 104
   }
 }

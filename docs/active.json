@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-03T02:42:02.796Z",
+  "generatedAt": "2026-08-03T05:59:06.522Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "c222fc95-dc8e-f111-8076-7c1e528d2637",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "8/2/2026 6:38:34 PM",
-      "reportedAt": "2026-08-02T18:38:34.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in Brazil South, South India region may experience issues with submitting Spark jobs, performing lakehouse, executing notebook operations, or rendering Python and R visuals. <span data-teams=\"true\">Engineers are investigating the issue and an update will be provided soon. </span>Next update on the status will be provided in 2hours.</p></div>",
-      "detailsText": "Fabric customers in Brazil South, South India region may experience issues with submitting Spark jobs, performing lakehouse, executing notebook operations, or rendering Python and R visuals. Engineers are investigating the issue and an update will be provided soon. Next update on the status will be provided in 2hours.",
-      "hash": "a044b7ad09785923d504bd17ab394740b07b248dffba5c5e64c1cd8f4b9f9b9b"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

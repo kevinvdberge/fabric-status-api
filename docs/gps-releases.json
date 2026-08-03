@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-08-03T05:59:06.558Z",
+  "generatedAt": "2026-08-03T10:00:39.915Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Branch workspace admin profile (aka. admin delegation) lets developers use the branch-out experience without needing create-workspace or assign-capacity permissions. Workspace admins keep full control through pre-configured guardrails while unblocking developer workflows. Capabilities:  - Developers without create-workspace or assign-capacity permissions can perform branch-out seamlessly  - Admins pre-configure profile to ensure guardrails for branch workspaces: developer role, capacity assignment and admin list.",
+        "feature_name": "Git Integration - Branch workspace admin profile",
+        "last_modified": "2026-08-03",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "79538350-662c-f111-88b4-6045bd0a886d",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "fe489766-3350-f111-bec7-6045bd00fc61",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Gain Deeper Insights into Spark Jobs with JobInsight in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/gain-deeper-insights-into-spark-jobs-with-jobinsight-in-microsoft-fabric",
-        "feature_description": "The general availability of the Job Insights Library provides comprehensive visibility into Spark execution by surfacing logs and metrics across queries, jobs, stages, and tasks. Users can not only analyze execution behavior directly within the experience but also download and store driver and executor logs to Lakehouse or other destinations, enabling persistent storage, deeper analysis, and integration with downstream monitoring workflows.",
-        "feature_name": "[GA] Job Insights Library",
-        "last_modified": "2026-07-01",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q4 2026",
-        "release_item_id": "add43c89-3350-f111-bec7-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {

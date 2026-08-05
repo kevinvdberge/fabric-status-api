@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-08-05T12:14:55.055Z",
+  "generatedAt": "2026-08-05T14:35:47.898Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 85,
+  "count": 87,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-08-05",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Monitor Eventhouse activity by application",
+            "last_modified": "2026-08-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2026",
+            "release_item_id": "38e581bb-4541-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "show Throttling events of eventhouse at Eventhouse WS monitoring",
+            "last_modified": "2026-08-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-08-04",
@@ -1233,6 +1265,6 @@
         ]
       }
     ],
-    "total_items": 85
+    "total_items": 87
   }
 }

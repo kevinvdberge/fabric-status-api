@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-08-05T12:14:55.055Z",
+  "generatedAt": "2026-08-05T14:35:47.898Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Quickly identify when and where throttling is occurring across your Eventhouse system. This feature highlights recent throttling events, helping you diagnose performance bottlenecks and take corrective action before they impact users.",
+        "feature_name": "show Throttling events of eventhouse at Eventhouse WS monitoring",
+        "last_modified": "2026-08-05",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Identify how applications like Activator and QuerySet contribute to Eventhouse activity. Analyze query volume and activity by application and identify unusual spikes to support informed capacity management.",
+        "feature_name": "Monitor Eventhouse activity by application",
+        "last_modified": "2026-08-05",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q2 2026",
+        "release_item_id": "38e581bb-4541-f111-88b5-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Eventhouse Accelerated OneLake Table Shortcuts (Generally Available)",
@@ -1374,34 +1402,6 @@
         "release_date": "Q1 2025",
         "release_item_id": "39d793d1-b79c-ef11-8a6a-002248098a98",
         "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Announcing low code Automated ML (AutoML) in Fabric Data Science",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-low-code-automated-ml-automl-in-fabric-data-science",
-        "feature_description": "Our Low-Code AutoML tool empowers data scientists and analysts to easily create machine learning models without the need for extensive coding. Through an intuitive, step-by-step wizard, users can configure and launch AutoML trials directly from the user interface.",
-        "feature_name": "Low Code AutoML",
-        "last_modified": "2026-07-02",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q4 2024",
-        "release_item_id": "a05607d1-c758-ef11-a317-0022480abf3c",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Enhanced Monitoring for Spark High Concurrency Workloads in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/enhanced-monitoring-for-spark-high-concurrency-workloads-in-microsoft-fabric",
-        "feature_description": "This feature is designed to visualize real-time metrics for Spark applications through a dashboard that allows users to monitor CPU and memory utilization at the application level for both executors and drivers, across running and completed applications. It aligns with the Fabric SaaS offering and extends Spark vCore allocation and utilization analysis. Additional details about user scenarios are available in the discussion.",
-        "feature_name": "[Monitoring] Integrate and Expose Spark Application CPU/Memory Usage",
-        "last_modified": "2026-07-01",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q4 2026",
-        "release_item_id": "fe489766-3350-f111-bec7-6045bd00fc61",
-        "release_status": "Planned",
         "release_type": "Public preview"
       }
     ],

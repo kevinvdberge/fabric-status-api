@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-08-05T22:19:15.889Z",
+  "generatedAt": "2026-08-05T23:28:18.834Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 87,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 3,
         "date": "2026-08-05",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2026-09-30"
+            ],
+            "feature_name": "Eventstream supports customers to upload own connector",
+            "last_modified": "2026-08-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "60246c0e-762f-f011-8c4d-000d3a34671f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -942,7 +955,7 @@
         ]
       },
       {
-        "count": 8,
+        "count": 7,
         "date": "2026-07-15",
         "items": [
           {
@@ -1007,19 +1020,6 @@
             "product_name": "Fabric Ecosystem",
             "release_date": "Q3 2026",
             "release_item_id": "96ce85f7-2101-f111-8406-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Eventstream supports customers to upload own connector",
-            "last_modified": "2026-07-15",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2026",
-            "release_item_id": "60246c0e-762f-f011-8c4d-000d3a34671f",
             "release_status": "Planned",
             "release_type": "Public preview"
           },

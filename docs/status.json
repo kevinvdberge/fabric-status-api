@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-08-07T00:09:46.125Z",
+  "generatedAt": "2026-08-07T03:14:16.261Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 206,
+    "active": 0,
+    "resolved": 207,
     "total": 207
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 206,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 207,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "96fbf54c-d291-f111-8076-7c1e528d2db4",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "Central US",
       "reportedRaw": "8/6/2026 9:30:50 AM",
       "reportedAt": "2026-08-06T09:30:50.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
+      "resolvedRaw": "8/6/2026 1:00:36 PM",
+      "resolvedAt": "2026-08-06T13:00:36.000Z",
       "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Fabric customers with Tenants located in the Central US region may experience delays while interacting with the service. Engineers are investigating the issue, an update will be shared soon.</span></p></div>",
       "detailsText": "Fabric customers with Tenants located in the Central US region may experience delays while interacting with the service. Engineers are investigating the issue, an update will be shared soon.",
-      "hash": "38ee207b84284e88df6cd0c3267380a48430bfd431bd4d36711eec27bbdef92f"
-    }
-  ],
-  "resolved": [
+      "hash": "88eba47b6b7050f2460089be93ad395f81fabfe5d5c62034b3120a31574be2ad"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "c222fc95-dc8e-f111-8076-7c1e528d2637",

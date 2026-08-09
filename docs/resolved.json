@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-08-09T22:59:52.475Z",
+  "generatedAt": "2026-08-09T23:39:19.710Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 207,
+  "count": 208,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "461f9293-c493-f111-8075-70a8a5aee781",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "8/9/2026 12:30:25 AM",
+      "reportedAt": "2026-08-09T00:30:25.000Z",
+      "resolvedRaw": "8/9/2026 3:56:49 PM",
+      "resolvedAt": "2026-08-09T15:56:49.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers may have experienced issues while refreshing Gen1 Dataflows. Refresh operations may have remained stuck in an \"In Progress\" state.</p></div>",
+      "detailsText": "Power BI customers may have experienced issues while refreshing Gen1 Dataflows. Refresh operations may have remained stuck in an \"In Progress\" state.",
+      "hash": "86645b9d065312c1f1299b873c3c8840145d4a3aa19a136dfae21356db505d77"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "96fbf54c-d291-f111-8076-7c1e528d2db4",

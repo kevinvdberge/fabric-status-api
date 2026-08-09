@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T19:56:18.269Z",
+  "generatedAt": "2026-08-09T20:31:53.026Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 1,
@@ -13,9 +13,9 @@
       "reportedAt": "2026-08-09T00:30:25.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers may experience issues while refreshing Gen1 Dataflows. Refresh operations may remain stuck in an \"In Progress\" state. Mitigation has been successfully applied to several affected clusters and activities remain in progress for the remaining impacted clusters. The next update will be provided by 2026-08-09 14:00 PM PDT.</p></div>",
-      "detailsText": "Power BI customers may experience issues while refreshing Gen1 Dataflows. Refresh operations may remain stuck in an \"In Progress\" state. Mitigation has been successfully applied to several affected clusters and activities remain in progress for the remaining impacted clusters. The next update will be provided by 2026-08-09 14:00 PM PDT.",
-      "hash": "da42b4505caa5c4089ea67106ad3c2f64dca2575a4b62c4e156af6c29f9ad866"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers may experience issues while refreshing Gen1 Dataflows. Refresh operations may remain stuck in an \"In Progress\" state. Mitigation has been successfully applied to several affected clusters and activities remain in progress for the remaining impacted clusters. The next update will be provided by 2026-08-09 15:00 PM PDT.</p></div>",
+      "detailsText": "Power BI customers may experience issues while refreshing Gen1 Dataflows. Refresh operations may remain stuck in an \"In Progress\" state. Mitigation has been successfully applied to several affected clusters and activities remain in progress for the remaining impacted clusters. The next update will be provided by 2026-08-09 15:00 PM PDT.",
+      "hash": "183ce8df8600165eaae9cfc6ee1627f7dddc80fa4c013ac19eaaaae789c4c99a"
     }
   ]
 }

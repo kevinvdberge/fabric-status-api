@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-08-10T21:10:55.685Z",
+  "generatedAt": "2026-08-10T22:40:06.012Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 208,
+    "active": 0,
+    "resolved": 209,
     "total": 209
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 208,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 209,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "2340676a-d394-f111-8076-70a8a5aee784",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "West Europe",
       "reportedRaw": "8/10/2026 8:49:50 AM",
       "reportedAt": "2026-08-10T08:49:50.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
+      "resolvedRaw": "8/10/2026 1:08:31 PM",
+      "resolvedAt": "2026-08-10T13:08:31.000Z",
       "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:Segoe UI;font-size:11pt;\">Fabric customers in West Europe region may experience failures with control-plane operations. Engineers are actively working on mitigation, and an update will be provided by 2026-08-10 16:00 PM PST.</div></div>",
       "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric customers in West Europe region may experience failures with control-plane operations. Engineers are actively working on mitigation, and an update will be provided by 2026-08-10 16:00 PM PST.",
-      "hash": "790c216edf4529bdf0ff60a1e31da2a1e7388dad9102d87642a2733f763db81b"
-    }
-  ],
-  "resolved": [
+      "hash": "856da649de70aa19a125037178467a8ba70fe5bab0d4fad3f1e5d21c6db39f80"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "461f9293-c493-f111-8075-70a8a5aee781",

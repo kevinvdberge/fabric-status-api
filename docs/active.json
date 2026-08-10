@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-08-10T15:41:10.964Z",
+  "generatedAt": "2026-08-10T16:32:21.829Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 0,
-  "active": []
+  "count": 1,
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "2340676a-d394-f111-8076-70a8a5aee784",
+      "serviceStatus": "Degraded",
+      "region": "West Europe",
+      "reportedRaw": "8/10/2026 8:49:50 AM",
+      "reportedAt": "2026-08-10T08:49:50.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div style=\"font-family:Segoe UI;font-size:11pt;\">Fabric customers in West Europe region may experience failures with control-plane operations. Engineers are actively working on mitigation, and an update will be provided by 2026-08-10 11:00 AM PST.</div></div>",
+      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric customers in West Europe region may experience failures with control-plane operations. Engineers are actively working on mitigation, and an update will be provided by 2026-08-10 11:00 AM PST.",
+      "hash": "31992ccb2216036a8357ae4f2e7b18bce1743701e4d5f490c65cdfdedda9eb72"
+    }
+  ]
 }

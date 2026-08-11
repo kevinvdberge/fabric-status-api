@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-08-10T23:59:34.335Z",
+  "generatedAt": "2026-08-11T02:19:23.184Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Fabric feature store is a centralized system that manages the data inputs, called features, that power machine learning models. It bridges raw data and ML models, giving teams one place to define, store, serve, and discover features instead of each team building its own pipelines.",
+        "feature_name": "Feature Store",
+        "last_modified": "2026-08-11",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q4 2026",
+        "release_item_id": "75004e12-2158-f111-bec7-6045bd00f798",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "053c13db-53b3-f011-bbd3-000d3a3740cc",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric AI Functions Enhancements (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/29826",
-        "feature_description": "AI functions in Fabric will allow notebook users to seamlessly perform tasks like text summarization, translation, classification, sentiment analysis, grammar correction, and more, providing a simplified API for common enrichments and making it easier for users to apply them with fewer lines of code. The functions will be initially available on top of pandas DataFrames and ultimately available via Spark, SQL, and other programming surfaces across Fabric.",
-        "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [Public Preview]",
-        "last_modified": "2026-07-02",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q1 2025",
-        "release_item_id": "39d793d1-b79c-ef11-8a6a-002248098a98",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {

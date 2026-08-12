@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-08-12T18:36:20.916Z",
+  "generatedAt": "2026-08-12T19:47:24.664Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 80,
+  "count": 81,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-08-12",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31",
+              "Name Support for dbt Fusion runtime in dbt job -> dbt job - Support for dbt Fusion runtime in dbt job"
+            ],
+            "feature_name": "dbt job - Support for dbt Fusion runtime in dbt job",
+            "last_modified": "2026-08-12",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "11c809b6-6563-f111-a826-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-08-11",
@@ -1161,6 +1181,6 @@
         ]
       }
     ],
-    "total_items": 80
+    "total_items": 81
   }
 }

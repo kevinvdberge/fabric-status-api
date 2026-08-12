@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-11T23:59:01.277Z",
+  "generatedAt": "2026-08-12T02:31:47.519Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 81,
+  "count": 80,
   "changelog": {
     "days": [
       {
@@ -1159,27 +1159,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-07-12",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Airflow - Support for Apache Airflow 3.x",
-            "last_modified": "2026-07-12",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "e31334da-267e-f111-ab0f-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 81
+    "total_items": 80
   }
 }

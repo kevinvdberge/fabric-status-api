@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-11T23:59:01.238Z",
+  "generatedAt": "2026-08-12T02:31:47.488Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "d4947520-a895-f111-8075-70a8a5aee129",
-      "serviceStatus": "Degraded",
-      "region": "Europe",
-      "reportedRaw": "8/11/2026 10:05:33 AM",
-      "reportedAt": "2026-08-11T10:05:33.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers with tenants located in Europe regions will experience issues using Data Agent functionality <span data-teams=\"true\">when Code Interpreter is enabled</span>. Engineers are actively investigating the issue, and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric customers with tenants located in Europe regions will experience issues using Data Agent functionality when Code Interpreter is enabled . Engineers are actively investigating the issue, and an update will be provided soon.",
-      "hash": "426c90420cc5b2cde2b6c71fd810d4b93dfee37c62fbdb7cbc65d836485a0e4e"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:23:13.237Z",
+  "generatedAt": "2026-08-13T14:36:00.393Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 1,
@@ -13,9 +13,9 @@
       "reportedAt": "2026-08-13T04:58:54.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers in Asia and US regions may experience intermittent failures while interacting with Copilot Service and, accessing ML experiments and Models. Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric Customers in Asia and US regions may experience intermittent failures while interacting with Copilot Service and, accessing ML experiments and Models. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "5f7140e9607266614a2d10e43deb7a5490e4068d9749b992893b991b488827ed"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers in Asia and US regions may experience intermittent failures while interacting with Copilot Service and, accessing ML experiments and Models.  <style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style>Engineers continue to investigate the issue and are actively working to identify the underlying cause and restore full service functionality. The next update will be provided as more information becomes available.</p></div>",
+      "detailsText": "Fabric Customers in Asia and US regions may experience intermittent failures while interacting with Copilot Service and, accessing ML experiments and Models. a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Engineers continue to investigate the issue and are actively working to identify the underlying cause and restore full service functionality. The next update will be provided as more information becomes available.",
+      "hash": "7d3402cdadb59410c817d1626a48a65fc2219ced779678f2eb233a4a656b3a0b"
     }
   ]
 }

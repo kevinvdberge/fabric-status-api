@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-08-13T17:41:42.021Z",
+  "generatedAt": "2026-08-13T18:37:18.944Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 210,
+  "count": 211,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "207a52c6-0e97-f111-8075-70a8a5aeee7e",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "8/13/2026 4:58:54 AM",
+      "reportedAt": "2026-08-13T04:58:54.000Z",
+      "resolvedRaw": "8/13/2026 9:10:47 AM",
+      "resolvedAt": "2026-08-13T09:10:47.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers in Asia and US regions may have experienced intermittent failures while interacting with Copilot Service and, accessing ML experiments and Models.  <style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p></div>",
+      "detailsText": "Fabric Customers in Asia and US regions may have experienced intermittent failures while interacting with Copilot Service and, accessing ML experiments and Models. a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;}",
+      "hash": "f58873f269962256da554d93d05c42677e2605b0e97b52d5ed967bfbe2250d7f"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "d4947520-a895-f111-8075-70a8a5aee129",

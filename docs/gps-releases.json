@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-08-13T23:57:27.757Z",
+  "generatedAt": "2026-08-14T02:09:39.567Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "OneLake security (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/onelake-security-is-now-available-in-public-preview",
+        "feature_description": "OneLake malware protection helps secure your data by automatically scanning files for malicious content when they're uploaded. It surfaces alerts and scan results for further action, providing built-in protection for enterprise data without requiring additional infrastructure.",
+        "feature_name": "OneLake malware scanning",
+        "last_modified": "2026-08-14",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q1 2027",
+        "release_item_id": "b99f2796-064f-f111-bec7-000d3a36696c",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)",
@@ -1387,20 +1401,6 @@
         "product_name": "Data Science",
         "release_date": "Q1 2026",
         "release_item_id": "2b64b096-5eb3-f011-bbd3-000d3a30273e",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric AI Functions Enhancements (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/29826",
-        "feature_description": "AI functions in Fabric will allow notebook users to seamlessly perform tasks like text summarization, translation, classification, sentiment analysis, grammar correction, and more, providing a simplified API for common enrichments and making it easier for users to apply them with fewer lines of code. The functions will be initially available on top of pandas DataFrames and ultimately available via Spark, SQL, and other programming surfaces across Fabric.",
-        "feature_name": "AI Functions for LLM-Powered Text Enrichment and Transformation [GA]",
-        "last_modified": "2026-07-02",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q4 2025",
-        "release_item_id": "9f3e8191-53b3-f011-bbd3-000d3a3740cc",
         "release_status": "Shipped",
         "release_type": "General availability"
       }

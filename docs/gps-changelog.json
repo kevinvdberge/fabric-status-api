@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-14T23:46:33.156Z",
+  "generatedAt": "2026-08-15T01:03:14.404Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 78,
+  "count": 71,
   "changelog": {
     "days": [
       {
@@ -1043,105 +1043,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 7,
-        "date": "2026-07-15",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Improved Data Agent Routing Across Sources",
-            "last_modified": "2026-07-15",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q2 2026",
-            "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-06-30 -> 2026-09-30"
-            ],
-            "feature_name": "CI/CD: notebook resources in git and deployment pipeline and support for API",
-            "last_modified": "2026-07-15",
-            "product_name": "Data Engineering",
-            "release_date": "Q3 2026",
-            "release_item_id": "f4f6862a-e001-f111-8406-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-06-16 -> 2026-09-30"
-            ],
-            "feature_name": "Environment - Support for Python Notebook",
-            "last_modified": "2026-07-15",
-            "product_name": "Data Engineering",
-            "release_date": "Q3 2026",
-            "release_item_id": "f5495e72-de01-f111-8406-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Pipelines - Simplified Upgrade Experience",
-            "last_modified": "2026-07-15",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "6c647278-de7f-f111-ab0f-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Salesforce zero-copy integration with OneLake",
-            "last_modified": "2026-07-15",
-            "product_name": "Fabric Ecosystem",
-            "release_date": "Q3 2026",
-            "release_item_id": "96ce85f7-2101-f111-8406-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2027-03-31"
-            ],
-            "feature_name": "Live delivery insights in Eventstream",
-            "last_modified": "2026-07-15",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2027",
-            "release_item_id": "8790f16d-f23f-f111-88b5-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Root Cause Analysis in Operations Agent",
-            "last_modified": "2026-07-15",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "0733b6d7-0440-f111-88b5-002248085b3f",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 78
+    "total_items": 71
   }
 }

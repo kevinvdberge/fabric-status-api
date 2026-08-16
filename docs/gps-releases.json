@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:56:35.541Z",
+  "generatedAt": "2026-08-16T20:22:18.424Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -580,8 +580,8 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
         "feature_description": "Build Agent with AI mode is expanding support for Semantic Models in Data Agent, helping users generate semantic-model specific instructions and example queries more easily. The feature can explore Semantic Model tables, measures, columns, and recent query patterns to produce more relevant configurations while preserving transparency through visible run steps and explored queries. Users remain in control by reviewing, refining, and committing generated configurations before they update their Data Agent setup.",
         "feature_name": "Build Agent with AI Mode: Support Semantic Models",
         "last_modified": "2026-07-22",
@@ -608,8 +608,8 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
         "feature_description": "Build Agent with AI Mode file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
         "feature_name": "Build Agent with AI Mode Supports Files as Context",
         "last_modified": "2026-07-22",
@@ -622,8 +622,8 @@
       },
       {
         "active": true,
-        "blog_title": "Creator Improvements in the Data Agent",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/creator-improvements-in-the-data-agent",
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
         "feature_description": "The Build Agent with AI mode is a specialized AI assistant designed to help data agent creators configure, improve, and optimize their data agents by generating and refining Agent Instructions, Data Source Instructions, and Few-Shot Examples. It addresses common customer pain points such as confusion about where to put instructions, uncertainty about the effectiveness of few shots, and difficulty diagnosing why an agent produces poor results. The agent works in a collaborative, chat-based 'setup' mode, where it analyzes existing configurations, explores database schemas and query patterns, and recommends improvements that users can explicitly accept or reject. It is designed to detect ambiguity and contradictions across configurations and suggest clearer, more consistent alternatives. Initially focused on SQL data sources, the Build Agent with AI mode is intended to expand to additional data sources (e.g., KQL, semantic models) over time. Overall, it enables a faster, more scalable, and more understandable way to build high-quality data agents without requiring deep knowledge of the underlying system.",
         "feature_name": "Build Agent with AI Mode in Data Agent",
         "last_modified": "2026-07-22",

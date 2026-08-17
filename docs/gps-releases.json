@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:22:36.540Z",
+  "generatedAt": "2026-08-17T21:49:47.023Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -1084,8 +1084,8 @@
       },
       {
         "active": true,
-        "blog_title": "Data source routing in Microsoft Fabric data agents (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-source-routing-in-Microsoft-Fabric-data-agents-Generally/ba-p/5358696",
+        "blog_title": "Creator Improvements in the Data Agent",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/creator-improvements-in-the-data-agent/5172504",
         "feature_description": "The Data Agent is now better at selecting the right data source when answering your questions--especially in setups with multiple sources. It more effectively evaluates schema, example queries, and source descriptions to determine the best place to route each request. This leads to more accurate results and fewer misrouted queries across both SQL, Semantic Model, and KQL sources.",
         "feature_name": "Improved Data Agent Routing Across Sources",
         "last_modified": "2026-07-15",

@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-08-17T22:49:20.531Z",
+  "generatedAt": "2026-08-17T23:19:47.511Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 49,
+  "count": 51,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-08-17",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Business Events (GA)",
+            "last_modified": "2026-08-17",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "b5dc26c3-899a-f111-b8db-6045bd02b37f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Operations agent observability",
+            "last_modified": "2026-08-17",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "47f596b1-8d9a-f111-b8db-6045bd02b48d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-08-14",
@@ -747,6 +779,6 @@
         ]
       }
     ],
-    "total_items": 49
+    "total_items": 51
   }
 }

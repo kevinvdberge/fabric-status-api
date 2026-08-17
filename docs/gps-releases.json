@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-08-17T23:19:47.511Z",
+  "generatedAt": "2026-08-17T23:45:33.997Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "What’s new in Fabric Business Events",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/What-s-new-in-Fabric-Business-Events/ba-p/5189137",
+        "feature_description": "**Overview**Business Events is now generally available in Microsoft Fabric, providing a governed, end-to-end experience for defining, publishing, discovering, consuming, and monitoring meaningful business signals across Fabric.**Key Capabilities*** Unified Business Event Experience: Create, discover, publish, consume, and manage Business Events directly from Real-Time hub.* Multiple Native Publishers: Publish events from Eventstream, Activator, Notebook, and User Data Functions.* Flexible Event Consumption: Connect Business Events to Activator, Eventstream, Eventhouse, notebooks, and User Data Functions.* Governed Event Schemas: Define and manage reusable event contracts through Schema Registry, including schema versioning and validation.* Data Preview and Observability: Inspect recent events by publisher or consumer to validate payloads, monitor event flow, and troubleshoot delivery.* Role-Based Data Access: Control who can publish and consume events through data access roles.* Low-Code and Pro-Code Support: Build event-driven solutions through guided UI experiences or programmable APIs.* Integrated Lifecycle Management: Manage publishers, consumers, schemas, permissions, and operational insights from a unified experience.",
+        "feature_name": "Business Events (GA)",
+        "last_modified": "2026-08-17",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "b5dc26c3-899a-f111-b8db-6045bd02b37f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Improving operational efficiency with operations agents in Real-Time Intelligence",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/improving-operational-efficiency-with-operations-agents-in-real-time-intelligenc/5172462",
+        "feature_description": "Operations agent telemetry will be sent to the workspace monitoring Eventhouse for observability scenarios.",
+        "feature_name": "Operations agent observability",
+        "last_modified": "2026-08-17",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "47f596b1-8d9a-f111-b8db-6045bd02b48d",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "OneLake security (Preview)",
@@ -1375,34 +1403,6 @@
         "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Secure Azure and Fabric Event Flows Across Workspaces with Outbound Access Protection (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Secure-Azure-and-Fabric-Event-Flows-Across-Workspaces-with/ba-p/5240305",
-        "feature_description": "Outbound Access Protection (OAP) in Microsoft Fabric restricts outbound connectivity from a workspace to external destinations unless explicitly allowed by administrators, helping prevent data exfiltration and enforce security policies.",
-        "feature_name": "Outbound access protection for Azure and Fabric Events",
-        "last_modified": "2026-07-02",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q2 2026",
-        "release_item_id": "143d1e3b-84bb-f011-bbd3-000d3a3740cc",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Unlock insights from images and PDFs with multimodal support in Fabric AI functions (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/unlock-insights-from-images-and-pdfs-with-multimodal-support-in-fabric-ai-functi/5172205",
-        "feature_description": "Multimodal support for AI functions in Fabric will allow notebook users to use AI functions on their unstructured data in pdf, image, and text file formats, to seamlessly perform tasks like summarization, classification, sentiment analysis, and more, with just a few lines of code. The multimodal support for AI functions will be available with both pandas and Spark.",
-        "feature_name": "Multimodal Support for AI Functions [Public Preview]",
-        "last_modified": "2026-07-02",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q1 2026",
-        "release_item_id": "cda45361-58b3-f011-bbd3-000d3a3740cc",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1071,
+      "total_items": 1073,
       "total_pages": 11
     }
   }

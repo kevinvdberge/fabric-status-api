@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-08-17T06:48:29.077Z",
+  "generatedAt": "2026-08-17T07:49:49.266Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 211,
-    "total": 211
+    "resolved": 212,
+    "total": 212
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 211,
+    "resolvedIncidents": 212,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "27beef09-0a9a-f111-b8db-6045bd02bdac",
+      "serviceStatus": "",
+      "region": "North Europe",
+      "reportedRaw": "8/17/2026 12:04:36 AM",
+      "reportedAt": "2026-08-17T00:04:36.000Z",
+      "resolvedRaw": "8/17/2026 12:30:00 AM",
+      "resolvedAt": "2026-08-17T00:30:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in North Europe region might have experienced issues with submitting Spark jobs, performing lakehouse operations, executing notebook operations, or rendering Python and R visuals. </p></div>",
+      "detailsText": "Fabric customers in North Europe region might have experienced issues with submitting Spark jobs, performing lakehouse operations, executing notebook operations, or rendering Python and R visuals.",
+      "hash": "f831fdbd14119fac4773768f7faf93e8bb12561388596078607fbdc5430c8d5b"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "207a52c6-0e97-f111-8075-70a8a5aeee7e",

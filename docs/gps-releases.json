@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T19:28:32.351Z",
+  "generatedAt": "2026-08-17T19:52:26.968Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -7,7 +7,7 @@
       {
         "active": true,
         "blog_title": "OneLake security (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/onelake-security-is-now-available-in-public-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/onelake-security-preview/5172529",
         "feature_description": "OneLake malware protection helps secure your data by automatically scanning files for malicious content when they're uploaded. It surfaces alerts and scan results for further action, providing built-in protection for enterprise data without requiring additional infrastructure.",
         "feature_name": "OneLake malware scanning",
         "last_modified": "2026-08-14",
@@ -21,7 +21,7 @@
       {
         "active": true,
         "blog_title": "Business Events in Microsoft Fabric (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/business-events-in-microsoft-fabric-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/business-events-in-microsoft-fabric-preview/5172158",
         "feature_description": "**Business Events Data Preview Overview**Enable developers to inspect, validate, and troubleshoot Business Events when publishing them to downstream consumers. Data Preview provides real-time visibility into event payloads, schema mappings, and event metadata, reducing time-to-value and simplifying event-driven application development.**Key Capabilities*** Real-Time Event Inspection: Preview Business Event payloads as they are generated, allowing developers to validate event content before integrating downstream consumers.* Schema Visibility: View event schemas and payload structures side-by-side to ensure events conform to expected Business Event definitions.* Metadata Exploration: Inspect event properties, headers, correlation identifiers, timestamps, and other event metadata to better understand event context and flow.* Accelerated Troubleshooting: Quickly identify publishing issues, schema mismatches, missing attributes, and configuration errors without requiring external debugging tools.* Developer-Friendly Testing Experience: Validate Business Events during development and onboarding, enabling faster iteration and reducing time to first successful event-driven scenario.* Improved Confidence Before Consumption: Allow publishers to verify event quality and correctness before events are consumed by Eventstream, Activator, AI agents, or other downstream applications.* End-to-End Event Flow Validation: Enable developers to confirm that Business Events are generated as expected before investing effort in consumers, automation workflows, or integrations.",
         "feature_name": "Data Preview for Business Events",
         "last_modified": "2026-08-14",
@@ -35,7 +35,7 @@
       {
         "active": true,
         "blog_title": "Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/bringing-together-fabric-real-time-intelligence-notebook-and-spark-structured-streaming-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/bringing-together-fabric-real-time-intelligence-notebook-and-spark-structured-st/5172339",
         "feature_description": "Eventstream now integrates with Fabric Spark, letting data engineers and scientists consume and process stream data in notebooks and Spark jobs. This unifies real-time intelligence with Spark in a single end-to-end experience.With this capability, you can:- Discover and consume Eventstream data directly from Fabric notebooks.- Process streaming data with Spark Structured Streaming jobs.- Build real-time analytics and AI applications on live event data.",
         "feature_name": "Easily use Spark Structured Streaming with Fabric Eventstream",
         "last_modified": "2026-08-13",
@@ -49,7 +49,7 @@
       {
         "active": true,
         "blog_title": "dbt Job in Microsoft Fabric: Ship Trustworthy SQL Models Faster (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/dbt-job-in-microsoft-fabric-ship-trustworthy-sql-models-faster-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/dbt-job-in-microsoft-fabric-ship-trustworthy-sql-models-faster-preview/5172453",
         "feature_description": "We are adding support **dbt Fusion runtime** in dbt job in Microsoft Fabric as an execution environment, in addition to the existing dbt Core-based runtime.Customers can select the Fusion runtime when creating or configuring a dbt job to run their transformations on the next-generation dbt engine -- natively inside Fabric, with no local tooling or external orchestration to manage.",
         "feature_name": "dbt job - Support for dbt Fusion runtime in dbt job",
         "last_modified": "2026-08-12",
@@ -91,7 +91,7 @@
       {
         "active": true,
         "blog_title": "Introducing the HTTP and MongoDB CDC Connectors for Eventstream — Inspired by You",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-inspired-by-you",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-%E2%80%94-inspired-by-yo/5172439",
         "feature_description": "This feature enables customers to develop or reuse their own Kafka connectors, or open-source Kafka connectors, when no pre-built streaming connector is available.With this capability, you can:- Customize your own connector at your own pace.- Run with no infrastructure to manage.- Reuse open-source connectors directly.",
         "feature_name": "Eventstream supports customers to upload own connector",
         "last_modified": "2026-08-05",
@@ -119,7 +119,7 @@
       {
         "active": true,
         "blog_title": "Eventhouse Accelerated OneLake Table Shortcuts (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/eventhouse-accelerated-onelake-table-shortcuts-generally-available",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/eventhouse-accelerated-onelake-table-shortcuts-generally-available/5172734",
         "feature_description": "You can now join data from OneLake shortcuts in update policies. Use this for dimension lookups, such as enriching ingested fact events with customer, device, or product attributes stored in OneLake shortcut data.The shortcut-backed external table must have Query Acceleration Policy enabled, and Hot duration must cover all data.",
         "feature_name": "Eventhouse Update Policies referencing Accelerated Shortcuts",
         "last_modified": "2026-08-04",
@@ -175,7 +175,7 @@
       {
         "active": true,
         "blog_title": "Announcing Data Clustering in Fabric Data Warehouse (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-data-clustering-in-fabric-data-warehouse-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-data-clustering-in-fabric-data-warehouse-preview/5172452",
         "feature_description": "Data Clustering enables faster read performance by allowing users to specify columns for co-locating data on ingestion and perform file skipping on read.",
         "feature_name": "Data Clustering",
         "last_modified": "2026-07-30",
@@ -189,7 +189,7 @@
       {
         "active": true,
         "blog_title": "Introducing support for Workspace Identity Authentication in Fabric Connectors",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-support-for-workspace-identity-authentication-in-new-fabric-connectors-and-for-dataflow-gen2",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-support-for-workspace-identity-authentication-in-fabric-connectors/5172633",
         "feature_description": "Workspace identity auth support for Eventstream Event hub source. Customers can use workspace identity to do the authentication between Eventstream and their event hub source.",
         "feature_name": "Workspace identity auth support for Eventstream Event hub source",
         "last_modified": "2026-07-30",
@@ -203,7 +203,7 @@
       {
         "active": true,
         "blog_title": "Mastering Declarative Data Transformations with Materialized Lake Views",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/mastering-declarative-data-transformations-with-materialized-lake-views",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/mastering-declarative-data-transformations-with-materialized-lake-views/5172617",
         "feature_description": "Fabric data engineers today write 80-100+ lines of boilerplate PySpark to ingest CSV and Parquet files into Delta tables - handling file discovery, schema inference, incremental refresh, schema drift, and error recovery manually. This feature introduces a simple Spark SQL DDL surface (CREATE MATERIALIZED LAKE VIEW ... FROM OneLake_Files OPTIONS (...)) that declaratively handles all of this. It includes automatic schema evolution (or strict fixed-schema mode), three refresh modes (append_only, mirror, full), built-in error handling, structured user telemetry on files and lakehouse-level DAG lineage.",
         "feature_name": "Declarative file data ingestion experience in Fabric Materialized Lake Views",
         "last_modified": "2026-07-30",
@@ -217,7 +217,7 @@
       {
         "active": true,
         "blog_title": "Time-Travelling through data: The Magic of Table clones",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/time-travelling-through-data-the-magic-of-table-clones",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/time-travelling-through-data-the-magic-of-table-clones/5172142",
         "feature_description": "Ability to clone warehouse across workspaces",
         "feature_name": "Warehouse Clones",
         "last_modified": "2026-07-29",
@@ -231,7 +231,7 @@
       {
         "active": true,
         "blog_title": "Introducing the New Deployment Pipelines design: A leap forward in deployment Efficiency",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-the-new-deployment-pipelines-design-a-leap-forward-in-deployment-efficiency",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-the-new-deployment-pipelines-design-a-leap-forward-in-deployment-eff/5173116",
         "feature_description": "**Release:** Public Preview &nbsp;|&nbsp; **Product area:** Fabric CI/CD**Deployment plan** is a new first-class Fabric workspace item that lets you **define, order, and automate** how your content is deployed across environments.Instead of relying on system-inferred lineage order, you author a plan on a **visual canvas** (with **YAML as the source of truth**) to:- **Declare the exact sequence** in which items deploy- **Add pre and post deployment steps** -- for example, running a Notebook to hydrate a Lakehouse, or a Data Pipeline before dependent items go liveDeployment plans **attach to the deployment operations available in Fabric**, including **Git** (branch-out, initial sync, update from Git), **Deployment Pipelines**, **Bulk Import**, and the **CI/CD library**, and are **honored at deploy time**.The result: every promotion follows your intended orchestration and produces a **working, reproducible solution**, not just a set of deployed definitions.",
         "feature_name": "Deployment Plan",
         "last_modified": "2026-07-29",
@@ -259,7 +259,7 @@
       {
         "active": true,
         "blog_title": "Data Warehouse Utilization Reporting in Fabric Capacity Metrics App",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/data-warehouse-utilization-reporting-in-fabric-capacity-metrics-app",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/data-warehouse-utilization-reporting-in-fabric-capacity-metrics-app/5172222",
         "feature_description": "Shortcuts in Fabric DW allow users to directly access and query data that is present in internal and external data sources, without loading them into Fabric DW. Users will have the capability to create Table Shortcuts via TSQL & UX",
         "feature_name": "Shortcuts in Fabric Data Warehouse (Public Preview)",
         "last_modified": "2026-07-29",
@@ -273,7 +273,7 @@
       {
         "active": true,
         "blog_title": "Resolving Write Conflicts in Microsoft Fabric Data Warehouse",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/concurrency-control-and-conflict-resolution-in-microsoft-fabric-data-warehouse",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/resolving-write-conflicts-in-microsoft-fabric-data-warehouse/5172544",
         "feature_description": "This feature is part of the concurrency control strategy for Fabric DW. File-level write-write conflict detection is a mechanism designed to prevent two concurrent transactions from modifying the same physical file in a data warehouse at the same time. More precise than table-level detection (which blocks any concurrent changes to the same table).What It Does?Scope: Operates at the file level (e.g., Parquet files in Fabric DW), rather than at the table or row level.Goal: Detect overlapping changes (updates, deletes) to the same file during concurrent transactions.Trigger: When a transaction tries to commit changes, the system checks if any newer manifests indicate modifications to the same file since the transaction started.Lays groundwork for even finer-grained detection (row-level) in later releases.",
         "feature_name": "File-Level write-write conflict detection (Generally Available)",
         "last_modified": "2026-07-29",
@@ -287,7 +287,7 @@
       {
         "active": true,
         "blog_title": "Large string and binary values in Fabric Data Warehouse and SQL analytics endpoint for mirrored items (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/large-string-and-binary-values-in-fabric-data-warehouse-and-sql-analytics-endpoint-for-mirrored-items-general-availability",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/large-string-and-binary-values-in-fabric-data-warehouse-and-sql-analytics-endpoi/5172438",
         "feature_description": "SQL analytics endpoints of Lakehouses will support large string and binary data using VARCHAR(MAX) and VARBINARY(MAX) types up to 16 MB.",
         "feature_name": "VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses",
         "last_modified": "2026-07-29",
@@ -301,7 +301,7 @@
       {
         "active": true,
         "blog_title": "New Features and Enhancements for Virtual Network Data Gateway",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-features-and-enhancements-for-virtual-network-data-gateway",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-features-and-enhancements-for-virtual-network-data-gateway/5173049",
         "feature_description": "For VNet data gateways, the fixed node setup can be inefficient during high-demand periods. To improve this, we're introducing auto-scaling, which dynamically adjusts the number of nodes based on demand.",
         "feature_name": "Gateways - Autoscaling gateway clusters for VNet Gateway",
         "last_modified": "2026-07-29",
@@ -315,7 +315,7 @@
       {
         "active": true,
         "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-dataflow-gen2-data-destinations-and-experience-improvements",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-dataflow-gen2-data-destinations-and-experience-improvements/5172568",
         "feature_description": "We are introducing PostgreSQL as a new data destination for Dataflow Gen2, enabling customers to publish transformed data from Microsoft Fabric directly into PostgreSQL databases using Dataflow Gen2's low-code Power Query experience.This release expands Dataflow Gen2's destination ecosystem to better support operational, analytical, and application integration scenarios, giving customers a simple and flexible way to operationalize Fabric-based data transformations in PostgreSQL environments.Key benefits and scenarios:* Publish curated outputs from Dataflow Gen2 directly into PostgreSQL databases and tables* Support operational reporting, application integration, and downstream analytics scenarios using PostgreSQL as a serving layer* Enable teams to prepare, standardize, and reshape data in Fabric before delivering it to PostgreSQL-based applications, services, or analytics workloadsThe PostgreSQL data destination helps customers simplify data movement and reduce the need for custom pipelines by combining Fabric's scalable transformation capabilities with PostgreSQL's broad ecosystem compatibility and adoption.This release is part of our broader effort to make Dataflow Gen2 a flexible, low-code transformation layer across data platforms, with continued investments planned to expand destination support and simplify end-to-end data integration experiences in Fabric.",
         "feature_name": "Dataflows - New Destination: PostgreSQL",
         "last_modified": "2026-07-29",
@@ -329,7 +329,7 @@
       {
         "active": true,
         "blog_title": "Workspace-Level Private Link in Microsoft Fabric (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-general-availability-of-workspace-level-private-link-in-microsoft-fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/workspace-level-private-link-in-microsoft-fabric-generally-available/5172560",
         "feature_description": "Private link allows customers to connect to their SQL DBs via a private endpoint from the customer's virtual network. Workspace level private links will give customers the flexibility to use private link connection to specific workspace(s) which have high security requirements and contain sensitive data while their other workspace can be open to public.",
         "feature_name": "Workspace level Private Link for SQL database",
         "last_modified": "2026-07-29",
@@ -343,7 +343,7 @@
       {
         "active": true,
         "blog_title": "Introducing Planning in Microsoft Fabric IQ: From historical data to forecasting the future",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-planning-in-microsoft-fabric-iq-from-historical-data-to-forecasting-the-future",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-planning-in-microsoft-fabric-iq-from-historical-data-to-forecasting-/5172232",
         "feature_description": "Planning in Microsoft Fabric is a native enterprise planning capability that brings budgeting, forecasting, and scenario modeling directly into your data platform--eliminating silos between planning, analytics, and AI.Built into Microsoft Fabric, Planning enables business and data teams to collaboratively create, manage, and refine plans on top of governed, real-time data--powering faster, more informed decision-making across the organization.",
         "feature_name": "Fabric Planning",
         "last_modified": "2026-07-29",
@@ -357,7 +357,7 @@
       {
         "active": true,
         "blog_title": "Outbound access protection for Data Factory (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/outbound-access-protection-for-data-factory-generally-available",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access-protection-for-data-factory-generally-available/5172006",
         "feature_description": "We are delivering Outbound Access Protection for Operations Agent in Microsoft Fabric, enabling administrators to enforce workspace-level security controls on all outbound actions performed by AI-driven automation.With this capability, you canEnsure all outbound actions such as triggering Power Automate flows, executing Fabric jobs, or sending Teams notifications are governed by administrator-defined connection rules.Block outbound connections by default when OAP is enabled, permitting traffic only through approved endpoints to prevent unauthorized data movement.Leverage a hybrid enforcement model that applies direct checks for external services like Teams while using Activator-managed enforcement for workflow and job execution across workspaces.Outbound Access Protection is available in Public Preview for all Fabric customers using Operations Agent. Configure access rules from the workspace security settings.Tentative GA Scope: Activator OAP toggle for OAOntology OAP toggle for OAPower Automate OAP toggle for OA",
         "feature_name": "Outbound access protection for Operations Agent",
         "last_modified": "2026-07-29",
@@ -413,7 +413,7 @@
       {
         "active": true,
         "blog_title": "Announcing SQL database in Microsoft Fabric (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-sql-database-in-microsoft-fabric-public-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-sql-database-in-microsoft-fabric-preview/5161121",
         "feature_description": "Users should be able to restore a database from backups of a deleted database in their workspaces.",
         "feature_name": "Fabric SQL | Point-in-time restore from dropped databases REST APIs ONLY | Public Preview",
         "last_modified": "2026-07-29",
@@ -427,7 +427,7 @@
       {
         "active": true,
         "blog_title": "Extending Point-in-Time Retention in Fabric SQL DB: From 7 to 35 Days",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/extending-point-in-time-retention-in-fabric-sql-db-from-7-to-35-days",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extending-point-in-time-retention-in-fabric-sql-db-from-7-to-35-days/5172554",
         "feature_description": "Backup retention policy is the capability to change the retention period which allows users to adjust the duration for which automated backups are maintained for a SQL database artifact. This feature directly affects point-in-time restore capability (specific period in which user can choose the specific point in time to restore their database to).",
         "feature_name": "Fabric SQL | Public Preview | Extend Backup Retention Policy to 35 days",
         "last_modified": "2026-07-29",
@@ -483,7 +483,7 @@
       {
         "active": true,
         "blog_title": "Announcing Eventhouse Query Acceleration for OneLake Shortcuts (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-query-acceleration-for-onelake-shortcuts-public-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-eventhouse-query-acceleration-for-onelake-shortcuts-preview/5172990",
         "feature_description": "On the data exploration front, the new Lakehouse Query Explorer introduces a streamlined, in-context query experience directly within the Lakehouse. Users can write and run Spark SQL queries right from the Lakehouse explorer to quickly discover and analyze data, with intelligent suggestions and real-time error prevention all without needing to navigate to a notebook. Results can be saved as Spark Views, visualized as charts, filtered, sorted, and downloaded, with rich contextual information throughout. When deeper analysis is required, code can be seamlessly promoted into a notebook for more complex processing, bridging the gap between ad-hoc exploration and production-grade data engineering.",
         "feature_name": "Lakehouse Query Window",
         "last_modified": "2026-07-27",
@@ -497,7 +497,7 @@
       {
         "active": true,
         "blog_title": "Fabric Runtime 1.3 is Generally Available! Upgrade your data engineering and science workloads to harness the latest innovations and performance enhancements",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/fabric-runtime-1-3-is-generally-available-upgrade-your-data-engineering-and-science-workloads-to-harness-the-latest-innovations-and-performance-enhancements",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-runtime-1-3-is-generally-available-upgrade-your-data-engineering-and-scie/5173054",
         "feature_description": "We are upgrading the underlying operating system of Fabric Runtime 1.3 from Mariner 2.0 to Mariner 3.0, delivering improved security, performance, and long-term support for Apache Spark workloads. This upgrade brings the latest OS-level patches, enhanced container compatibility, and a modernized base image that aligns with the latest Azure infrastructure standards.To ensure a smooth transition, the upgrade leverages the Runtime Release Channel feature, which allows customers to preview and validate the Mariner 3.0-based runtime before it becomes the default. Data engineers can switch to the release candidate channel in their environment settings, run their existing workloads, and confirm compatibility -- all before the update is applied across their organization.Key benefits include:Enhanced security posture with the latest OS-level patches and hardeningImproved performance from the modernized Mariner 3.0 baseCustomer-controlled validation through the release channel, reducing risk of unexpected issuesContinued compatibility with all existing Runtime 1.3 workloads and librariesThe Mariner 3.0 upgrade is available through Fabric environment settings with no additional configuration required.Business Value: Strengthens the security and performance foundation of Fabric Runtime 1.3 by upgrading to Mariner 3.0, while giving customers the ability to validate the change before it rolls out to production.",
         "feature_name": "Fabric Runtime 1.3 Mariner 3.0 Upgrade",
         "last_modified": "2026-07-27",
@@ -525,7 +525,7 @@
       {
         "active": true,
         "blog_title": "Configure and manage Activator rules directly in Eventstream (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/configure-and-manage-activator-rules-directly-in-eventstream-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/configure-and-manage-activator-rules-directly-in-eventstream-preview/5172129",
         "feature_description": "The new Activator Alert feature in Eventstream allows users to set up alerts in a single step, streamlining the process. With this enhancement, customers can quickly create alerts directly within Eventstream, saving time and reducing complexity.",
         "feature_name": "Eventstream Integrated Activator Alert Setup Experience",
         "last_modified": "2026-07-24",
@@ -539,7 +539,7 @@
       {
         "active": true,
         "blog_title": "Announcing the General Availability of Enhanced Eventstream and Connector Sources",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-the-general-availability-of-enhanced-eventstream-and-connector-sources",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-the-general-availability-of-enhanced-eventstream-and-connector-source/5173009",
         "feature_description": "Eventstream now provides a Salesforce change data capture source connector, streaming record changes from Salesforce into Microsoft Fabric. Teams can react to business changes as they happen.With this capability, you can:- Stream Salesforce record changes into Eventstream in real time.- Build dashboards and alerts on customer and sales activity.- Route Salesforce changes to Fabric destinations without custom code.",
         "feature_name": "Salesforce change data capture source connector",
         "last_modified": "2026-07-23",
@@ -553,7 +553,7 @@
       {
         "active": true,
         "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather-event-grid",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather--azure-ev/5172843",
         "feature_description": "The Azure Data Explorer source connector for Eventstream extends ingestion limits and adds streaming from a custom query, so you can bring Azure Data Explorer data into Microsoft Fabric for further real-time processing.With this capability, you can:- Stream data from Azure Data Explorer into Eventstream.- Use a custom query to select the data you ingest.- Route results to Fabric destinations for downstream analytics.",
         "feature_name": "Azure Data Explorer source connector for Eventstream",
         "last_modified": "2026-07-23",
@@ -567,7 +567,7 @@
       {
         "active": true,
         "blog_title": "Mirroring for Google BigQuery in Microsoft Fabric (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-public-preview-mirroring-for-google-bigquery-in-microsoft-fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/mirroring-for-google-bigquery-in-microsoft-fabric-preview/5172584",
         "feature_description": "Mirroring for Google BigQuery enables customers to continuously replicate BigQuery data into Fabric OneLake, making it easier to use BigQuery data with Power BI, data engineering, data science, and AI experiences in Fabric. Customers can bring data from Google BigQuery into the Fabric analytics estate without maintaining separate ETL pipelines for common replication scenarios.",
         "feature_name": "Mirroring - Google BigQuery",
         "last_modified": "2026-07-23",
@@ -637,7 +637,7 @@
       {
         "active": true,
         "blog_title": "Inline Scalar user-defined functions (UDFs) in Microsoft Fabric Warehouse (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/inline-scalar-user-defined-functions-udfs-in-microsoft-fabric-warehouse-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/inline-scalar-user-defined-functions-udfs-in-microsoft-fabric-warehouse-preview/5172706",
         "feature_description": "We're expanding scalar user-defined functions with new capabilities, including INLINE = AUTO, improved error messaging, support for special built-in functions, and CONTINUE/BREAK statements in **computation**-based UDFs.",
         "feature_name": "Scalar User-defined functions (UDFs)",
         "last_modified": "2026-07-21",
@@ -651,7 +651,7 @@
       {
         "active": true,
         "blog_title": "Inline Scalar user-defined functions (UDFs) in Microsoft Fabric Warehouse (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/inline-scalar-user-defined-functions-udfs-in-microsoft-fabric-warehouse-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/inline-scalar-user-defined-functions-udfs-in-microsoft-fabric-warehouse-preview/5172706",
         "feature_description": "SQL native, computation-based scalar UDFs now support WHILE loops, multiple RETURN statements and deeply nested IF-THEN-ELSE blocks in the function body. They can also be used in queries that include Common Table Expressions (CTEs), and within GROUP BY, HAVING, and ORDER BY clauses.",
         "feature_name": "Scalar User-defined functions (UDFs) - Procedural SQL",
         "last_modified": "2026-07-21",
@@ -665,7 +665,7 @@
       {
         "active": true,
         "blog_title": "Announcing the Availability of REST APIs for Connections and Gateways in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/announcing-the-availability-of-rest-apis-for-connections-and-gateways-in-microsoft-fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-the-availability-of-rest-apis-for-connections-and-gateways-in-microso/5173010",
         "feature_description": "New tenant admin REST APIs for end-to-end visibility and lifecycle management of all cloud connections in Microsoft Fabric -- list, get, delete, manage permissions/ take over.",
         "feature_name": "Connections - Tenant Admin APIs for connections",
         "last_modified": "2026-07-21",
@@ -679,7 +679,7 @@
       {
         "active": true,
         "blog_title": "Eventhouse Accelerated OneLake Table Shortcuts (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/eventhouse-accelerated-onelake-table-shortcuts-generally-available",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/eventhouse-accelerated-onelake-table-shortcuts-generally-available/5172734",
         "feature_description": "We are expanding update policies in Eventhouse to support referencing shortcuts aka. external tables backed by the Query Acceleration Policy (QAP) in Microsoft Fabric Real-Time Intelligence. With this update, you can build update policies that references or joins data directly from OneLake delta table and other supported storage locations.With this capability, you can:- Build richer transformations that join streaming data with reference data stored in OneLake, lakehouses, or external storage.",
         "feature_name": "Eventhouse: Reference Accelerated Shortcuts in Update Policy",
         "last_modified": "2026-07-20",
@@ -707,7 +707,7 @@
       {
         "active": true,
         "blog_title": "Acquiring Real-Time Data from New Sources with Enhanced Eventstream",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/acquiring-real-time-data-from-new-sources-with-enhanced-eventstream",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/acquiring-real-time-data-from-new-sources-with-enhanced-eventstream/5173178",
         "feature_description": "**Eventstream as a Business Events Publisher from Real-Time Hub****Overview**Enable Eventstream to act as a native publisher of Business Events directly from Real-Time hub--simplifying event creation and allowing users to emit business signals from streaming data with minimal setup.**Key Capabilities*** Native Eventstream Publishing from Real-Time Hub: Create and configure Eventstream publishers directly from the Business Events experience in Real-Time hub.* Seamless Stream-to-Event Mapping: Map incoming data streams to Business Event schemas using built-in mappers to transform raw signals into meaningful business events.* Low-Code Publisher Configuration: Configure publishing logic through UI-driven experiences without requiring custom code or complex infrastructure.* Real-time Event Emission: Continuously publish Business Events from live data streams, enabling downstream consumers to react instantly.* Integrated Publisher Lifecycle: Manage, update, and monitor Eventstream publishers alongside other Business Event producers in a unified experience.",
         "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
         "last_modified": "2026-07-17",
@@ -721,7 +721,7 @@
       {
         "active": true,
         "blog_title": "Expanding Real-Time Intelligence data sources with Cribl source (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/expanding-real-time-intelligence-data-sources-with-cribl-source-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/expanding-real-time-intelligence-data-sources-with-cribl-source-preview/5172382",
         "feature_description": "The Cribl source for Eventstream allows you to stream data from Cribl Stream into Fabric Eventstream. You can add Cribl as a source to your eventstream to capture, transform, and route real-time events to various destinations in Fabric.",
         "feature_name": "Eventstream connector: Cribl",
         "last_modified": "2026-07-17",
@@ -735,7 +735,7 @@
       {
         "active": true,
         "blog_title": "Introducing Enhanced Capabilities in Eventstream: Derived Streams, Edit modes, and Smart Routing",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-enhanced-capabilities-in-eventstream-derived-streams-edit-modes-and-smart-routing",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-enhanced-capabilities-in-eventstream-derived-streams-edit-modes-and-/5173180",
         "feature_description": "**Eventstream as a Business Events Consumer from Real-Time Hub****Overview**Enable Eventstream to natively consume Business Events from Real-Time hub--unlocking real-time processing, transformation, and routing of business signals across Fabric.**Key Capabilities*** Native Eventstream Consumption: Create Eventstream consumers directly from Business Events in Real-Time hub to start processing events in real time.* Real-time Event Processing Pipelines: Build pipelines to ingest, process, and route Business Events with low latency as they are published.* Flexible Transformations & Enrichment: Apply transformations, filtering, and enrichment to Business Events before routing them to downstream systems.* Seamless Routing to Destinations: Deliver processed events to multiple Fabric destinations (e.g., storage, analytics engines, downstream services) for further action.* Integration with Analytics & Actions: Enable scenarios such as real-time insights, anomaly detection, alerts, and automated workflows powered by event data.",
         "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
         "last_modified": "2026-07-17",
@@ -749,7 +749,7 @@
       {
         "active": true,
         "blog_title": "Acquiring Real-Time Data from New Sources with Enhanced Eventstream",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/acquiring-real-time-data-from-new-sources-with-enhanced-eventstream",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/acquiring-real-time-data-from-new-sources-with-enhanced-eventstream/5173178",
         "feature_description": "**Business Events as a Source in Eventstream****Overview**Enable Business Events in Real-Time hub to be used as a native source in Eventstream--allowing users to easily ingest business signals into streaming pipelines for real-time processing and analytics.**Key Capabilities*** Native Business Events Source Integration: Select Business Events directly from Real-Time hub as an input source when creating Eventstream pipelines.* Seamless Event Subscription: Subscribe to relevant Business Events and stream them into Eventstream without requiring custom connectors or ingestion logic.* Unified Streaming Pipeline Creation: Combine Business Events with other data streams in a single Eventstream pipeline for richer, context-aware processing.* Real-time Event Ingestion: Continuously ingest Business Events as they are published, enabling low-latency processing and downstream actions.* Flexible Processing & Routing: Apply transformations, filtering, and routing logic within Eventstream to drive analytics, storage, or automated workflows.",
         "feature_name": "Business Events as a Source in Eventstream",
         "last_modified": "2026-07-17",
@@ -763,7 +763,7 @@
       {
         "active": true,
         "blog_title": "Fabric Eventhouse now supports Eventstream Derived Streams in Direct Ingestion mode (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/fabric-eventhouse-now-supports-eventstream-derived-streams-in-direct-ingestion-mode-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-eventhouse-now-supports-eventstream-derived-streams-in-direct-ingestion-m/5172708",
         "feature_description": "You can now shortcut an existing Azure Event Hub as a fully featured Eventstream, bringing your own hub into Fabric without rebuilding pipelines. The shortcut stream behaves like a native Eventstream, including processing and routing.With this capability, you can:- Connect an existing Event Hub to Fabric as an Eventstream.- Process shortcut hub data with Eventstream operators.- Route events to Fabric destinations without recreating sources.",
         "feature_name": "Bring your own Eventhub to Fabric Eventstream",
         "last_modified": "2026-07-16",
@@ -777,7 +777,7 @@
       {
         "active": true,
         "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather-event-grid",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather--azure-ev/5172843",
         "feature_description": "Eventstream now supports a Java Message Service source connector, extending coverage to another widely used message broker type. Teams running JMS brokers can stream those messages into Microsoft Fabric for real-time analytics.With this capability, you can:- Connect Eventstream to Java Message Service brokers.- Stream JMS messages into Fabric destinations.- Process broker data with no-code operators or SQL operators.",
         "feature_name": "JMS Eventstream connector",
         "last_modified": "2026-07-16",
@@ -791,7 +791,7 @@
       {
         "active": true,
         "blog_title": "Continuous Ingestion from Azure Storage to Eventhouse (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/continuous-ingestion-from-azure-storage-to-eventhouse-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/continuous-ingestion-from-azure-storage-to-eventhouse-preview/5172749",
         "feature_description": "Eventstream can now continuously ingest file content from Azure Blob Storage into Eventhouse, streaming new and updated files as they arrive. Teams can analyze file data in near real time.With this capability, you can:- Ingest files from Azure Blob Storage automatically as they land.- Stream file content through Eventstream into Eventhouse.",
         "feature_name": "Continuous ingestion from Azure Blob Storage files",
         "last_modified": "2026-07-16",
@@ -805,7 +805,7 @@
       {
         "active": true,
         "blog_title": "Unlocking Real-Time Operational Intelligence: Azure Monitor Logs Integration in Fabric via Eventstream",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/unlocking-real-time-operational-intelligence-azure-monitor-logs-integration-in-fabric-via-eventstream",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/unlocking-real-time-operational-intelligence-azure-monitor-logs-integration-in-f/5172594",
         "feature_description": "This integration simplifies the discovery of Azure resource diagnostic logs in Fabric RTI, and automatic creation of Eventstream operators, allowing users to focus more on analysis and less on setup. User can directly feed Azure diagnostic logs into Fabric without any coding, perform comprehensive analysis by combining diagnostic logs with other data sources and gain operational insights that enhance decision-making capabilities.",
         "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
         "last_modified": "2026-07-16",
@@ -819,7 +819,7 @@
       {
         "active": true,
         "blog_title": "Build real-time order notifications with Eventstream’s CDC connector",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/build-real-time-order-notifications-with-eventstreams-cdc-connector",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/build-real-time-order-notifications-with-eventstream%E2%80%99s-cdc-connector/5173135",
         "feature_description": "Eventstream now makes change data capture (CDC) feeds analytics ready by automatically turning raw change events into structured tables. Developers and analysts can work with change data as if it were regular tables, without interpreting complex CDC semantics. This speeds the development of operational dashboards, event-driven applications, and real-time analytics.With this capability, you can:- Convert raw change events into tables that match the source schema.- Build dashboards and event-driven applications on change data quickly.- React to source changes instantly with minimal setup and maintenance.",
         "feature_name": "Analytics ready for database change capture CDC data in Eventstream",
         "last_modified": "2026-07-16",
@@ -833,7 +833,7 @@
       {
         "active": true,
         "blog_title": "Introducing the HTTP and MongoDB CDC Connectors for Eventstream — Inspired by You",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-inspired-by-you",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-%E2%80%94-inspired-by-yo/5172439",
         "feature_description": "The Eventstream HTTP connector now supports OAuth authentication for external API sources. This lets you stream data from third-party providers that require token-based access, using a secure, standard authentication flow.With this capability, you can:- Authenticate to external APIs with OAuth tokens.- Stream data securely from providers that require token-based access.- Refresh tokens automatically for continuous ingestion.",
         "feature_name": "OAuth support for the Eventstream HTTP connector",
         "last_modified": "2026-07-16",
@@ -861,7 +861,7 @@
       {
         "active": true,
         "blog_title": "Introducing the HTTP and MongoDB CDC Connectors for Eventstream — Inspired by You",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-inspired-by-you",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-%E2%80%94-inspired-by-yo/5172439",
         "feature_description": "Eventstream offers a JDBC source connector, letting you stream from databases that expose a JDBC interface.With this capability, you can:- Stream data from JDBC-compatible databases into Eventstream.- Customize the open-source connector for specialized sources.",
         "feature_name": "JDBC source connector for Eventstream",
         "last_modified": "2026-07-16",
@@ -875,7 +875,7 @@
       {
         "active": true,
         "blog_title": "Unlock the Power of Real-Time Intelligence in Fabric: Connect and stream events effortlessly with the Get events experience (preview)!",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/unlock-the-power-of-real-time-intelligence-in-fabric-connect-and-stream-events-effortlessly-with-the-get-events-experience",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/unlock-the-power-of-real-time-intelligence-in-fabric-connect-and-stream-events-e/5173185",
         "feature_description": "Building a unified GetEvents experience across Fabric Real-Time Intelligence (RTI), ensuring consistency across Eventstream, Real-Time Hub, KQL/Eventhouse, Activator, Notebook, and Lakehouse. No more jumping between different wizards or piecing together workflows. With one streamlined flow, you can connect a source, preview your data, map your schema, and land it directly into any RTI destination -- all in a few guided steps.Key capabilities:- One consistent ingestion experience across every RTI workload- Built-in data preview to validate events before ingestion- Schema inference and table mapping- Native integration with Eventstream, Eventhouse, Activator, Lakehouse, and Notebook",
         "feature_name": "Unified GetEvents for Fabric RTI",
         "last_modified": "2026-07-16",
@@ -889,7 +889,7 @@
       {
         "active": true,
         "blog_title": "What’s new in Fabric Eventstream: July–December 2025 updates",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-in-fabric-eventstream-july-december-2025-updates",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/what%E2%80%99s-new-in-fabric-eventstream-july%E2%80%93december-2025-updates/5172334",
         "feature_description": "### Large Message Support in Fabric Eventstreams  #### Overview  Large Message Support enables Fabric Eventstreams to ingest, process, and deliver event payloads up to **20 MB** per message. This removes the need for customers to split, chunk, or pre-process large events before streaming them through Eventstreams.  #### Problem  Today, Eventstreams enforces a default message size limit of 1 MB. Customers with larger payloads -- such as batched IoT telemetry, enriched event schemas, media metadata, or complex domain events -- must implement workarounds to stay within this constraint. These workarounds add pipeline complexity, increase failure surface, and break downstream schema consistency.  #### What's changing  With this feature, customers can opt in to a configurable message size ceiling (up to 20 MB) on their Eventstreams. Key aspects:  - **Opt-in by design** -- existing Eventstreams are unaffected unless the customer explicitly enables a higher limit. - **Configurable ceiling** -- customers choose the maximum message size aligned to their workload, rather than a one-size-fits-all default. - **No pipeline redesign required** -- sources, transformations, and destinations continue to work as expected. Larger messages flow through the same Eventstream canvas.",
         "feature_name": "Large message support ( 20 MB) for Fabric Event streams",
         "last_modified": "2026-07-16",
@@ -903,7 +903,7 @@
       {
         "active": true,
         "blog_title": "Bridging Fabric Lakehouses: Delta Change Data Feed for Seamless ETL",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/bridging-fabric-lakehouses-delta-change-data-feed-for-seamless-etl",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/bridging-fabric-lakehouses-delta-change-data-feed-for-seamless-etl/5173252",
         "feature_description": "Eventstream now reads change records directly from change-enabled Delta tables in a Lakehouse and streams them in real time. This lets teams act on data changes as they happen.With this capability, you can:- Stream inserts, updates, and deletes from Lakehouse Delta tables into Eventstream.- Build incremental analytics and dashboards on table changes.- Trigger alerts and event-driven actions using Eventstream operators.",
         "feature_name": "Lakehouse Delta table change feed connector for Eventstream",
         "last_modified": "2026-07-16",
@@ -917,7 +917,7 @@
       {
         "active": true,
         "blog_title": "Simplifying Data Ingestion with Copy job – Incremental Copy GA, Lakehouse Upserts, and New Connectors",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplifying-data-ingestion-with-copy-job-incremental-copy-ga-lakehouse-upserts-and-new-connectors",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/simplifying-data-ingestion-with-copy-job---incremental-copy-ga-lakehouse-upserts/5172694",
         "feature_description": "The integration of Real-Time Intelligence with CopyJob in Microsoft Fabric empowers organizations to stream incremental updates from traditionally 'batch' data sources directly into Eventstreams. Simultaneously, users can ingest data from streaming sources into any CopyJob destination that supports incremental updates. This unified experience makes it easy to build hybrid data platforms that combine batch and streaming assets. As a result, creating event-driven and AI-powered applications--like dashboards, alerts, and compliance solutions--no longer requires manual data movement or complex integrations.",
         "feature_name": "Unify batch & streaming data platforms with CopyJob & Real-Time Intelligence",
         "last_modified": "2026-07-16",
@@ -931,7 +931,7 @@
       {
         "active": true,
         "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather-event-grid",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather--azure-ev/5172843",
         "feature_description": "Eventstream now provides a Salesforce platform events source connector, bringing real-time business events from Salesforce into Microsoft Fabric. This complements change data capture by streaming custom and standard platform events.With this capability, you can:- Stream Salesforce platform events into Eventstream.- Trigger real-time analytics and actions on business events.- Route platform events to Fabric destinations.",
         "feature_name": "Salesforce platform events source connector",
         "last_modified": "2026-07-16",
@@ -945,7 +945,7 @@
       {
         "active": true,
         "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather-event-grid",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather--azure-ev/5172843",
         "feature_description": "This feature enables Eventstream to propagate and expose source system metadata (such as headers and properties) alongside event data, allowing users to access, route, and process events using that metadata across connectors and query experiences",
         "feature_name": "Eventstream Event Metadata Propagation",
         "last_modified": "2026-07-16",
@@ -959,7 +959,7 @@
       {
         "active": true,
         "blog_title": "Introducing Enhanced Capabilities in Eventstream: Derived Streams, Edit modes, and Smart Routing",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-enhanced-capabilities-in-eventstream-derived-streams-edit-modes-and-smart-routing",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-enhanced-capabilities-in-eventstream-derived-streams-edit-modes-and-/5173180",
         "feature_description": "Eventstream now can distinguishes between different event shapes, making it easier to process and route to destination. You can design separate transformation paths for each shape with greater flexibility.With this capability, you can:- Identify distinct event shapes for the same Eventstream.- Build separate transformation paths for each shape.- Process complex, multi-shape data easily.",
         "feature_name": "Improved Eventstream experience for non-schematized events",
         "last_modified": "2026-07-16",
@@ -973,7 +973,7 @@
       {
         "active": true,
         "blog_title": "Terraform Provider for Microsoft Fabric (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/terraform-provider-for-microsoft-fabric-now-generally-available",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/terraform-provider-for-microsoft-fabric-generally-available/5172868",
         "feature_description": "# Fabric Terraform Provider Changes## New Resources and Data Sources| Feature | Type | Description ||---|---|---|| `fabric_operations_agent` | Data source | Added support for retrieving Operations Agent configuration || `fabric_operations_agent` | Resource | Added support for managing Operations Agent resources || `fabric_data_agent` | Data source | Added support for retrieving Data Agent configuration || `fabric_data_agent` | Resource | Added support for managing Data Agent resources || `fabric_eventstream_destination_connection` | Data source | Added support for retrieving Eventstream Destination Connection configuration || `fabric_eventstream_destination_connection` | Ephemeral resource | Added support for ephemeral Eventstream Destination Connection operations || `fabric_warehouse_sql_audit_settings` | Resource | Added support for managing Warehouse SQL Audit Settings || `fabric_warehouse_sql_audit_settings` | Data source | Added support for retrieving Warehouse SQL Audit Settings |## Enhancements| Feature | Type | Description ||---|---|---|| `shortcut_conflict_policy` attribute in `fabric_shortcut` resource | Enhancement | Added support for configuring shortcut conflict handling behavior || `one_drive_share_point` attribute in `fabric_shortcut` resource | Enhancement | Added support for OneDrive and SharePoint shortcut configuration || `one_drive_share_point` attribute in `fabric_shortcut` data source | Enhancement | Added support for retrieving OneDrive and SharePoint shortcut configuration || `allow_usage_in_user_controlled_code` attribute in `fabric_connection` resource and data source | Enhancement | Added support for controlling usage in user-controlled code scenarios || DataPipeline Execute job type support in `fabric_item_job_scheduler` resource and data source | Enhancement | Added support for scheduling and retrieving DataPipeline Execute job types |## SummaryThis update expands Fabric Terraform provider capabilities with:- New support for Fabric Agents resources and data sources- Eventstream destination connection support- Warehouse SQL Audit Settings management- Enhanced shortcut configuration capabilities- Improved connection configuration controls- Additional DataPipeline job scheduling support",
         "feature_name": "Terraform Provider for Fabric V1.11.0",
         "last_modified": "2026-07-16",
@@ -987,7 +987,7 @@
       {
         "active": true,
         "blog_title": "Terraform Provider for Microsoft Fabric (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/terraform-provider-for-microsoft-fabric-now-generally-available",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/terraform-provider-for-microsoft-fabric-generally-available/5172868",
         "feature_description": "# Fabric Terraform Provider Changes## New Resources and Data Sources| Feature | Type | Description ||---|---|---|| `fabric_onelake_data_access_security` | Data source | Added support for retrieving OneLake Data Access Security configuration || `fabric_onelake_data_access_security` | Resource | Added support for managing OneLake Data Access Security configuration || `fabric_mirrored_catalog` | Resource | Added support for managing Mirrored Catalog resources || `fabric_mirrored_catalog` | Data source | Added support for retrieving a Mirrored Catalog || `fabric_mirrored_catalogs` | Data source | Added support for retrieving multiple Mirrored Catalogs |## Enhancements| Feature | Type | Description ||---|---|---|| Tags support in `fabric_item` data source | Enhancement | Added support for retrieving tags associated with Fabric items || Tags support in `fabric_item` resource | Enhancement | Added support for managing tags associated with Fabric items |## SummaryThis update expands Fabric Terraform provider capabilities with:- OneLake Data Access Security management support- Mirrored Catalog resource and data source support- Improved metadata management through Fabric item tag support",
         "feature_name": "Terraform Provider for Fabric V1.12.0",
         "last_modified": "2026-07-16",
@@ -1001,7 +1001,7 @@
       {
         "active": true,
         "blog_title": "Introducing Enhanced Capabilities in Eventstream: Derived Streams, Edit modes, and Smart Routing",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-enhanced-capabilities-in-eventstream-derived-streams-edit-modes-and-smart-routing",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-enhanced-capabilities-in-eventstream-derived-streams-edit-modes-and-/5173180",
         "feature_description": "Eventstream now shows live delivery insights, giving real-time visibility into how events flow from sources to destinations. Operators can confirm data is moving as expected and spot problems quickly without leaving the editor.With this capability, you can:- Monitor throughput and delivery status as events move through the stream.- Identify bottlenecks or failing destinations in real time.- Confirm data is reaching destinations without separate monitoring tools.",
         "feature_name": "Live delivery insights in Eventstream",
         "last_modified": "2026-07-15",
@@ -1029,7 +1029,7 @@
       {
         "active": true,
         "blog_title": "Fabric Notebooks: Resources Folder Support in Git",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-notebooks-resources-folder-support-in-git",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-notebooks-resources-folder-support-in-git/5172099",
         "feature_description": "Modules and files stored in the Notebook Resource folder can now be committed to Git and published through Deployment Pipelines.",
         "feature_name": "CI/CD: notebook resources in git and deployment pipeline and support for API",
         "last_modified": "2026-07-15",
@@ -1057,7 +1057,7 @@
       {
         "active": true,
         "blog_title": "Modernize your ADF pipelines to unlock Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/modernize-your-adf-pipelines-to-unlock-fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/modernize-your-adf-pipelines-to-unlock-fabric/5172081",
         "feature_description": "In order to gain productivity boosts with AI in Fabric Data Factory, you can now easily upgrade your existing ADF factories to Fabric in a super easy friction-free way. Previously we had multi-step processes that were run from button clicks in ADF. Now your existing ADF factories can be automatically bridged from Fabric trial capacities and then easily upgraded as-is to native Fabric pipelines and data flows.",
         "feature_name": "Pipelines - Simplified Upgrade Experience",
         "last_modified": "2026-07-15",
@@ -1099,7 +1099,7 @@
       {
         "active": true,
         "blog_title": "Tenant level private link support for Microsoft Fabric API for GraphQL (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/34710",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/tenant-level-private-link-support-for-microsoft-fabric-api-for-graphql-generally/5172127",
         "feature_description": "Azure blob storage events enablement with Tenant Private Links",
         "feature_name": "Azure blob storage events enablement with Tenant Private Links",
         "last_modified": "2026-07-14",
@@ -1141,7 +1141,7 @@
       {
         "active": true,
         "blog_title": "Data Factory Increases Maximum Activities Per Pipeline to 80",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/add-up-to-80-activities-to-your-pipeline",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/data-factory-increases-maximum-activities-per-pipeline-to-80/5173237",
         "feature_description": "With pipeline actions, we are extending the reach and re-usability of pipelines in Fabric Data Factory. Now you can take portions of your complex pipelines, a single activity, or even your entire pipeline, and register it as a Fabric Action. That Fabric Action is now fully accessible via endpoints in other pipelines, Data Activator, or UDFs.",
         "feature_name": "Pipelines - Actions",
         "last_modified": "2026-07-13",
@@ -1155,7 +1155,7 @@
       {
         "active": true,
         "blog_title": "Run Spark Job Definitions in Pipelines with Service Principal or Workspace Identity",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/run-spark-job-definitions-in-pipelines-with-service-principal-or-workspace-identity",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/run-spark-job-definitions-in-pipelines-with-service-principal-or-workspace-ident/5172396",
         "feature_description": "When automating your Fabric Data Factory pipelines, you will greatly benefit from having the flexibility to set the identity (i.e. user, SPN, workspace identity) of the pipeine at the time of execution. With this feature, you can now set it easily from the scheduler API and scheduler UI.",
         "feature_name": "Pipelines - Set the &quot;Run As&quot; identity of the pipeline from the pipeline schedule",
         "last_modified": "2026-07-13",
@@ -1183,7 +1183,7 @@
       {
         "active": true,
         "blog_title": "Running Apache Airflow jobs seamlessly in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/running-apache-airflow-jobs-seamlessly-in-microsoft-fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/running-apache-airflow-jobs-seamlessly-in-microsoft-fabric/5172862",
         "feature_description": "Microsoft Fabric Apache Airflow Jobs provided the easiest and quickest way to build enterprise-ready DAGs without any infrastructure requirements. They are based on open-source Apache Airflow and we have now updated our support to version 3.3 of Apache Airflow.",
         "feature_name": "Airflow - Support for Apache Airflow 3.x",
         "last_modified": "2026-07-12",
@@ -1211,7 +1211,7 @@
       {
         "active": true,
         "blog_title": "OneLake Security on the SQL Analytics Endpoint",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/onelake-security-on-the-sql-analytics-endpoint",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/onelake-security-on-the-sql-analytics-endpoint/5172530",
         "feature_description": "OneLake security is adding support for dynamic and multi-table row level security. With dynamic RLS, users can create roles in OneLake that secure data differently for each user that queries the data. In addition, multi-table RLS allows data to be secured by querying values in a lookup table. Combined, these features empower users to complex RLS rules for securing enterprise data.",
         "feature_name": "OneLake security - dynamic and multi-table RLS",
         "last_modified": "2026-07-08",
@@ -1225,7 +1225,7 @@
       {
         "active": true,
         "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-new-branching-capabilities-in-fabric-git-integration",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-new-branching-capabilities-in-fabric-git-integration/5173161",
         "feature_description": "Today, when a Fabric workspace is connected to a Git repository, only workspace admins can switch the selected branch. With this change, Contributor and above users can also switch branches. Additionally, Contributor and above users will be able to branch out to existing workspaces that have this setting enabled, even if they aren't admins on the target workspace. This new capability will be available via Fabric UI and Fabric REST API.",
         "feature_name": "Git Integration - Allow contributor and above users to switch branch",
         "last_modified": "2026-07-08",
@@ -1239,7 +1239,7 @@
       {
         "active": true,
         "blog_title": "Running Apache Airflow jobs seamlessly in Microsoft Fabric",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/running-apache-airflow-jobs-seamlessly-in-microsoft-fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/running-apache-airflow-jobs-seamlessly-in-microsoft-fabric/5172862",
         "feature_description": "Network security is critical to running an effective and secured Apache Airflow environment. We are excited to bring Vnet and Private Link support to Apache Airflow jobs in Fabric Data Factory.",
         "feature_name": "Airflow - Network Security",
         "last_modified": "2026-07-08",
@@ -1281,7 +1281,7 @@
       {
         "active": true,
         "blog_title": "Alerting and acting on data from the Real-Time hub",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/alerting-and-acting-on-data-from-the-real-time-hub",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/alerting-and-acting-on-data-from-the-real-time-hub/5173190",
         "feature_description": "**Anomaly Detection Events in Real-Time Hub****Overview**Enable Real-Time hub to surface anomaly detection signals as Business Events--allowing users to monitor, react, and automate responses to unusual patterns in real time.**Key Capabilities*** Anomaly Signals as Business Events: Represent detected anomalies (e.g., spikes, drops, deviations) as standardized Business Events that can be consumed across Fabric.* Real-time Event Monitoring & Alerts: Continuously monitor event streams and trigger anomaly events when defined conditions or thresholds are met.* Customizable Detection Conditions: Configure rules, filters, and thresholds to detect anomalies relevant to specific business scenarios.* Seamless Integration with Consumers: Route anomaly events to Eventstream, Activator, or downstream systems for automated actions and workflows.* End-to-End Event-Driven Automation: Trigger notifications, workflows, or remediation actions automatically when anomalies are detected.",
         "feature_name": "Anomaly Detection Events in Real-Time Hub",
         "last_modified": "2026-07-07",
@@ -1323,7 +1323,7 @@
       {
         "active": true,
         "blog_title": "Secure Data Streaming with Managed Private Endpoints in Eventstream (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/introducing-eventstream-private-network-secure-data-streaming-with-managed-private-endpoints-private-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/secure-data-streaming-with-managed-private-endpoints-in-eventstream-preview/5173065",
         "feature_description": "Eventstream connectors can now reach data sources that sit on-premises or inside a private virtual network. This closes a common gap for enterprises whose databases and message brokers are not exposed to the public internet, letting them stream that data into Microsoft Fabric securely.With this capability, you can:- Connect Eventstream to sources behind a corporate firewall or in a private network.- Keep traffic on private network paths to meet security and compliance needs.",
         "feature_name": "On-premises and virtual network connectivity for Eventstream connectors",
         "last_modified": "2026-07-02",
@@ -1337,7 +1337,7 @@
       {
         "active": true,
         "blog_title": "Secure data streaming: Custom CA and mTLS in Fabric Eventstream connectors (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/secure-data-streaming-custom-ca-and-mtls-in-fabric-eventstream-connectors-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/secure-data-streaming-custom-ca-and-mtls-in-fabric-eventstream-connectors-previe/5172047",
         "feature_description": "Eventstream messaging connectors now support custom certificate authorities and mutual TLS authentication. This lets enterprises connect to brokers that require certificate-based trust, meeting stricter security requirements for streaming data into Microsoft Fabric.With this capability, you can:- Provide a custom certificate authority for connector trust validation.- Authenticate with mutual TLS for secure two-way connections.- Stream from secured brokers without weakening security controls.",
         "feature_name": "Custom CA and mutual TLS support for Eventstream connectors",
         "last_modified": "2026-07-02",
@@ -1351,7 +1351,7 @@
       {
         "active": true,
         "blog_title": "Simplify your Warehouse ALM with DacFx integration in Git and Deployment pipelines for Fabric Warehouse",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/simplify-your-warehouse-alm-with-dacfx-integration-in-git-and-deployment-pipelines-for-fabric-warehouse",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/simplify-your-warehouse-alm-with-dacfx-integration-in-git-and-deployment-pipelin/5172870",
         "feature_description": "DacFx support for cross-warehouse references allows developers to define and manage dependencies between objects in different Fabric Warehouses. For example, a table in Warehouse A might reference a view in Warehouse B. With DacFx: These references can be tracked and versioned in Git, just like regular schema changes. Deployments can validate and update cross-warehouse objects safely, reducing the risk of broken references. It supports incremental, non-destructive deployments, ensuring that changes in one warehouse don't unexpectedly break dependencies in another.Cyclic dependencies between warehouses are not supported, so any circular references across warehouses must be avoided.",
         "feature_name": "Managing Multi-Warehouse Dependencies with DacFx",
         "last_modified": "2026-07-02",
@@ -1379,7 +1379,7 @@
       {
         "active": true,
         "blog_title": "Outbound Access Protection for Spark (Generally Available)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-us/blog/workspace-outbound-access-protection-for-spark-is-now-generally-available",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access%C2%A0protection-for-spark-generally-available/5172558",
         "feature_description": "Outbound Access Protection (OAP) in Microsoft Fabric restricts outbound connectivity from a workspace to external destinations unless explicitly allowed by administrators, helping prevent data exfiltration and enforce security policies.",
         "feature_name": "Outbound access protection for Azure and Fabric Events",
         "last_modified": "2026-07-02",
@@ -1393,7 +1393,7 @@
       {
         "active": true,
         "blog_title": "Unlock insights from images and PDFs with multimodal support in Fabric AI functions (Preview)",
-        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/unlock-insights-from-images-and-pdfs-with-multimodal-support-in-fabric-ai-functions-preview",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/unlock-insights-from-images-and-pdfs-with-multimodal-support-in-fabric-ai-functi/5172205",
         "feature_description": "Multimodal support for AI functions in Fabric will allow notebook users to use AI functions on their unstructured data in pdf, image, and text file formats, to seamlessly perform tasks like summarization, classification, sentiment analysis, and more, with just a few lines of code. The multimodal support for AI functions will be available with both pandas and Spark.",
         "feature_name": "Multimodal Support for AI Functions [Public Preview]",
         "last_modified": "2026-07-02",

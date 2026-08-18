@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-18T21:46:44.209Z",
+  "generatedAt": "2026-08-18T22:49:39.173Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 56,
+  "count": 58,
   "changelog": {
     "days": [
       {
-        "count": 5,
+        "count": 7,
         "date": "2026-08-18",
         "items": [
           {
@@ -59,6 +59,32 @@
             "release_item_id": "385d42a4-419b-f111-b8db-6045bd02b663",
             "release_status": "Planned",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power Query - Now and Today transforms",
+            "last_modified": "2026-08-18",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "b280a60f-4e9b-f111-b8db-6045bd02b663",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power Query - Offset a date, datetime or time column",
+            "last_modified": "2026-08-18",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "c899806a-4e9b-f111-b8db-6045bd02b663",
+            "release_status": "Planned",
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -850,6 +876,6 @@
         ]
       }
     ],
-    "total_items": 56
+    "total_items": 58
   }
 }

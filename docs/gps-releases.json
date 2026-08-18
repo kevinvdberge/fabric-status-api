@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-08-17T23:45:33.997Z",
+  "generatedAt": "2026-08-18T01:02:47.798Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
+        "feature_description": "Powered by Fabric IQ, this enhancement to Report Consumption Copilot improves answer quality by delivering more accurate and relevant responses to data questions, helping users better understand and explore report content through natural language.",
+        "feature_name": "Enhanced Report Consumption Copilot with Fabric IQ",
+        "last_modified": "2026-08-18",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q3 2026",
+        "release_item_id": "7351cde9-979a-f111-b8db-6045bd02b667",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "What’s new in Fabric Business Events",
@@ -1389,20 +1403,6 @@
         "release_item_id": "e45e0d20-dfb8-f011-bbd3-0022480b30e4",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Set a Time-to-Live (TTL) on your mirrored Azure Cosmos DB data in OneLake, independent of the TTL on your source container. Retain analytics history in OneLake longer than the source, or expire mirrored data sooner to control storage and meet retention policies. This brings retention parity with Azure Synapse Link, making it easier to migrate analytics workloads from Synapse Link to Fabric Mirroring.",
-        "feature_name": "Mirroring TTL",
-        "last_modified": "2026-07-02",
-        "product_id": "0e17459c-141b-f011-998a-00224804b6c3",
-        "product_name": "Cosmos DB",
-        "release_date": "Q3 2026",
-        "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1073,
+      "total_items": 1074,
       "total_pages": 11
     }
   }

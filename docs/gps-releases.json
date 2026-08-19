@@ -1,9 +1,65 @@
 {
-  "generatedAt": "2026-08-19T22:00:04.407Z",
+  "generatedAt": "2026-08-19T22:32:47.313Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Enhanced data agent visualizations with Fabric visuals (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Enhanced-data-agent-visualizations-with-Fabric-visuals-Preview/ba-p/5359686",
+        "feature_description": "Fabric Data Agent's visualization support turns natural-language questions into clear and interactive visuals, such as line charts, bar charts, area charts, and more. By choosing visualizations that fit the data and intent, the agent helps users quickly spot trends and validate insights, making analytics faster, clearer, and more accessible.",
+        "feature_name": "Data Agent Visualizations",
+        "last_modified": "2026-08-19",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "821da45a-199c-f111-b8db-6045bd02b7d4",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Within an inflight query execution, detect common subexpression and reuse its results for executing other parts of the same query.",
+        "feature_name": "Detection and reuse of common subexpression",
+        "last_modified": "2026-08-19",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q3 2026",
+        "release_item_id": "725ed67e-0495-f011-b4cc-000d3a30273e",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Enhanced data agent visualizations with Fabric visuals (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Enhanced-data-agent-visualizations-with-Fabric-visuals-Preview/ba-p/5359686",
+        "feature_description": "The Data Agent charting library now uses Fabric visuals, improving quality and ensuring greater consistency across Fabric for a more unified and predictable user experience.",
+        "feature_name": "Enhanced Data Agent Visualizations with Fabric Visuals",
+        "last_modified": "2026-08-19",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q3 2026",
+        "release_item_id": "71a7bef8-b766-f111-a826-6045bd0066ad",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Data agents now have advanced DAX generation that more accurately generates queries from your natural-language questions. This update introduces instance value indexing and delivers higher response accuracy and consistency.",
+        "feature_name": "Advanced DAX Generation for Semantic Models in Data Agents",
+        "last_modified": "2026-08-19",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q3 2026",
+        "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Benchmarking Dataflow Gen2: Faster data transformation at lower cost",
@@ -720,20 +776,6 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Data agents now have advanced DAX generation that more accurately generates queries from your natural-language questions. This update introduces instance value indexing and delivers higher response accuracy and consistency.",
-        "feature_name": "Advanced DAX Generation for Semantic Models in Data Agents",
-        "last_modified": "2026-07-22",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2026",
-        "release_item_id": "681eef41-b566-f111-a826-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Build agent with AI for Data Agent (Preview)",
         "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
         "feature_description": "Build Agent with AI Mode file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
@@ -1361,48 +1403,6 @@
         "release_item_id": "75a4fb7b-8452-f111-bec6-6045bd00f798",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Running Apache Airflow jobs seamlessly in Microsoft Fabric",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/running-apache-airflow-jobs-seamlessly-in-microsoft-fabric/5172862",
-        "feature_description": "Network security is critical to running an effective and secured Apache Airflow environment. We are excited to bring Vnet and Private Link support to Apache Airflow jobs in Fabric Data Factory.",
-        "feature_name": "Airflow - Network Security",
-        "last_modified": "2026-07-08",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "46139b5a-c49d-f011-b41c-6045bd00f9db",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "This improvement to Power BI's Org Apps will add support for defining user access and content display by audience(s), like the functionality in Power BI workspace apps. Audiences will allow for conditional display of content in the org app according to the audience or audiences a user belongs to. For instance, app creators can create one audience that can see only a subset of report within the app, but another audience with managerial oversite to make use of all of the reporting.",
-        "feature_name": "Audience support in Org Apps",
-        "last_modified": "2026-07-08",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q2 2026",
-        "release_item_id": "c70db653-4d92-ef11-ac21-6045bd062aa2",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Org Apps allows you to easily create different apps for different pruposes with full source control support. In this upcomming release we will close alot of the most requested features and take Org Apps to General Availability.",
-        "feature_name": "Org Apps GA",
-        "last_modified": "2026-07-08",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q2 2026",
-        "release_item_id": "6ebbadfc-1dc5-f011-bbd3-6045bd00f9db",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1078,
+      "total_items": 1079,
       "total_pages": 11
     }
   }

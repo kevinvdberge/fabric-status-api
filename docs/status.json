@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-08-19T14:34:21.996Z",
+  "generatedAt": "2026-08-19T15:06:38.976Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 213,
-    "total": 213
+    "total": 214
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 213,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "cd27c683-dd9b-f111-b8db-6045bd02b04a",
+      "serviceStatus": "Degraded",
+      "region": "North Europe",
+      "reportedRaw": "8/19/2026 7:40:14 AM",
+      "reportedAt": "2026-08-19T07:40:14.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"> Power BI customers with Tenants located in the North Europe J cluster may experience issues with publish and refresh operations. Engineers are investigating the issue and an update will be provided soon.</p></div>",
+      "detailsText": "Power BI customers with Tenants located in the North Europe J cluster may experience issues with publish and refresh operations. Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "90f56c09888de9c254acbbd3d990a71469e000167e02a47e1eb5cb603f2858c1"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

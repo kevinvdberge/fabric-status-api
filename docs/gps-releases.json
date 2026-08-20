@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:04:49.493Z",
+  "generatedAt": "2026-08-20T20:45:18.958Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -129,6 +129,20 @@
         "release_item_id": "512eea0a-39bf-f011-bbd3-00224808fcf0",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Copilot agentic experience that allows users to create and model an eventhouse, connect it to Eventstream or create OneLake shortcuts all in natural language interactive way.",
+        "feature_name": "Eventhouse Onboarding AI Agent",
+        "last_modified": "2026-08-20",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "3253d652-cf9c-f111-b8db-6045bd02b37f",
+        "release_status": "Planned",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1389,20 +1403,6 @@
         "release_item_id": "0733b6d7-0440-f111-88b5-002248085b3f",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Data source routing in Microsoft Fabric data agents (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-source-routing-in-Microsoft-Fabric-data-agents-Generally/ba-p/5358696",
-        "feature_description": "The Data Agent is now better at selecting the right data source when answering your questions--especially in setups with multiple sources. It more effectively evaluates schema, example queries, and source descriptions to determine the best place to route each request. This leads to more accurate results and fewer misrouted queries across both SQL, Semantic Model, and KQL sources.",
-        "feature_name": "Improved Data Agent Routing Across Sources",
-        "last_modified": "2026-07-15",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q2 2026",
-        "release_item_id": "4493d060-d848-f111-bec7-6045bd0a8ec1",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1078,
+      "total_items": 1079,
       "total_pages": 11
     }
   }

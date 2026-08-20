@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-08-19T23:50:32.694Z",
+  "generatedAt": "2026-08-20T01:02:59.025Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "OneLake security (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/onelake-security-preview/5172529",
+        "feature_description": "OneLake malware protection helps secure your data by automatically scanning files for malicious content when they're uploaded. It surfaces alerts and scan results for further action, providing built-in protection for enterprise data without requiring additional infrastructure.",
+        "feature_name": "OneLake malware scanning",
+        "last_modified": "2026-08-20",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q4 2026",
+        "release_item_id": "b99f2796-064f-f111-bec7-000d3a36696c",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Enhanced data agent visualizations with Fabric visuals (Preview)",
@@ -185,20 +199,6 @@
         "release_item_id": "47f596b1-8d9a-f111-b8db-6045bd02b48d",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "OneLake security (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/onelake-security-preview/5172529",
-        "feature_description": "OneLake malware protection helps secure your data by automatically scanning files for malicious content when they're uploaded. It surfaces alerts and scan results for further action, providing built-in protection for enterprise data without requiring additional infrastructure.",
-        "feature_name": "OneLake malware scanning",
-        "last_modified": "2026-08-14",
-        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "OneLake",
-        "release_date": "Q1 2027",
-        "release_item_id": "b99f2796-064f-f111-bec7-000d3a36696c",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       },
       {
         "active": true,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T18:13:38.442Z",
+  "generatedAt": "2026-08-20T19:01:14.794Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -482,8 +482,8 @@
       },
       {
         "active": true,
-        "blog_title": "Introducing support for Workspace Identity Authentication in Fabric Connectors",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-support-for-workspace-identity-authentication-in-fabric-connectors/5172633",
+        "blog_title": "Secure Azure Event Hubs Connections in Eventstream with Workspace Identity (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Secure-Azure-Event-Hubs-Connections-in-Eventstream-with/ba-p/5359945",
         "feature_description": "Workspace identity auth support for Eventstream Event hub source. Customers can use workspace identity to do the authentication between Eventstream and their event hub source.",
         "feature_name": "Workspace identity auth support for Eventstream Event hub source",
         "last_modified": "2026-07-30",

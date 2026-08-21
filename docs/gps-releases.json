@@ -1,9 +1,79 @@
 {
-  "generatedAt": "2026-08-21T21:48:01.849Z",
+  "generatedAt": "2026-08-21T22:20:10.795Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Workspace-Level Private Link in Microsoft Fabric (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/workspace-level-private-link-in-microsoft-fabric-generally-available/5172560",
+        "feature_description": "Private Link enables secure, private connectivity between your virtual network and Microsoft Fabric, eliminating exposure to the public internet. With Eventstream's integration with Workspace Private Link, you gain granular access control at the workspace level enhancing data security by minimizing the risk of unauthorized access and potential data breaches.",
+        "feature_name": "Workspace Private Link for Eventstream's Select Sources & Destinations",
+        "last_modified": "2026-08-21",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "cde82016-24a6-f011-bbd3-000d3a5b0efa",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Change your Ontology with confidence. Every saved version is listed newest-first with its timestamp, author, and description, so teams building an Ontology together can always see what changed, who changed it, and roll back to any earlier state.",
+        "feature_name": "Ontology Versioning",
+        "last_modified": "2026-08-21",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "e52b1f9e-3e40-f111-88b4-000d3a308b7b",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Bring your business metrics into the Ontology. Reference measures that already live in a semantic model so they become part of the Ontology's model of your business -- carrying their name, definition, owner, and calculation logic with them. Because the metric points back to its source rather than copying it, agents and APIs querying the Ontology resolve the same live, trusted calculation your reports use.",
+        "feature_name": "Ontology Metrics Authoring",
+        "last_modified": "2026-08-21",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Item Recovery in Microsoft Fabric (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/item-recovery-in-microsoft-fabric-preview/5172041",
+        "feature_description": "Soft delete and recovery events for Fabric workspace items, delivered via Azure and Fabric Events.",
+        "feature_name": "Workspace Item Events - Soft delete and recovery events",
+        "last_modified": "2026-08-21",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "1091ba5c-d78a-f111-ab0f-6045bd03ee11",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Capacity Overview Events in Real-Time Hub (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Capacity-Overview-Events-in-Real-Time-Hub-Generally-Available/ba-p/5356729",
+        "feature_description": "Public preview of Capacity Overview events to monitor Fabric capacity state changes through Azure and Fabric Events.",
+        "feature_name": "Capacity Overview Events",
+        "last_modified": "2026-08-21",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2025",
+        "release_item_id": "26450555-49b3-f011-bbd2-0022480a2ecf",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "OneLake security (Generally Available)",
@@ -1333,76 +1403,6 @@
         "release_item_id": "8790f16d-f23f-f111-88b5-6045bd00f798",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Python Notebooks now integrate with Environments, enabling users to upload and use custom libraries and packages.",
-        "feature_name": "Environment - Support for Python Notebook",
-        "last_modified": "2026-07-15",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q3 2026",
-        "release_item_id": "f5495e72-de01-f111-8406-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric Notebooks: Resources Folder Support in Git",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-notebooks-resources-folder-support-in-git/5172099",
-        "feature_description": "Modules and files stored in the Notebook Resource folder can now be committed to Git and published through Deployment Pipelines.",
-        "feature_name": "CI/CD: notebook resources in git and deployment pipeline and support for API",
-        "last_modified": "2026-07-15",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q3 2026",
-        "release_item_id": "f4f6862a-e001-f111-8406-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "ServiceNow Zero-Copy Querying of Enterprise Data in Microsoft OneLake (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/ServiceNow-Zero-Copy-Querying-of-Enterprise-Data-in-Microsoft/ba-p/5198369",
-        "feature_description": "Salesforce integration with OneLake allow users to query, visualize and build AI agents on data stored in Salesforce and OneLake without moving, copying or complex ETL pipelines.",
-        "feature_name": "Salesforce zero-copy integration with OneLake",
-        "last_modified": "2026-07-15",
-        "product_id": "94e84e43-aa69-f011-bec2-00224804b6c3",
-        "product_name": "Fabric Ecosystem",
-        "release_date": "Q3 2026",
-        "release_item_id": "96ce85f7-2101-f111-8406-000d3a36696c",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Modernize your ADF pipelines to unlock Fabric",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/modernize-your-adf-pipelines-to-unlock-fabric/5172081",
-        "feature_description": "In order to gain productivity boosts with AI in Fabric Data Factory, you can now easily upgrade your existing ADF factories to Fabric in a super easy friction-free way. Previously we had multi-step processes that were run from button clicks in ADF. Now your existing ADF factories can be automatically bridged from Fabric trial capacities and then easily upgraded as-is to native Fabric pipelines and data flows.",
-        "feature_name": "Pipelines - Simplified Upgrade Experience",
-        "last_modified": "2026-07-15",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "6c647278-de7f-f111-ab0f-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Improving operational efficiency with operations agents in Real-Time Intelligence",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/improving-operational-efficiency-with-operations-agents-in-real-time-intelligenc/5172462",
-        "feature_description": "We are adding root cause analysis and investigate capabilities to the Operations Agent in Microsoft Fabric Real-Time Intelligence. With this update, when an anomaly or alert fires, the Operations Agent helps you understand why it happened by automatically correlating signals across your operational data and surfacing the most likely causal factors.With this capability, you can:- Move from &quot;an alert fired&quot; to &quot;this is why it fired&quot; without manually pivoting across dashboards and queries.- Correlate metrics, logs, and related entities to find contributing factors and time-aligned changes.- Drill into suggested causal paths and validate them against the underlying data in Eventhouse.The feature is rolling out in Public Preview to all Fabric customers using the Operations Agent. It works on data already flowing through your Eventhouse and requires no additional setup beyond having alerts or anomaly detection configured.",
-        "feature_name": "Root Cause Analysis in Operations Agent",
-        "last_modified": "2026-07-15",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "0733b6d7-0440-f111-88b5-002248085b3f",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1079,
+      "total_items": 1083,
       "total_pages": 11
     }
   }

@@ -1,9 +1,80 @@
 {
-  "generatedAt": "2026-08-21T21:48:01.849Z",
+  "generatedAt": "2026-08-21T22:20:10.795Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 71,
+  "count": 76,
   "changelog": {
     "days": [
+      {
+        "count": 5,
+        "date": "2026-08-21",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Ontology Metrics Authoring",
+            "last_modified": "2026-08-21",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Ontology Versioning",
+            "last_modified": "2026-08-21",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "e52b1f9e-3e40-f111-88b4-000d3a308b7b",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Capacity Overview Events",
+            "last_modified": "2026-08-21",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2025",
+            "release_item_id": "26450555-49b3-f011-bbd2-0022480a2ecf",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Workspace Item Events - Soft delete and recovery events",
+            "last_modified": "2026-08-21",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "1091ba5c-d78a-f111-ab0f-6045bd03ee11",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Workspace Private Link for Eventstream's Select Sources & Destinations",
+            "last_modified": "2026-08-21",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "cde82016-24a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 15,
         "date": "2026-08-20",
@@ -1046,6 +1117,6 @@
         ]
       }
     ],
-    "total_items": 71
+    "total_items": 76
   }
 }

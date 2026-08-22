@@ -1,9 +1,59 @@
 {
-  "generatedAt": "2026-08-22T04:04:31.000Z",
+  "generatedAt": "2026-08-22T04:48:12.343Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 74,
+  "count": 77,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-08-22",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2025-09-30 -> 2026-03-31",
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "CI/CD for Fabric Data Agent",
+            "last_modified": "2026-08-22",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2026",
+            "release_item_id": "4ec0e5ee-2a22-f011-9989-6045bd030c4d",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability",
+              "Release Status Shipped -> Planned"
+            ],
+            "feature_name": "Data Agent as an MCP Server",
+            "last_modified": "2026-08-22",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2025",
+            "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2025-03-31 -> 2025-12-31",
+              "Release Type Public preview -> General availability",
+              "Release Status Shipped -> Planned",
+              "Semester 2024 Wave 2 (Selenium) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Fabric data agent integration with Azure AI Foundry",
+            "last_modified": "2026-08-22",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2025",
+            "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 6,
         "date": "2026-08-21",
@@ -1082,6 +1132,6 @@
         ]
       }
     ],
-    "total_items": 74
+    "total_items": 77
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T23:47:33.069Z",
+  "generatedAt": "2026-08-22T01:02:42.053Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 77,
+  "count": 74,
   "changelog": {
     "days": [
       {
@@ -1080,56 +1080,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-07-22",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Assisted Setup Mode in Data Agent -> Build Agent with AI Mode in Data Agent"
-            ],
-            "feature_name": "Build Agent with AI Mode in Data Agent",
-            "last_modified": "2026-07-22",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q2 2026",
-            "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Creator Agent Supports Files as Context -> Build Agent with AI Mode Supports Files as Context"
-            ],
-            "feature_name": "Build Agent with AI Mode Supports Files as Context",
-            "last_modified": "2026-07-22",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2026",
-            "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name CreatorAgent: Support Semantic Models -> Build Agent with AI Mode: Support Semantic Models"
-            ],
-            "feature_name": "Build Agent with AI Mode: Support Semantic Models",
-            "last_modified": "2026-07-22",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2026",
-            "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 77
+    "total_items": 74
   }
 }

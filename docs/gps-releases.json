@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:03:51.695Z",
+  "generatedAt": "2026-08-24T17:46:02.221Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -34,6 +34,62 @@
       },
       {
         "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Recent NL2SQL improvements make the system more reliable and flexible by better leveraging few-shot examples, asking clarifying questions when queries are ambiguous, and using data exploration to handle gaps or novel scenarios. It also improves accuracy through smarter filter mapping and provides clearer debugging via visible run steps, example usage, and structured diagnostics.",
+        "feature_name": "Improved NL2SQL Experiences",
+        "last_modified": "2026-08-24",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q2 2026",
+        "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
+        "feature_description": "The Build Agent with AI mode is a specialized AI assistant designed to help data agent creators configure, improve, and optimize their data agents by generating and refining Agent Instructions, Data Source Instructions, and Few-Shot Examples. It addresses common customer pain points such as confusion about where to put instructions, uncertainty about the effectiveness of few shots, and difficulty diagnosing why an agent produces poor results. The agent works in a collaborative, chat-based 'setup' mode, where it analyzes existing configurations, explores database schemas and query patterns, and recommends improvements that users can explicitly accept or reject. It is designed to detect ambiguity and contradictions across configurations and suggest clearer, more consistent alternatives. Initially focused on SQL data sources, the Build Agent with AI mode is intended to expand to additional data sources (e.g., KQL, semantic models) over time. Overall, it enables a faster, more scalable, and more understandable way to build high-quality data agents without requiring deep knowledge of the underlying system.",
+        "feature_name": "Build Agent with AI Mode in Data Agent",
+        "last_modified": "2026-08-24",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q2 2026",
+        "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Empowering agentic AI by integrating Fabric with Azure AI Foundry",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/empowering-agentic-ai-by-integrating-fabric-with-azure-ai-foundry/5172877",
+        "feature_description": "With the Fabric data agent integration in Azure AI Foundry, Fabric data agent will serve as a knowledge source for Agent Service in Microsoft Azure AI Foundry. This enables the agent to use Fabric as a data hub, tapping into the insights available within Fabric to answer user queries accurately and efficiently. By connecting to Fabric data agent, the agent can retrieve data insights directly from Fabric, allowing consumers to interact with and analyze their Fabric data seamlessly through the AI applications in Azure AI Foundry.",
+        "feature_name": "Fabric data agent integration with Azure AI Foundry",
+        "last_modified": "2026-08-24",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2025",
+        "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Agentic Fabric: How MCP is turning your data platform into an AI-native operating system",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/agentic-fabric-how-mcp-is-turning-your-data-platform-into-an-ai-native-operating/5172009",
+        "feature_description": "As an MCP server, data agent can expose its tools as standardized tools to any AI assistant including VSCode, GitHub Copilot, etc. This allows other AI tools to tap into enterprise data on demand, accelerating AI adoption and ensuring consistent, secure, and auditable access to data agent tools.Data agent MCP server is considered as the main consumption endpoint.",
+        "feature_name": "Data Agent as an MCP Server",
+        "last_modified": "2026-08-24",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2025",
+        "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
         "blog_title": "Fabric Data Agent now supports CI/CD, ALM Flow, and Git Integration",
         "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-data-agent-now-supports-cicd-alm-flow-and-git-integration/5172542",
         "feature_description": "Enable CI/CD for Fabric data agents.A well implemented CI/CD pipeline brings significant benefits: Automated tests integrated into the CI process validate every change to the Data agent's configuration before deployment, catching errors early and ensuring that only reliable updates reach production. A structured deployment process moves changes from a development workspace, through a test workspace that mirrors production, and finally into production, while automatically applying workspace specific configurations. This rapid, reliable iteration not only reduces operational errors but also allows improvements and fixes to be pushed quickly in response to user feedback and evolving business needs, ultimately leading to a better enduser experience.",
@@ -44,34 +100,6 @@
         "release_date": "Q1 2026",
         "release_item_id": "4ec0e5ee-2a22-f011-9989-6045bd030c4d",
         "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Empowering agentic AI by integrating Fabric with Azure AI Foundry",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/empowering-agentic-ai-by-integrating-fabric-with-azure-ai-foundry/5172877",
-        "feature_description": "With the Fabric data agent integration in Azure AI Foundry, Fabric data agent will serve as a knowledge source for Agent Service in Microsoft Azure AI Foundry. This enables the agent to use Fabric as a data hub, tapping into the insights available within Fabric to answer user queries accurately and efficiently. By connecting to Fabric data agent, the agent can retrieve data insights directly from Fabric, allowing consumers to interact with and analyze their Fabric data seamlessly through the AI applications in Azure AI Foundry.",
-        "feature_name": "Fabric data agent integration with Azure AI Foundry",
-        "last_modified": "2026-08-22",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q4 2025",
-        "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Agentic Fabric: How MCP is turning your data platform into an AI-native operating system",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/agentic-fabric-how-mcp-is-turning-your-data-platform-into-an-ai-native-operating/5172009",
-        "feature_description": "As an MCP server, data agent can expose its tools as standardized tools to any AI assistant including VSCode, GitHub Copilot, etc. This allows other AI tools to tap into enterprise data on demand, accelerating AI adoption and ensuring consistent, secure, and auditable access to data agent tools.Data agent MCP server is considered as the main consumption endpoint.",
-        "feature_name": "Data Agent as an MCP Server",
-        "last_modified": "2026-08-22",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q4 2025",
-        "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
-        "release_status": "Planned",
         "release_type": "General availability"
       },
       {
@@ -1084,20 +1112,6 @@
       },
       {
         "active": true,
-        "blog_title": "Build agent with AI for Data Agent (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
-        "feature_description": "The Build Agent with AI mode is a specialized AI assistant designed to help data agent creators configure, improve, and optimize their data agents by generating and refining Agent Instructions, Data Source Instructions, and Few-Shot Examples. It addresses common customer pain points such as confusion about where to put instructions, uncertainty about the effectiveness of few shots, and difficulty diagnosing why an agent produces poor results. The agent works in a collaborative, chat-based 'setup' mode, where it analyzes existing configurations, explores database schemas and query patterns, and recommends improvements that users can explicitly accept or reject. It is designed to detect ambiguity and contradictions across configurations and suggest clearer, more consistent alternatives. Initially focused on SQL data sources, the Build Agent with AI mode is intended to expand to additional data sources (e.g., KQL, semantic models) over time. Overall, it enables a faster, more scalable, and more understandable way to build high-quality data agents without requiring deep knowledge of the underlying system.",
-        "feature_name": "Build Agent with AI Mode in Data Agent",
-        "last_modified": "2026-07-22",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q2 2026",
-        "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Inline Scalar user-defined functions (UDFs) in Microsoft Fabric Warehouse (Preview)",
         "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/inline-scalar-user-defined-functions-udfs-in-microsoft-fabric-warehouse-preview/5172706",
         "feature_description": "We're expanding scalar user-defined functions with new capabilities, including INLINE = AUTO, improved error messaging, support for special built-in functions, and CONTINUE/BREAK statements in **computation**-based UDFs.",
@@ -1387,20 +1401,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q1 2027",
         "release_item_id": "403b7b13-0ca4-f011-bbd3-000d3a5b0efa",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New Eventstream sources: MQTT, Solace PubSub+, Azure Data Explorer, Weather & Azure Event Grid",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-eventstream-sources-mqtt-solace-pubsub-azure-data-explorer-weather--azure-ev/5172843",
-        "feature_description": "Eventstream now provides a Salesforce platform events source connector, bringing real-time business events from Salesforce into Microsoft Fabric. This complements change data capture by streaming custom and standard platform events.With this capability, you can:- Stream Salesforce platform events into Eventstream.- Trigger real-time analytics and actions on business events.- Route platform events to Fabric destinations.",
-        "feature_name": "Salesforce platform events source connector",
-        "last_modified": "2026-07-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q1 2027",
-        "release_item_id": "17ed2f32-8e3f-f111-88b5-6045bd00f798",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

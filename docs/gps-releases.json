@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:43:28.487Z",
+  "generatedAt": "2026-08-24T23:02:32.624Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,20 @@
         "product_name": "Power BI",
         "release_date": "Q1 2027",
         "release_item_id": "4121c862-f89f-f111-b8db-000d3a3adc9b",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Microsoft Fabric November 2023 Update",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/microsoft-fabric-november-2023-update/5172115",
+        "feature_description": "Explore data in a focused experience without creating a report. Quickly investigate and customize your analysis using matrices and visuals, then save the exploration to a workspace or as a report.",
+        "feature_name": "Explore",
+        "last_modified": "2026-08-24",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q4 2026",
+        "release_item_id": "e1ba1ef1-03a0-f111-b8db-000d3a3ad6b6",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -1389,20 +1403,6 @@
         "release_item_id": "714d2deb-263e-f111-88b5-6045bd0066ad",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Acquiring Real-Time Data from New Sources with Enhanced Eventstream",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/acquiring-real-time-data-from-new-sources-with-enhanced-eventstream/5173178",
-        "feature_description": "Eventstream can now use CopyJob sources, with discovery through Real-Time Hub, broadening a set of sources you can stream into Fabric. This connects CopyJob sources with real-time processing.With this capability, you can:- Use CopyJob connectors as sources for Eventstream.- Discover and add CopyJob sources through Real-Time Hub.",
-        "feature_name": "Enable CopyJob as source in Eventstream and Real-time Hub",
-        "last_modified": "2026-07-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q1 2027",
-        "release_item_id": "704213db-f23f-f111-88b5-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1085,
+      "total_items": 1086,
       "total_pages": 11
     }
   }

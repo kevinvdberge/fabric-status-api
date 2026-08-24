@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:11:21.800Z",
+  "generatedAt": "2026-08-24T14:01:41.824Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -8,7 +8,7 @@
         "active": true,
         "blog_title": null,
         "blog_url": null,
-        "feature_description": "## T-SQL Language EnhancementsNew capabilities focused on making T-SQL more powerful for analytics, simpler to write, and more intuitive for data exploration.- **Advanced Analytics** Expanded statistical capabilities with functions such as `MEDIAN`, `QUANTILE`, `PERCENTILE`, `APPROX_MEDIAN`, and `APPROX_QUANTILE` for distribution analysis and large-scale analytical workloads.- **Simplified Query Syntax** New language constructs including `QUALIFY`, `GROUP BY ALL`, and `ORDER BY ALL` help reduce query complexity and improve readability of analytical queries.- **More Intuitive Querying** Developer-friendly syntax enhancements designed to make common query patterns easier to express, improving productivity and reducing the amount of code required to answer business questions.",
+        "feature_description": "New capabilities focused on making T-SQL more powerful for analytics, simpler to write, and more intuitive for data exploration.&lt;br/&gt;* **Advanced Analytics** Expanded statistical capabilities with functions such as `MEDIAN`, `QUANTILE`, `PERCENTILE`, `APPROX_MEDIAN`, and `APPROX_QUANTILE` for distribution analysis and large-scale analytical workloads.* **Simplified Query Syntax** New language constructs including `QUALIFY`, `GROUP BY ALL`, and `ORDER BY ALL` help reduce query complexity and improve readability of analytical queries.* **More Intuitive Querying** Developer-friendly syntax enhancements designed to make common query patterns easier to express, improving productivity and reducing the amount of code required to answer business questions.",
         "feature_name": "T-SQL language improvements",
         "last_modified": "2026-08-24",
         "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",

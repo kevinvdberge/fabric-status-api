@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T19:54:07.260Z",
+  "generatedAt": "2026-08-24T20:26:01.218Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 77,
+  "count": 80,
   "changelog": {
     "days": [
       {
-        "count": 6,
+        "count": 9,
         "date": "2026-08-24",
         "items": [
           {
@@ -19,6 +19,19 @@
             "release_date": "Q2 2026",
             "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
             "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Data Agent A365 Identity and Observability",
+            "last_modified": "2026-08-24",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2026",
+            "release_item_id": "51ca432f-f39f-f111-b8db-000d3a5c7513",
+            "release_status": "Planned",
             "release_type": "Public preview"
           },
           {
@@ -86,6 +99,32 @@
             "release_item_id": "ce1edca4-aa9f-f111-b8db-000d3a3ad8c1",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Card Visual - Trend Chart",
+            "last_modified": "2026-08-24",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "df66c8a5-d46f-f111-ab0d-000d3a376137",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Donut Chart - Center Value",
+            "last_modified": "2026-08-24",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "735659bf-146f-f111-ab0d-000d3a376137",
+            "release_status": "Shipped",
+            "release_type": "General availability"
           }
         ]
       },
@@ -1123,6 +1162,6 @@
         ]
       }
     ],
-    "total_items": 77
+    "total_items": 80
   }
 }

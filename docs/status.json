@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-08-24T09:30:18.035Z",
+  "generatedAt": "2026-08-24T10:18:48.999Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 214,
+    "active": 0,
+    "resolved": 215,
     "total": 215
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 214,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 215,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "adca59a5-9d9f-f111-b8db-000d3a3ad8c1",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "North Europe",
       "reportedRaw": "8/24/2026 2:10:53 AM",
       "reportedAt": "2026-08-24T02:10:53.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers in North Europe might experience intermittent issues with accessing their artifacts and opening reports in service. Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric Customers in North Europe might experience intermittent issues with accessing their artifacts and opening reports in service. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "0c18df47e5fa71aaf8b2696358cd8627f8b62551942b5cceb4912f6eb8860c52"
-    }
-  ],
-  "resolved": [
+      "resolvedRaw": "8/24/2026 2:22:00 AM",
+      "resolvedAt": "2026-08-24T02:22:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric Customers in North Europe might have experienced intermittent issues while accessing their artifacts and opening reports in service.</p></div>",
+      "detailsText": "Fabric Customers in North Europe might have experienced intermittent issues while accessing their artifacts and opening reports in service.",
+      "hash": "0d25e000b0651d7e045af31ede476c9595e29307fc0644dd4f84a643f655d71b"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "cd27c683-dd9b-f111-b8db-6045bd02b04a",

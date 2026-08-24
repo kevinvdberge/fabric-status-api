@@ -1,13 +1,29 @@
 {
-  "generatedAt": "2026-08-24T20:58:34.919Z",
+  "generatedAt": "2026-08-24T21:34:50.212Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 80,
+  "count": 82,
   "changelog": {
     "days": [
       {
-        "count": 9,
+        "count": 11,
         "date": "2026-08-24",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Name OneLake Catalog - govern with centralized management capabilities -> OneLake Catalog - govern with centralized management capabilities (domains",
+              "tags",
+              "capacities",
+              "etc)"
+            ],
+            "feature_name": "OneLake Catalog - govern with centralized management capabilities (domains, tags, capacities, etc)",
+            "last_modified": "2026-08-24",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q3 2026",
+            "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -124,6 +140,19 @@
             "release_date": "Q3 2026",
             "release_item_id": "735659bf-146f-f111-ab0d-000d3a376137",
             "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Quick visual edits",
+            "last_modified": "2026-08-24",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "4121c862-f89f-f111-b8db-000d3a3adc9b",
+            "release_status": "Planned",
             "release_type": "General availability"
           }
         ]
@@ -1162,6 +1191,6 @@
         ]
       }
     ],
-    "total_items": 80
+    "total_items": 82
   }
 }

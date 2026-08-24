@@ -1,9 +1,42 @@
 {
-  "generatedAt": "2026-08-24T11:42:51.245Z",
+  "generatedAt": "2026-08-24T12:02:52.926Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 73,
+  "count": 75,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-08-24",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31",
+              "Description updated"
+            ],
+            "feature_name": "Regular expressions",
+            "last_modified": "2026-08-24",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "aceeae17-dfb8-f011-bbd3-000d3a30273e",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "T-SQL language improvements",
+            "last_modified": "2026-08-24",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "ce1edca4-aa9f-f111-b8db-000d3a3ad8c1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 3,
         "date": "2026-08-22",
@@ -1068,6 +1101,6 @@
         ]
       }
     ],
-    "total_items": 73
+    "total_items": 75
   }
 }

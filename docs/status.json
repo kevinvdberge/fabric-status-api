@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-08-25T19:54:36.963Z",
+  "generatedAt": "2026-08-25T20:24:21.727Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 216,
-    "total": 216
+    "total": 217
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 216,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "1506fd94-c2a0-f111-b8db-70a8a59cef51",
+      "serviceStatus": "Degraded",
+      "region": "Central US",
+      "reportedRaw": "8/25/2026 1:12:35 PM",
+      "reportedAt": "2026-08-25T13:12:35.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in the North Central US region may experience issues with control plane operations. Engineers are investigating and updates will be provided soon.</p></div>",
+      "detailsText": "Fabric customers in the North Central US region may experience issues with control plane operations. Engineers are investigating and updates will be provided soon.",
+      "hash": "5c8fdb8cc64fb608682f7214b3ec6ce69caa5cf60f6e70d295e57acb32f46146"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

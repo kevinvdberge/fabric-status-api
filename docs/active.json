@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-25T05:03:57.453Z",
+  "generatedAt": "2026-08-25T05:46:30.621Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "7f722447-41a0-f111-b8db-000d3a3ad8c1",
-      "serviceStatus": "Degraded",
-      "region": "Southeast Asia",
-      "reportedRaw": "8/24/2026 9:54:24 PM",
-      "reportedAt": "2026-08-24T21:54:24.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers with tenants located in SouthEast Asia region may experience issues while accessing the service. Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric customers with tenants located in SouthEast Asia region may experience issues while accessing the service. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "ec58351ce386068a238bb2e4024143ff4e1cc6c70b1619972548f3ef8c585ddc"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

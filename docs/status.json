@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-08-25T05:03:57.453Z",
+  "generatedAt": "2026-08-25T05:46:30.621Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 215,
+    "active": 0,
+    "resolved": 216,
     "total": 216
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 215,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 216,
+    "hasActive": false
   },
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "7f722447-41a0-f111-b8db-000d3a3ad8c1",
-      "serviceStatus": "Degraded",
-      "region": "Southeast Asia",
-      "reportedRaw": "8/24/2026 9:54:24 PM",
-      "reportedAt": "2026-08-24T21:54:24.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers with tenants located in SouthEast Asia region may experience issues while accessing the service. Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric customers with tenants located in SouthEast Asia region may experience issues while accessing the service. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "ec58351ce386068a238bb2e4024143ff4e1cc6c70b1619972548f3ef8c585ddc"
-    }
-  ],
+  "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "7f722447-41a0-f111-b8db-000d3a3ad8c1",
+      "serviceStatus": "",
+      "region": "Southeast Asia",
+      "reportedRaw": "8/24/2026 9:40:24 PM",
+      "reportedAt": "2026-08-24T21:40:24.000Z",
+      "resolvedRaw": "8/24/2026 9:55:10 PM",
+      "resolvedAt": "2026-08-24T21:55:10.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers with tenants located in SouthEast Asia region may have experienced issues while accessing the service due to an Azure outage. </p></div>",
+      "detailsText": "Fabric customers with tenants located in SouthEast Asia region may have experienced issues while accessing the service due to an Azure outage.",
+      "hash": "07728d9ac9bf2621e956dd27f05c7a9b7d04495d6e312886db5275109b41546f"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "adca59a5-9d9f-f111-b8db-000d3a3ad8c1",

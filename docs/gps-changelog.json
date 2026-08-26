@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-08-26T18:56:21.110Z",
+  "generatedAt": "2026-08-26T21:39:45.324Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 92,
+  "count": 93,
   "changelog": {
     "days": [
       {
-        "count": 9,
+        "count": 10,
         "date": "2026-08-26",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Dataflows - Merge/Upsert Support for Output Destinations",
+            "last_modified": "2026-08-26",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "67d0f235-4521-f011-9989-6045bd030c4d",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1329,6 +1342,6 @@
         ]
       }
     ],
-    "total_items": 92
+    "total_items": 93
   }
 }

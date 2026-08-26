@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-08-26T02:38:40.340Z",
+  "generatedAt": "2026-08-26T03:38:34.055Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 83,
+  "count": 85,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-08-26",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Browse and Connectivity in VS Code for Fabric Warehouse",
+            "last_modified": "2026-08-26",
+            "product_name": "Data Warehouse",
+            "release_date": "Q1 2027",
+            "release_item_id": "bb7de14c-ebb8-f011-bbd3-6045bd05dd14",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-07-30 -> 2026-12-31"
+            ],
+            "feature_name": "Workspace-Friendly Connections",
+            "last_modified": "2026-08-26",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "be34d186-0cb9-f011-bbd3-6045bd05dd14",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 12,
         "date": "2026-08-24",
@@ -1204,6 +1236,6 @@
         ]
       }
     ],
-    "total_items": 83
+    "total_items": 85
   }
 }

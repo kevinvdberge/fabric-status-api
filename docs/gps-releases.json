@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-08-26T02:38:40.340Z",
+  "generatedAt": "2026-08-26T03:38:34.055Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Microsoft Fabric extension for VS Code (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/microsoft-fabric-extension-for-vs-code-generally-available/5172598",
+        "feature_description": "VS Code allows developers to explore Fabric Workspaces and connect directly to Fabric Warehouses, providing seamless access to data and objects. Key capabilities include:* Workspace exploration: Navigate Fabric Workspaces, including their warehouses, tables, views, and other artifacts.* Direct connectivity: Connect to one or multiple Fabric Warehouses from VS Code for querying or management.* Integrated workflow: Quickly access schemas and objects for development, debugging, or CI/CD without switching tools.",
+        "feature_name": "Browse and Connectivity in VS Code for Fabric Warehouse",
+        "last_modified": "2026-08-26",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q1 2027",
+        "release_item_id": "bb7de14c-ebb8-f011-bbd3-6045bd05dd14",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Fabric workspace connection strings often contain complex, encoded server names that make it difficult for developers to identify or manage connections easily.With Friendly workspace server name, developers can configure a friendly server name for a workspace that helps connections simpler to manage.",
+        "feature_name": "Workspace-Friendly Connections",
+        "last_modified": "2026-08-26",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q4 2026",
+        "release_item_id": "be34d186-0cb9-f011-bbd3-6045bd05dd14",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1375,34 +1403,6 @@
         "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Build real-time order notifications with Eventstream’s CDC connector",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/build-real-time-order-notifications-with-eventstream%E2%80%99s-cdc-connector/5173135",
-        "feature_description": "Eventstream now makes change data capture (CDC) feeds analytics ready by automatically turning raw change events into structured tables. Developers and analysts can work with change data as if it were regular tables, without interpreting complex CDC semantics. This speeds the development of operational dashboards, event-driven applications, and real-time analytics.With this capability, you can:- Convert raw change events into tables that match the source schema.- Build dashboards and event-driven applications on change data quickly.- React to source changes instantly with minimal setup and maintenance.",
-        "feature_name": "Analytics ready for database change capture CDC data in Eventstream",
-        "last_modified": "2026-07-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q1 2027",
-        "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Introducing the HTTP and MongoDB CDC Connectors for Eventstream — Inspired by You",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-%E2%80%94-inspired-by-yo/5172439",
-        "feature_description": "The Eventstream HTTP connector now supports OAuth authentication for external API sources. This lets you stream data from third-party providers that require token-based access, using a secure, standard authentication flow.With this capability, you can:- Authenticate to external APIs with OAuth tokens.- Stream data securely from providers that require token-based access.- Refresh tokens automatically for continuous ingestion.",
-        "feature_name": "OAuth support for the Eventstream HTTP connector",
-        "last_modified": "2026-07-16",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q1 2027",
-        "release_item_id": "714d2deb-263e-f111-88b5-6045bd0066ad",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1086,
+      "total_items": 1087,
       "total_pages": 11
     }
   }

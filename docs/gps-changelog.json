@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T04:23:35.873Z",
+  "generatedAt": "2026-08-26T05:04:12.644Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 85,
+  "count": 92,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 9,
         "date": "2026-08-26",
         "items": [
           {
@@ -24,6 +24,19 @@
           {
             "active": true,
             "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Faster Metadata & Schema Discovery for Large Warehouses",
+            "last_modified": "2026-08-26",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "e943c699-fca0-f111-b8db-000d3a3ad657",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
               "Release Date 2026-07-30 -> 2026-12-31"
             ],
             "feature_name": "Workspace-Friendly Connections",
@@ -33,6 +46,86 @@
             "release_item_id": "be34d186-0cb9-f011-bbd3-6045bd05dd14",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Design ribbon in Power BI Desktop",
+            "last_modified": "2026-08-26",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "d069ec35-02a1-f111-b8db-000d3a3ad657",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-15 -> 2026-12-31"
+            ],
+            "feature_name": "Gantt chart visual",
+            "last_modified": "2026-08-26",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "15b7fc3d-d31f-f111-8341-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Matrix and table filter action button",
+            "last_modified": "2026-08-26",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "ed888d13-03a1-f111-b8db-000d3a3ad657",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2026-09-30",
+              "Release Type Public preview -> General availability",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Matrix expand and collapse icons on column headers",
+            "last_modified": "2026-08-26",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "a5e3a618-146f-f111-ab0d-000d3a376137",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Modern visual defaults and customizing theme improvements",
+            "last_modified": "2026-08-26",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "10e2a1c0-d664-f111-a826-000d3a5a7aa2",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "OneLake file URLs for report visuals",
+            "last_modified": "2026-08-26",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "2774e8e2-ed5a-f111-bec7-000d3a376137",
+            "release_status": "Shipped",
+            "release_type": "General availability"
           }
         ]
       },
@@ -1236,6 +1329,6 @@
         ]
       }
     ],
-    "total_items": 85
+    "total_items": 92
   }
 }

@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-08-26T21:39:45.291Z",
+  "generatedAt": "2026-08-27T01:04:21.278Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "1506fd94-c2a0-f111-b8db-70a8a59cef51",
-      "serviceStatus": "Information",
-      "region": "Central US",
-      "reportedRaw": "8/25/2026 1:12:35 PM",
-      "reportedAt": "2026-08-25T13:12:35.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in the North Central US region may experience issues with capacity management operations. <style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style>Mitigation has been applied, and operations are now succeeding. We continue to closely monitor service health to ensure stability and full recovery. The next update will be provided by 2026-08-26 15:00 PST</p></div>",
-      "detailsText": "Fabric customers in the North Central US region may experience issues with capacity management operations. a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Mitigation has been applied, and operations are now succeeding. We continue to closely monitor service health to ensure stability and full recovery. The next update will be provided by 2026-08-26 15:00 PST",
-      "hash": "c8cd843e628ee1b615faba4726128e4ed786fa5e96e091afa4a77e3f0d4aeca0"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

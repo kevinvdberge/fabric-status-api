@@ -1,9 +1,80 @@
 {
-  "generatedAt": "2026-08-27T11:11:35.072Z",
+  "generatedAt": "2026-08-27T21:02:04.213Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 93,
+  "count": 98,
   "changelog": {
     "days": [
+      {
+        "count": 5,
+        "date": "2026-08-27",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Govern Skills for Fabric",
+            "last_modified": "2026-08-27",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q3 2026",
+            "release_item_id": "b6d8618b-08a2-f111-b8db-000d3a3ad591",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Cosmos DB Mirroring for MongoDB",
+            "last_modified": "2026-08-27",
+            "product_name": "Cosmos DB",
+            "release_date": "Q4 2026",
+            "release_item_id": "794b6b48-174b-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Fabric Cosmos DB Reverse-ETL",
+            "last_modified": "2026-08-27",
+            "product_name": "Cosmos DB",
+            "release_date": "Q3 2026",
+            "release_item_id": "8275e94e-174b-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Mirroring TTL",
+            "last_modified": "2026-08-27",
+            "product_name": "Cosmos DB",
+            "release_date": "Q3 2026",
+            "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "OneLake catalog - tables data preview and quick actions",
+            "last_modified": "2026-08-27",
+            "product_name": "OneLake",
+            "release_date": "Q3 2026",
+            "release_item_id": "25d26f63-36b3-f011-bbd3-000d3a3740cc",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 16,
         "date": "2026-08-26",
@@ -1335,6 +1406,6 @@
         ]
       }
     ],
-    "total_items": 93
+    "total_items": 98
   }
 }

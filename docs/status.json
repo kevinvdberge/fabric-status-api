@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-08-27T11:11:35.037Z",
+  "generatedAt": "2026-08-27T21:02:04.177Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 217,
-    "total": 217
+    "resolved": 218,
+    "total": 218
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 217,
+    "resolvedIncidents": 218,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "83ee2f7b-2ea2-f111-b8db-000d3a3ad8c1",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "8/27/2026 8:45:00 AM",
+      "reportedAt": "2026-08-27T08:45:00.000Z",
+      "resolvedRaw": "8/27/2026 9:45:23 AM",
+      "resolvedAt": "2026-08-27T09:45:23.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers may have experienced delays or intermittent issues while interacting with the service.</p></div>",
+      "detailsText": "Fabric customers may have experienced delays or intermittent issues while interacting with the service.",
+      "hash": "1c0206c2c9fd5e19a1a7abf3692eae65054df005a59ff049686a64c1d12cea46"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "1506fd94-c2a0-f111-b8db-70a8a59cef51",
@@ -23,9 +36,9 @@
       "reportedAt": "2026-08-25T13:12:35.000Z",
       "resolvedRaw": "8/26/2026 3:00:31 PM",
       "resolvedAt": "2026-08-26T15:00:31.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in the North Central US region may experience issues with capacity management operations. <style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style>Mitigation has been applied, and operations are now succeeding. We continue to closely monitor service health to ensure stability and full recovery. The next update will be provided by 2026-08-26 15:00 PST</p></div>",
-      "detailsText": "Fabric customers in the North Central US region may experience issues with capacity management operations. a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Mitigation has been applied, and operations are now succeeding. We continue to closely monitor service health to ensure stability and full recovery. The next update will be provided by 2026-08-26 15:00 PST",
-      "hash": "3e60129d31be42ee26c4895d352c6631103613f872f199db577c6de2b2eacb3c"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in the North Central US region may experience issues with capacity management operations. <style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p></div>",
+      "detailsText": "Fabric customers in the North Central US region may experience issues with capacity management operations. a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;}",
+      "hash": "eb669ab03ba738a809ef20d217e9937640dec653e35bcf91f26774324daa4fa9"
     },
     {
       "type": "resolved",

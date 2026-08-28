@@ -1,11 +1,30 @@
 {
-  "generatedAt": "2026-08-27T21:02:04.213Z",
+  "generatedAt": "2026-08-28T05:23:19.479Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 98,
+  "count": 100,
   "changelog": {
     "days": [
       {
-        "count": 5,
+        "count": 1,
+        "date": "2026-08-28",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Modeling Copilot",
+            "last_modified": "2026-08-28",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "18e80601-8e2c-f111-88b4-000d3a376137",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
+      {
+        "count": 6,
         "date": "2026-08-27",
         "items": [
           {
@@ -71,6 +90,19 @@
             "release_date": "Q3 2026",
             "release_item_id": "25d26f63-36b3-f011-bbd3-000d3a3740cc",
             "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Date picker slicer to set relative and manual date ranges",
+            "last_modified": "2026-08-27",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "389a9a25-5ca2-f111-b8db-000d3a3ad841",
+            "release_status": "Shipped",
             "release_type": "General availability"
           }
         ]
@@ -1406,6 +1438,6 @@
         ]
       }
     ],
-    "total_items": 98
+    "total_items": 100
   }
 }

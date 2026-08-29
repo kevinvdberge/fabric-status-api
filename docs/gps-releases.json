@@ -1,9 +1,65 @@
 {
-  "generatedAt": "2026-08-28T17:35:15.349Z",
+  "generatedAt": "2026-08-29T01:10:01.698Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "The Reference Data Join feature in Eventstream enables you to enrich streaming events by joining them with static or slowly changing delta tables in one lake.User can reference any one lake delta tables using lakehouse, and join it with streaming data in eventstream to enahace and add additional context to their events during processing.",
+        "feature_name": "Eventstream reference data join with one lake delta tables",
+        "last_modified": "2026-08-28",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "816ee551-33a5-f011-bbd3-000d3a30273e",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Fabric Eventstream can now publish Business Events (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
+        "feature_description": "**Eventstream as a Business Events Consumer from Real-Time Hub****Overview**Enable Eventstream to natively consume Business Events from Real-Time hub--unlocking real-time processing, transformation, and routing of business signals across Fabric.**Key Capabilities*** Native Eventstream Consumption: Create Eventstream consumers directly from Business Events in Real-Time hub to start processing events in real time.* Real-time Event Processing Pipelines: Build pipelines to ingest, process, and route Business Events with low latency as they are published.* Flexible Transformations & Enrichment: Apply transformations, filtering, and enrichment to Business Events before routing them to downstream systems.* Seamless Routing to Destinations: Deliver processed events to multiple Fabric destinations (e.g., storage, analytics engines, downstream services) for further action.* Integration with Analytics & Actions: Enable scenarios such as real-time insights, anomaly detection, alerts, and automated workflows powered by event data.",
+        "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
+        "last_modified": "2026-08-28",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Turn insights into signals with Activator as a Business Event Publisher (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Turn-insights-into-signals-with-Activator-as-a-Business-Event/ba-p/5190248",
+        "feature_description": "",
+        "feature_name": "Activator as a publisher of Business Events",
+        "last_modified": "2026-08-28",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q2 2026",
+        "release_item_id": "ffd42d88-e631-f111-88b3-000d3a376c0f",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
+        "feature_description": "Route and analyze Fabric Business Events in Eventhouse for real-time querying and analytics.",
+        "feature_name": "Analyze Business Events in Eventhouse",
+        "last_modified": "2026-08-28",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q2 2026",
+        "release_item_id": "a1bbb828-e731-f111-88b3-000d3a376c0f",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Copilot in Fabric (preview) is available worldwide",
@@ -1347,62 +1403,6 @@
         "release_item_id": "3665d185-5b43-f111-88b5-6045bd0a886d",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Unlock Real-Time Intelligence with the Eventhouse Endpoint for Lakehouse",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/unlock-real-time-intelligence-with-the-eventhouse-endpoint-for-lakehouse/5172526",
-        "feature_description": "On the data exploration front, the new Lakehouse Query Explorer introduces a streamlined, in-context query experience directly within the Lakehouse. Users can write and run Spark SQL queries right from the Lakehouse explorer to quickly discover and analyze data, with intelligent suggestions and real-time error prevention all without needing to navigate to a notebook. Results can be saved as Spark Views, visualized as charts, filtered, sorted, and downloaded, with rich contextual information throughout. When deeper analysis is required, code can be seamlessly promoted into a notebook for more complex processing, bridging the gap between ad-hoc exploration and production-grade data engineering.",
-        "feature_name": "Lakehouse Query Window",
-        "last_modified": "2026-07-27",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q2 2026",
-        "release_item_id": "e5bc7caf-294e-f111-bec7-000d3a376137",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric Runtime 1.3 is Generally Available! Upgrade your data engineering and science workloads to harness the latest innovations and performance enhancements",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-runtime-1-3-is-generally-available-upgrade-your-data-engineering-and-scie/5173054",
-        "feature_description": "We are upgrading the underlying operating system of Fabric Runtime 1.3 from Mariner 2.0 to Mariner 3.0, delivering improved security, performance, and long-term support for Apache Spark workloads. This upgrade brings the latest OS-level patches, enhanced container compatibility, and a modernized base image that aligns with the latest Azure infrastructure standards.To ensure a smooth transition, the upgrade leverages the Runtime Release Channel feature, which allows customers to preview and validate the Mariner 3.0-based runtime before it becomes the default. Data engineers can switch to the release candidate channel in their environment settings, run their existing workloads, and confirm compatibility -- all before the update is applied across their organization.Key benefits include:Enhanced security posture with the latest OS-level patches and hardeningImproved performance from the modernized Mariner 3.0 baseCustomer-controlled validation through the release channel, reducing risk of unexpected issuesContinued compatibility with all existing Runtime 1.3 workloads and librariesThe Mariner 3.0 upgrade is available through Fabric environment settings with no additional configuration required.Business Value: Strengthens the security and performance foundation of Fabric Runtime 1.3 by upgrading to Mariner 3.0, while giving customers the ability to validate the change before it rolls out to production.",
-        "feature_name": "Fabric Runtime 1.3 Mariner 3.0 Upgrade",
-        "last_modified": "2026-07-27",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q2 2026",
-        "release_item_id": "b8bed2a5-5943-f111-88b5-6045bd0a886d",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric Runtime Release Channels",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Runtime-Release-Channels/ba-p/5240330",
-        "feature_description": "This feature enables multiple runtime channels for customers. The default channel will remain the current standard runtime, while an EarlyAccess channel will provide the latest updates - such as library upgrades and security vulnerability fix..Using Spark settings in the environment, customers can test and validate these changes early, before they become part of the default runtime channel.",
-        "feature_name": "Fabric Release Channel - Public Preview",
-        "last_modified": "2026-07-27",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q2 2026",
-        "release_item_id": "399f07f8-96ba-f011-bbd3-00224808fcf0",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Configure and manage Activator rules directly in Eventstream (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/configure-and-manage-activator-rules-directly-in-eventstream-preview/5172129",
-        "feature_description": "The new Activator Alert feature in Eventstream allows users to set up alerts in a single step, streamlining the process. With this enhancement, customers can quickly create alerts directly within Eventstream, saving time and reducing complexity.",
-        "feature_name": "Eventstream Integrated Activator Alert Setup Experience",
-        "last_modified": "2026-07-24",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "3aac4279-ca3d-f111-88b5-6045bd0066ad",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1093,
+      "total_items": 1095,
       "total_pages": 11
     }
   }

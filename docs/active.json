@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-08-29T01:10:01.664Z",
+  "generatedAt": "2026-08-29T07:52:38.386Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 0,
-  "active": []
+  "count": 1,
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "a22510b5-79a3-f111-b8dd-6045bd0196b9",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "8/29/2026 12:16:26 AM",
+      "reportedAt": "2026-08-29T00:16:26.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in canadacentral region may experience issues while performing control plane operations like Pausing, Deleting etc. Engineers are actively investigating the issue, and an update will be provided soon</p></div>",
+      "detailsText": "Fabric customers in canadacentral region may experience issues while performing control plane operations like Pausing, Deleting etc. Engineers are actively investigating the issue, and an update will be provided soon",
+      "hash": "1caa646e43ff618611fb539140fafa9c7d9575848f382e4b39eb061e8b3157cd"
+    }
+  ]
 }

@@ -1,9 +1,35 @@
 {
-  "generatedAt": "2026-08-29T07:52:38.386Z",
+  "generatedAt": "2026-08-29T13:35:50.268Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 219,
+  "count": 221,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "a22510b5-79a3-f111-b8dd-6045bd0196b9",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "8/29/2026 12:16:26 AM",
+      "reportedAt": "2026-08-29T00:16:26.000Z",
+      "resolvedRaw": "8/29/2026 4:25:42 AM",
+      "resolvedAt": "2026-08-29T04:25:42.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in canadacentral region may have experienced issues while performing control plane operations like Pausing, Deleting etc.</p></div>",
+      "detailsText": "Fabric customers in canadacentral region may have experienced issues while performing control plane operations like Pausing, Deleting etc.",
+      "hash": "23f39368bf52ea5aa97be240a816811b5beb166785104e003bdcde7e03283094"
+    },
+    {
+      "type": "resolved",
+      "serviceNotificationId": "62c68197-83a3-f111-b8dd-6045bd0192ed",
+      "serviceStatus": "",
+      "region": "Central US",
+      "reportedRaw": "8/29/2026 1:27:06 AM",
+      "reportedAt": "2026-08-29T01:27:06.000Z",
+      "resolvedRaw": "8/29/2026 2:18:48 AM",
+      "resolvedAt": "2026-08-29T02:18:48.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers in North Central US region may have experienced issues while refreshing their reports in the service. </p></div>",
+      "detailsText": "Power BI customers in North Central US region may have experienced issues while refreshing their reports in the service.",
+      "hash": "a8f8d4626ce32e51d9f321dd471d2f0546794d51bad8645564b2273d9d72fc9e"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "cb1df315-b2a2-f111-b8da-7ced8d711890",
@@ -13,9 +39,9 @@
       "reportedAt": "2026-08-28T00:27:18.000Z",
       "resolvedRaw": "8/28/2026 1:44:14 AM",
       "resolvedAt": "2026-08-28T01:44:14.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in West US region may experience intermittent failures with refresh operations and accessing artifacts in service due to an ongoing Azure outage. <br>Issue has been mitigated from azure side.</p></div>",
-      "detailsText": "Fabric customers in West US region may experience intermittent failures with refresh operations and accessing artifacts in service due to an ongoing Azure outage. Issue has been mitigated from azure side.",
-      "hash": "bdd241cce633ca6a8e00406dafdc172b39b762d7097ab0fba23729be496b81b8"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in West US region may have experienced intermittent failures with refresh operations and accessing artifacts in service due to an Azure outage.</p></div>",
+      "detailsText": "Fabric customers in West US region may have experienced intermittent failures with refresh operations and accessing artifacts in service due to an Azure outage.",
+      "hash": "e9bb7e5c920f430e145f91005d883c29dd0e62b002762eecbec804a5fc81345b"
     },
     {
       "type": "resolved",

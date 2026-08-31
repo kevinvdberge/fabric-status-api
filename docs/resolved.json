@@ -1,9 +1,35 @@
 {
-  "generatedAt": "2026-08-31T03:30:20.727Z",
+  "generatedAt": "2026-08-31T10:05:11.300Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 223,
+  "count": 225,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "1186c279-09a5-f111-b8dd-6045bd01961c",
+      "serviceStatus": "",
+      "region": "West Europe",
+      "reportedRaw": "8/30/2026 11:58:25 PM",
+      "reportedAt": "2026-08-30T23:58:25.000Z",
+      "resolvedRaw": "8/31/2026 12:03:27 AM",
+      "resolvedAt": "2026-08-31T00:03:27.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in the West Europe region may have experienced issues accessing or refreshing reports and performing data queries. <br> </p></div>",
+      "detailsText": "Fabric customers in the West Europe region may have experienced issues accessing or refreshing reports and performing data queries.",
+      "hash": "741877a38dfdc47ca94aefed430798cc8604a0bd1debcdceec12fc560da76fe0"
+    },
+    {
+      "type": "resolved",
+      "serviceNotificationId": "a756a982-ffa4-f111-b8dd-6045bd019b04",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "8/30/2026 10:45:53 PM",
+      "reportedAt": "2026-08-30T22:45:53.000Z",
+      "resolvedRaw": "8/30/2026 11:20:00 PM",
+      "resolvedAt": "2026-08-30T23:20:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></div><div>Fabric customers may have experienced issues creating Data Agents and Environments, and some pipeline operations may become stuck or fail to complete.</div></div>",
+      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric customers may have experienced issues creating Data Agents and Environments, and some pipeline operations may become stuck or fail to complete.",
+      "hash": "506c8299c8c3371e9529aa564e38c470a35a8dc351ac7ea8e83e43a7aa3c2141"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "e1b952f3-daa4-f111-b8dd-6045bd019dcf",

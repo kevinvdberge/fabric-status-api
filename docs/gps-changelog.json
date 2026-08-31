@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-08-31T10:05:11.337Z",
+  "generatedAt": "2026-08-31T17:36:52.148Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 83,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-08-31",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "OneLake Catalog - govern with centralized management capabilities (domains, tags, capacities, etc)",
+            "last_modified": "2026-08-31",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q3 2026",
+            "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 5,
         "date": "2026-08-28",
@@ -376,25 +396,9 @@
         ]
       },
       {
-        "count": 12,
+        "count": 11,
         "date": "2026-08-24",
         "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Name OneLake Catalog - govern with centralized management capabilities -> OneLake Catalog - govern with centralized management capabilities (domains",
-              "tags",
-              "capacities",
-              "etc)"
-            ],
-            "feature_name": "OneLake Catalog - govern with centralized management capabilities (domains, tags, capacities, etc)",
-            "last_modified": "2026-08-24",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q3 2026",
-            "release_item_id": "174dbee0-534a-f111-bec7-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
           {
             "active": true,
             "changed_columns": [

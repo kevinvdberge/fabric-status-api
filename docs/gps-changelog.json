@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-30T23:53:03.651Z",
+  "generatedAt": "2026-08-31T03:30:20.758Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 85,
+  "count": 83,
   "changelog": {
     "days": [
       {
@@ -1196,40 +1196,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 2,
-        "date": "2026-07-31",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Conditional formatting for lines and series/labels in Power BI visuals",
-            "last_modified": "2026-07-31",
-            "product_name": "Power BI",
-            "release_date": "Q3 2026",
-            "release_item_id": "853c11fa-d11f-f111-8341-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-08-17 -> 2026-12-31"
-            ],
-            "feature_name": "List slicer with dropdown mode",
-            "last_modified": "2026-07-31",
-            "product_name": "Power BI",
-            "release_date": "Q4 2026",
-            "release_item_id": "ba851f2d-d21f-f111-8341-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 85
+    "total_items": 83
   }
 }

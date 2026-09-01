@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:00:59.445Z",
+  "generatedAt": "2026-09-01T16:38:46.403Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -832,8 +832,8 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
+        "blog_title": "Advanced DAX generation for semantic models in Fabric data agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Advanced-DAX-generation-for-semantic-models-in-Fabric-data/ba-p/5363136",
         "feature_description": "Data agents now have advanced DAX generation that more accurately generates queries from your natural-language questions. This update introduces instance value indexing and delivers higher response accuracy and consistency.",
         "feature_name": "Advanced DAX Generation for Semantic Models in Data Agents",
         "last_modified": "2026-08-19",

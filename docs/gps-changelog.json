@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-08-31T22:02:27.016Z",
+  "generatedAt": "2026-09-01T01:17:25.628Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 83,
+  "count": 85,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-09-01",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for dbt job",
+            "last_modified": "2026-09-01",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "e7abebd0-9aa5-f111-b8dd-6045bd0194ef",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power Query - Excel connectivity to Fabric artifacts via SQL analytics endpoint",
+            "last_modified": "2026-09-01",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "995c4995-98a5-f111-b8dd-6045bd0196b9",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-08-31",
@@ -1202,6 +1234,6 @@
         ]
       }
     ],
-    "total_items": 83
+    "total_items": 85
   }
 }

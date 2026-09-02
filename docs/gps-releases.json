@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-02T04:37:33.265Z",
+  "generatedAt": "2026-09-02T09:02:56.203Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
+        "feature_description": "Build Agent with AI mode is expanding support for Semantic Models in Data Agent, helping users generate semantic-model specific instructions and example queries more easily. The feature can explore Semantic Model tables, measures, columns, and recent query patterns to produce more relevant configurations while preserving transparency through visible run steps and explored queries. Users remain in control by reviewing, refining, and committing generated configurations before they update their Data Agent setup.",
+        "feature_name": "Build Agent with AI Mode: Support Semantic Models",
+        "last_modified": "2026-09-02",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -15,6 +29,20 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q4 2026",
         "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
+        "feature_description": "Build Agent with AI Mode file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
+        "feature_name": "Build Agent with AI Mode Supports Files as Context",
+        "last_modified": "2026-09-02",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1373,34 +1401,6 @@
         "product_name": "Data Warehouse",
         "release_date": "Q2 2026",
         "release_item_id": "511823c2-744d-f111-bec7-002248085b3f",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Announcing SQL database in Microsoft Fabric (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-sql-database-in-microsoft-fabric-preview/5161121",
-        "feature_description": "Users should be able to restore a database from backups of a deleted database in their workspaces.",
-        "feature_name": "Fabric SQL | Point-in-time restore from dropped databases REST APIs ONLY | Public Preview",
-        "last_modified": "2026-07-29",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q2 2026",
-        "release_item_id": "49834652-a41b-f011-9989-000d3a34671f",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Extending Point-in-Time Retention in Fabric SQL DB: From 7 to 35 Days",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extending-point-in-time-retention-in-fabric-sql-db-from-7-to-35-days/5172554",
-        "feature_description": "Backup retention policy is the capability to change the retention period which allows users to adjust the duration for which automated backups are maintained for a SQL database artifact. This feature directly affects point-in-time restore capability (specific period in which user can choose the specific point in time to restore their database to).",
-        "feature_name": "Fabric SQL | Public Preview | Extend Backup Retention Policy to 35 days",
-        "last_modified": "2026-07-29",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q3 2025",
-        "release_item_id": "608d20dd-a31b-f011-9989-000d3a34671f",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

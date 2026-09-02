@@ -1,13 +1,39 @@
 {
-  "generatedAt": "2026-09-02T04:37:33.265Z",
+  "generatedAt": "2026-09-02T09:02:56.203Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 86,
+  "count": 88,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 3,
         "date": "2026-09-02",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Build Agent with AI Mode Supports Files as Context",
+            "last_modified": "2026-09-02",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2026",
+            "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Build Agent with AI Mode: Support Semantic Models",
+            "last_modified": "2026-09-02",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2026",
+            "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1253,6 +1279,6 @@
         ]
       }
     ],
-    "total_items": 86
+    "total_items": 88
   }
 }

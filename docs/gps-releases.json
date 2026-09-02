@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-02T00:12:53.827Z",
+  "generatedAt": "2026-09-02T04:37:33.265Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "The primary goal is to enable creators to understand how consumers interact with their data agents and bridge the gap between the data agent creators and the consumers. This comprehensive monitoring system will enable creators to have access to the feedback provided by consumer across consumption channels such as M365 Copilot, Fabric, Org App so they can refine the data agent based on customer feedback.Our initial release will only cover the M365 Copilot and will then expand to other consumption channels.",
+        "feature_name": "Consumer to Creator feedback loop",
+        "last_modified": "2026-09-02",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Fabric SQL Database Integration: Unlocking New Possibilities with Power BI desktop",
@@ -1389,20 +1403,6 @@
         "release_item_id": "608d20dd-a31b-f011-9989-000d3a34671f",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "The OpenAI Assistants API that powers the orchestration layer for the Microsoft Fabric data agent is currently scheduled to be shut down by OpenAI on August 26, 2026. After that date, direct calls to the Assistants API will stop working. We are migrating the Data Agent UX and Programmatic experiences to the Responses API",
-        "feature_name": "Data Agent Migration to Responses API",
-        "last_modified": "2026-07-27",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q3 2026",
-        "release_item_id": "e9e7c616-d289-f111-ab0f-6045bd03e6d8",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {

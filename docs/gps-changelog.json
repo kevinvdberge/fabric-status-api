@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-09-02T00:12:53.827Z",
+  "generatedAt": "2026-09-02T04:37:33.265Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 85,
+  "count": 86,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-09-02",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Consumer to Creator feedback loop",
+            "last_modified": "2026-09-02",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2026",
+            "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-09-01",
@@ -1234,6 +1253,6 @@
         ]
       }
     ],
-    "total_items": 85
+    "total_items": 86
   }
 }

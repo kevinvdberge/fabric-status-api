@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T14:06:35.497Z",
+  "generatedAt": "2026-09-03T17:50:51.725Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -34,8 +34,8 @@
       },
       {
         "active": true,
-        "blog_title": "Capacity Overview Events in Real-Time Hub (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Capacity-Overview-Events-in-Real-Time-Hub-Generally-Available/ba-p/5356729",
+        "blog_title": "Capacity Operation Events in Real-Time Hub (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Capacity-Operation-Events-in-Real-Time-Hub-Preview/ba-p/5364092",
         "feature_description": "Public preview of Capacity Operation events to track Fabric capacity operations such as scale, pause, and resume.",
         "feature_name": "Capacity Operation Events",
         "last_modified": "2026-09-03",

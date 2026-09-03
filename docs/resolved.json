@@ -1,22 +1,9 @@
 {
-  "generatedAt": "2026-09-03T17:50:51.693Z",
+  "generatedAt": "2026-09-03T20:28:08.218Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 227,
+  "count": 226,
   "resolved": [
-    {
-      "type": "resolved",
-      "serviceNotificationId": "103868a8-5fa7-f111-b8dd-6045bd019852",
-      "serviceStatus": "",
-      "region": "Europe",
-      "reportedRaw": "9/2/2026 11:20:24 PM",
-      "reportedAt": "2026-09-02T23:20:24.000Z",
-      "resolvedRaw": "9/2/2026 11:54:40 PM",
-      "resolvedAt": "2026-09-02T23:54:40.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers in WABI-NORTH-EUROPE-J-PRIMARY may experience delays in scheduled refreshes. <style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></p><div>Issue has been mitigated. Refresh operations are now processing normally.</div></div>",
-      "detailsText": "Fabric Customers in WABI-NORTH-EUROPE-J-PRIMARY may experience delays in scheduled refreshes. a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Issue has been mitigated. Refresh operations are now processing normally.",
-      "hash": "b475903ccb71888207e9d0eaa6aefab2905d57a384872bd0d2ea288ff63c0b94"
-    },
     {
       "type": "resolved",
       "serviceNotificationId": "5a3d75ad-37a7-f111-b8dd-6045bd019852",

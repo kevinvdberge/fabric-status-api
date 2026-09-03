@@ -1,9 +1,65 @@
 {
-  "generatedAt": "2026-09-03T00:33:13.554Z",
+  "generatedAt": "2026-09-03T05:04:16.827Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Subscribe to Fabric Job Events at the workspace scope to monitor job activity across an entire workspace.",
+        "feature_name": "Workspace scope for Job Events",
+        "last_modified": "2026-09-03",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q1 2027",
+        "release_item_id": "7c18efd5-e4c0-f011-bbd3-000d3a5b0efa",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Turn insights into signals with Activator as a Business Event Publisher (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Turn-insights-into-signals-with-Activator-as-a-Business-Event/ba-p/5190248",
+        "feature_description": "",
+        "feature_name": "Activator as a publisher of Business Events",
+        "last_modified": "2026-09-03",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "f1adc9fb-31a7-f111-b8dd-6045bd019a0d",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Capacity Overview Events in Real-Time Hub (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Capacity-Overview-Events-in-Real-Time-Hub-Generally-Available/ba-p/5356729",
+        "feature_description": "Public preview of Capacity Operation events to track Fabric capacity operations such as scale, pause, and resume.",
+        "feature_name": "Capacity Operation Events",
+        "last_modified": "2026-09-03",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "dc8a0aee-e3c0-f011-bbd3-000d3a5b0efa",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
+        "feature_description": "Route and analyze Fabric Business Events in Eventhouse for real-time querying and analytics.",
+        "feature_name": "Analyze Business Events in Eventhouse",
+        "last_modified": "2026-09-03",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "1ded8037-31a7-f111-b8dd-6045bd019a0d",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Build agent with AI for Data Agent (Preview)",
@@ -1347,62 +1403,6 @@
         "release_item_id": "69db5ef2-7f01-f111-8406-000d3a36696c",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Outbound access protection for Data Factory (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access-protection-for-data-factory-generally-available/5172006",
-        "feature_description": "We are delivering Outbound Access Protection for Operations Agent in Microsoft Fabric, enabling administrators to enforce workspace-level security controls on all outbound actions performed by AI-driven automation.With this capability, you canEnsure all outbound actions such as triggering Power Automate flows, executing Fabric jobs, or sending Teams notifications are governed by administrator-defined connection rules.Block outbound connections by default when OAP is enabled, permitting traffic only through approved endpoints to prevent unauthorized data movement.Leverage a hybrid enforcement model that applies direct checks for external services like Teams while using Activator-managed enforcement for workflow and job execution across workspaces.Outbound Access Protection is available in Public Preview for all Fabric customers using Operations Agent. Configure access rules from the workspace security settings.Tentative GA Scope: Activator OAP toggle for OAOntology OAP toggle for OAPower Automate OAP toggle for OA",
-        "feature_name": "Outbound access protection for Operations Agent",
-        "last_modified": "2026-07-29",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "675ce012-f144-f111-88b5-6045bd006301",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Using Bulk Copy API for faster ingestion in Fabric Data Warehouse (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Using-Bulk-Copy-API-for-faster-ingestion-in-Fabric-Data/ba-p/5195627",
-        "feature_description": "Fabric Data Warehouse will support the bcp utility and the TDS Bulk Load API, enabling high-performance data ingestion from a variety of client tools such as bcp, SSIS, and Azure Data Factory. This integration simplifies bulk data loading into Fabric DW and supports scalable, efficient workflows. Centralized support for these APIs ensures consistency across ingestion pipelines and improves interoperability with existing tools.&lt;br/&gt;An example of a bcp command that loads file content into a DW table:&lt;br/&gt;```bcp dbo.artists in gold_artist.txt -d TextDW -c -S myworkspace.datawarehouse.fabric.microsoft.com -G -U theuser@microsoft.com ```",
-        "feature_name": "BCP",
-        "last_modified": "2026-07-29",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q2 2026",
-        "release_item_id": "d58f4693-ca80-ef11-ac21-6045bd062aa2",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New string functions and operators in Fabric Data Warehouse (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-string-functions-and-operators-in-Fabric-Data-Warehouse/ba-p/5195232",
-        "feature_description": "Fabric Data Warehouse will introduce string similarity and comparison functions based on Levenshtein and Jaro-Winkler algorithms. These functions make it easier to find strings that are similar, even when they have small changes or spelling errors.New functions that will be added are:* EDIT_DISTANCE - Returns the number of edits (insertions, deletions, substitutions) needed to transform one string into another.* EDIT_DISTANCE_SIMILARITY - Calculates a similarity score (0-1) based on Levenshtein distance, where 1 means identical strings.* JARO_WINKLER_DISTANCE - Measures the distance between two strings using the Jaro-Winkler algorithm, considering transpositions and common prefixes.* JARO_WINKLER_SIMILARITY - Returns a similarity score (0-1) using Jaro-Winkler, optimized for short strings and minor typos.",
-        "feature_name": "Fuzzy string matching",
-        "last_modified": "2026-07-29",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q2 2026",
-        "release_item_id": "9b0e4fae-ecb8-f011-bbd3-000d3a30273e",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New metadata sync and more in SQL Analytics Endpoint (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-metadata-sync-and-more-in-SQL-Analytics-Endpoint-Preview/ba-p/5183137",
-        "feature_description": "New version of the metadata sync for SQL analytics endpoint built on a new architecture. This delivers,- Data refresh in seconds, not minutes- Ability to turn on this feature for a workspace- Support for v2 checkpoints (at GA)- Multiple performance improvements",
-        "feature_name": "SQL Analytics Endpoint - New Metadata sync",
-        "last_modified": "2026-07-29",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q2 2026",
-        "release_item_id": "511823c2-744d-f111-bec7-002248085b3f",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1095,
+      "total_items": 1097,
       "total_pages": 11
     }
   }

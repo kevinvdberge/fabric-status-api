@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-09-03T00:33:13.516Z",
+  "generatedAt": "2026-09-03T05:04:16.798Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 225,
+  "count": 226,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "5a3d75ad-37a7-f111-b8dd-6045bd019852",
+      "serviceStatus": "",
+      "region": "Central US",
+      "reportedRaw": "9/2/2026 6:33:04 PM",
+      "reportedAt": "2026-09-02T18:33:04.000Z",
+      "resolvedRaw": "9/2/2026 8:52:00 PM",
+      "resolvedAt": "2026-09-02T20:52:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in the Central US region may experience issues accessing newly created Data Agent artifacts after adding a data source. Affected users may see the prompt disabled and encounter an \"Operation not found\" error when attempting interactions. Engineers have implemented corrective measures, and service functionality has been restored.</p><p style=\"margin: 0;\"> </p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Web\", sans-serif;font-size:14px;\"><span style=\"white-space:pre-wrap;\" data-teams=\"true\"> </span></span></p></div>",
+      "detailsText": "Fabric customers in the Central US region may experience issues accessing newly created Data Agent artifacts after adding a data source. Affected users may see the prompt disabled and encounter an \"Operation not found\" error when attempting interactions. Engineers have implemented corrective measures, and service functionality has been restored.",
+      "hash": "a2361be63af858c2e5b170d43844afa07bb2ea7d6d28367af79468afb256b70f"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "1186c279-09a5-f111-b8dd-6045bd01961c",

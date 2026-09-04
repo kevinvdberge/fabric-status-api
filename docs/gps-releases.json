@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-04T19:34:43.434Z",
+  "generatedAt": "2026-09-04T21:49:56.615Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "A wave of new Dataflow Gen2 capabilities at FabCon Atlanta 2026",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/a-wave-of-new-dataflow-gen2-capabilities-at-fabcon-atlanta-2026/5172175",
+        "feature_description": "We are introducing Google BigQuery as a new data destination for Dataflow Gen2 in Preview, enabling customers to publish transformed data from Microsoft Fabric directly into BigQuery tables using Dataflow Gen2's low-code Power Query experience.This preview expands Dataflow Gen2's destination ecosystem to better support multi-cloud analytics architectures, giving customers with existing investments in Google Cloud a simple way to deliver Fabric-based transformations into their BigQuery data warehouse -- without building or maintaining custom pipelines and orchestration.Key benefits and scenarios:* Publish curated outputs from Dataflow Gen2 directly into Google BigQuery datasets and tables* Support multi-cloud analytics and data sharing scenarios while keeping transformation logic centralized in Fabric* Prepare, standardize, and reshape data in Fabric before making it available to BigQuery-based reporting, machine learning, and downstream processing* Complete the round trip for BigQuery customers, complementing existing read connectivity and mirroring with a first-class write path* Reduce operational overhead by replacing hand-built export and load jobs with a governed, refreshable dataflowDuring Preview, the Google BigQuery data destination is intended for evaluation and feedback, allowing customers to validate connectivity patterns, load performance, and integration workflows ahead of broader production use.This release is part of our broader effort to make Dataflow Gen2 a flexible, low-code transformation layer across clouds, with ongoing investments planned to further mature and expand multi-cloud destination support in Microsoft Fabric.",
+        "feature_name": "Dataflows - New Destination: Google BigQuery",
+        "last_modified": "2026-09-04",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q4 2026",
+        "release_item_id": "8ea01c69-98a1-f111-b8db-0022480b837b",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "What’s new in Fabric Eventstream: July–December 2025 updates",
@@ -437,20 +451,6 @@
         "release_item_id": "a5e3a618-146f-f111-ab0d-000d3a376137",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "A wave of new Dataflow Gen2 capabilities at FabCon Atlanta 2026",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/a-wave-of-new-dataflow-gen2-capabilities-at-fabcon-atlanta-2026/5172175",
-        "feature_description": "We are introducing Google BigQuery as a new data destination for Dataflow Gen2 in Preview, enabling customers to publish transformed data from Microsoft Fabric directly into BigQuery tables using Dataflow Gen2's low-code Power Query experience.This preview expands Dataflow Gen2's destination ecosystem to better support multi-cloud analytics architectures, giving customers with existing investments in Google Cloud a simple way to deliver Fabric-based transformations into their BigQuery data warehouse -- without building or maintaining custom pipelines and orchestration.Key benefits and scenarios:* Publish curated outputs from Dataflow Gen2 directly into Google BigQuery datasets and tables* Support multi-cloud analytics and data sharing scenarios while keeping transformation logic centralized in Fabric* Prepare, standardize, and reshape data in Fabric before making it available to BigQuery-based reporting, machine learning, and downstream processing* Complete the round trip for BigQuery customers, complementing existing read connectivity and mirroring with a first-class write path* Reduce operational overhead by replacing hand-built export and load jobs with a governed, refreshable dataflowDuring Preview, the Google BigQuery data destination is intended for evaluation and feedback, allowing customers to validate connectivity patterns, load performance, and integration workflows ahead of broader production use.This release is part of our broader effort to make Dataflow Gen2 a flexible, low-code transformation layer across clouds, with ongoing investments planned to further mature and expand multi-cloud destination support in Microsoft Fabric.",
-        "feature_name": "Dataflows - New Destination: Google BigQuery",
-        "last_modified": "2026-08-26",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "8ea01c69-98a1-f111-b8db-0022480b837b",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       },
       {
         "active": true,

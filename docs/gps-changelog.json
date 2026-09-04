@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-09-04T21:49:56.615Z",
+  "generatedAt": "2026-09-04T23:42:01.257Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 93,
+  "count": 95,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 4,
         "date": "2026-09-04",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Excel Document Builder for the Excel Workbook (XLSX) destination",
+            "last_modified": "2026-09-04",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "040fd657-b2a8-f111-b8dd-6045bd019dcf",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -18,6 +31,19 @@
             "product_name": "Data Factory",
             "release_date": "Q4 2026",
             "release_item_id": "8ea01c69-98a1-f111-b8db-0022480b837b",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Refresh details in the Fabric Monitoring hub",
+            "last_modified": "2026-09-04",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "e3d18480-b4a8-f111-b8dd-6045bd019f33",
             "release_status": "Planned",
             "release_type": "Public preview"
           },
@@ -1344,6 +1370,6 @@
         ]
       }
     ],
-    "total_items": 93
+    "total_items": 95
   }
 }

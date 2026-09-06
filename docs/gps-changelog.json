@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-06T15:47:24.096Z",
+  "generatedAt": "2026-09-06T17:59:16.043Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 95,
+  "count": 96,
   "changelog": {
     "days": [
       {
-        "count": 3,
+        "count": 4,
         "date": "2026-09-06",
         "items": [
           {
@@ -44,6 +44,19 @@
             "product_name": "Administration, Governance and Security",
             "release_date": "Q3 2026",
             "release_item_id": "02c73718-e24a-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2027-03-31 -> 2026-12-31"
+            ],
+            "feature_name": "Lakehouse Delta table change feed connector for Eventstream",
+            "last_modified": "2026-09-06",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
             "release_status": "Planned",
             "release_type": "Public preview"
           }
@@ -1370,6 +1383,6 @@
         ]
       }
     ],
-    "total_items": 95
+    "total_items": 96
   }
 }

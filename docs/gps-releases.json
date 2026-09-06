@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-06T15:47:24.096Z",
+  "generatedAt": "2026-09-06T17:59:16.043Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Eventhouse OneLake Availability is Generally Available",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/eventhouse-onelake-availability-is-generally-available/5173170",
+        "feature_description": "Eventstream now reads change records directly from change-enabled Delta tables in a Lakehouse and streams them in real time. This lets teams act on data changes as they happen.With this capability, you can:- Stream inserts, updates, and deletes from Lakehouse Delta tables into Eventstream.- Build incremental analytics and dashboards on table changes.- Trigger alerts and event-driven actions using Eventstream operators.",
+        "feature_name": "Lakehouse Delta table change feed connector for Eventstream",
+        "last_modified": "2026-09-06",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Discover items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
@@ -1389,20 +1403,6 @@
         "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Analyze Dataverse tables from Microsoft Fabric",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/analyze-dataverse-tables-from-microsoft-fabric/5173251",
-        "feature_description": "Shortcuts in Fabric DW allow users to directly access and query data that is present in internal and external data sources, without loading them into Fabric DW. Users will have the capability to create Table Shortcuts via TSQL & UX",
-        "feature_name": "Shortcuts in Fabric Data Warehouse (Public Preview)",
-        "last_modified": "2026-07-29",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q4 2026",
-        "release_item_id": "ce7f2f21-9421-f011-9989-000d3a302e4a",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {

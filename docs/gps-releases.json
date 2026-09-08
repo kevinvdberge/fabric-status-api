@@ -1,9 +1,51 @@
 {
-  "generatedAt": "2026-09-08T19:55:35.315Z",
+  "generatedAt": "2026-09-08T22:21:43.053Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Simplifying Data Ingestion with Copy job – Introducing Change Data Capture (CDC) Support (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/simplifying-data-ingestion-with-copy-job---introducing-change-data-capture-cdc-s/5172747",
+        "feature_description": "With the PostgreSQL CDC connector in Copy job, you can capture inserts, updates, and deletes from PostgreSQL and copy them to any supported destination.",
+        "feature_name": "Copy job - CDC based replication from PostgreSQL",
+        "last_modified": "2026-09-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q1 2027",
+        "release_item_id": "895d2725-473d-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Simplifying Data Ingestion with Copy job – Introducing Change Data Capture (CDC) Support (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/simplifying-data-ingestion-with-copy-job---introducing-change-data-capture-cdc-s/5172747",
+        "feature_description": "With the MySQL CDC connector in Copy job, you can capture inserts, updates, and deletes from MySQL and copy them to any supported destination.",
+        "feature_name": "Copy job - CDC based replication from MySQL",
+        "last_modified": "2026-09-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q1 2027",
+        "release_item_id": "7f75427b-473d-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Simplify your data movement with Copy job: CDC with SQL estate (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Simplify-your-data-movement-with-Copy-job-CDC-with-SQL-estate/ba-p/5184211",
+        "feature_description": "Copy job provides a Salesforce CDC connector, allowing you to capture row-level inserts, updates, and deletes from Salesforce and replicate them to any supported destination.",
+        "feature_name": "Copy job - CDC based replication from Salesforce",
+        "last_modified": "2026-09-08",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q1 2027",
+        "release_item_id": "46b875fc-433d-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1361,48 +1403,6 @@
         "release_item_id": "294ed21d-9d41-f111-88b5-002248085b3f",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "dbt Job in Microsoft Fabric: Ship Trustworthy SQL Models Faster (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/dbt-job-in-microsoft-fabric-ship-trustworthy-sql-models-faster-preview/5172453",
-        "feature_description": "We are adding support **dbt Fusion runtime** in dbt job in Microsoft Fabric as an execution environment, in addition to the existing dbt Core-based runtime.Customers can select the Fusion runtime when creating or configuring a dbt job to run their transformations on the next-generation dbt engine -- natively inside Fabric, with no local tooling or external orchestration to manage.",
-        "feature_name": "dbt job - Support for dbt Fusion runtime in dbt job",
-        "last_modified": "2026-08-12",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q4 2026",
-        "release_item_id": "11c809b6-6563-f111-a826-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Fabric feature store is a centralized system that manages the data inputs, called features, that power machine learning models. It bridges raw data and ML models, giving teams one place to define, store, serve, and discover features instead of each team building its own pipelines.",
-        "feature_name": "Feature Store",
-        "last_modified": "2026-08-11",
-        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Science",
-        "release_date": "Q4 2026",
-        "release_item_id": "75004e12-2158-f111-bec7-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Quickly identify when and where throttling is occurring across your Eventhouse system. This feature highlights recent throttling events, helping you diagnose performance bottlenecks and take corrective action before they impact users.",
-        "feature_name": "show Throttling events of eventhouse at Eventhouse WS monitoring",
-        "last_modified": "2026-08-05",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q4 2026",
-        "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {

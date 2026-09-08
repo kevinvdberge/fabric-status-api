@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-08T19:55:35.315Z",
+  "generatedAt": "2026-09-08T22:21:43.053Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 109,
+  "count": 112,
   "changelog": {
     "days": [
       {
-        "count": 14,
+        "count": 17,
         "date": "2026-09-08",
         "items": [
           {
@@ -33,6 +33,48 @@
             "release_item_id": "30f3ad4a-423d-f111-88b5-002248085b3f",
             "release_status": "Shipped",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31",
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "Copy job - CDC based replication from MySQL",
+            "last_modified": "2026-09-08",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "7f75427b-473d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31",
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "Copy job - CDC based replication from PostgreSQL",
+            "last_modified": "2026-09-08",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "895d2725-473d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31",
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "Copy job - CDC based replication from Salesforce",
+            "last_modified": "2026-09-08",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "46b875fc-433d-f111-88b5-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -1558,6 +1600,6 @@
         ]
       }
     ],
-    "total_items": 109
+    "total_items": 112
   }
 }

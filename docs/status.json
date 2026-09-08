@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-09-07T23:58:00.295Z",
+  "generatedAt": "2026-09-08T03:56:07.445Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 226,
-    "total": 226
+    "resolved": 227,
+    "total": 227
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 226,
+    "resolvedIncidents": 227,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "1e0daf3e-18ab-f111-aaab-6045bd041d32",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "9/7/2026 4:30:39 PM",
+      "reportedAt": "2026-09-07T16:30:39.000Z",
+      "resolvedRaw": "9/7/2026 5:00:13 PM",
+      "resolvedAt": "2026-09-07T17:00:13.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><h1 class=\"pa-gz pa-nd pa-rj pa-cd pa-fr pa-oa pa-oh pa-og pa-rk\" style=\"background-color:rgb(255, 255, 255);border-width:0px;color:rgb(36, 36, 36);font-family:\"Segoe UI\", \"Segoe UI Web (West European)\", -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif;font-size:20px;font-style:normal;font-weight:600;letter-spacing:normal;line-height:28px;margin:0px;outline:none;padding:0px;text-align:left;text-indent:0px;text-transform:none;white-space:pre-wrap;word-break:break-word;word-spacing:0px;\" id=\"formHeaderTitle_1\" title=\"Fabric customer located in Germany West Central may experience issue interacting with the service. Engineers are investigating the issue and updates will be provided soon. ETA 07:00 PM PDT\" data-id=\"header_title\"><style>a {    text-decoration: none;    color: #464feb;}tr th, tr td {    border: 1px solid #e6e6e6;}tr th {    background-color: #f5f5f5;}</style></h1><div>Fabric customers located in Germany West Central may have experienced issues interacting with the service. The issue has been mitigated, and service functionality has been restored</div></div>",
+      "detailsText": "a { text-decoration: none; color: #464feb;}tr th, tr td { border: 1px solid #e6e6e6;}tr th { background-color: #f5f5f5;} Fabric customers located in Germany West Central may have experienced issues interacting with the service. The issue has been mitigated, and service functionality has been restored",
+      "hash": "53dea4d8e55abef88d630d76ece56cb797604fd43e952a70a7895b182b02b6ac"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "5a3d75ad-37a7-f111-b8dd-6045bd019852",

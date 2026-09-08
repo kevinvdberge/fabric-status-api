@@ -1,9 +1,65 @@
 {
-  "generatedAt": "2026-09-08T08:38:19.384Z",
+  "generatedAt": "2026-09-08T13:03:49.193Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Automate your CI/CD pipelines with Microsoft Fabric Git REST APIs",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/automate-your-cicd-pipelines-with-microsoft-fabric-git-rest-apis/5172016",
+        "feature_description": "Commit individual files within a supported Fabric item to Git, rather than committing the entire item at once. File-level commits give developers granular change history, support partial commits of in-progress work, and produce smaller, easier-to-review pull requests.",
+        "feature_name": "Git Integration - File level commit",
+        "last_modified": "2026-09-08",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "c5945cb2-662c-f111-88b4-6045bd0a886d",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-new-branching-capabilities-in-fabric-git-integration/5173161",
+        "feature_description": "Branch workspace admin profile (aka. admin delegation) lets developers use the branch-out experience without needing create-workspace or assign-capacity permissions. Workspace admins keep full control through pre-configured guardrails while unblocking developer workflows. Capabilities:  - Developers without create-workspace or assign-capacity permissions can perform branch-out seamlessly  - Admins pre-configure profile to ensure guardrails for branch workspaces: developer role, capacity assignment and admin list.",
+        "feature_name": "Git Integration - Branch workspace admin profile",
+        "last_modified": "2026-09-08",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "79538350-662c-f111-88b4-6045bd0a886d",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing new Git developer experiences in Microsoft Fabric (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-new-git-developer-experiences-in-microsoft-fabric-preview/5172181",
+        "feature_description": "When developers want to sync their workspace with the git repo, they want to view the changes made before taking actions.With this feature we will enable viewing the exact changes since the last sync between the workspace and the branch, as well as where those changes are.It will be shown as code compare experience that is familiar to developers. Devs can see what items and files have been changed, see the exact code changes and whether it is in a Fabric workspace, or in the repo.",
+        "feature_name": "Git integration - compare code changes",
+        "last_modified": "2026-09-08",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "72fd68d2-642c-f111-88b4-6045bd0a886d",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing new Git developer experiences in Microsoft Fabric (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-new-git-developer-experiences-in-microsoft-fabric-preview/5172181",
+        "feature_description": "When developers branch out to work on a specific feature, they can now select only the items they need instead of copying all workspace items to the target. This reduces setup time and lets developers start coding faster.",
+        "feature_name": "Git Integration - Selective Branching",
+        "last_modified": "2026-09-08",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "44beb659-642c-f111-88b4-6045bd0a886d",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Eventhouse OneLake Availability is Generally Available",
@@ -1280,20 +1336,6 @@
       },
       {
         "active": true,
-        "blog_title": "Introducing New Branching Capabilities in Fabric Git Integration",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-new-branching-capabilities-in-fabric-git-integration/5173161",
-        "feature_description": "Branch workspace admin profile (aka. admin delegation) lets developers use the branch-out experience without needing create-workspace or assign-capacity permissions. Workspace admins keep full control through pre-configured guardrails while unblocking developer workflows. Capabilities:  - Developers without create-workspace or assign-capacity permissions can perform branch-out seamlessly  - Admins pre-configure profile to ensure guardrails for branch workspaces: developer role, capacity assignment and admin list.",
-        "feature_name": "Git Integration - Branch workspace admin profile",
-        "last_modified": "2026-08-03",
-        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
-        "product_name": "Fabric Developer Experiences",
-        "release_date": "Q3 2026",
-        "release_item_id": "79538350-662c-f111-88b4-6045bd0a886d",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": null,
         "blog_url": null,
         "feature_description": "List slicer with drop down mode and advanced search options.",
@@ -1361,48 +1403,6 @@
         "release_item_id": "14254506-0f3f-f111-88b5-6045bd00f798",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Time-Travelling through data: The Magic of Table clones",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/time-travelling-through-data-the-magic-of-table-clones/5172142",
-        "feature_description": "Ability to clone warehouse across workspaces",
-        "feature_name": "Warehouse Clones",
-        "last_modified": "2026-07-29",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q1 2027",
-        "release_item_id": "e240d768-fc21-f011-998a-0022480939f0",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric CI/CD announcements- supporting new items and much more!",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-cicd-announcements--supporting-new-items-and-much-more/5173213",
-        "feature_description": "**Release:** Public Preview &nbsp;|&nbsp; **Product area:** Fabric CI/CD**Deployment plan** is a new first-class Fabric workspace item that lets you **define, order, and automate** how your content is deployed across environments.Instead of relying on system-inferred lineage order, you author a plan on a **visual canvas** (with **YAML as the source of truth**) to:- **Declare the exact sequence** in which items deploy- **Add pre and post deployment steps** -- for example, running a Notebook to hydrate a Lakehouse, or a Data Pipeline before dependent items go liveDeployment plans **attach to the deployment operations available in Fabric**, including **Git** (branch-out, initial sync, update from Git), **Deployment Pipelines**, **Bulk Import**, and the **CI/CD library**, and are **honored at deploy time**.The result: every promotion follows your intended orchestration and produces a **working, reproducible solution**, not just a set of deployed definitions.",
-        "feature_name": "Deployment Plan",
-        "last_modified": "2026-07-29",
-        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
-        "product_name": "Fabric Developer Experiences",
-        "release_date": "Q4 2026",
-        "release_item_id": "fbee65ff-2b8b-f111-ab0f-6045bd03ee11",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Configurable Data Retention in Microsoft Fabric Warehouse (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Configurable-Data-Retention-in-Microsoft-Fabric-Warehouse/ba-p/5181211",
-        "feature_description": "Ability to configure the data warehouse retention between 1 to 120 days;",
-        "feature_name": "Configurable Retention between 1-120 days",
-        "last_modified": "2026-07-29",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q4 2026",
-        "release_item_id": "dfb17dba-0d22-f011-998a-0022480939f0",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {

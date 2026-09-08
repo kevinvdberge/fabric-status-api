@@ -1,9 +1,67 @@
 {
-  "generatedAt": "2026-09-08T08:38:19.384Z",
+  "generatedAt": "2026-09-08T13:03:49.193Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 96,
+  "count": 100,
   "changelog": {
     "days": [
+      {
+        "count": 4,
+        "date": "2026-09-08",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Git Integration - Branch workspace admin profile",
+            "last_modified": "2026-09-08",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "79538350-662c-f111-88b4-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Git integration - compare code changes",
+            "last_modified": "2026-09-08",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "72fd68d2-642c-f111-88b4-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Git Integration - File level commit",
+            "last_modified": "2026-09-08",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "c5945cb2-662c-f111-88b4-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Git Integration - Selective Branching",
+            "last_modified": "2026-09-08",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "44beb659-642c-f111-88b4-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 4,
         "date": "2026-09-06",
@@ -1383,6 +1441,6 @@
         ]
       }
     ],
-    "total_items": 96
+    "total_items": 100
   }
 }

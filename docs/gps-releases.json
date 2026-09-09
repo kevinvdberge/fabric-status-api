@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-09T20:01:01.487Z",
+  "generatedAt": "2026-09-09T22:32:51.317Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
+        "feature_name": "Full Ontology canvas experience",
+        "last_modified": "2026-09-09",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "IDENTITY columns support for Identity Insert (Generally Available)",
@@ -1389,20 +1403,6 @@
         "release_item_id": "b5dc26c3-899a-f111-b8db-6045bd02b37f",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
-        "feature_description": "**Business Events Data Preview Overview**Enable developers to inspect, validate, and troubleshoot Business Events when publishing them to downstream consumers. Data Preview provides real-time visibility into event payloads, schema mappings, and event metadata, reducing time-to-value and simplifying event-driven application development.**Key Capabilities*** Real-Time Event Inspection: Preview Business Event payloads as they are generated, allowing developers to validate event content before integrating downstream consumers.* Schema Visibility: View event schemas and payload structures side-by-side to ensure events conform to expected Business Event definitions.* Metadata Exploration: Inspect event properties, headers, correlation identifiers, timestamps, and other event metadata to better understand event context and flow.* Accelerated Troubleshooting: Quickly identify publishing issues, schema mismatches, missing attributes, and configuration errors without requiring external debugging tools.* Developer-Friendly Testing Experience: Validate Business Events during development and onboarding, enabling faster iteration and reducing time to first successful event-driven scenario.* Improved Confidence Before Consumption: Allow publishers to verify event quality and correctness before events are consumed by Eventstream, Activator, AI agents, or other downstream applications.* End-to-End Event Flow Validation: Enable developers to confirm that Business Events are generated as expected before investing effort in consumers, automation workflows, or integrations.",
-        "feature_name": "Data Preview for Business Events",
-        "last_modified": "2026-08-14",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "fa80d3f3-0e98-f111-8075-70a8a5aee129",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1102,
+      "total_items": 1103,
       "total_pages": 12
     }
   }

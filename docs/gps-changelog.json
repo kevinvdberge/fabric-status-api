@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-09T20:01:01.487Z",
+  "generatedAt": "2026-09-09T22:32:51.317Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 113,
+  "count": 114,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 2,
         "date": "2026-09-09",
         "items": [
           {
@@ -20,6 +20,19 @@
             "release_item_id": "d7c986cd-1322-f011-998a-0022480939f0",
             "release_status": "Shipped",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Full Ontology canvas experience",
+            "last_modified": "2026-09-09",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
           }
         ]
       },
@@ -1619,6 +1632,6 @@
         ]
       }
     ],
-    "total_items": 113
+    "total_items": 114
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T00:36:11.012Z",
+  "generatedAt": "2026-09-10T05:18:15.215Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,48 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q1 2027",
         "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
+        "feature_description": "Advanced NL2SQL delivers more accurate and reliable query generation for SQL data sources by combining stronger data exploration, schema understanding, and example-driven reasoning. The agent is better at learning from example queries and applying those patterns to new user questions, even when requests have not been explicitly anticipated. Before generating queries, it can examine datasets, tables, columns, and relationships to identify the most relevant data and construct higher-quality queries with fewer instructions and less manual tuning. These enhancements improve first-pass query accuracy, reduce prompt engineering requirements, and enable Data Agents to answer a broader range of business questions with greater consistency and confidence.Today, these capabilities are available in preview through the [Preview Runtime](https://learn.microsoft.com/fabric/data-science/data-agent-runtime), which includes Advanced NL2SQL improvements such as better example query following, improved filter value substitution, and more effective ambiguity handling before generating queries. These capabilities will be generally available as part of the Advanced NL2SQL experience.",
+        "feature_name": "Advanced NL2SQL Agent (General Availability)",
+        "last_modified": "2026-09-10",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "bd066fe5-adac-f111-aaab-7ced8d70ff57",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-iq-the-semantic-foundation-for-enterprise-ai/5172473",
+        "feature_description": "Namespaces in Microsoft Fabric IQ Ontology provide a visual way to organize entity types and relationships into meaningful groups. The authoring experience makes it easier to work with ontologies that span multiple teams or business domains, distinguish concepts with the same name, and understand how each concept is organized.With this experience, you can:* Create namespaces directly in the ontology interface, add optional descriptions, and browse existing namespaces in a dedicated list.* Assign entity types and relationship types to a namespace during creation or later, and view their namespace in the configuration pane.* Manage namespaces from their detail pages by updating names and descriptions or deleting namespaces that are no longer referenced, with safeguards for the default namespace.",
+        "feature_name": "Create and manage namespaces in Ontology",
+        "last_modified": "2026-09-10",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Query Templates are parameterized example queries for SQL databases and Semantic Models that teach Data Agents how to answer common business questions. By providing trusted query patterns with reusable parameters, Query Templates help agents generate more accurate and efficient queries, reducing ambiguity and improving consistency. Templates can be created manually, generated with AI, or built through a guided skill experience. By leveraging optimized query patterns, Data Agents can deliver faster responses, higher answer accuracy, and more reliable results while reducing the need for complex prompt engineering and extensive agent instructions.",
+        "feature_name": "Parameterized Example Queries",
+        "last_modified": "2026-09-10",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "04b9f8e4-acac-f111-aaab-7ced8d70ff57",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1361,48 +1403,6 @@
         "release_item_id": "c899806a-4e9b-f111-b8db-6045bd02b663",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Customers will be able to insert the current date and time into a query with a single ribbon command. Today adds the current date, and Now adds the current date and time.This puts a common need within reach of customers who don't write M. Stamping rows with the moment a query ran is how customers record when data was loaded, tell one refresh apart from another, and build an audit trail that survives into the report. It is also the starting point for any calculation that is relative to the present: days since an order, records older than thirty days, whether a due date has passed. Until now these all began with hand-written M that customers had to look up, and a small syntax error at that first step would fail the whole query. Now and Today make the same starting point a click.",
-        "feature_name": "Power Query - Now and Today transforms",
-        "last_modified": "2026-08-18",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "b280a60f-4e9b-f111-b8db-6045bd02b663",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Wondering how to incrementally amass data in your data destination? This is how!",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/wondering-how-to-incrementally-amass-data-in-your-data-destination-this-is-how/5172281",
-        "feature_description": "Customers will be able to configure a backup to store a snapshot of a query's results after every dataflow run, in any of the supported data destinations. Each run writes a new, timestamped file or table into the destination the customer chose, so snapshots accumulate side by side instead of overwriting one another.This gives customers a durable record of what their data looked like at each point in time, which today they can only approximate by building a second dataflow, adding a downstream pipeline, or exporting results by hand. With backups in place, customers can look back at a previous run to understand when and where their data changed, compare a surprising result against the last known good snapshot before escalating it, and satisfy audit or record-keeping requirements that call for evidence of what was produced and when. Because snapshots land in a destination the customer already owns, they can be queried alongside the rest of their data, connected to downstream reports, or shared with colleagues who don't have access to the dataflow itself. Each snapshot is a byproduct of a run the customer is already performing, so the history builds itself with no extra artifacts to maintain and no manual steps to remember.",
-        "feature_name": "Dataflows - Backup data results across dataflow refreshes",
-        "last_modified": "2026-08-18",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "97d41049-3e9b-f111-b8db-6045bd02b663",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
-        "feature_description": "Powered by Fabric IQ, this enhancement to Report Consumption Copilot improves answer quality by delivering more accurate and relevant responses to data questions, helping users better understand and explore report content through natural language.",
-        "feature_name": "Enhanced Report Consumption Copilot with Fabric IQ",
-        "last_modified": "2026-08-18",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "7351cde9-979a-f111-b8db-6045bd02b667",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1105,
+      "total_items": 1108,
       "total_pages": 12
     }
   }

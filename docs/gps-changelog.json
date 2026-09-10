@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-09-10T00:36:11.012Z",
+  "generatedAt": "2026-09-10T05:18:15.215Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 117,
+  "count": 120,
   "changelog": {
     "days": [
       {
-        "count": 3,
+        "count": 6,
         "date": "2026-09-10",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Advanced NL2SQL Agent (General Availability)",
+            "last_modified": "2026-09-10",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2026",
+            "release_item_id": "bd066fe5-adac-f111-aaab-7ced8d70ff57",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -37,6 +50,19 @@
           {
             "active": true,
             "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Parameterized Example Queries",
+            "last_modified": "2026-09-10",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2026",
+            "release_item_id": "04b9f8e4-acac-f111-aaab-7ced8d70ff57",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
               "Release Date 2026-09-30 -> 2027-03-31"
             ],
             "feature_name": "Relationship Context for SQL Sources",
@@ -44,6 +70,19 @@
             "product_name": "Conversational Analytics",
             "release_date": "Q1 2027",
             "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Create and manage namespaces in Ontology",
+            "last_modified": "2026-09-10",
+            "product_name": "IQ",
+            "release_date": "Q4 2026",
+            "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
             "release_status": "Planned",
             "release_type": "Public preview"
           }
@@ -1677,6 +1716,6 @@
         ]
       }
     ],
-    "total_items": 117
+    "total_items": 120
   }
 }

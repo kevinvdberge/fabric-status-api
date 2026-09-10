@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-09-09T22:32:51.317Z",
+  "generatedAt": "2026-09-10T00:36:11.012Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 114,
+  "count": 117,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-09-10",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Data Agent Schema Descriptions for SQL",
+            "last_modified": "2026-09-10",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "429662c3-a361-f011-bec1-000d3a35e553",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Improve Data Agent Data Source Selection Results",
+            "last_modified": "2026-09-10",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2025",
+            "release_item_id": "8bc8911e-a461-f011-bec1-000d3a35e553",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31"
+            ],
+            "feature_name": "Relationship Context for SQL Sources",
+            "last_modified": "2026-09-10",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2027",
+            "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-09-09",
@@ -1632,6 +1677,6 @@
         ]
       }
     ],
-    "total_items": 114
+    "total_items": 117
   }
 }

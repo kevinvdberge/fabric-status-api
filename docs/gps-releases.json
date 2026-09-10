@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T09:56:18.628Z",
+  "generatedAt": "2026-09-10T14:05:35.829Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,20 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q1 2027",
         "release_item_id": "34631b0a-c065-f111-a826-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Bring your business metrics into the Ontology. Reference measures that already live in a semantic model so they become part of the Ontology's model of your business -- carrying their name, definition, owner, and calculation logic with them. Because the metric points back to its source rather than copying it, agents and APIs querying the Ontology resolve the same live, trusted calculation your reports use.",
+        "feature_name": "Ontology Metrics Authoring",
+        "last_modified": "2026-09-10",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1121,20 +1135,6 @@
         "product_name": "IQ",
         "release_date": "Q3 2026",
         "release_item_id": "e52b1f9e-3e40-f111-88b4-000d3a308b7b",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Bring your business metrics into the Ontology. Reference measures that already live in a semantic model so they become part of the Ontology's model of your business -- carrying their name, definition, owner, and calculation logic with them. Because the metric points back to its source rather than copying it, agents and APIs querying the Ontology resolve the same live, trusted calculation your reports use.",
-        "feature_name": "Ontology Metrics Authoring",
-        "last_modified": "2026-08-21",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
         "release_status": "Planned",
         "release_type": "Public preview"
       },

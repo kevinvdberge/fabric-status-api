@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-10T20:02:12.273Z",
+  "generatedAt": "2026-09-10T22:34:48.600Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 121,
+  "count": 123,
   "changelog": {
     "days": [
       {
-        "count": 8,
+        "count": 10,
         "date": "2026-09-10",
         "items": [
           {
@@ -111,6 +111,35 @@
             "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped",
+              "Description updated",
+              "Restored to Roadmap",
+              "Name Capacity Overview Events General Availability -> Capacity Overview Events"
+            ],
+            "feature_name": "Capacity Overview Events",
+            "last_modified": "2026-09-10",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "4a7a41b4-e2c0-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2026-09-30"
+            ],
+            "feature_name": "Solace PubSub+ source connector for Eventstream",
+            "last_modified": "2026-09-10",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "953fb7bc-2ca6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
           }
         ]
       },
@@ -1729,6 +1758,6 @@
         ]
       }
     ],
-    "total_items": 121
+    "total_items": 123
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:02:12.244Z",
+  "generatedAt": "2026-09-10T22:34:48.570Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
@@ -22,9 +22,9 @@
       "reportedAt": "2026-09-09T11:29:42.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers may experience failures when creating new Adobe Analytics connections or updating credentials for existing connections, resulting in the error: “DataSource.Error: This API endpoint has been discontinued.” As a workaround, Customers can create the Adobe Analytics connection through Dataflows Get Data and then use that connection with their Semantic Model. Engineers have identified the root cause and and ETA for fix will be provided by end-of-day 09/10/2026.</p></div>",
-      "detailsText": "Power BI customers may experience failures when creating new Adobe Analytics connections or updating credentials for existing connections, resulting in the error: “DataSource.Error: This API endpoint has been discontinued.” As a workaround, Customers can create the Adobe Analytics connection through Dataflows Get Data and then use that connection with their Semantic Model. Engineers have identified the root cause and and ETA for fix will be provided by end-of-day 09/10/2026.",
-      "hash": "d6695c192f21dd06ce57a8a243a7e8bc22f199cc3641e1f7118d1fdf72ffd158"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers may experience failures when creating new Adobe Analytics connections or updating credentials for existing connections, resulting in the error: “DataSource.Error: This API endpoint has been discontinued.” As a workaround, Customers can create the Adobe Analytics connection through Dataflows Get Data and then use that connection with their Semantic Model. Engineers have identified the root cause and a fix for the issue will be deployed by end-of-day 09/14/2026.</p></div>",
+      "detailsText": "Power BI customers may experience failures when creating new Adobe Analytics connections or updating credentials for existing connections, resulting in the error: “DataSource.Error: This API endpoint has been discontinued.” As a workaround, Customers can create the Adobe Analytics connection through Dataflows Get Data and then use that connection with their Semantic Model. Engineers have identified the root cause and a fix for the issue will be deployed by end-of-day 09/14/2026.",
+      "hash": "08609c595e0eb692a7ce8cb2e7a42c97d0d5881718eb73fc5c9849d70100e064"
     }
   ],
   "resolved": [

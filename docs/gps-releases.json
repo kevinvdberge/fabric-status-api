@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T05:18:15.215Z",
+  "generatedAt": "2026-09-10T09:56:18.628Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -59,6 +59,20 @@
         "release_item_id": "04b9f8e4-acac-f111-aaab-7ced8d70ff57",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Public APIs – bulk import and export items definition (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/public-apis---bulk-import-and-export-items-definition-preview/5172161",
+        "feature_description": "Import and export item definitions in bulk through a single API call. Enables workspace-as-code workflows, simplifies CI/CD pipelines, and accelerates cross-workspace migrations by eliminating the need to handle items one at a time.",
+        "feature_name": "Bulk import and export item definition API",
+        "last_modified": "2026-09-10",
+        "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
+        "product_name": "Fabric Developer Experiences",
+        "release_date": "Q3 2026",
+        "release_item_id": "ca270588-652c-f111-88b4-6045bd0a886d",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1389,20 +1403,6 @@
         "release_item_id": "385260b0-5b07-ef11-9f89-000d3a34b75c",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Customers will be able to shift a date, datetime or time column backwards or forwards in time with a new Offset transformation, choosing the direction and the amount without writing custom logic.Shifting a date column is one of the most common preparation steps customers perform, and one of the fussiest to do by hand. Customers offset dates to compare a period against the same period a year earlier, to align a transaction date with the fiscal calendar their business reports on, to correct for a source system that records timestamps in a different time zone, or to account for a known lag between when an event happened and when it was captured. Each of these previously meant a custom column and M that had to handle month lengths and type conversions correctly. The Offset transformation applies the shift directly to the column, keeping its type intact and the resulting query readable to whoever maintains it next.",
-        "feature_name": "Power Query - Offset a date, datetime or time column",
-        "last_modified": "2026-08-18",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "c899806a-4e9b-f111-b8db-6045bd02b663",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {

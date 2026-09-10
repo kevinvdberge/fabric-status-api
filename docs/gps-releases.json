@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:41:52.171Z",
+  "generatedAt": "2026-09-10T20:02:12.273Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -412,8 +412,8 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
+        "blog_title": "Lineage-aware AI with the Fabric item relations API (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Lineage-aware-AI-with-the-Fabric-item-relations-API-Preview/ba-p/5366064",
         "feature_description": "Query upstream and downstream item relationships across all Fabric workloads through a public API. Retrieve which items depend on or feed into a given item, spanning Lakehouses, Warehouses, Pipelines, Semantic Models, Reports and more.",
         "feature_name": "Query item downstream and upstream relations through a public API",
         "last_modified": "2026-09-06",

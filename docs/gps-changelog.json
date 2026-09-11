@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-10T22:34:48.600Z",
+  "generatedAt": "2026-09-11T00:33:35.133Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 123,
+  "count": 122,
   "changelog": {
     "days": [
       {
@@ -1737,27 +1737,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-08-11",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Feature Store",
-            "last_modified": "2026-08-11",
-            "product_name": "Data Science",
-            "release_date": "Q4 2026",
-            "release_item_id": "75004e12-2158-f111-bec7-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 123
+    "total_items": 122
   }
 }

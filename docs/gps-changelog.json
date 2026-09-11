@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-09-11T00:33:35.133Z",
+  "generatedAt": "2026-09-11T05:16:33.465Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 122,
+  "count": 123,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-09-11",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Add Azure SQL DB Hyperscale as Target Using Logical Migration through DMS and SHIR",
+            "last_modified": "2026-09-11",
+            "product_name": "SQL database",
+            "release_date": "Q3 2026",
+            "release_item_id": "834d1d5c-95ad-f111-aaab-6045bd041085",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 10,
         "date": "2026-09-10",
@@ -1739,6 +1758,6 @@
         ]
       }
     ],
-    "total_items": 122
+    "total_items": 123
   }
 }

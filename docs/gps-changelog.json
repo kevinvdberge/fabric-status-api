@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T22:49:20.115Z",
+  "generatedAt": "2026-09-13T00:35:57.606Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 122,
+  "count": 121,
   "changelog": {
     "days": [
       {
@@ -1717,27 +1717,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-08-13",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Easily use Spark Structured Streaming with Fabric Eventstream",
-            "last_modified": "2026-08-13",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2026",
-            "release_item_id": "294ed21d-9d41-f111-88b5-002248085b3f",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 122
+    "total_items": 121
   }
 }

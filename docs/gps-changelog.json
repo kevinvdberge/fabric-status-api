@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-09-13T17:40:03.375Z",
+  "generatedAt": "2026-09-13T19:48:29.440Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 121,
+  "count": 124,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-09-13",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Developer mode (PBIP) external changes reload",
+            "last_modified": "2026-09-13",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "22187e7b-a1af-f111-aaab-70a8a59cb884",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Report Ribbon in the web",
+            "last_modified": "2026-09-13",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "b0dea050-a0af-f111-aaab-70a8a59cb884",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-06-30 -> 2026-12-31"
+            ],
+            "feature_name": "TMDL View in the Web",
+            "last_modified": "2026-09-13",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "58e4e1b5-83c5-f011-bbd3-00224808fcf0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-09-11",
@@ -1719,6 +1764,6 @@
         ]
       }
     ],
-    "total_items": 121
+    "total_items": 124
   }
 }

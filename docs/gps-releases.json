@@ -1,9 +1,51 @@
 {
-  "generatedAt": "2026-09-14T04:56:50.678Z",
+  "generatedAt": "2026-09-14T10:21:58.157Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Easily load Fabric OneLake data into Excel — OneLake catalog and Get Data are integrated into Excel for Windows (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/easily-load-fabric-onelake-data-into-excel-%E2%80%94-onelake-catalog-and-get-data-are-in/5172871",
+        "feature_description": "The OneLake catalog integration in Excel as part of modern Get Data unlocks seamless connectivity to Fabric data, empowering every business user to discover and analyze organizational content directly from Excel. This powerful capability simplifies data access and accelerates insights, making Excel a true gateway to Fabric's rich data ecosystem.",
+        "feature_name": "Fabric OneLake catalog in Excel Get Data",
+        "last_modified": "2026-09-14",
+        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
+        "product_name": "Administration, Governance and Security",
+        "release_date": "Q3 2026",
+        "release_item_id": "d2e07536-32b3-f011-bbd3-00224808fcf0",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Discover items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Discover-items-across-workspaces-with-the-OneLake-Catalog-Search/ba-p/5176768",
+        "feature_description": "The OneLake Catalog Search API (POST /v1/catalog/search) -- previously limited to Fabric items -- now also returns OneLake tables (e.g. Lakehouse, Mirrored) and Semantic Model tables as first-class search results. Items and tables are ranked together in a single, unified relevance-scored result set -- so the most relevant result surfaces first regardless of entity type.",
+        "feature_name": "OneLake catalog Search API expansion to OneLake and Semantic model tables",
+        "last_modified": "2026-09-14",
+        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
+        "product_name": "Administration, Governance and Security",
+        "release_date": "Q3 2026",
+        "release_item_id": "9bfc47ce-094d-f111-bec7-6045bd0a8ec1",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Lineage-aware AI with the Fabric item relations API (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Lineage-aware-AI-with-the-Fabric-item-relations-API-Preview/ba-p/5366064",
+        "feature_description": "Query upstream and downstream item relationships across all Fabric workloads through a public API. Retrieve which items depend on or feed into a given item, spanning Lakehouses, Warehouses, Pipelines, Semantic Models, Reports and more.",
+        "feature_name": "Query item downstream and upstream relations through a public API",
+        "last_modified": "2026-09-14",
+        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
+        "product_name": "Administration, Governance and Security",
+        "release_date": "Q3 2026",
+        "release_item_id": "02c73718-e24a-f111-bec7-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -468,20 +510,6 @@
       },
       {
         "active": true,
-        "blog_title": "Discover items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Discover-items-across-workspaces-with-the-OneLake-Catalog-Search/ba-p/5176768",
-        "feature_description": "The OneLake Catalog Search API (POST /v1/catalog/search) -- previously limited to Fabric items -- now also returns OneLake tables (e.g. Lakehouse, Warehouse, Mirrored) and Semantic Model tables as first-class search results. Items and tables are ranked together in a single, unified relevance-scored result set -- so the most relevant result surfaces first regardless of entity type.",
-        "feature_name": "OneLake catalog Search API expansion to OneLake and Semantic model tables",
-        "last_modified": "2026-09-06",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q3 2026",
-        "release_item_id": "9bfc47ce-094d-f111-bec7-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Discover Fabric items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
         "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/discover-fabric-items-across-workspaces-with-the-onelake-catalog-search-api-mcp-and-cli-tools-preview",
         "feature_description": "As part of Skills for Fabric, AI coding assistants like GitHub Copilot can discover Fabric items and tables. Developers can find existing, governed data before writing code, enabling a &quot;find before you build&quot; workflow that bridges AI tools and Fabric's enterprise data platform.",
@@ -493,20 +521,6 @@
         "release_item_id": "6754378c-e14a-f111-bec7-6045bd0a8ec1",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Lineage-aware AI with the Fabric item relations API (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Lineage-aware-AI-with-the-Fabric-item-relations-API-Preview/ba-p/5366064",
-        "feature_description": "Query upstream and downstream item relationships across all Fabric workloads through a public API. Retrieve which items depend on or feed into a given item, spanning Lakehouses, Warehouses, Pipelines, Semantic Models, Reports and more.",
-        "feature_name": "Query item downstream and upstream relations through a public API",
-        "last_modified": "2026-09-06",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q3 2026",
-        "release_item_id": "02c73718-e24a-f111-bec7-6045bd0a8ec1",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1389,20 +1403,6 @@
         "release_item_id": "3253d652-cf9c-f111-b8db-6045bd02b37f",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Deploy SQL databases in Fabric from VS Code: No more context switching",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/deploy-sql-databases-in-fabric-from-vs-code-no-more-context-switching/5172261",
-        "feature_description": "The Schema Compare feature in VS Code allows developers to compare database schemas between Fabric Warehouse projects or between a project and a live warehouse. Key capabilities include:* Detecting differences: Quickly identify changes in tables, views, procedures, and other objects.* Visual comparison: Provides an intuitive UI showing added, removed, or modified objects.* Deployment support: Generate update scripts or DacFx packages to synchronize schemas safely.* CI/CD integration: Helps maintain consistent schemas across environments by supporting version-controlled updates.",
-        "feature_name": "Schema Compare in VS Code for Fabric Warehouse",
-        "last_modified": "2026-08-20",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q3 2026",
-        "release_item_id": "af276605-e9b8-f011-bbd3-000d3a3740cc",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {

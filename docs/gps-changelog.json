@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-13T22:04:43.387Z",
+  "generatedAt": "2026-09-14T00:11:17.143Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 124,
+  "count": 123,
   "changelog": {
     "days": [
       {
@@ -1743,27 +1743,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-08-14",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Data Preview for Business Events",
-            "last_modified": "2026-08-14",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "fa80d3f3-0e98-f111-8075-70a8a5aee129",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 124
+    "total_items": 123
   }
 }

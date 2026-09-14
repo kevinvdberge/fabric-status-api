@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:24:28.172Z",
+  "generatedAt": "2026-09-14T23:17:31.293Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -13,8 +13,22 @@
         "last_modified": "2026-09-14",
         "product_id": "c6da6b3b-ded6-ee11-9079-000d3a310f67",
         "product_name": "Fabric Developer Experiences",
-        "release_date": "Q4 2026",
+        "release_date": "Q1 2027",
         "release_item_id": "8718f950-76b0-f111-aaab-70a8a59cb855",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "AI-powered troubleshooting for Fabric pipeline error messages",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/ai-powered-troubleshooting-for-fabric-pipeline-error-messages/5172442",
+        "feature_description": "Copilot helps to troubleshoot Copy job error messages by providing clearer summary and actionable recommendations.",
+        "feature_name": "Copy job - AI-powered Error Assistant and Insight for Copy Job",
+        "last_modified": "2026-09-14",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q1 2027",
+        "release_item_id": "37499ba5-5b21-f011-9989-000d3a5b0147",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -1387,20 +1401,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q4 2026",
         "release_item_id": "a697c5aa-c99c-f111-b8db-6045bd02b37f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "TDS Redirect introduces an opt-in connectivity mode for Fabric Data Warehouse that improves connection reliability by allowing supported SQL clients to establish a direct connection to the Warehouse after the initial handshake. By reducing intermediate proxy hops, this approach delivers more stable and resilient connections, particularly for long-running and stateful workloads such as ETL pipelines and reporting scenarios.TDS Redirect will be first available for workspaces configured with private link service, followed by rest of the workspaces.",
-        "feature_name": "Reliable Warehouse Connectivity via TDS Redirect",
-        "last_modified": "2026-08-20",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q4 2026",
-        "release_item_id": "a037d13b-a84d-f111-bec6-000d3a376c0f",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

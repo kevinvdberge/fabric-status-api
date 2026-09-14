@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-14T20:24:28.172Z",
+  "generatedAt": "2026-09-14T23:17:31.293Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 127,
+  "count": 128,
   "changelog": {
     "days": [
       {
-        "count": 6,
+        "count": 7,
         "date": "2026-09-14",
         "items": [
           {
@@ -46,6 +46,20 @@
             "release_item_id": "02c73718-e24a-f111-bec7-6045bd0a8ec1",
             "release_status": "Shipped",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2027-03-31",
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "Copy job - AI-powered Error Assistant and Insight for Copy Job",
+            "last_modified": "2026-09-14",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "37499ba5-5b21-f011-9989-000d3a5b0147",
+            "release_status": "Planned",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -1804,6 +1818,6 @@
         ]
       }
     ],
-    "total_items": 127
+    "total_items": 128
   }
 }

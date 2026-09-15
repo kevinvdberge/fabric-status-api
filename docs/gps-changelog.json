@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T01:41:39.969Z",
+  "generatedAt": "2026-09-15T06:44:19.093Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 135,
+  "count": 137,
   "changelog": {
     "days": [
       {
-        "count": 7,
+        "count": 9,
         "date": "2026-09-15",
         "items": [
           {
@@ -72,6 +72,32 @@
             "release_item_id": "d327a257-51ad-f111-aaab-6045bd041d32",
             "release_status": "Planned",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Support SPN + RLS",
+            "last_modified": "2026-09-15",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2027",
+            "release_item_id": "10dd8c0b-afb0-f111-aaab-70a8a59cbb0e",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Outbound access protection for Power BI (Reports)",
+            "last_modified": "2026-09-15",
+            "product_name": "Power BI",
+            "release_date": "Q2 2026",
+            "release_item_id": "c897392a-504e-f111-bec7-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -1915,6 +1941,6 @@
         ]
       }
     ],
-    "total_items": 135
+    "total_items": 137
   }
 }

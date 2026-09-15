@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-09-15T01:41:39.933Z",
+  "generatedAt": "2026-09-15T06:44:19.055Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 0,
-  "active": []
+  "count": 1,
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "aac69a15-d0b0-f111-aaab-70a8a59cbbb7",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "9/15/2026 12:07:30 PM",
+      "reportedAt": "2026-09-15T12:07:30.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Fabric customers may experience issues with creating new support cases through the Contact support page. Engineers are investigating the issue, and an update will be provided soon.</span></p></div>",
+      "detailsText": "Fabric customers may experience issues with creating new support cases through the Contact support page. Engineers are investigating the issue, and an update will be provided soon.",
+      "hash": "93fdd38edebaf8f76cae24c5f20a937dfc2922eaad5609fb2cd24a75aff924ed"
+    }
+  ]
 }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T12:11:45.625Z",
+  "generatedAt": "2026-09-15T16:59:38.101Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 138,
+  "count": 140,
   "changelog": {
     "days": [
       {
-        "count": 10,
+        "count": 13,
         "date": "2026-09-15",
         "items": [
           {
@@ -136,6 +136,45 @@
             "release_date": "Q3 2026",
             "release_item_id": "0629b688-97b0-f111-aaab-70a8a59cba86",
             "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Add Azure SQL DB Hyperscale as Target Using Logical Migration through DMS and SHIR",
+            "last_modified": "2026-09-15",
+            "product_name": "SQL database",
+            "release_date": "Q3 2026",
+            "release_item_id": "834d1d5c-95ad-f111-aaab-6045bd041085",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Fabric SQL | SQL Server migration to Fabric SQL | GA",
+            "last_modified": "2026-09-15",
+            "product_name": "SQL database",
+            "release_date": "Q3 2026",
+            "release_item_id": "90151c44-1db1-f111-aaab-70a8a59cbbb7",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Vector Index & Search",
+            "last_modified": "2026-09-15",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "f52bbc7f-0fb1-f111-aaab-70a8a59cbbb7",
+            "release_status": "Planned",
             "release_type": "General availability"
           }
         ]
@@ -281,25 +320,6 @@
             "release_item_id": "58e4e1b5-83c5-f011-bbd3-00224808fcf0",
             "release_status": "Planned",
             "release_type": "General availability"
-          }
-        ]
-      },
-      {
-        "count": 1,
-        "date": "2026-09-11",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Add Azure SQL DB Hyperscale as Target Using Logical Migration through DMS and SHIR",
-            "last_modified": "2026-09-11",
-            "product_name": "SQL database",
-            "release_date": "Q3 2026",
-            "release_item_id": "834d1d5c-95ad-f111-aaab-6045bd041085",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           }
         ]
       },
@@ -1954,6 +1974,6 @@
         ]
       }
     ],
-    "total_items": 138
+    "total_items": 140
   }
 }

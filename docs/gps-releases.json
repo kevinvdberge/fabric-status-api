@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T12:11:45.625Z",
+  "generatedAt": "2026-09-15T16:59:38.101Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,20 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q1 2027",
         "release_item_id": "10dd8c0b-afb0-f111-aaab-70a8a59cbb0e",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Empowering Real-Time Searches: Vector Similarity Search with Eventhouse",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/empowering-real-time-searches-vector-similarity-search-with-eventhouse/5173156",
+        "feature_description": "# Generally Available: Vector Search and Vector Indexes in Azure SQL Vector Search and Vector Indexes are now generally available in Azure SQL Database. Using the [CREATE VECTOR INDEX](https://learn.microsoft.com/sql/t-sql/statements/create-vector-index-transact-sql?view=sql-server-ver17) and [VECTOR_SEARCH](https://learn.microsoft.com/sql/t-sql/functions/vector-search-transact-sql?view=sql-server-ver17) T-SQL capabilities, you can perform efficient approximate nearest neighbor (ANN) searches for AI scenarios such as semantic search, retrieval-augmented generation (RAG), recommendation systems, and image search. Built on the DiskANN algorithm, Vector Indexes enable efficient vector similarity search over large datasets while allowing you to combine vector search with relational queries and filtering directly in Azure SQL Database.By bringing AI retrieval directly into Azure SQL Database, you can build AI-powered applications on your enterprise data without requiring a separate vector database, simplifying application architecture while leveraging the reliability, security, and governance capabilities of Azure SQL Database.**Learn more:** [Vector Search & Vector Indexes documentation](https://learn.microsoft.com/sql/sql-server/ai/vectors?view=sql-server-ver17)",
+        "feature_name": "Vector Index & Search",
+        "last_modified": "2026-09-15",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "f52bbc7f-0fb1-f111-aaab-70a8a59cbbb7",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -100,6 +114,20 @@
         "release_date": "Q3 2026",
         "release_item_id": "b682daa3-eeb0-f111-aaab-70a8a59cba8f",
         "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing Migration assistant for SQL database in Fabric (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-migration-assistant-for-sql-database-in-fabric-preview/5172048",
+        "feature_description": "Fabric Migration Assistant for SQL Database is Generally Available",
+        "feature_name": "Fabric SQL | SQL Server migration to Fabric SQL | GA",
+        "last_modified": "2026-09-15",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q3 2026",
+        "release_item_id": "90151c44-1db1-f111-aaab-70a8a59cbbb7",
+        "release_status": "Shipped",
         "release_type": "General availability"
       },
       {
@@ -283,20 +311,6 @@
         "release_item_id": "58e4e1b5-83c5-f011-bbd3-00224808fcf0",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "This feature addition helps us complete the Modernization story for Database Migration in Arc Portal. Currently the targets supported are VM and MI through LRS(for both) and MI Link (for MI). We are bringing this capability to complete the moderinization narrative to Azure SQL D and Hyperscaleb, which is our hero product.",
-        "feature_name": "Add Azure SQL DB Hyperscale as Target Using Logical Migration through DMS and SHIR",
-        "last_modified": "2026-09-11",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q3 2026",
-        "release_item_id": "834d1d5c-95ad-f111-aaab-6045bd041085",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1389,20 +1403,6 @@
         "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric Data Agent now supports CI/CD, ALM Flow, and Git Integration",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-data-agent-now-supports-cicd-alm-flow-and-git-integration/5172542",
-        "feature_description": "Enable CI/CD for Fabric data agents.A well implemented CI/CD pipeline brings significant benefits: Automated tests integrated into the CI process validate every change to the Data agent's configuration before deployment, catching errors early and ensuring that only reliable updates reach production. A structured deployment process moves changes from a development workspace, through a test workspace that mirrors production, and finally into production, while automatically applying workspace specific configurations. This rapid, reliable iteration not only reduces operational errors but also allows improvements and fixes to be pushed quickly in response to user feedback and evolving business needs, ultimately leading to a better enduser experience.",
-        "feature_name": "CI/CD for Fabric Data Agent",
-        "last_modified": "2026-08-22",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2026",
-        "release_item_id": "4ec0e5ee-2a22-f011-9989-6045bd030c4d",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1122,
+      "total_items": 1123,
       "total_pages": 12
     }
   }

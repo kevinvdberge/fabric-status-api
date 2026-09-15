@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T06:44:19.093Z",
+  "generatedAt": "2026-09-15T12:11:45.625Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 137,
+  "count": 138,
   "changelog": {
     "days": [
       {
-        "count": 9,
+        "count": 10,
         "date": "2026-09-15",
         "items": [
           {
@@ -83,6 +83,19 @@
             "product_name": "Conversational Analytics",
             "release_date": "Q1 2027",
             "release_item_id": "10dd8c0b-afb0-f111-aaab-70a8a59cbb0e",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Fabric Core MCP Server (GA)",
+            "last_modified": "2026-09-15",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q3 2026",
+            "release_item_id": "b682daa3-eeb0-f111-aaab-70a8a59cba8f",
             "release_status": "Planned",
             "release_type": "General availability"
           },
@@ -1941,6 +1954,6 @@
         ]
       }
     ],
-    "total_items": 137
+    "total_items": 138
   }
 }

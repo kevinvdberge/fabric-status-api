@@ -1,33 +1,45 @@
 {
-  "generatedAt": "2026-09-15T06:44:19.055Z",
+  "generatedAt": "2026-09-15T12:11:45.593Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 228,
-    "total": 229
+    "active": 0,
+    "resolved": 230,
+    "total": 230
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 228,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 230,
+    "hasActive": false
   },
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "aac69a15-d0b0-f111-aaab-70a8a59cbbb7",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "9/15/2026 12:07:30 PM",
-      "reportedAt": "2026-09-15T12:07:30.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Fabric customers may experience issues with creating new support cases through the Contact support page. Engineers are investigating the issue, and an update will be provided soon.</span></p></div>",
-      "detailsText": "Fabric customers may experience issues with creating new support cases through the Contact support page. Engineers are investigating the issue, and an update will be provided soon.",
-      "hash": "93fdd38edebaf8f76cae24c5f20a937dfc2922eaad5609fb2cd24a75aff924ed"
-    }
-  ],
+  "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "092aa10b-eeb0-f111-aaab-70a8a59cbac4",
+      "serviceStatus": "",
+      "region": "North Europe",
+      "reportedRaw": "9/15/2026 3:00:48 AM",
+      "reportedAt": "2026-09-15T03:00:48.000Z",
+      "resolvedRaw": "9/15/2026 3:10:41 AM",
+      "resolvedAt": "2026-09-15T03:10:41.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span data-teams=\"true\">Fabric Customers in North Europe Region may have experienced intermittent issues while interacting with Copilot Service and, accessing ML experiments and Models.</span></p></div>",
+      "detailsText": "Fabric Customers in North Europe Region may have experienced intermittent issues while interacting with Copilot Service and, accessing ML experiments and Models.",
+      "hash": "6dc820c04d3f3e86df689d9d8a845dc40f8c9e3f169a616abcda13df55483142"
+    },
+    {
+      "type": "resolved",
+      "serviceNotificationId": "aac69a15-d0b0-f111-aaab-70a8a59cbbb7",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "9/15/2026 12:30:30 AM",
+      "reportedAt": "2026-09-15T00:30:30.000Z",
+      "resolvedRaw": "9/15/2026 2:00:00 AM",
+      "resolvedAt": "2026-09-15T02:00:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span data-teams=\"true\">Fabric customers may have experienced issues with creating new support cases through the Contact support page. </span></p></div>",
+      "detailsText": "Fabric customers may have experienced issues with creating new support cases through the Contact support page.",
+      "hash": "9548a5ae5d2efab2568513bff0134766020dc8bcfb9e023bb372d1757df1f432"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "741f6528-7dac-f111-aaac-6045bd0415ba",

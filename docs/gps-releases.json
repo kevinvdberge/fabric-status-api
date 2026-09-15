@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T16:59:38.101Z",
+  "generatedAt": "2026-09-15T20:08:05.967Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -71,6 +71,20 @@
         "product_name": "Administration, Governance and Security",
         "release_date": "Q4 2026",
         "release_item_id": "8e73b44d-97b0-f111-aaab-70a8a59cbbb7",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Customer-managed keys for Fabric workspaces (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/customer-managed-keys-for-fabric-workspaces-generally-available%C2%A0/5172531",
+        "feature_description": "Apply Fabric workspace customer managed keys to Eventstreams to add an extra layer of encryption for data at rest. When CMK is enabled for a workspace, Eventstreams automatically use the workspace key configuration via Azure Key Vault, including key rotation and revocation handling.",
+        "feature_name": "Secure Fabric Eventstreams with customer-managed keys",
+        "last_modified": "2026-09-15",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "61963fc1-c6f0-f011-8407-000d3a3ac4a5",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1387,20 +1401,6 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q4 2025",
         "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Agentic Fabric: How MCP is turning your data platform into an AI-native operating system",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/agentic-fabric-how-mcp-is-turning-your-data-platform-into-an-ai-native-operating/5172009",
-        "feature_description": "As an MCP server, data agent can expose its tools as standardized tools to any AI assistant including VSCode, GitHub Copilot, etc. This allows other AI tools to tap into enterprise data on demand, accelerating AI adoption and ensuring consistent, secure, and auditable access to data agent tools.Data agent MCP server is considered as the main consumption endpoint.",
-        "feature_name": "Data Agent as an MCP Server",
-        "last_modified": "2026-08-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q4 2025",
-        "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
         "release_status": "Shipped",
         "release_type": "General availability"
       }

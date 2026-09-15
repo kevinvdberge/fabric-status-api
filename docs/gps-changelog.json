@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T16:59:38.101Z",
+  "generatedAt": "2026-09-15T20:08:05.967Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 140,
+  "count": 141,
   "changelog": {
     "days": [
       {
-        "count": 13,
+        "count": 14,
         "date": "2026-09-15",
         "items": [
           {
@@ -137,6 +137,19 @@
             "release_item_id": "0629b688-97b0-f111-aaab-70a8a59cba86",
             "release_status": "Shipped",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Secure Fabric Eventstreams with customer-managed keys",
+            "last_modified": "2026-09-15",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "61963fc1-c6f0-f011-8407-000d3a3ac4a5",
+            "release_status": "Planned",
+            "release_type": "Public preview"
           },
           {
             "active": false,
@@ -1974,6 +1987,6 @@
         ]
       }
     ],
-    "total_items": 140
+    "total_items": 141
   }
 }

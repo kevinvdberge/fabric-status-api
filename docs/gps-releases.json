@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-16T15:32:15.954Z",
+  "generatedAt": "2026-09-16T19:05:13.945Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Outbound access protection for Data Factory (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access-protection-for-data-factory-generally-available/5172006",
+        "feature_description": "Microsoft Fabric's outbound access protection blocks all outbound connections from a workspace by default and only allows approved external connections through managed private endpoints or data connection rules. It applies across workloads such as Data Engineering, Data Factory, Activator, and Data Agent, giving admins granular control over external connectivity.",
+        "feature_name": "Outbound Access Protection for Fabric SQL DB",
+        "last_modified": "2026-09-16",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Service Principal Support for Data Agents in Fabric (Preview)",
@@ -1389,20 +1403,6 @@
         "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Empowering agentic AI by integrating Fabric with Azure AI Foundry",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/empowering-agentic-ai-by-integrating-fabric-with-azure-ai-foundry/5172877",
-        "feature_description": "With the Fabric data agent integration in Azure AI Foundry, Fabric data agent will serve as a knowledge source for Agent Service in Microsoft Azure AI Foundry. This enables the agent to use Fabric as a data hub, tapping into the insights available within Fabric to answer user queries accurately and efficiently. By connecting to Fabric data agent, the agent can retrieve data insights directly from Fabric, allowing consumers to interact with and analyze their Fabric data seamlessly through the AI applications in Azure AI Foundry.",
-        "feature_name": "Fabric data agent integration with Azure AI Foundry",
-        "last_modified": "2026-08-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q4 2025",
-        "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1123,
+      "total_items": 1124,
       "total_pages": 12
     }
   }

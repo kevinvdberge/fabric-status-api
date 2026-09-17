@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-09-17T19:01:06.371Z",
+  "generatedAt": "2026-09-17T22:08:47.514Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Fabric Runtime 2.0 (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Runtime-2-0-Generally-Available/ba-p/5326359",
+        "feature_description": "Microsoft Fabric Runtime 2.1 updates the Apache Spark foundation to Spark 4.2 and Delta Lake 4.4, with Python 3.14, Scala 2.13, and Java 21. For supported workloads, the Native Execution Engine is enabled by default to provide acceleration without extra configuration, while documented opt-out and controlled fallback paths preserve compatibility.Runtime 2.1 also introduces a leaner built-in package baseline with PySpark and SparkR. Customers can add compatible optional Python and R libraries through Library Manager or a Fabric Environment, reducing package conflicts while preserving flexibility for data engineering and data science workloads. The Public Preview is targeted for January 31, 2027 and includes migration guidance, known limitations, and preview support information.",
+        "feature_name": "Runtime 2.1 (Spark 4.2 and Delta 4.4)",
+        "last_modified": "2026-09-17",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q1 2027",
+        "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Enhanced Monitoring for Spark High Concurrency Workloads in Microsoft Fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/enhanced-monitoring-for-spark-high-concurrency-workloads-in-microsoft-fabric/5172618",
+        "feature_description": "This feature delivers a comprehensive Notebook Run Lineage experience for Spark applications, enabling data engineers to monitor and analyze complex notebook workflows with ease. It provides an at-a-glance view of all notebook run statuses, helps quickly identify root-cause failures across nested executions, and highlights performance bottlenecks. Users can filter and explore large execution graphs, access detailed error and run-level information, and view aggregated summaries of execution health and resource usage--all in one place.",
+        "feature_name": "Track and Manage Notebook Run Dependencies & Linage View",
+        "last_modified": "2026-09-17",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q1 2027",
+        "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -17,6 +45,20 @@
         "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
+        "feature_description": "# Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.## One Familiar Place for Context and Trusted DataThis integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use **Fabric IQ** to identify which regions are behind plan, then use **Work IQ** to connect the results with customer emails, meetings, account plans, and documents.They could summarize the complete picture and even kick off actions and tasks in **Cowork**, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.## Administrator ControlsA new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.The setting will be **off by default**, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.This setting is independent of the existing setting for standalone Power BI Copilot:- If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.- If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.## Initial Public Preview AvailabilityDuring the initial public preview, the integrated experience is available only to users with a **Microsoft 365 Copilot license**.These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:- Fabric data through **Fabric IQ**- Relevant Microsoft 365 context through **Work IQ**Existing permissions and governance controls continue to determine which content each user can access.",
+        "feature_name": "Copilot in Power BI Fabric",
+        "last_modified": "2026-09-17",
+        "product_id": "94e84e43-aa69-f011-bec2-00224804b6c3",
+        "product_name": "Fabric Ecosystem",
+        "release_date": "Q3 2026",
+        "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
+        "release_status": "Planned",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1361,48 +1403,6 @@
         "release_item_id": "aceeae17-dfb8-f011-bbd3-000d3a30273e",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s New for Fabric Data Agents at Ignite 2025: Unlocking Deeper Data Reasoning and Seamless AI Interoperability",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-new-for-fabric-data-agents-at-ignite-2025-unlocking-deeper-data-reasoning-/5172488",
-        "feature_description": "Fabric data agents empower customers to unlock insights from their enterprise data that lives in Fabric OneLake across different consumption channels.Microsoft Agent 365 (A365) is the enterprise control plane that IT and security teams use to observe, secure, and govern AI agents across the tenant, independent of where each agent was built. Admins manage and observe agents from the Microsoft 365 admin center.The first phase of Data Agent integration with A365 has two goals:* Data agent shows up in A365 with an enterprise identity (registration).* Publish activity telemetry to A365 (observability).",
-        "feature_name": "Data Agent A365 Identity and Observability",
-        "last_modified": "2026-08-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q4 2026",
-        "release_item_id": "51ca432f-f39f-f111-b8db-000d3a5c7513",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Display a total, custom measure, or label directly in the center of donut charts, eliminating the need for overlaying a separate card visual. The center value responds to filters, selections, and scales automatically across all platforms.",
-        "feature_name": "Donut Chart - Center Value",
-        "last_modified": "2026-08-24",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "735659bf-146f-f111-ab0d-000d3a376137",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Recent NL2SQL improvements make the system more reliable and flexible by better leveraging few-shot examples, asking clarifying questions when queries are ambiguous, and using data exploration to handle gaps or novel scenarios. It also improves accuracy through smarter filter mapping and provides clearer debugging via visible run steps, example usage, and structured diagnostics.",
-        "feature_name": "Improved NL2SQL Experiences",
-        "last_modified": "2026-08-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q2 2026",
-        "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1125,
+      "total_items": 1127,
       "total_pages": 12
     }
   }

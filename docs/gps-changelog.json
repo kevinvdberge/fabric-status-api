@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-09-17T05:25:03.303Z",
+  "generatedAt": "2026-09-17T10:15:14.291Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 141,
+  "count": 142,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-09-17",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Fuzzy String Match",
+            "last_modified": "2026-09-17",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-09-16",
@@ -1987,6 +2006,6 @@
         ]
       }
     ],
-    "total_items": 141
+    "total_items": 142
   }
 }

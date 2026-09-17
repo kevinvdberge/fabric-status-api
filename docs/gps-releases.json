@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-17T05:25:03.303Z",
+  "generatedAt": "2026-09-17T10:15:14.291Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Fuzzy string matching - Use fuzzy, or approximate, string matching to check if two strings are similar, and calculate the difference between two strings. Use this capability to identify strings that might be different because of character corruption. Corruption includes spelling errors, transposed characters, missing characters, or abbreviations. Fuzzy string matching uses algorithms to detect similar sounding strings.",
+        "feature_name": "Fuzzy String Match",
+        "last_modified": "2026-09-17",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Outbound access protection for Data Factory (Generally Available)",
@@ -1389,20 +1403,6 @@
         "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Build agent with AI for Data Agent (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
-        "feature_description": "The Build Agent with AI mode is a specialized AI assistant designed to help data agent creators configure, improve, and optimize their data agents by generating and refining Agent Instructions, Data Source Instructions, and Few-Shot Examples. It addresses common customer pain points such as confusion about where to put instructions, uncertainty about the effectiveness of few shots, and difficulty diagnosing why an agent produces poor results. The agent works in a collaborative, chat-based 'setup' mode, where it analyzes existing configurations, explores database schemas and query patterns, and recommends improvements that users can explicitly accept or reject. It is designed to detect ambiguity and contradictions across configurations and suggest clearer, more consistent alternatives. Initially focused on SQL data sources, the Build Agent with AI mode is intended to expand to additional data sources (e.g., KQL, semantic models) over time. Overall, it enables a faster, more scalable, and more understandable way to build high-quality data agents without requiring deep knowledge of the underlying system.",
-        "feature_name": "Build Agent with AI Mode in Data Agent",
-        "last_modified": "2026-08-24",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q2 2026",
-        "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1124,
+      "total_items": 1125,
       "total_pages": 12
     }
   }

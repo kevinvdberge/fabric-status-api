@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T15:09:37.928Z",
+  "generatedAt": "2026-09-17T19:01:06.371Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -622,8 +622,8 @@
       },
       {
         "active": true,
-        "blog_title": "On-premises data gateway May 2026 release",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-May-2026-release/ba-p/5190820",
+        "blog_title": "Soft delete for On-premises data gateways in Microsoft Fabric (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Soft-delete-for-On-premises-data-gateways-in-Microsoft-Fabric/ba-p/5365712",
         "feature_description": "We are introducing user-facing soft delete for on-premises data gateways, giving administrators a safety net when gateways are removed.Accidental or premature deletion of a gateway can disrupt data refreshes and reports. With this update, administrators can:- Recover recently deleted gateways within a retention window.- Restore gateway configurations without recreating them from scratch.- Reduce the impact of accidental deletions on business-critical connectivity.This helps organizations protect against accidental loss of gateway configurations and maintain continuity.",
         "feature_name": "Gateways - Soft delete for gateways",
         "last_modified": "2026-09-08",

@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-18T13:50:52.368Z",
+  "generatedAt": "2026-09-18T17:28:25.395Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Extending Point-in-Time Retention in Fabric SQL DB: From 7 to 35 Days",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extending-point-in-time-retention-in-fabric-sql-db-from-7-to-35-days/5172554",
+        "feature_description": "Today users can restore a database into any point-in-time from live databases in Microsoft Fabric. Point-in-time restore (PITR) feature should have enhanced capability to help their users recover from accidental database deletion and ensure business continuity. Users should be able to restore a dropped database from a hard-deleted artifact and from workspace soft-deleted workspace as well. In each use-case, the user should be able to easily restore a database and continue using it.",
+        "feature_name": "Point-in-time restore from dropped databases",
+        "last_modified": "2026-09-18",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "0ba89ee5-81b3-f111-aaab-70a8a59cbac4",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Fabric Runtime 2.0 (Generally Available)",
@@ -1389,20 +1403,6 @@
         "release_item_id": "ce1edca4-aa9f-f111-b8db-000d3a3ad8c1",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Fabric Data Warehouse will introduce T-SQL functions for pattern matching, text extraction, and transformation using regular expressions. These capabilities will make it easier to validate, search, and manipulate text data directly within your queries.New functions include:* REGEXP_LIKE - Returns a Boolean indicating if the text matches the regex pattern.* REGEXP_REPLACE - Replaces occurrences of a regex pattern with a specified string.* REGEXP_SUBSTR - Extracts parts of a string based on a regex pattern, including Nth occurrence.* REGEXP_INSTR - Returns the position (start or end) of a matched substring.* REGEXP_COUNT - Counts how many times a regex pattern occurs in a string.",
-        "feature_name": "Regular expressions",
-        "last_modified": "2026-08-24",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q4 2026",
-        "release_item_id": "aceeae17-dfb8-f011-bbd3-000d3a30273e",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1127,
+      "total_items": 1128,
       "total_pages": 12
     }
   }

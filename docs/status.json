@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-09-18T13:50:52.336Z",
+  "generatedAt": "2026-09-18T17:28:25.362Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 230,
-    "total": 230
+    "total": 231
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 230,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "b3ac9d8d-7ab3-f111-aaac-70a8a59cbbb7",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "9/18/2026 8:55:42 AM",
+      "reportedAt": "2026-09-18T08:55:42.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”.  Engineers are investigating the issue and an update will be provided soon.</p></div>",
+      "detailsText": "Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "e35f934aee483034f984faf9e9550d7539f67aaaddbc718c8f53c6404912e4ef"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

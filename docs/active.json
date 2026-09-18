@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-09-17T22:08:47.429Z",
+  "generatedAt": "2026-09-18T00:17:16.583Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 0,
-  "active": []
+  "count": 1,
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "2e5b1afa-f0b2-f111-aaab-70a8a59cbac4",
+      "serviceStatus": "Outage",
+      "region": "East US",
+      "reportedRaw": "9/17/2026 4:36:52 PM",
+      "reportedAt": "2026-09-17T16:36:52.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><h1 class=\"pa-hi pa-oh pa-rk pa-cd pa-ga pa-pd pa-pk pa-pj pa-rl\" style=\"background-color:rgb(255, 255, 255);border-width:0px;color:rgb(36, 36, 36);font-family:\"Segoe UI\", \"Segoe UI Web (West European)\", -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif;font-size:20px;font-style:normal;font-weight:600;letter-spacing:normal;line-height:28px;margin:0px;outline:none;padding:0px;text-align:left;text-indent:0px;text-transform:none;white-space:pre-wrap;word-break:break-word;word-spacing:0px;\" id=\"formHeaderTitle_1\" title=\"Fabric customers in UK South may have experienced intermittent failures with performing control plane operations.\" data-id=\"header_title\">Fabric customers in East US may have experienced intermittent failures with performing control plane operations. Engineers are investigating the issue and the next update would be provided by 9/17/2026 6:00 PM PST </h1><p style=\"margin: 0;\"><br> </p></div>",
+      "detailsText": "Fabric customers in East US may have experienced intermittent failures with performing control plane operations. Engineers are investigating the issue and the next update would be provided by 9/17/2026 6:00 PM PST",
+      "hash": "d20daaa628c43debea4e43e6411366747e8f319ed0a056bdbf75fcbd542966d0"
+    }
+  ]
 }

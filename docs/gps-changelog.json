@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-17T22:08:47.514Z",
+  "generatedAt": "2026-09-18T00:17:16.616Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 145,
+  "count": 138,
   "changelog": {
     "days": [
       {
@@ -1946,105 +1946,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 7,
-        "date": "2026-08-18",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Dataflows - Backup data results across dataflow refreshes",
-            "last_modified": "2026-08-18",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "97d41049-3e9b-f111-b8db-6045bd02b663",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Dataflows - Dataflow Gen1 - Gen2 Migration Wizard",
-            "last_modified": "2026-08-18",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "5f7283fd-e03c-f111-88b5-6045bd00fc61",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Dataflows - Dataflows Gen2 Partitioned Compute",
-            "last_modified": "2026-08-18",
-            "product_name": "Data Factory",
-            "release_date": "Q4 2026",
-            "release_item_id": "385260b0-5b07-ef11-9f89-000d3a34b75c",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Power Query - Browse Azure resources in Get Data",
-            "last_modified": "2026-08-18",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "385d42a4-419b-f111-b8db-6045bd02b663",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Power Query - Now and Today transforms",
-            "last_modified": "2026-08-18",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "b280a60f-4e9b-f111-b8db-6045bd02b663",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Power Query - Offset a date, datetime or time column",
-            "last_modified": "2026-08-18",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "c899806a-4e9b-f111-b8db-6045bd02b663",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Enhanced Report Consumption Copilot with Fabric IQ",
-            "last_modified": "2026-08-18",
-            "product_name": "Power BI",
-            "release_date": "Q3 2026",
-            "release_item_id": "7351cde9-979a-f111-b8db-6045bd02b667",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 145
+    "total_items": 138
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T04:54:28.375Z",
+  "generatedAt": "2026-09-19T09:10:22.230Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 1,
@@ -13,9 +13,9 @@
       "reportedAt": "2026-09-18T08:55:42.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”.  Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "e35f934aee483034f984faf9e9550d7539f67aaaddbc718c8f53c6404912e4ef"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation, and an update will be provided by 2026-09-19 09:30 AM PDT.</p></div>",
+      "detailsText": "Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation, and an update will be provided by 2026-09-19 09:30 AM PDT.",
+      "hash": "bd5e103bc84ae392ad0dd7f4fa805356ef54c9926556b1eba4891c2ca12371b8"
     }
   ]
 }

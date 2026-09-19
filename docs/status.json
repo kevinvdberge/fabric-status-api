@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-09-19T13:09:39.009Z",
+  "generatedAt": "2026-09-19T16:29:18.310Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 230,
+    "active": 0,
+    "resolved": 231,
     "total": 231
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 230,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 231,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "b3ac9d8d-7ab3-f111-aaac-70a8a59cbbb7",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "",
       "reportedRaw": "9/18/2026 8:55:42 AM",
       "reportedAt": "2026-09-18T08:55:42.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
+      "resolvedRaw": "9/19/2026 5:30:24 AM",
+      "resolvedAt": "2026-09-19T05:30:24.000Z",
       "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation, and an update will be provided by 2026-09-19 09:30 AM PDT.</p></div>",
       "detailsText": "Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation, and an update will be provided by 2026-09-19 09:30 AM PDT.",
-      "hash": "bd5e103bc84ae392ad0dd7f4fa805356ef54c9926556b1eba4891c2ca12371b8"
-    }
-  ],
-  "resolved": [
+      "hash": "407cf950f54ca0c699352afe327f5d7d799bec386f0cdf92bbd865c521195c1d"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "092aa10b-eeb0-f111-aaab-70a8a59cbac4",

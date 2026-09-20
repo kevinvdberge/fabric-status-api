@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:22:21.272Z",
+  "generatedAt": "2026-09-20T06:38:41.092Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "count": 231,
@@ -13,9 +13,9 @@
       "reportedAt": "2026-09-18T08:55:42.000Z",
       "resolvedRaw": "9/19/2026 5:30:24 AM",
       "resolvedAt": "2026-09-19T05:30:24.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation, and an update will be provided by 2026-09-19 09:30 AM PDT.</p></div>",
-      "detailsText": "Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation, and an update will be provided by 2026-09-19 09:30 AM PDT.",
-      "hash": "407cf950f54ca0c699352afe327f5d7d799bec386f0cdf92bbd865c521195c1d"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation.</p></div>",
+      "detailsText": "Power BI customers may experience failures when connecting to Excel workbooks in September 2026 Desktop release and Power BI Service, with a message saying, “DataFormat.Error”. Engineers are actively working on mitigation.",
+      "hash": "8afc547d342b37a9ea9239167127300a17d56bd8bca44f48f54c59fe9dd5c312"
     },
     {
       "type": "resolved",

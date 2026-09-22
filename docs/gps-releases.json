@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-22T10:10:55.485Z",
+  "generatedAt": "2026-09-22T14:53:29.478Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Customer can reduce the max vcore to control the CU consumption",
+        "feature_name": "Smaller max vCore options and resizing",
+        "last_modified": "2026-09-22",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "009295f2-84b6-f111-aaab-7ced8d70bb60",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Monitor your Eventstreams with Workspace Monitoring — Now with per-Eventstream control (Preview)",
@@ -1389,20 +1403,6 @@
         "release_item_id": "e1ba1ef1-03a0-f111-b8db-000d3a3ad6b6",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Display a built-in trend chart (line or column) inside Card visuals to show how values change over time. No SVGs or extra visuals needed.",
-        "feature_name": "Card Visual - Trend Chart",
-        "last_modified": "2026-08-24",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q4 2026",
-        "release_item_id": "df66c8a5-d46f-f111-ab0d-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1129,
+      "total_items": 1130,
       "total_pages": 12
     }
   }

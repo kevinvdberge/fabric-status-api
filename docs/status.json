@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-09-23T08:37:56.442Z",
+  "generatedAt": "2026-09-23T13:51:39.047Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 231,
-    "total": 231
+    "resolved": 232,
+    "total": 232
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 231,
+    "resolvedIncidents": 232,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "f772d60f-36b7-f111-aaab-00224808683d",
+      "serviceStatus": "",
+      "region": "West Europe",
+      "reportedRaw": "9/23/2026 2:30:01 AM",
+      "reportedAt": "2026-09-23T02:30:01.000Z",
+      "resolvedRaw": "9/23/2026 2:55:00 AM",
+      "resolvedAt": "2026-09-23T02:55:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers in West Europe E cluster may have experienced intermittent refresh failures and delays.</p></div>",
+      "detailsText": "Power BI customers in West Europe E cluster may have experienced intermittent refresh failures and delays.",
+      "hash": "c2ed0415f4c383fcd87ea37f38a408d8cfa190a81f1682e47b2b1829f1ff77f2"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "b3ac9d8d-7ab3-f111-aaac-70a8a59cbbb7",

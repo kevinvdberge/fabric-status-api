@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-23T13:51:39.083Z",
+  "generatedAt": "2026-09-23T18:14:30.821Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Customers can now initiate a restart/failover of their databases (singleton, Hyperscale, as well as ones in an elastic pool) in the Azure Portal without the need to either write scripts against the Rest AP or call support.",
+        "feature_name": "Enable Customers to Restart Databases in Azure SQL DB via the Azure Portal",
+        "last_modified": "2026-09-23",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "5685c491-50b7-f111-aaab-7ced8d70be29",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Govern in OneLake Catalog for Fabric admins (Preview)",
@@ -16,6 +30,20 @@
         "release_date": "Q3 2026",
         "release_item_id": "b6d8618b-08a2-f111-b8db-000d3a3ad591",
         "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Create SQL database in Fabric item in USGov (Virginia and Texas GCC-H) clouds.",
+        "feature_name": "Presence Expansion in USGov (Virginia and Texas GCC-H)",
+        "last_modified": "2026-09-23",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q3 2026",
+        "release_item_id": "2dae2810-6cb7-f111-aaab-7ced8d70bf41",
+        "release_status": "Planned",
         "release_type": "General availability"
       },
       {
@@ -1375,34 +1403,6 @@
         "release_item_id": "10e2a1c0-d664-f111-a826-000d3a5a7aa2",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Previously known as On-object interaction, Quick visual edits makes it easier to build and format visuals directly from the report canvas. Add or remove data, manage visual elements, and update common settings such as titles, subtitles, legends, and data labels in context. For advanced customization, continue in the Format pane.",
-        "feature_name": "Quick visual edits",
-        "last_modified": "2026-08-24",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q1 2027",
-        "release_item_id": "4121c862-f89f-f111-b8db-000d3a3adc9b",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Microsoft Fabric November 2023 Update",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/microsoft-fabric-november-2023-update/5172115",
-        "feature_description": "Explore data in a focused experience without creating a report. Quickly investigate and customize your analysis using matrices and visuals, then save the exploration to a workspace or as a report.",
-        "feature_name": "Explore",
-        "last_modified": "2026-08-24",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q4 2026",
-        "release_item_id": "e1ba1ef1-03a0-f111-b8db-000d3a3ad6b6",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1130,
+      "total_items": 1132,
       "total_pages": 12
     }
   }

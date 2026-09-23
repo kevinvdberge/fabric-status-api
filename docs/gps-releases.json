@@ -1,9 +1,51 @@
 {
-  "generatedAt": "2026-09-23T18:14:30.821Z",
+  "generatedAt": "2026-09-23T21:33:02.353Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Database copy now enforces network security perimeter (NSP) rules to provide protection from data exfiltration outside of the defined NSP boundary.",
+        "feature_name": "Enforce Network Security Perimeter Rules with Azure SQL Database Copy",
+        "last_modified": "2026-09-23",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q1 2027",
+        "release_item_id": "f4672cfa-8eb7-f111-aaab-7ced8d70bfac",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Use the replication lag metric in the Azure Portal to monitor the synchronization state of replicas.",
+        "feature_name": "Measure Geo Replication Lag for Azure SQL Database Replicas in the Azure Portal",
+        "last_modified": "2026-09-23",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "aed924a9-8eb7-f111-aaab-00224808683d",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Failover groups for Azure SQL Database now supports up to four partner servers to provide more flexibility for disaster recovery, regional scale-out, and migration scenarios.",
+        "feature_name": "Support for Up to Four Partner Servers with Failover Groups",
+        "last_modified": "2026-09-23",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "8759dc33-8fb7-f111-aaab-7ced8d70b9bd",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -15,6 +57,20 @@
         "product_name": "SQL database",
         "release_date": "Q4 2026",
         "release_item_id": "5685c491-50b7-f111-aaab-7ced8d70be29",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Azure SQL Database Hyperscale now supports up to four geo-replicas to provide more flexibility for disaster recovery, regional scale-out, and migration scenarios.",
+        "feature_name": "Support for Up to Four Geo-Replicas with Hyperscale",
+        "last_modified": "2026-09-23",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "507a5144-87b7-f111-aaab-7ced8d70b853",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -45,6 +101,20 @@
         "release_item_id": "2dae2810-6cb7-f111-aaab-7ced8d70bf41",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "New metadata sync and more in SQL Analytics Endpoint (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-metadata-sync-and-more-in-SQL-Analytics-Endpoint-Preview/ba-p/5183137",
+        "feature_description": "New version of the metadata sync for SQL analytics endpoint built on a new architecture. This delivers,- Data refresh in seconds, not minutes- Ability to turn on this feature for a workspace- Support for v2 checkpoints (at GA)- Multiple performance improvements- Upgrade existing SQL Analytics Endpoints to new metadata sync (at GA)",
+        "feature_name": "SQL Analytics Endpoint - New Metadata sync",
+        "last_modified": "2026-09-23",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q2 2026",
+        "release_item_id": "511823c2-744d-f111-bec7-002248085b3f",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1333,76 +1403,6 @@
         "release_item_id": "d069ec35-02a1-f111-b8db-000d3a3ad657",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Securing the Power Query connector ecosystem in Fabric",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Securing-the-Power-Query-connector-ecosystem-in-Fabric/ba-p/5195164",
-        "feature_description": "Microsoft Fabric will improve the Google BigQuery connector experience by addressing query folding, data type handling, and connector reliability issues, enabling more consistent data access and transformation scenarios through Power Query-based experiences.",
-        "feature_name": "Connectors - Improved Google BigQuery connector reliability and query support",
-        "last_modified": "2026-08-26",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "befaeef2-736a-f111-a826-000d3a36696c",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Adding expand and collapse icons to the column headers when more than one column is added, like how there are expand and collapse icons for row headers when there are more than one row added to the matrix in Power BI.",
-        "feature_name": "Matrix expand and collapse icons on column headers",
-        "last_modified": "2026-08-26",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "a5e3a618-146f-f111-ab0d-000d3a376137",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Evaluate Fabric workload performance with the modern evaluation engine for VNet data gateways (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Evaluate-Fabric-workload-performance-with-the-modern-evaluation/ba-p/5330293",
-        "feature_description": "We are introducing a .NET (NetCore) query evaluator for the VNET data gateway.The evaluator executes mashup queries; moving it to a modern .NET runtime modernizes how queries run. With this update:- Query evaluation on the VNET data gateway runs on a modern .NET runtime.- Performance, security, and long-term supportability improve.- The gateway is positioned to benefit from ongoing .NET investments.This reliability and performance investment is available initially as a preview.",
-        "feature_name": "Gateways - Performance improvement in VNet gateway through the modern .NetCore evaluator enablement",
-        "last_modified": "2026-08-26",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "6693ef43-ee7e-f111-ab0f-000d3a5a7aa2",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Reference OneLake files directly in your report visuals for images and maps.",
-        "feature_name": "OneLake file URLs for report visuals",
-        "last_modified": "2026-08-26",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "2774e8e2-ed5a-f111-bec7-000d3a376137",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "New visual defaults to overhaul the Power BI base report theme to create professional looking reports in seconds. This update incorporates many of the latest updates we have made to reports and report theming. This update also includes increasing the default page size to 1080x1920. Report theme customizaton improvements such as color palettes and custom theme authoring from the formatting pane available in both Desktop and web.",
-        "feature_name": "Modern visual defaults and customizing theme improvements",
-        "last_modified": "2026-08-26",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "10e2a1c0-d664-f111-a826-000d3a5a7aa2",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1132,
+      "total_items": 1136,
       "total_pages": 12
     }
   }

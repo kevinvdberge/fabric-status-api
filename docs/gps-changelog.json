@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-09-23T23:57:56.154Z",
+  "generatedAt": "2026-09-24T04:01:44.982Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 123,
+  "count": 113,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-09-24",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Unified GetData Full Page Experience",
+            "last_modified": "2026-09-24",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "b3544bc9-afb7-f111-aaab-7ced8d70b853",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 8,
         "date": "2026-09-23",
@@ -1597,158 +1616,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 11,
-        "date": "2026-08-24",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Build Agent with AI Mode in Data Agent",
-            "last_modified": "2026-08-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q2 2026",
-            "release_item_id": "db90d1e4-cbf0-f011-8407-002248096d54",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Data Agent A365 Identity and Observability",
-            "last_modified": "2026-08-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2026",
-            "release_item_id": "51ca432f-f39f-f111-b8db-000d3a5c7513",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Data Agent as an MCP Server",
-            "last_modified": "2026-08-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2025",
-            "release_item_id": "216667c8-3e68-f011-bec3-000d3a329ecb",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Fabric data agent integration with Azure AI Foundry",
-            "last_modified": "2026-08-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2025",
-            "release_item_id": "b1c46b53-f390-ef11-ac21-6045bd062aa2",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Improved NL2SQL Experiences",
-            "last_modified": "2026-08-24",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q2 2026",
-            "release_item_id": "7d8ccddd-a1f0-f011-8406-6045bd026004",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31",
-              "Description updated"
-            ],
-            "feature_name": "Regular expressions",
-            "last_modified": "2026-08-24",
-            "product_name": "Data Warehouse",
-            "release_date": "Q4 2026",
-            "release_item_id": "aceeae17-dfb8-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "T-SQL language improvements",
-            "last_modified": "2026-08-24",
-            "product_name": "Data Warehouse",
-            "release_date": "Q4 2026",
-            "release_item_id": "ce1edca4-aa9f-f111-b8db-000d3a3ad8c1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Type General availability -> Public preview"
-            ],
-            "feature_name": "Card Visual - Trend Chart",
-            "last_modified": "2026-08-24",
-            "product_name": "Power BI",
-            "release_date": "Q4 2026",
-            "release_item_id": "df66c8a5-d46f-f111-ab0d-000d3a376137",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Donut Chart - Center Value",
-            "last_modified": "2026-08-24",
-            "product_name": "Power BI",
-            "release_date": "Q3 2026",
-            "release_item_id": "735659bf-146f-f111-ab0d-000d3a376137",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Explore",
-            "last_modified": "2026-08-24",
-            "product_name": "Power BI",
-            "release_date": "Q4 2026",
-            "release_item_id": "e1ba1ef1-03a0-f111-b8db-000d3a3ad6b6",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Quick visual edits",
-            "last_modified": "2026-08-24",
-            "product_name": "Power BI",
-            "release_date": "Q1 2027",
-            "release_item_id": "4121c862-f89f-f111-b8db-000d3a3adc9b",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 123
+    "total_items": 113
   }
 }

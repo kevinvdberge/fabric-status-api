@@ -1,26 +1,87 @@
 {
-  "generatedAt": "2026-09-24T21:49:03.154Z",
+  "generatedAt": "2026-09-25T00:15:14.762Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 114,
+  "count": 117,
   "changelog": {
     "days": [
       {
         "count": 5,
-        "date": "2026-09-24",
+        "date": "2026-09-25",
         "items": [
           {
             "active": true,
             "changed_columns": [
-              "Release Date 2026-12-31 -> 2026-09-30"
+              "Release Date 2026-09-30 -> 2026-12-31"
             ],
             "feature_name": "Create and manage namespaces in Ontology",
-            "last_modified": "2026-09-24",
+            "last_modified": "2026-09-25",
             "product_name": "IQ",
-            "release_date": "Q3 2026",
+            "release_date": "Q4 2026",
             "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
             "release_status": "Planned",
             "release_type": "Public preview"
           },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Ontology Health",
+            "last_modified": "2026-09-25",
+            "product_name": "IQ",
+            "release_date": "Q4 2026",
+            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2026-09-30",
+              "Description updated",
+              "Name Ontology Metrics Authoring -> Ontology metrics from semantic models"
+            ],
+            "feature_name": "Ontology metrics from semantic models",
+            "last_modified": "2026-09-25",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Name Public API for Ontology -> Public query API for Ontology"
+            ],
+            "feature_name": "Public query API for Ontology",
+            "last_modified": "2026-09-25",
+            "product_name": "IQ",
+            "release_date": "Q4 2026",
+            "release_item_id": "419cfd8b-face-f011-bbd3-000d3a30273e",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated"
+            ],
+            "feature_name": "Rules for Ontology",
+            "last_modified": "2026-09-25",
+            "product_name": "IQ",
+            "release_date": "Q1 2026",
+            "release_item_id": "9c64d5e2-fdce-f011-bbd3-000d3a3740cc",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
+      {
+        "count": 4,
+        "date": "2026-09-24",
+        "items": [
           {
             "active": true,
             "changed_columns": [
@@ -626,7 +687,7 @@
         ]
       },
       {
-        "count": 9,
+        "count": 8,
         "date": "2026-09-10",
         "items": [
           {
@@ -706,19 +767,6 @@
             "release_item_id": "ca270588-652c-f111-88b4-6045bd0a886d",
             "release_status": "Shipped",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Ontology Metrics Authoring",
-            "last_modified": "2026-09-10",
-            "product_name": "IQ",
-            "release_date": "Q4 2026",
-            "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -1631,6 +1679,6 @@
         ]
       }
     ],
-    "total_items": 114
+    "total_items": 117
   }
 }

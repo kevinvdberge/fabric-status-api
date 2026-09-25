@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T15:16:32.158Z",
+  "generatedAt": "2026-09-25T19:24:44.020Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -17,6 +17,34 @@
         "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Customer Managed Keys (CMK) for Eventhouse (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/customer-managed-keys-cmk-for-eventhouse-preview/5172008",
+        "feature_description": "Customer Managed Keys for Ontology gives organizations control over the encryption keys used to protect ontology data and metadata at rest. This is important for customers with strict compliance, security, or regulatory requirements that require direct control of encryption materials rather than relying only on platform-managed keys.With this capability, customers can:- Use their own managed encryption keys to protect ontology-related data at rest.- Rotate and govern encryption keys according to internal compliance policies.- Align ontology deployments with broader enterprise encryption standards used across data platforms.",
+        "feature_name": "Customer Managed Keys (CMK) for Ontology",
+        "last_modified": "2026-09-25",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "50f83e60-1f40-f111-88b5-000d3a376137",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "General availability of the Microsoft Fabric IQ Ontology item enables teams to maintain a shared model of business entities, properties, and relationships in Fabric. Modelers can connect those definitions to supported data sources and provide business context to supported analytics and agent experiences. The release covers the ontology item and its supported capabilities; individual integrations, security features, and advanced modeling capabilities retain their own release milestones.",
+        "feature_name": "Ontology item GA",
+        "last_modified": "2026-09-25",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "2a543dc3-74db-f011-8544-000d3a3740cc",
+        "release_status": "Planned",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -44,7 +72,7 @@
         "release_date": "Q4 2026",
         "release_item_id": "419cfd8b-face-f011-bbd3-000d3a30273e",
         "release_status": "Planned",
-        "release_type": "Public preview"
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -57,6 +85,20 @@
         "product_name": "IQ",
         "release_date": "Q3 2026",
         "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Graph in Fabric (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Graph-in-Fabric-Generally-Available/ba-p/5190748",
+        "feature_description": "Fabric IQ brings Ontology and Graph together so customers can move from a shared business model to advanced relationship analysis. Customers can understand how business concepts connect, choose the data most relevant to their scenario, and use Graph for multi-step impact analysis, dependency exploration, and path-based questions.",
+        "feature_name": "Fabric Graph integration with Ontology: From shared business meaning to connected-data insights",
+        "last_modified": "2026-09-25",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "7ec29e0d-ad9d-f111-b8db-6045bd02b667",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -129,76 +171,6 @@
         "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Database copy now enforces network security perimeter (NSP) rules to provide protection from data exfiltration outside of the defined NSP boundary.",
-        "feature_name": "Enforce Network Security Perimeter Rules with Azure SQL Database Copy",
-        "last_modified": "2026-09-23",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q1 2027",
-        "release_item_id": "f4672cfa-8eb7-f111-aaab-7ced8d70bfac",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Use the replication lag metric in the Azure Portal to monitor the synchronization state of replicas.",
-        "feature_name": "Measure Geo Replication Lag for Azure SQL Database Replicas in the Azure Portal",
-        "last_modified": "2026-09-23",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "aed924a9-8eb7-f111-aaab-00224808683d",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Failover groups for Azure SQL Database now supports up to four partner servers to provide more flexibility for disaster recovery, regional scale-out, and migration scenarios.",
-        "feature_name": "Support for Up to Four Partner Servers with Failover Groups",
-        "last_modified": "2026-09-23",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "8759dc33-8fb7-f111-aaab-7ced8d70b9bd",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Customers can now initiate a restart/failover of their databases (singleton, Hyperscale, as well as ones in an elastic pool) in the Azure Portal without the need to either write scripts against the Rest AP or call support.",
-        "feature_name": "Enable Customers to Restart Databases in Azure SQL DB via the Azure Portal",
-        "last_modified": "2026-09-23",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "5685c491-50b7-f111-aaab-7ced8d70be29",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Azure SQL Database Hyperscale now supports up to four geo-replicas to provide more flexibility for disaster recovery, regional scale-out, and migration scenarios.",
-        "feature_name": "Support for Up to Four Geo-Replicas with Hyperscale",
-        "last_modified": "2026-09-23",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "507a5144-87b7-f111-aaab-7ced8d70b853",
-        "release_status": "Planned",
-        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1403,6 +1375,34 @@
         "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "A commonly requested new capability for Output Destinations is the ability to merge, or upsert, data into previously loaded rows in the destination table. We aim to provide this support for Fabric Lakehouse destination.",
+        "feature_name": "Dataflows - Merge/Upsert Support for Output Destinations",
+        "last_modified": "2026-08-26",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q4 2026",
+        "release_item_id": "67d0f235-4521-f011-9989-6045bd030c4d",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "New Dataflow Gen2 data destinations and experience improvements",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/new-dataflow-gen2-data-destinations-and-experience-improvements/5172568",
+        "feature_description": "We are introducing Google Cloud Storage (GCS) as a new data destination for Dataflow Gen2 in Preview, enabling customers to land transformed data from Microsoft Fabric directly into Google Cloud Storage using Dataflow Gen2's low-code Power Query experience.This preview expands Dataflow Gen2's destination ecosystem to better support multi-cloud data architectures, giving customers with existing investments in Google Cloud a simple way to integrate Fabric-based transformations into their broader data estate.Key benefits and scenarios:* Publish curated outputs from Dataflow Gen2 directly to Google Cloud Storage buckets* Support multi-cloud ingestion and data sharing scenarios while centralizing transformation logic in Fabric* Enable teams to prepare and standardize data in Fabric before making it available to GCP-based analytics, processing, or downstream pipelinesDuring Preview, the Google Cloud Storage data destination is intended for evaluation and feedback, allowing customers to validate connectivity patterns, performance characteristics, and integration workflows ahead of broader production use.This release is part of our broader effort to make Dataflow Gen2 a flexible, low-code transformation layer across clouds, with ongoing investments planned to further mature and expand multi-cloud destination support in Fabric.",
+        "feature_name": "Dataflows - New Destination: Google Cloud Storage",
+        "last_modified": "2026-08-26",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q4 2026",
+        "release_item_id": "45a4fc04-9ab3-f011-bbd3-000d3a30273e",
+        "release_status": "Planned",
+        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1137,
+      "total_items": 1135,
       "total_pages": 12
     }
   }

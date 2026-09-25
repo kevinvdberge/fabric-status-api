@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T19:24:44.020Z",
+  "generatedAt": "2026-09-25T22:37:53.178Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -13,10 +13,24 @@
         "last_modified": "2026-09-25",
         "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
         "product_name": "IQ",
-        "release_date": "Q4 2026",
+        "release_date": "Q1 2027",
         "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
         "release_status": "Planned",
-        "release_type": "Public preview"
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
+        "feature_name": "Full Ontology canvas experience",
+        "last_modified": "2026-09-25",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
+        "release_status": "Planned",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -58,7 +72,7 @@
         "release_date": "Q4 2026",
         "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
         "release_status": "Planned",
-        "release_type": "Public preview"
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -76,15 +90,15 @@
       },
       {
         "active": true,
-        "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-iq-the-semantic-foundation-for-enterprise-ai/5172473",
-        "feature_description": "Microsoft Fabric IQ Ontology lets modelers reference measures defined in a semantic model as metrics in their ontology. The metric preserves its connection to the source calculation, so consumers can use the business meaning associated with a metric without maintaining a separate copied definition. This helps teams keep metric definitions aligned between semantic models and ontology-based experiences. Authoring new SQL, KQL, or DAX metric calculations directly in the ontology is a separate future capability.",
-        "feature_name": "Ontology metrics from semantic models",
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "The Ontology migration experience helps existing Microsoft Fabric IQ Ontology users move from the earlier ontology version to the updated model and experience. Users receive onboarding and migration guidance so they can understand the transition and its effect on their ontology workflows. Supported guidance should be reviewed before migration; this release does not promise that every connected experience migrates without additional steps.",
+        "feature_name": "Migration to the updated Ontology experience",
         "last_modified": "2026-09-25",
         "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
         "product_name": "IQ",
         "release_date": "Q3 2026",
-        "release_item_id": "cd2b1f9e-3e40-f111-88b4-000d3a308b7b",
+        "release_item_id": "c5b062b1-b8e6-4319-af42-c9369ccd032a",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -730,20 +744,6 @@
         "release_date": "Q4 2025",
         "release_item_id": "8bc8911e-a461-f011-bec1-000d3a35e553",
         "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
-        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
-        "feature_name": "Full Ontology canvas experience",
-        "last_modified": "2026-09-09",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
-        "release_status": "Planned",
         "release_type": "Public preview"
       },
       {

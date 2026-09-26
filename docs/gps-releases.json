@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-26T14:51:53.312Z",
+  "generatedAt": "2026-09-26T18:17:29.053Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Visualize and Explore Data with Real-Time Dashboards",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/visualize-and-explore-data-with-real-time-dashboards/5173172",
+        "feature_description": "Real-Time Dashboards currently supports a fixed set of native visualization types, which limits users when they have unique or complex data patterns to display. Visual Builder solves this by enabling on-demand generation of custom visualizations- combining AI-generated KQL queries with tailored HTML/JavaScript rendering- for any analytical need not covered by our native tile library",
+        "feature_name": "RTD AI based Visual Builder",
+        "last_modified": "2026-09-26",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "233c01f6-ba72-f111-ab0f-6045bd00f798",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
@@ -143,20 +157,6 @@
         "release_item_id": "b3544bc9-afb7-f111-aaab-7ced8d70b853",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Visualize and Explore Data with Real-Time Dashboards",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/visualize-and-explore-data-with-real-time-dashboards/5173172",
-        "feature_description": "Real-Time Dashboards currently supports a fixed set of native visualization types, which limits users when they have unique or complex data patterns to display. Visual Builder solves this by enabling on-demand generation of custom visualizations- combining AI-generated KQL queries with tailored HTML/JavaScript rendering- for any analytical need not covered by our native tile library",
-        "feature_name": "RTD AI based Visual Builder",
-        "last_modified": "2026-09-24",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q4 2026",
-        "release_item_id": "233c01f6-ba72-f111-ab0f-6045bd00f798",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       },
       {
         "active": true,

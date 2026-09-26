@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-09-26T14:51:53.312Z",
+  "generatedAt": "2026-09-26T18:17:29.053Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 106,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-09-26",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "RTD AI based Visual Builder",
+            "last_modified": "2026-09-26",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "233c01f6-ba72-f111-ab0f-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 15,
         "date": "2026-09-25",
@@ -210,22 +229,9 @@
         ]
       },
       {
-        "count": 4,
+        "count": 3,
         "date": "2026-09-24",
         "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "RTD AI based Visual Builder",
-            "last_modified": "2026-09-24",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2026",
-            "release_item_id": "233c01f6-ba72-f111-ab0f-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
           {
             "active": true,
             "changed_columns": [

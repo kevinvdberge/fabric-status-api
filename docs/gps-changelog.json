@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-26T23:43:48.201Z",
+  "generatedAt": "2026-09-27T01:51:00.707Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 106,
+  "count": 101,
   "changelog": {
     "days": [
       {
@@ -1462,79 +1462,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 5,
-        "date": "2026-08-27",
-        "items": [
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Cosmos DB Mirroring for MongoDB",
-            "last_modified": "2026-08-27",
-            "product_name": "Cosmos DB",
-            "release_date": "Q4 2026",
-            "release_item_id": "794b6b48-174b-f111-bec7-6045bd00f506",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Fabric Cosmos DB Reverse-ETL",
-            "last_modified": "2026-08-27",
-            "product_name": "Cosmos DB",
-            "release_date": "Q3 2026",
-            "release_item_id": "8275e94e-174b-f111-bec7-6045bd00f506",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Mirroring TTL",
-            "last_modified": "2026-08-27",
-            "product_name": "Cosmos DB",
-            "release_date": "Q3 2026",
-            "release_item_id": "854b6b48-174b-f111-bec7-6045bd00f506",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Type Public preview -> General availability"
-            ],
-            "feature_name": "OneLake catalog - tables data preview and quick actions",
-            "last_modified": "2026-08-27",
-            "product_name": "OneLake",
-            "release_date": "Q3 2026",
-            "release_item_id": "25d26f63-36b3-f011-bbd3-000d3a3740cc",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Date picker slicer to set relative and manual date ranges",
-            "last_modified": "2026-08-27",
-            "product_name": "Power BI",
-            "release_date": "Q3 2026",
-            "release_item_id": "389a9a25-5ca2-f111-b8db-000d3a3ad841",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 106
+    "total_items": 101
   }
 }

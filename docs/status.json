@@ -1,32 +1,33 @@
 {
-  "generatedAt": "2026-09-28T17:00:58.399Z",
+  "generatedAt": "2026-09-28T22:32:53.189Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
-    "resolved": 232,
+    "active": 1,
+    "resolved": 231,
     "total": 232
   },
   "summary": {
-    "activeIncidents": 0,
-    "resolvedIncidents": 232,
-    "hasActive": false
+    "activeIncidents": 1,
+    "resolvedIncidents": 231,
+    "hasActive": true
   },
-  "active": [],
-  "resolved": [
+  "active": [
     {
-      "type": "resolved",
-      "serviceNotificationId": "f772d60f-36b7-f111-aaab-00224808683d",
-      "serviceStatus": "",
-      "region": "West Europe",
-      "reportedRaw": "9/23/2026 2:30:01 AM",
-      "reportedAt": "2026-09-23T02:30:01.000Z",
-      "resolvedRaw": "9/23/2026 2:55:00 AM",
-      "resolvedAt": "2026-09-23T02:55:00.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers in West Europe E cluster may have experienced intermittent refresh failures and delays.</p></div>",
-      "detailsText": "Power BI customers in West Europe E cluster may have experienced intermittent refresh failures and delays.",
-      "hash": "c2ed0415f4c383fcd87ea37f38a408d8cfa190a81f1682e47b2b1829f1ff77f2"
-    },
+      "type": "active",
+      "serviceNotificationId": "ec8ef58b-6fbb-f111-aaad-000d3a373704",
+      "serviceStatus": "Degraded",
+      "region": "North Europe",
+      "reportedRaw": "9/28/2026 12:03:50 PM",
+      "reportedAt": "2026-09-28T12:03:50.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span data-teams=\"true\">Fabric customers in North Europe region may experience issues creating new Ontology artifacts. Engineers are working on a fix, and an update would be provided by an ETA end of day 09/28/2026.</span></p></div>",
+      "detailsText": "Fabric customers in North Europe region may experience issues creating new Ontology artifacts. Engineers are working on a fix, and an update would be provided by an ETA end of day 09/28/2026.",
+      "hash": "e37b6bbadb635f2f99667ad6c69bbb4e8510b6db40bd7745d46b03480d07d9e8"
+    }
+  ],
+  "resolved": [
     {
       "type": "resolved",
       "serviceNotificationId": "b3ac9d8d-7ab3-f111-aaac-70a8a59cbbb7",

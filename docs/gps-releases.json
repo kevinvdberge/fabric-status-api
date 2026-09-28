@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-09-28T17:00:58.433Z",
+  "generatedAt": "2026-09-28T22:32:53.222Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
+        "feature_name": "Full Ontology canvas experience",
+        "last_modified": "2026-09-28",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Visualize and Explore Data with Real-Time Dashboards",
@@ -29,20 +43,6 @@
         "product_name": "IQ",
         "release_date": "Q1 2027",
         "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
-        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
-        "feature_name": "Full Ontology canvas experience",
-        "last_modified": "2026-09-25",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q4 2026",
-        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
         "release_status": "Planned",
         "release_type": "General availability"
       },

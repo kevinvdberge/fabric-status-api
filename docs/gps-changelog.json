@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T23:37:11.485Z",
+  "generatedAt": "2026-09-28T01:59:18.597Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 101,
+  "count": 96,
   "changelog": {
     "days": [
       {
@@ -1391,79 +1391,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 5,
-        "date": "2026-08-28",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Modeling Copilot",
-            "last_modified": "2026-08-28",
-            "product_name": "Power BI",
-            "release_date": "Q2 2026",
-            "release_item_id": "18e80601-8e2c-f111-88b4-000d3a376137",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Activator as a publisher of Business Events",
-            "last_modified": "2026-08-28",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "ffd42d88-e631-f111-88b3-000d3a376c0f",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Analyze Business Events in Eventhouse",
-            "last_modified": "2026-08-28",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2026",
-            "release_item_id": "a1bbb828-e731-f111-88b3-000d3a376c0f",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Type General availability -> Public preview"
-            ],
-            "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
-            "last_modified": "2026-08-28",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Eventstream reference data join with one lake delta tables",
-            "last_modified": "2026-08-28",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "816ee551-33a5-f011-bbd3-000d3a30273e",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 101
+    "total_items": 96
   }
 }

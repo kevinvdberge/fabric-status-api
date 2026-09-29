@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:20:12.710Z",
+  "generatedAt": "2026-09-29T20:06:13.263Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -101,6 +101,20 @@
         "release_item_id": "4ffd1a22-b7bb-f111-aaad-000d3a373559",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s new in Fabric Business Events",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/What-s-new-in-Fabric-Business-Events/ba-p/5189137",
+        "feature_description": "**Overview**Business Events is now generally available in Microsoft Fabric, providing a governed, end-to-end experience for defining, publishing, discovering, consuming, and monitoring meaningful business signals across Fabric.**Key Capabilities*** Unified Business Event Experience: Create, discover, publish, consume, and manage Business Events directly from Real-Time hub.* Multiple Native Publishers: Publish events from Eventstream, Activator, Notebook, and User Data Functions.* Flexible Event Consumption: Connect Business Events to Activator, Eventstream, Eventhouse, notebooks, and User Data Functions.* Governed Event Schemas: Define and manage reusable event contracts through Schema Registry, including schema versioning and validation.* Data Preview and Observability: Inspect recent events by publisher or consumer to validate payloads, monitor event flow, and troubleshoot delivery.* Role-Based Data Access: Control who can publish and consume events through data access roles.* Low-Code and Pro-Code Support: Build event-driven solutions through guided UI experiences or programmable APIs.* Integrated Lifecycle Management: Manage publishers, consumers, schemas, permissions, and operational insights from a unified experience.",
+        "feature_name": "Business Events (GA)",
+        "last_modified": "2026-09-29",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "b5dc26c3-899a-f111-b8db-6045bd02b37f",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1389,20 +1403,6 @@
         "release_item_id": "18e80601-8e2c-f111-88b4-000d3a376137",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Adds a **date picker** mode for date slicers so authors can pick a relative default range (e.g., 'last full month') that automatically rolls forward as time passes when published, without authors having to update the report each period. Report viewers can override it to filter to other relative ranges or any manual date range.",
-        "feature_name": "Date picker slicer to set relative and manual date ranges",
-        "last_modified": "2026-08-27",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q3 2026",
-        "release_item_id": "389a9a25-5ca2-f111-b8db-000d3a3ad841",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {

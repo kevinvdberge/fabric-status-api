@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-09-29T02:18:51.356Z",
+  "generatedAt": "2026-09-29T08:50:29.164Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "ec8ef58b-6fbb-f111-aaad-000d3a373704",
-      "serviceStatus": "Degraded",
-      "region": "North Europe",
-      "reportedRaw": "9/28/2026 12:03:50 PM",
-      "reportedAt": "2026-09-28T12:03:50.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span data-teams=\"true\">Fabric customers in North Europe region may experience issues creating new Ontology artifacts. Engineers are working on a fix, and an update would be provided by an ETA end of day 09/28/2026.</span></p></div>",
-      "detailsText": "Fabric customers in North Europe region may experience issues creating new Ontology artifacts. Engineers are working on a fix, and an update would be provided by an ETA end of day 09/28/2026.",
-      "hash": "e37b6bbadb635f2f99667ad6c69bbb4e8510b6db40bd7745d46b03480d07d9e8"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

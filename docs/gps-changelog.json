@@ -1,9 +1,119 @@
 {
-  "generatedAt": "2026-09-29T02:18:51.387Z",
+  "generatedAt": "2026-09-29T08:50:29.216Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 97,
+  "count": 105,
   "changelog": {
     "days": [
+      {
+        "count": 8,
+        "date": "2026-09-29",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Azure Maps geocoding auditor",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "05972e72-b8bb-f111-aaad-000d3a373559",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Azure Maps multiple data layers",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "a1de82b7-b8bb-f111-aaad-000d3a373559",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Filter action button to show filter options on the visual",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "4ffd1a22-b7bb-f111-aaad-000d3a373559",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Matrix and table filter action button",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "ed888d13-03a1-f111-b8db-000d3a3ad657",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power BI Markdown visual",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "0133b7a1-b6bb-f111-aaad-000d3a373559",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power BI relative slicers week starts on option",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "8d8565f4-b5bb-f111-aaad-000d3a373559",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Power BI Vega visual",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "7c2e515a-b6bb-f111-aaad-000d3a373559",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Sort action button to show filter options on the visual",
+            "last_modified": "2026-09-29",
+            "product_name": "Power BI",
+            "release_date": "Q1 2027",
+            "release_item_id": "e8617575-b7bb-f111-aaad-000d3a373559",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-09-28",
@@ -1412,6 +1522,6 @@
         ]
       }
     ],
-    "total_items": 97
+    "total_items": 105
   }
 }

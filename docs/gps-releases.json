@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T20:06:13.263Z",
+  "generatedAt": "2026-09-29T23:42:39.699Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -104,6 +104,20 @@
       },
       {
         "active": true,
+        "blog_title": "Building real-time, event-driven applications on Mirrored Database Change Feeds with Fabric Eventstreams (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Building-real-time-event-driven-applications-on-Mirrored/ba-p/5190893",
+        "feature_description": "Eventstream now streams change feed updates from Fabric Mirrored Databases, so you can run real-time analytics on operational data without affecting source systems. It supports Mirrored Database sources that expose Delta change feeds.With this capability, you can:- Stream change feed updates from Mirrored Databases into Eventstream.- Build dashboards, alerts, and automated actions with no-code and SQL tools.- Build event driven applications with change data feed.",
+        "feature_name": "Stream processing for Mirrored Database change feeds in Eventstream",
+        "last_modified": "2026-09-29",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "d71ecbb9-9b41-f111-88b5-002248085b3f",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
         "blog_title": "What’s new in Fabric Business Events",
         "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/What-s-new-in-Fabric-Business-Events/ba-p/5189137",
         "feature_description": "**Overview**Business Events is now generally available in Microsoft Fabric, providing a governed, end-to-end experience for defining, publishing, discovering, consuming, and monitoring meaningful business signals across Fabric.**Key Capabilities*** Unified Business Event Experience: Create, discover, publish, consume, and manage Business Events directly from Real-Time hub.* Multiple Native Publishers: Publish events from Eventstream, Activator, Notebook, and User Data Functions.* Flexible Event Consumption: Connect Business Events to Activator, Eventstream, Eventhouse, notebooks, and User Data Functions.* Governed Event Schemas: Define and manage reusable event contracts through Schema Registry, including schema versioning and validation.* Data Preview and Observability: Inspect recent events by publisher or consumer to validate payloads, monitor event flow, and troubleshoot delivery.* Role-Based Data Access: Control who can publish and consume events through data access roles.* Low-Code and Pro-Code Support: Build event-driven solutions through guided UI experiences or programmable APIs.* Integrated Lifecycle Management: Manage publishers, consumers, schemas, permissions, and operational insights from a unified experience.",
@@ -115,6 +129,20 @@
         "release_item_id": "b5dc26c3-899a-f111-b8db-6045bd02b37f",
         "release_status": "Shipped",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing Enhanced Capabilities in Eventstream: Derived Streams, Edit modes, and Smart Routing",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-enhanced-capabilities-in-eventstream-derived-streams-edit-modes-and-/5173180",
+        "feature_description": "Eventstream now can distinguishes between different event shapes, making it easier to process and route to destination. You can design separate transformation paths for each shape with greater flexibility.With this capability, you can:- Identify distinct event shapes for the same Eventstream.- Build separate transformation paths for each shape.- Process complex, multi-shape data easily.",
+        "feature_name": "Improved Eventstream experience for non-schematized events",
+        "last_modified": "2026-09-29",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "b1a70168-24a6-f011-bbd3-000d3a5b0efa",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1373,34 +1401,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q2 2026",
         "release_item_id": "ffd42d88-e631-f111-88b3-000d3a376c0f",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
-        "feature_description": "Route and analyze Fabric Business Events in Eventhouse for real-time querying and analytics.",
-        "feature_name": "Analyze Business Events in Eventhouse",
-        "last_modified": "2026-08-28",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q2 2026",
-        "release_item_id": "a1bbb828-e731-f111-88b3-000d3a376c0f",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Copilot in Fabric (preview) is available worldwide",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/copilot-in-fabric-preview-is-available-worldwide%C2%A0/5172049",
-        "feature_description": "Creators in Fabric can easily improve their semantic models with Copilot. Powered by Power BI Modeling MCP, you will be able to leverage AI to modify semantic model to meet new requirements for reporting, including but optiming your semantic model for AI.",
-        "feature_name": "Modeling Copilot",
-        "last_modified": "2026-08-28",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q2 2026",
-        "release_item_id": "18e80601-8e2c-f111-88b4-000d3a376137",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

@@ -1,9 +1,148 @@
 {
-  "generatedAt": "2026-09-30T15:35:41.783Z",
+  "generatedAt": "2026-09-30T20:18:16.492Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 108,
+  "count": 116,
   "changelog": {
     "days": [
+      {
+        "count": 10,
+        "date": "2026-09-30",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31",
+              "Description updated",
+              "Name Optimized DELETE -> Optimized Truncate or DELETE all data in a table"
+            ],
+            "feature_name": "Optimized Truncate or DELETE all data in a table",
+            "last_modified": "2026-09-30",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "bfd72f56-e13c-f111-88b5-6045bd0a886d",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Azure blob storage events enablement with Tenant Private Links",
+            "last_modified": "2026-09-30",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "c6846700-9e3e-f111-88b5-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Business Events as a Source in Eventstream",
+            "last_modified": "2026-09-30",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "0ba4b543-d83d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Data Preview for Business Events",
+            "last_modified": "2026-09-30",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "fa80d3f3-0e98-f111-8075-70a8a5aee129",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability",
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
+            "last_modified": "2026-09-30",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-09-30",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Publish Business Events Samples from Real-Time Hub",
+            "last_modified": "2026-09-30",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "d0437aab-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "User Data Function as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-09-30",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "136ee5c3-d63d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Presence Expansion in USGov (Virginia and Texas GCC-H)",
+            "last_modified": "2026-09-30",
+            "product_name": "SQL database",
+            "release_date": "Q3 2026",
+            "release_item_id": "2dae2810-6cb7-f111-aaab-7ced8d70bf41",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Workspace level Private Link for SQL database",
+            "last_modified": "2026-09-30",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 11,
         "date": "2026-09-29",
@@ -397,7 +536,7 @@
         ]
       },
       {
-        "count": 3,
+        "count": 2,
         "date": "2026-09-24",
         "items": [
           {
@@ -425,24 +564,11 @@
             "release_item_id": "f52bbc7f-0fb1-f111-aaab-70a8a59cbbb7",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2026-09-30"
-            ],
-            "feature_name": "Workspace level Private Link for SQL database",
-            "last_modified": "2026-09-24",
-            "product_name": "SQL database",
-            "release_date": "Q3 2026",
-            "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           }
         ]
       },
       {
-        "count": 3,
+        "count": 2,
         "date": "2026-09-23",
         "items": [
           {
@@ -468,19 +594,6 @@
             "product_name": "Data Warehouse",
             "release_date": "Q2 2026",
             "release_item_id": "511823c2-744d-f111-bec7-002248085b3f",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Presence Expansion in USGov (Virginia and Texas GCC-H)",
-            "last_modified": "2026-09-23",
-            "product_name": "SQL database",
-            "release_date": "Q3 2026",
-            "release_item_id": "2dae2810-6cb7-f111-aaab-7ced8d70bf41",
             "release_status": "Shipped",
             "release_type": "Public preview"
           }
@@ -1561,6 +1674,6 @@
         ]
       }
     ],
-    "total_items": 108
+    "total_items": 116
   }
 }

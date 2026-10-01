@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-10-01T12:23:56.749Z",
+  "generatedAt": "2026-10-01T18:30:40.832Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 116,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-10-01",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Fabric Graph integration with Ontology: From shared business meaning to connected-data insights",
+            "last_modified": "2026-10-01",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "7ec29e0d-ad9d-f111-b8db-6045bd02b667",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Migration to the updated Ontology experience",
+            "last_modified": "2026-10-01",
+            "product_name": "IQ",
+            "release_date": "Q3 2026",
+            "release_item_id": "c5b062b1-b8e6-4319-af42-c9369ccd032a",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 11,
         "date": "2026-09-30",
@@ -358,7 +390,7 @@
         ]
       },
       {
-        "count": 14,
+        "count": 12,
         "date": "2026-09-25",
         "items": [
           {
@@ -386,32 +418,6 @@
             "release_item_id": "50f83e60-1f40-f111-88b5-000d3a376137",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Fabric Graph integration with Ontology: From shared business meaning to connected-data insights",
-            "last_modified": "2026-09-25",
-            "product_name": "IQ",
-            "release_date": "Q3 2026",
-            "release_item_id": "7ec29e0d-ad9d-f111-b8db-6045bd02b667",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Migration to the updated Ontology experience",
-            "last_modified": "2026-09-25",
-            "product_name": "IQ",
-            "release_date": "Q3 2026",
-            "release_item_id": "c5b062b1-b8e6-4319-af42-c9369ccd032a",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,

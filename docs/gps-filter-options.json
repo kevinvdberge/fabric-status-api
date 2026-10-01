@@ -1,9 +1,12 @@
 {
-  "generatedAt": "2026-10-01T18:30:40.832Z",
+  "generatedAt": "2026-10-01T22:54:44.900Z",
   "sourceUrl": "https://www.fabric-gps.com/api/filter-options",
   "filterOptions": {
     "product_names": [
       "Administration, Governance and Security",
+      "Azure Cosmos DB",
+      "Azure Database for PostgreSQL",
+      "Azure SQL Database",
       "Conversational Analytics",
       "Cosmos DB",
       "Data Engineering",
@@ -16,7 +19,8 @@
       "OneLake",
       "Power BI",
       "Real-Time Intelligence",
-      "SQL database"
+      "SQL database",
+      "SQL Server on Azure Virtual Machines"
     ],
     "release_types": [
       "General availability",

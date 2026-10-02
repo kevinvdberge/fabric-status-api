@@ -1,9 +1,51 @@
 {
-  "generatedAt": "2026-10-02T08:19:03.901Z",
+  "generatedAt": "2026-10-02T14:52:30.627Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-iq-the-semantic-foundation-for-enterprise-ai/5172473",
+        "feature_description": "Namespaces in Microsoft Fabric IQ Ontology provide a visual way to organize entity types and relationships into meaningful groups. The authoring experience makes it easier to work with ontologies that span multiple teams or business domains, distinguish concepts with the same name, and understand how each concept is organized.With this experience, you can:* Create namespaces directly in the ontology interface, add optional descriptions, and browse existing namespaces in a dedicated list.* Assign entity types and relationship types to a namespace during creation or later, and view their namespace in the configuration pane.* Manage namespaces from their detail pages by updating names and descriptions or deleting namespaces that are no longer referenced, with safeguards for the default namespace.",
+        "feature_name": "Create and manage namespaces in Ontology",
+        "last_modified": "2026-10-02",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
+        "feature_name": "Full Ontology canvas experience",
+        "last_modified": "2026-10-02",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Change your Ontology with confidence. Every saved version is listed newest-first with its timestamp, author, and description, so teams building an Ontology together can always see what changed, who changed it, and roll back to any earlier state.",
+        "feature_name": "Ontology Versioning",
+        "last_modified": "2026-10-02",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "e52b1f9e-3e40-f111-88b4-000d3a308b7b",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
@@ -328,20 +370,6 @@
       },
       {
         "active": true,
-        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
-        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
-        "feature_name": "Full Ontology canvas experience",
-        "last_modified": "2026-09-28",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Item Recovery in Microsoft Fabric (Preview)",
         "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/item-recovery-in-microsoft-fabric-preview/5172041",
         "feature_description": "Soft delete and recovery events for Fabric workspace items, delivered via Azure and Fabric Events.",
@@ -407,20 +435,6 @@
         "product_name": "IQ",
         "release_date": "Q4 2026",
         "release_item_id": "2a543dc3-74db-f011-8544-000d3a3740cc",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-iq-the-semantic-foundation-for-enterprise-ai/5172473",
-        "feature_description": "Namespaces in Microsoft Fabric IQ Ontology provide a visual way to organize entity types and relationships into meaningful groups. The authoring experience makes it easier to work with ontologies that span multiple teams or business domains, distinguish concepts with the same name, and understand how each concept is organized.With this experience, you can:* Create namespaces directly in the ontology interface, add optional descriptions, and browse existing namespaces in a dedicated list.* Assign entity types and relationship types to a namespace during creation or later, and view their namespace in the configuration pane.* Manage namespaces from their detail pages by updating names and descriptions or deleting namespaces that are no longer referenced, with safeguards for the default namespace.",
-        "feature_name": "Create and manage namespaces in Ontology",
-        "last_modified": "2026-09-25",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q4 2026",
-        "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
         "release_status": "Planned",
         "release_type": "General availability"
       },
@@ -1389,20 +1403,6 @@
         "release_item_id": "dc8a0aee-e3c0-f011-bbd3-000d3a5b0efa",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
-        "feature_description": "Route and analyze Fabric Business Events in Eventhouse for real-time querying and analytics.",
-        "feature_name": "Analyze Business Events in Eventhouse",
-        "last_modified": "2026-09-03",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "1ded8037-31a7-f111-b8dd-6045bd019a0d",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {

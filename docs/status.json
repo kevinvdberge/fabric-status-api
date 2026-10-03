@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-10-02T23:17:14.999Z",
+  "generatedAt": "2026-10-03T02:12:06.701Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 231,
-    "total": 231
+    "total": 232
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 231,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "4cbc6486-b9be-f111-aaad-000d3a373cd1",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "10/2/2026 3:41:10 PM",
+      "reportedAt": "2026-10-02T15:41:10.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent. Engineers have identified the root cause and are actively working on deploying a fix. We expect to provide a resolution by October 9, 2026, end of day.</span></span></p><p style=\"margin: 0;\"> </p><p style=\"margin: 0;\"><span style=\"font-size:inherit;\"><span data-teams=\"true\"><strong>Workaround:</strong></span></span></p><p style=\"margin: 0;\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source.</span></span></p><p style=\"margin: 0;\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.</span></span></p></div>",
+      "detailsText": "Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent. Engineers have identified the root cause and are actively working on deploying a fix. We expect to provide a resolution by October 9, 2026, end of day. Workaround: Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source. No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.",
+      "hash": "ab4373569839434ab91433d2182f552b4d08ce720df8dac6b0567728ca7a6a59"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

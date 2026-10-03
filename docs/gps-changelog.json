@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-02T23:17:15.033Z",
+  "generatedAt": "2026-10-03T02:12:06.734Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 187,
+  "count": 184,
   "changelog": {
     "days": [
       {
@@ -2559,53 +2559,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-09-02",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Build Agent with AI Mode Supports Files as Context",
-            "last_modified": "2026-09-02",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2026",
-            "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Build Agent with AI Mode: Support Semantic Models",
-            "last_modified": "2026-09-02",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2026",
-            "release_item_id": "df9398eb-fb68-f111-a826-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Consumer to Creator feedback loop",
-            "last_modified": "2026-09-02",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2026",
-            "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 187
+    "total_items": 184
   }
 }

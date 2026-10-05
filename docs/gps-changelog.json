@@ -1,9 +1,80 @@
 {
-  "generatedAt": "2026-10-05T00:12:31.137Z",
+  "generatedAt": "2026-10-05T05:43:55.753Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 180,
+  "count": 185,
   "changelog": {
     "days": [
+      {
+        "count": 5,
+        "date": "2026-10-05",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Large message support ( 20 MB) for Fabric Event streams",
+            "last_modified": "2026-10-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "4dc5810b-2040-f111-88b5-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Schema registry for Eventstream",
+            "last_modified": "2026-10-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "123d1b43-24a6-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Variable Library support for Eventstream",
+            "last_modified": "2026-10-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "83351219-da49-f111-bec7-000d3a5b0273",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Workspace monitoring log support for Eventstream",
+            "last_modified": "2026-10-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "767f61ff-f13f-f111-88b5-6045bd00f798",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Workspace Private Links for Eventstream Custom Endpoint",
+            "last_modified": "2026-10-05",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "53a8b940-263e-f111-88b5-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 3,
         "date": "2026-10-04",
@@ -2508,6 +2579,6 @@
         ]
       }
     ],
-    "total_items": 180
+    "total_items": 185
   }
 }

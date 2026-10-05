@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T21:44:56.461Z",
+  "generatedAt": "2026-10-05T00:12:31.137Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 184,
+  "count": 180,
   "changelog": {
     "days": [
       {
@@ -2506,66 +2506,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 4,
-        "date": "2026-09-04",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Dataflows - Excel Document Builder for the Excel Workbook (XLSX) destination",
-            "last_modified": "2026-09-04",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "040fd657-b2a8-f111-b8dd-6045bd019dcf",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Dataflows - New Destination: Google BigQuery",
-            "last_modified": "2026-09-04",
-            "product_name": "Data Factory",
-            "release_date": "Q4 2026",
-            "release_item_id": "8ea01c69-98a1-f111-b8db-0022480b837b",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Dataflows - Refresh details in the Fabric Monitoring hub",
-            "last_modified": "2026-09-04",
-            "product_name": "Data Factory",
-            "release_date": "Q3 2026",
-            "release_item_id": "e3d18480-b4a8-f111-b8dd-6045bd019f33",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2027-03-31 -> 2026-09-30"
-            ],
-            "feature_name": "Large message support ( 20 MB) for Fabric Event streams",
-            "last_modified": "2026-09-04",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "4dc5810b-2040-f111-88b5-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 184
+    "total_items": 180
   }
 }

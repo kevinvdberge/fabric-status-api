@@ -1,9 +1,51 @@
 {
-  "generatedAt": "2026-10-06T15:10:36.714Z",
+  "generatedAt": "2026-10-06T20:19:16.708Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-iq-the-semantic-foundation-for-enterprise-ai/5172473",
+        "feature_description": "We are introducing Ontology Health in Microsoft Fabric to help modelers quickly assess whether an ontology is ready for real-world use. With this capability, ontology quality is continuously evaluated across three core areas--foundation, validation, and refinement--ensuring models are structurally sound, properly configured, and operationally ready. With this capability, you can: * Identify structural issues and inconsistencies through foundation checks to ensure the ontology is sound. * Verify required configurations using validation checks to confirm completeness and correctness. * Improve clarity, coverage, and usability with refinement checks for downstream consumption. * Quickly prioritize fixes with results categorized as Critical, Warning, or Information. * Navigate directly to impacted elements with guided actions, enabling faster issue resolution and increased trust in queries, graph experiences, and AI-powered outcomes.",
+        "feature_name": "Ontology Health",
+        "last_modified": "2026-10-06",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q4 2026",
+        "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Workspace-Level Private Link in Microsoft Fabric (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/workspace-level-private-link-in-microsoft-fabric-generally-available/5172560",
+        "feature_description": "Private link allows customers to connect to their SQL DBs via a private endpoint from the customer's virtual network. Workspace level private links will give customers the flexibility to use private link connection to specific workspace(s) which have high security requirements and contain sensitive data while their other workspace can be open to public.",
+        "feature_name": "Workspace level Private Link for SQL database",
+        "last_modified": "2026-10-06",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Outbound access protection for Data Factory (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access-protection-for-data-factory-generally-available/5172006",
+        "feature_description": "Microsoft Fabric's outbound access protection blocks all outbound connections from a workspace by default and only allows approved external connections through managed private endpoints or data connection rules. It applies across workloads such as Data Engineering, Data Factory, Activator, and Data Agent, giving admins granular control over external connectivity.",
+        "feature_name": "Outbound Access Protection for Fabric SQL DB",
+        "last_modified": "2026-10-06",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q1 2026",
+        "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Fabric CI/CD announcements- supporting new items and much more!",
@@ -328,20 +370,6 @@
       },
       {
         "active": true,
-        "blog_title": "Workspace-Level Private Link in Microsoft Fabric (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/workspace-level-private-link-in-microsoft-fabric-generally-available/5172560",
-        "feature_description": "Private link allows customers to connect to their SQL DBs via a private endpoint from the customer's virtual network. Workspace level private links will give customers the flexibility to use private link connection to specific workspace(s) which have high security requirements and contain sensitive data while their other workspace can be open to public.",
-        "feature_name": "Workspace level Private Link for SQL database",
-        "last_modified": "2026-09-30",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
         "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
         "feature_description": "**Business Events Data Preview Overview**Enable developers to inspect, validate, and troubleshoot Business Events when publishing them to downstream consumers. Data Preview provides real-time visibility into event payloads, schema mappings, and event metadata, reducing time-to-value and simplifying event-driven application development.**Key Capabilities*** Real-Time Event Inspection: Preview Business Event payloads as they are generated, allowing developers to validate event content before integrating downstream consumers.* Schema Visibility: View event schemas and payload structures side-by-side to ensure events conform to expected Business Event definitions.* Metadata Exploration: Inspect event properties, headers, correlation identifiers, timestamps, and other event metadata to better understand event context and flow.* Accelerated Troubleshooting: Quickly identify publishing issues, schema mismatches, missing attributes, and configuration errors without requiring external debugging tools.* Developer-Friendly Testing Experience: Validate Business Events during development and onboarding, enabling faster iteration and reducing time to first successful event-driven scenario.* Improved Confidence Before Consumption: Allow publishers to verify event quality and correctness before events are consumed by Eventstream, Activator, AI agents, or other downstream applications.* End-to-End Event Flow Validation: Enable developers to confirm that Business Events are generated as expected before investing effort in consumers, automation workflows, or integrations.",
@@ -622,20 +650,6 @@
       },
       {
         "active": true,
-        "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-iq-the-semantic-foundation-for-enterprise-ai/5172473",
-        "feature_description": "We are introducing Ontology Health in Microsoft Fabric to help modelers quickly assess whether an ontology is ready for real-world use. With this capability, ontology quality is continuously evaluated across three core areas--foundation, validation, and refinement--ensuring models are structurally sound, properly configured, and operationally ready. With this capability, you can: * Identify structural issues and inconsistencies through foundation checks to ensure the ontology is sound. * Verify required configurations using validation checks to confirm completeness and correctness. * Improve clarity, coverage, and usability with refinement checks for downstream consumption. * Quickly prioritize fixes with results categorized as Critical, Warning, or Information. * Navigate directly to impacted elements with guided actions, enabling faster issue resolution and increased trust in queries, graph experiences, and AI-powered outcomes.",
-        "feature_name": "Ontology Health",
-        "last_modified": "2026-09-25",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q1 2027",
-        "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
         "blog_title": "Customer Managed Keys (CMK) for Eventhouse (Preview)",
         "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/customer-managed-keys-cmk-for-eventhouse-preview/5172008",
         "feature_description": "Customer Managed Keys for Ontology gives organizations control over the encryption keys used to protect ontology data and metadata at rest. This is important for customers with strict compliance, security, or regulatory requirements that require direct control of encryption materials rather than relying only on platform-managed keys.With this capability, customers can:- Use their own managed encryption keys to protect ontology-related data at rest.- Rotate and govern encryption keys according to internal compliance policies.- Align ontology deployments with broader enterprise encryption standards used across data platforms.",
@@ -841,20 +855,6 @@
         "product_name": "Fabric Ecosystem",
         "release_date": "Q3 2026",
         "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Outbound access protection for Data Factory (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access-protection-for-data-factory-generally-available/5172006",
-        "feature_description": "Microsoft Fabric's outbound access protection blocks all outbound connections from a workspace by default and only allows approved external connections through managed private endpoints or data connection rules. It applies across workloads such as Data Engineering, Data Factory, Activator, and Data Agent, giving admins granular control over external connectivity.",
-        "feature_name": "Outbound Access Protection for Fabric SQL DB",
-        "last_modified": "2026-09-16",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
         "release_status": "Planned",
         "release_type": "Public preview"
       },

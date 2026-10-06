@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-10-06T15:10:36.714Z",
+  "generatedAt": "2026-10-06T20:19:16.708Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 187,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-10-06",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2027-03-31 -> 2026-12-31"
+            ],
+            "feature_name": "Ontology Health",
+            "last_modified": "2026-10-06",
+            "product_name": "IQ",
+            "release_date": "Q4 2026",
+            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2026-03-31"
+            ],
+            "feature_name": "Outbound Access Protection for Fabric SQL DB",
+            "last_modified": "2026-10-06",
+            "product_name": "SQL database",
+            "release_date": "Q1 2026",
+            "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Workspace level Private Link for SQL database",
+            "last_modified": "2026-10-06",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 8,
         "date": "2026-10-05",
@@ -1333,7 +1378,7 @@
         ]
       },
       {
-        "count": 11,
+        "count": 10,
         "date": "2026-09-30",
         "items": [
           {
@@ -1468,19 +1513,6 @@
             "release_item_id": "2dae2810-6cb7-f111-aaab-7ced8d70bf41",
             "release_status": "Shipped",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2026-12-31"
-            ],
-            "feature_name": "Workspace level Private Link for SQL database",
-            "last_modified": "2026-09-30",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           }
         ]
       },
@@ -1672,7 +1704,7 @@
         ]
       },
       {
-        "count": 6,
+        "count": 5,
         "date": "2026-09-25",
         "items": [
           {
@@ -1687,19 +1719,6 @@
             "release_item_id": "50f83e60-1f40-f111-88b5-000d3a376137",
             "release_status": "Planned",
             "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Type General availability -> Public preview"
-            ],
-            "feature_name": "Ontology Health",
-            "last_modified": "2026-09-25",
-            "product_name": "IQ",
-            "release_date": "Q4 2026",
-            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           },
           {
             "active": true,
@@ -1934,25 +1953,6 @@
             "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
             "release_status": "Planned",
             "release_type": "General availability"
-          }
-        ]
-      },
-      {
-        "count": 1,
-        "date": "2026-09-16",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Outbound Access Protection for Fabric SQL DB",
-            "last_modified": "2026-09-16",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
-            "release_status": "Planned",
-            "release_type": "Public preview"
           }
         ]
       },

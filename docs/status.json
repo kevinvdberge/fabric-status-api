@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-05T12:41:25.066Z",
+  "generatedAt": "2026-10-06T01:39:12.862Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 1,
-    "resolved": 231,
-    "total": 232
+    "resolved": 233,
+    "total": 234
   },
   "summary": {
     "activeIncidents": 1,
-    "resolvedIncidents": 231,
+    "resolvedIncidents": 233,
     "hasActive": true
   },
   "active": [
@@ -28,6 +28,32 @@
     }
   ],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "7890e80c-1cc1-f111-aaad-70a8a5b19a4c",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "10/5/2026 5:19:10 PM",
+      "reportedAt": "2026-10-05T17:19:10.000Z",
+      "resolvedRaw": "10/5/2026 5:26:44 PM",
+      "resolvedAt": "2026-10-05T17:26:44.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div style=\"font-family:'Segoe UI';font-size:14px;font-style:normal;font-weight:400;line-height:20px;\"><span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">Fabric</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">customers</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">may</span> have <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">experienced</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">failures</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">while</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">accessing</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">or</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">creating</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">Ontology</span> <span class=\"___1cs5bdp f1w7gpdv f5p0z4x\" style=\"opacity:1;\">artifacts</span>.</div></div>",
+      "detailsText": "Fabric customers may have experienced failures while accessing or creating Ontology artifacts .",
+      "hash": "67c165a0dda8e3638ab39e00ab93fc78aef88f8a1f70009d8622ac5fbf8addb0"
+    },
+    {
+      "type": "resolved",
+      "serviceNotificationId": "5c00bbd7-cec0-f111-aaad-70a8a5b196d2",
+      "serviceStatus": "",
+      "region": "East US",
+      "reportedRaw": "10/5/2026 8:09:28 AM",
+      "reportedAt": "2026-10-05T08:09:28.000Z",
+      "resolvedRaw": "10/5/2026 9:31:00 AM",
+      "resolvedAt": "2026-10-05T09:31:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers with tenants located in East US region may have experienced issues while performing spark Jobs and Notebook operations.<br> </p></div>",
+      "detailsText": "Fabric customers with tenants located in East US region may have experienced issues while performing spark Jobs and Notebook operations.",
+      "hash": "558aa336c2ea4a9b43b8ed7fe9060b19ca10ad43aea451b2dca3e73f29bf8469"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "b3ac9d8d-7ab3-f111-aaac-70a8a59cbbb7",

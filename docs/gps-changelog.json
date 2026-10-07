@@ -1,9 +1,354 @@
 {
-  "generatedAt": "2026-10-07T11:46:45.531Z",
+  "generatedAt": "2026-10-07T18:24:00.792Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 185,
+  "count": 211,
   "changelog": {
     "days": [
+      {
+        "count": 26,
+        "date": "2026-10-07",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Backup data results across dataflow refreshes",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "97d41049-3e9b-f111-b8db-6045bd02b663",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Dataflow Diagnostics Download",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "f98cc7d2-5834-f111-88b4-6045bd00f506",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Dynamic Schema Support for Fabric Data Warehouse Destination",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "8ed33294-5a38-f111-88b5-6045bd00fc61",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Excel Document Builder for the Excel Workbook (XLSX) destination",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "040fd657-b2a8-f111-b8dd-6045bd019dcf",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - My Queries",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "603ac87e-3135-f111-88b4-000d3a36696c",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - New destination: Excel Workbooks (XLSX)",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "2d795c03-a033-f111-88b4-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2027-03-31"
+            ],
+            "feature_name": "Dataflows - New Destination: Google Cloud Storage",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "45a4fc04-9ab3-f011-bbd3-000d3a30273e",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - New Destination: HTML Document",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "9cc12116-6ec2-f111-aaad-70a8a5b194d8",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - New Destination: PostgreSQL",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "7a722b30-6dc2-f111-aaad-70a8a5b194d8",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - New Destination: PowerPoint Presentations (PPTX)",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "d1fca7f4-6fc2-f111-aaad-70a8a5b194d8",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - New destination: Snowflake",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "478cfce8-9633-f111-88b4-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Output Destinations: Recents Support",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "d1f84414-4621-f011-998a-000d3a341dd9",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Performance: Disable V-Order Compression",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "eed6fd49-4461-f111-a826-000d3a376137",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Performance: Optimized Writes from Staging Warehouse Compute to Lakehouse Destinations",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "57d40a9a-3335-f111-88b4-6045bd00fc61",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Recent Tables",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "9209ff64-9633-f111-88b4-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Refresh details in the Fabric Monitoring hub",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "e3d18480-b4a8-f111-b8dd-6045bd019f33",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Send Email Action",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "35473b7a-e33c-f111-88b5-6045bd00fc61",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataflows - Send Email with HTML Formatting",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "2650603c-6fc2-f111-aaad-70a8a5b194d8",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Shared Queries",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "f8f739d4-b850-f111-bec7-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Power Query - Browse Azure resources in Get Data",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "385d42a4-419b-f111-b8db-6045bd02b663",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Power Query - Modern Power Query Editor in Power BI Desktop",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "a83463e5-6038-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Power Query - Now and Today transforms",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "b280a60f-4e9b-f111-b8db-6045bd02b663",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Power Query - Offset a date, datetime or time column",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "c899806a-4e9b-f111-b8db-6045bd02b663",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Power Query - Sort Rows transformation dialog",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2026",
+            "release_item_id": "9f5f0427-5b38-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "ALTER COLUMN (GA)",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Warehouse",
+            "release_date": "Q1 2027",
+            "release_item_id": "c287226c-6ec2-f111-aaad-70a8a5b19412",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2027-03-31",
+              "Description updated"
+            ],
+            "feature_name": "Shortcuts in Fabric Data Warehouse (Public Preview)",
+            "last_modified": "2026-10-07",
+            "product_name": "Data Warehouse",
+            "release_date": "Q1 2027",
+            "release_item_id": "ce7f2f21-9421-f011-9989-000d3a302e4a",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 3,
         "date": "2026-10-06",
@@ -2573,6 +2918,6 @@
         ]
       }
     ],
-    "total_items": 185
+    "total_items": 211
   }
 }

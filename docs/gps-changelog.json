@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T23:57:41.384Z",
+  "generatedAt": "2026-10-07T05:08:32.079Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 187,
+  "count": 185,
   "changelog": {
     "days": [
       {
@@ -2571,40 +2571,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 2,
-        "date": "2026-09-06",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2026-09-30"
-            ],
-            "feature_name": "Find Fabric items and tables from Copilot CLI with OneLake Catalog",
-            "last_modified": "2026-09-06",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q3 2026",
-            "release_item_id": "6754378c-e14a-f111-bec7-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2027-03-31 -> 2026-12-31"
-            ],
-            "feature_name": "Lakehouse Delta table change feed connector for Eventstream",
-            "last_modified": "2026-09-06",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2026",
-            "release_item_id": "409987af-d649-f111-bec7-6045bd00f506",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 187
+    "total_items": 185
   }
 }

@@ -1,13 +1,65 @@
 {
-  "generatedAt": "2026-10-08T02:42:58.427Z",
+  "generatedAt": "2026-10-08T09:29:49.846Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 211,
+  "count": 215,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 5,
         "date": "2026-10-08",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Data Agent Migration to Responses API",
+            "last_modified": "2026-10-08",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "e9e7c616-d289-f111-ab0f-6045bd03e6d8",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Data Agent to Upgrade Ontology Integration",
+            "last_modified": "2026-10-08",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "8640c298-fc68-f111-a826-6045bd0066ad",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Explore Large Schemas in the Data Agent Schema Explorer",
+            "last_modified": "2026-10-08",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q3 2026",
+            "release_item_id": "a6aadfd9-4924-f011-8c4d-00224804b6c3",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "T-SQL language improvements",
+            "last_modified": "2026-10-08",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "ce1edca4-aa9f-f111-b8db-000d3a3ad8c1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1564,7 +1616,7 @@
             "last_modified": "2026-10-01",
             "product_name": "Azure SQL Database",
             "release_date": "Q3 2026",
-            "release_item_id": "a73683fe-d991-f111-8076-7c1e528d214d",
+            "release_item_id": "8c929587-a18f-f111-8076-7c1e528d21c8",
             "release_status": "Shipped",
             "release_type": "General availability"
           },
@@ -1577,7 +1629,7 @@
             "last_modified": "2026-10-01",
             "product_name": "Azure SQL Database",
             "release_date": "Q3 2026",
-            "release_item_id": "8c929587-a18f-f111-8076-7c1e528d21c8",
+            "release_item_id": "a73683fe-d991-f111-8076-7c1e528d214d",
             "release_status": "Shipped",
             "release_type": "General availability"
           },
@@ -2923,6 +2975,6 @@
         ]
       }
     ],
-    "total_items": 211
+    "total_items": 215
   }
 }

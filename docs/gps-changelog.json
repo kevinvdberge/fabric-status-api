@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-10-07T23:14:13.197Z",
+  "generatedAt": "2026-10-08T02:42:58.427Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 211,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-10-08",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Name VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses -> VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses (new metadata sync)"
+            ],
+            "feature_name": "VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses (new metadata sync)",
+            "last_modified": "2026-10-08",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "f4c0ce02-2e61-f011-bec2-000d3a302e4a",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 26,
         "date": "2026-10-07",
@@ -2451,7 +2470,7 @@
         ]
       },
       {
-        "count": 6,
+        "count": 5,
         "date": "2026-09-14",
         "items": [
           {
@@ -2505,20 +2524,6 @@
             "release_date": "Q1 2027",
             "release_item_id": "37499ba5-5b21-f011-9989-000d3a5b0147",
             "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped",
-              "Description updated"
-            ],
-            "feature_name": "VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses",
-            "last_modified": "2026-09-14",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "f4c0ce02-2e61-f011-bec2-000d3a302e4a",
-            "release_status": "Shipped",
             "release_type": "General availability"
           },
           {

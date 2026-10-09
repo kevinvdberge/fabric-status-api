@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-10-09T08:01:19.954Z",
+  "generatedAt": "2026-10-09T15:17:31.856Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Zero-copy access to OneLake data in Azure Databricks (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/zero-copy-access-to-onelake-data-in-azure-databricks-preview/5172291",
+        "feature_description": "Production-ready support for Azure Databricks to store data in OneLake with OneLake Security enabled",
+        "feature_name": "Databricks - Onelake as native storage - GA / Production-ready",
+        "last_modified": "2026-10-09",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q4 2026",
+        "release_item_id": "7d974ea6-c7c3-f111-aaaf-70a8a5b194a9",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1389,20 +1403,6 @@
         "release_item_id": "2aaf1457-96b0-f111-aaab-70a8a59cbbb7",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Introducing Migration assistant for SQL database in Fabric (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-migration-assistant-for-sql-database-in-fabric-preview/5172048",
-        "feature_description": "Fabric Migration Assistant for SQL Database is Generally Available",
-        "feature_name": "Fabric SQL | SQL Server migration to Fabric SQL | GA",
-        "last_modified": "2026-09-15",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q3 2026",
-        "release_item_id": "90151c44-1db1-f111-aaab-70a8a59cbbb7",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1122,
+      "total_items": 1123,
       "total_pages": 12
     }
   }

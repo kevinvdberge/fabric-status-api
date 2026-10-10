@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T20:13:03.174Z",
+  "generatedAt": "2026-10-10T00:03:13.284Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 201,
+  "count": 200,
   "changelog": {
     "days": [
       {
@@ -2769,27 +2769,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-09-09",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Identity columns",
-            "last_modified": "2026-09-09",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "d7c986cd-1322-f011-998a-0022480939f0",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 201
+    "total_items": 200
   }
 }

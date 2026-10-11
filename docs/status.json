@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-11T08:58:01.791Z",
+  "generatedAt": "2026-10-11T15:28:54.977Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 1,
-    "resolved": 234,
-    "total": 235
+    "resolved": 235,
+    "total": 236
   },
   "summary": {
     "activeIncidents": 1,
-    "resolvedIncidents": 234,
+    "resolvedIncidents": 235,
     "hasActive": true
   },
   "active": [
@@ -28,6 +28,19 @@
     }
   ],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "10b0c42a-64c5-f111-aaad-000d3a598f10",
+      "serviceStatus": "",
+      "region": "West US",
+      "reportedRaw": "10/11/2026 4:04:15 AM",
+      "reportedAt": "2026-10-11T04:04:15.000Z",
+      "resolvedRaw": "10/11/2026 6:03:38 AM",
+      "resolvedAt": "2026-10-11T06:03:38.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span>Fabric customers in the West US region may have experienced intermittent issues while performing Control Plane and Data Plane operations for their capacities. </span><br><span>The issue has been mitigated</span></p></div>",
+      "detailsText": "Fabric customers in the West US region may have experienced intermittent issues while performing Control Plane and Data Plane operations for their capacities. The issue has been mitigated",
+      "hash": "5a4c11f37aeaf3e9443644196b640c17baa1d8c6796471f64574628a92664698"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "c0d383d8-fcc2-f111-aaad-70a8a5b19a4c",

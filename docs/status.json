@@ -1,18 +1,31 @@
 {
-  "generatedAt": "2026-10-12T02:23:31.266Z",
+  "generatedAt": "2026-10-12T09:33:38.145Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
+    "active": 2,
     "resolved": 235,
-    "total": 236
+    "total": 237
   },
   "summary": {
-    "activeIncidents": 1,
+    "activeIncidents": 2,
     "resolvedIncidents": 235,
     "hasActive": true
   },
   "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "e8074c2e-1fc6-f111-aaad-000d3a5982e1",
+      "serviceStatus": "Information",
+      "region": "Europe",
+      "reportedRaw": "10/12/2026 2:00:42 AM",
+      "reportedAt": "2026-10-12T02:00:42.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in Europe and US regions may experience intermittent failures when performing export or publish operations on items with sensitivity labels, including when setting or removing a sensitivity label. Azure Engineers are investigating the issue and an update will be provided soon.</p></div>",
+      "detailsText": "Fabric customers in Europe and US regions may experience intermittent failures when performing export or publish operations on items with sensitivity labels, including when setting or removing a sensitivity label. Azure Engineers are investigating the issue and an update will be provided soon.",
+      "hash": "6a956abc4bc72022fbc1405d498dffb683f40298a0a66fc497cbfbe974b3db04"
+    },
     {
       "type": "active",
       "serviceNotificationId": "4cbc6486-b9be-f111-aaad-000d3a373cd1",

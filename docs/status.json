@@ -1,31 +1,18 @@
 {
-  "generatedAt": "2026-10-12T09:33:38.145Z",
+  "generatedAt": "2026-10-12T19:19:48.407Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 2,
-    "resolved": 235,
+    "active": 1,
+    "resolved": 236,
     "total": 237
   },
   "summary": {
-    "activeIncidents": 2,
-    "resolvedIncidents": 235,
+    "activeIncidents": 1,
+    "resolvedIncidents": 236,
     "hasActive": true
   },
   "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "e8074c2e-1fc6-f111-aaad-000d3a5982e1",
-      "serviceStatus": "Information",
-      "region": "Europe",
-      "reportedRaw": "10/12/2026 2:00:42 AM",
-      "reportedAt": "2026-10-12T02:00:42.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers in Europe and US regions may experience intermittent failures when performing export or publish operations on items with sensitivity labels, including when setting or removing a sensitivity label. Azure Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric customers in Europe and US regions may experience intermittent failures when performing export or publish operations on items with sensitivity labels, including when setting or removing a sensitivity label. Azure Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "6a956abc4bc72022fbc1405d498dffb683f40298a0a66fc497cbfbe974b3db04"
-    },
     {
       "type": "active",
       "serviceNotificationId": "4cbc6486-b9be-f111-aaad-000d3a373cd1",
@@ -35,12 +22,25 @@
       "reportedAt": "2026-10-02T15:41:10.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent. Engineers have identified the root cause and are actively working on deploying a fix. We expect to provide a resolution by October 11, 2026, end of day.</span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\"><strong>Workaround:</strong></span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source.</span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.</span></span></p></div>",
-      "detailsText": "Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent. Engineers have identified the root cause and are actively working on deploying a fix. We expect to provide a resolution by October 11, 2026, end of day. Workaround: Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source. No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.",
-      "hash": "acc9dd6592b885f5dce38bcce437cf2b725881c886b5f243de98651e5b3f6c91"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent. Engineers have identified the root cause and are actively working on deploying a fix. Deployment has been completed in most regions, with the remaining regions currently in progress. We expect full resolution by end of day October 13, 2026.</p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\"><strong>Workaround:</strong></span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source.</span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.</span></span></p></div>",
+      "detailsText": "Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent. Engineers have identified the root cause and are actively working on deploying a fix. Deployment has been completed in most regions, with the remaining regions currently in progress. We expect full resolution by end of day October 13, 2026. Workaround: Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source. No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.",
+      "hash": "52e334dbf737b1b5627790f2cdc8f180e2771eed7071337e8b5e9635230b28e1"
     }
   ],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "e8074c2e-1fc6-f111-aaad-000d3a5982e1",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "10/12/2026 2:00:42 AM",
+      "reportedAt": "2026-10-12T02:00:42.000Z",
+      "resolvedRaw": "10/12/2026 3:18:14 AM",
+      "resolvedAt": "2026-10-12T03:18:14.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers may have experienced intermittent failures when performing export or publish operations on items with sensitivity labels, including when setting or removing a sensitivity label. <span class=\"___xxxjie0 f1w7gpdv f1gqqdtu\" style=\"opacity:1;\">Retrying</span> <span class=\"___xxxjie0 f1w7gpdv f1gqqdtu\" style=\"opacity:1;\">the</span> <span class=\"___xxxjie0 f1w7gpdv f1gqqdtu\" style=\"opacity:1;\">failed</span> <span class=\"___xxxjie0 f1w7gpdv f1gqqdtu\" style=\"opacity:1;\">operation</span> <span class=\"___xxxjie0 f1w7gpdv f1gqqdtu\" style=\"opacity:1;\">may</span> <span class=\"___xxxjie0 f1w7gpdv f1gqqdtu\" style=\"opacity:1;\">succeed.</span></p></div>",
+      "detailsText": "Fabric customers may have experienced intermittent failures when performing export or publish operations on items with sensitivity labels, including when setting or removing a sensitivity label. Retrying the failed operation may succeed.",
+      "hash": "d52befc838f873d8a63ec6212eb50cbd2b57dd6a2d6a43170614da47ff698ae8"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "10b0c42a-64c5-f111-aaad-000d3a598f10",

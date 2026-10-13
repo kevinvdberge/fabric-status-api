@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-10-13T16:16:25.869Z",
+  "generatedAt": "2026-10-13T21:24:20.078Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "A commonly requested new capability for Output Destinations is the ability to merge, or upsert, data into previously loaded rows in the destination table. We aim to provide this support for Fabric Lakehouse destination.",
+        "feature_name": "Dataflows - Merge/Upsert Support for Output Destinations",
+        "last_modified": "2026-10-13",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q1 2027",
+        "release_item_id": "67d0f235-4521-f011-9989-6045bd030c4d",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Empowering Real-Time Searches: Vector Similarity Search with Eventhouse",
@@ -1387,20 +1401,6 @@
         "product_name": "Administration, Governance and Security",
         "release_date": "Q4 2026",
         "release_item_id": "5952a1c1-60b0-f011-bbd3-000d3a3740cc",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Providing more insights & tools: Capacity health, timepoint summary, timepoint detail, chargeback now generally available",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Providing-more-insights-amp-tools-Capacity-health-timepoint/ba-p/5176753",
-        "feature_description": "**Fabric Chargeback app - Tags Support **Chargeback app tagging will enable organizations to attribute and analyze capacity consumption across customer-defined business dimensions such as project, function, workspace, cost center, or department. This enhancement will provide greater flexibility for cost allocation, chargeback, and reporting scenarios, helping customers align Fabric consumption with their internal financial and organizational structures.About the app:  The** Microsoft Fabric Chargeback app** helps customers understand which teams, users, and workloads are driving capacity usage, enabling them to build chargeback processes that fairly allocate costs based on actual consumption. As a capacity admin, you can view key parameters such as metric types, dates, and operation names, and share the report with others in your organization to support transparent and informed cost management.  Ultimately, this enables admins to:* Understand cost drivers - See which workspaces, users, or artifacts consume the most resources.* Enable accurate chargeback - Distribute costs fairly across departments based on real usage.* Optimize capacity planning - Identify expensive artifacts and adjust capacity assignments or auto-scale settings to control costs.With these insights, admins can make informed decisions about capacity sizing, workload distribution, and budgeting/chargeback--ensuring cost transparency and operational efficiency.",
-        "feature_name": "Fabric Chargeback app",
-        "last_modified": "2026-09-15",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q4 2026",
-        "release_item_id": "2aaf1457-96b0-f111-aaab-70a8a59cbbb7",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

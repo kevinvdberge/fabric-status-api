@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-10-14T15:20:20.908Z",
+  "generatedAt": "2026-10-14T19:34:03.945Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "General availability of the Microsoft Fabric IQ Ontology item enables teams to maintain a shared model of business entities, properties, and relationships in Fabric. Modelers can connect those definitions to supported data sources and provide business context to supported analytics and agent experiences. The release covers the ontology item and its supported capabilities; individual integrations, security features, and advanced modeling capabilities retain their own release milestones.",
+        "feature_name": "Ontology item GA",
+        "last_modified": "2026-10-14",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q1 2027",
+        "release_item_id": "2a543dc3-74db-f011-8544-000d3a3740cc",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1135,20 +1149,6 @@
         "product_name": "IQ",
         "release_date": "Q4 2026",
         "release_item_id": "50f83e60-1f40-f111-88b5-000d3a376137",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
-        "feature_description": "General availability of the Microsoft Fabric IQ Ontology item enables teams to maintain a shared model of business entities, properties, and relationships in Fabric. Modelers can connect those definitions to supported data sources and provide business context to supported analytics and agent experiences. The release covers the ontology item and its supported capabilities; individual integrations, security features, and advanced modeling capabilities retain their own release milestones.",
-        "feature_name": "Ontology item GA",
-        "last_modified": "2026-09-25",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q4 2026",
-        "release_item_id": "2a543dc3-74db-f011-8544-000d3a3740cc",
         "release_status": "Planned",
         "release_type": "General availability"
       },

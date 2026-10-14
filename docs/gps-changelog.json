@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-10-14T15:20:20.908Z",
+  "generatedAt": "2026-10-14T19:34:03.945Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 191,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-10-14",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2027-03-31"
+            ],
+            "feature_name": "Ontology item GA",
+            "last_modified": "2026-10-14",
+            "product_name": "IQ",
+            "release_date": "Q1 2027",
+            "release_item_id": "2a543dc3-74db-f011-8544-000d3a3740cc",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-10-13",
@@ -2190,7 +2209,7 @@
         ]
       },
       {
-        "count": 5,
+        "count": 4,
         "date": "2026-09-25",
         "items": [
           {
@@ -2203,19 +2222,6 @@
             "product_name": "IQ",
             "release_date": "Q4 2026",
             "release_item_id": "50f83e60-1f40-f111-88b5-000d3a376137",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Ontology item GA",
-            "last_modified": "2026-09-25",
-            "product_name": "IQ",
-            "release_date": "Q4 2026",
-            "release_item_id": "2a543dc3-74db-f011-8544-000d3a3740cc",
             "release_status": "Planned",
             "release_type": "General availability"
           },

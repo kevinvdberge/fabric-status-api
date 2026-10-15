@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-14T22:38:17.986Z",
+  "generatedAt": "2026-10-15T00:53:09.271Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 191,
+  "count": 186,
   "changelog": {
     "days": [
       {
@@ -2583,80 +2583,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 5,
-        "date": "2026-09-14",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Fabric OneLake catalog in Excel Get Data",
-            "last_modified": "2026-09-14",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q3 2026",
-            "release_item_id": "d2e07536-32b3-f011-bbd3-00224808fcf0",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated"
-            ],
-            "feature_name": "OneLake catalog Search API expansion to OneLake and Semantic model tables",
-            "last_modified": "2026-09-14",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q3 2026",
-            "release_item_id": "9bfc47ce-094d-f111-bec7-6045bd0a8ec1",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Query item downstream and upstream relations through a public API",
-            "last_modified": "2026-09-14",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q3 2026",
-            "release_item_id": "02c73718-e24a-f111-bec7-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2027-03-31",
-              "Release Type Public preview -> General availability"
-            ],
-            "feature_name": "Copy job - AI-powered Error Assistant and Insight for Copy Job",
-            "last_modified": "2026-09-14",
-            "product_name": "Data Factory",
-            "release_date": "Q1 2027",
-            "release_item_id": "37499ba5-5b21-f011-9989-000d3a5b0147",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Enable/disable Fabric multitasking context carry across browser tabs",
-            "last_modified": "2026-09-14",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q4 2026",
-            "release_item_id": "8718f950-76b0-f111-aaab-70a8a59cb855",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 191
+    "total_items": 186
   }
 }

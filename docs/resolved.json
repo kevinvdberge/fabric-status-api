@@ -1,9 +1,35 @@
 {
-  "generatedAt": "2026-10-15T10:18:10.164Z",
+  "generatedAt": "2026-10-15T15:11:28.816Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 236,
+  "count": 238,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "c2bbd206-92c8-f111-aaad-000d3a598753",
+      "serviceStatus": "",
+      "region": "Europe",
+      "reportedRaw": "10/15/2026 5:05:18 AM",
+      "reportedAt": "2026-10-15T05:05:18.000Z",
+      "resolvedRaw": "10/15/2026 7:32:00 AM",
+      "resolvedAt": "2026-10-15T07:32:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers in Europe region may have experienced refresh failures with Dynamics 365 Business Central connector. </p></div>",
+      "detailsText": "Power BI customers in Europe region may have experienced refresh failures with Dynamics 365 Business Central connector.",
+      "hash": "2138774fbbfb0c214ef2b121914130154bbc561007700ecd12de06a7bc4abb1e"
+    },
+    {
+      "type": "resolved",
+      "serviceNotificationId": "4cbc6486-b9be-f111-aaad-000d3a373cd1",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "10/2/2026 3:41:10 PM",
+      "reportedAt": "2026-10-02T15:41:10.000Z",
+      "resolvedRaw": "10/14/2026 4:30:00 PM",
+      "resolvedAt": "2026-10-14T16:30:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent.</p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\"><strong>Workaround:</strong></span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source.</span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.</span></span></p></div>",
+      "detailsText": "Fabric customers may experience failures when adding Ontology V2 artifacts as a data source to their Data Agent. Affected users may see errors when attempting to configure or query Ontology V2-backed data through Data Agent. Workaround: Customers with Ontology V2 artifacts that were upgraded from an existing V1 ontology can revert to using the original V1 artifact as their Data Agent data source. No workaround is currently available for Ontology V2 artifacts that were created directly without a prior V1 version.",
+      "hash": "312189998ac388336e516a879920ed6c01007de25e4823d24c949efbe7d31a68"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "e8074c2e-1fc6-f111-aaad-000d3a5982e1",

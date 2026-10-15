@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:11:28.845Z",
+  "generatedAt": "2026-10-15T19:07:26.137Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,34 @@
         "product_name": "Data Engineering",
         "release_date": "Q1 2027",
         "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Outbound access protection for Data Factory (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access-protection-for-data-factory-generally-available/5172006",
+        "feature_description": "Microsoft Fabric's outbound access protection blocks all outbound connections from a workspace by default and only allows approved external connections through managed private endpoints or data connection rules. It applies across workloads such as Data Engineering, Data Factory, Activator, and Data Agent, giving admins granular control over external connectivity.",
+        "feature_name": "Outbound Access Protection for Fabric SQL DB",
+        "last_modified": "2026-10-15",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q1 2027",
+        "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "The primary goal is to enable creators to understand how consumers interact with their data agents and bridge the gap between the data agent creators and the consumers. This comprehensive monitoring system will enable creators to have access to the feedback provided by consumer across consumption channels such as M365 Copilot, Fabric, Org App so they can refine the data agent based on customer feedback.Our initial release will only cover the M365 Copilot and will then expand to other consumption channels.",
+        "feature_name": "Data Agent monitoring - Consumer to Creator feedback loop",
+        "last_modified": "2026-10-15",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -534,20 +562,6 @@
         "release_date": "Q4 2026",
         "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
         "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Outbound access protection for Data Factory (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/outbound-access-protection-for-data-factory-generally-available/5172006",
-        "feature_description": "Microsoft Fabric's outbound access protection blocks all outbound connections from a workspace by default and only allows approved external connections through managed private endpoints or data connection rules. It applies across workloads such as Data Engineering, Data Factory, Activator, and Data Agent, giving admins granular control over external connectivity.",
-        "feature_name": "Outbound Access Protection for Fabric SQL DB",
-        "last_modified": "2026-10-06",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q1 2026",
-        "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
-        "release_status": "Planned",
         "release_type": "Public preview"
       },
       {
@@ -1387,20 +1401,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q4 2026",
         "release_item_id": "61963fc1-c6f0-f011-8407-000d3a3ac4a5",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Capacity Overview Events in Real-Time Hub (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Capacity-Overview-Events-in-Real-Time-Hub-Generally-Available/ba-p/5356729",
-        "feature_description": "**Capacity Monitoring in Monitor Hub **Microsoft Fabric is introducing capacity monitoring and management capabilities within the Fabric product itself, designed to give administrators a unified and actionable view of capacity health, usage, and management capabilities. This experience centralizes the most critical controls and insights--such as around utilization, scaling, throttling, and surge protection--making it easier than ever to detect issues, manage resources, and remediate capacities quickly.  Key initials features include CU utilization details with breakdowns (e.g., interactive/background delays and rejections), status indicators for surge protection and throttling, direct toggles for pausing or resuming capacities, and easy ways to take direct actions for unhealthy capacities such scaling capacities and/or performing workspace migrations right from within the experience.By bringing these capabilities into the Monitor Hub, Fabric empowers customers to proactively manage capacities, maintain reliability, and streamline operations--all from an intuitive interface that introduces the concept of Capacity Health.",
-        "feature_name": "Capacity Insights & Actions (in-product observability)",
-        "last_modified": "2026-09-15",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q4 2026",
-        "release_item_id": "5952a1c1-60b0-f011-bbd3-000d3a3740cc",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

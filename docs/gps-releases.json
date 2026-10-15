@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T19:07:26.137Z",
+  "generatedAt": "2026-10-15T22:15:43.372Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,20 @@
         "product_name": "Data Engineering",
         "release_date": "Q1 2027",
         "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Fabric feature store is a centralized system that manages the data inputs, called features, that power machine learning models. It bridges raw data and ML models, giving teams one place to define, store, serve, and discover features instead of each team building its own pipelines.",
+        "feature_name": "Feature Store",
+        "last_modified": "2026-10-15",
+        "product_id": "0522b590-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Science",
+        "release_date": "Q1 2027",
+        "release_item_id": "75004e12-2158-f111-bec7-6045bd00f798",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -552,8 +566,8 @@
       },
       {
         "active": true,
-        "blog_title": "Workspace-Level Private Link in Microsoft Fabric (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/workspace-level-private-link-in-microsoft-fabric-generally-available/5172560",
+        "blog_title": "Workspace-level private link for SQL database in Microsoft Fabric (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Workspace-level-private-link-for-SQL-database-in-Microsoft/ba-p/5323519",
         "feature_description": "Private link allows customers to connect to their SQL DBs via a private endpoint from the customer's virtual network. Workspace level private links will give customers the flexibility to use private link connection to specific workspace(s) which have high security requirements and contain sensitive data while their other workspace can be open to public.",
         "feature_name": "Workspace level Private Link for SQL database",
         "last_modified": "2026-10-06",
@@ -1387,20 +1401,6 @@
         "product_name": "Administration, Governance and Security",
         "release_date": "Q4 2026",
         "release_item_id": "8e73b44d-97b0-f111-aaab-70a8a59cbbb7",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Customer-managed keys for Fabric workspaces (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/customer-managed-keys-for-fabric-workspaces-generally-available%C2%A0/5172531",
-        "feature_description": "Apply Fabric workspace customer managed keys to Eventstreams to add an extra layer of encryption for data at rest. When CMK is enabled for a workspace, Eventstreams automatically use the workspace key configuration via Azure Key Vault, including key rotation and revocation handling.",
-        "feature_name": "Secure Fabric Eventstreams with customer-managed keys",
-        "last_modified": "2026-09-15",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q4 2026",
-        "release_item_id": "61963fc1-c6f0-f011-8407-000d3a3ac4a5",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

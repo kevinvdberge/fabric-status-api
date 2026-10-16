@@ -1,11 +1,30 @@
 {
-  "generatedAt": "2026-10-16T05:00:25.487Z",
+  "generatedAt": "2026-10-16T09:47:31.680Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 177,
   "changelog": {
     "days": [
       {
-        "count": 4,
+        "count": 1,
+        "date": "2026-10-16",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Preview - Runtime 2.1 (Spark 4.2 and Delta 4.4) -> Runtime 2.1 (Spark 4.2 and Delta 4.4)"
+            ],
+            "feature_name": "Runtime 2.1 (Spark 4.2 and Delta 4.4)",
+            "last_modified": "2026-10-16",
+            "product_name": "Data Engineering",
+            "release_date": "Q1 2027",
+            "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
+      {
+        "count": 3,
         "date": "2026-10-15",
         "items": [
           {
@@ -18,19 +37,6 @@
             "product_name": "Conversational Analytics",
             "release_date": "Q4 2026",
             "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name Runtime 2.1 (Spark 4.2 and Delta 4.4) -> Preview - Runtime 2.1 (Spark 4.2 and Delta 4.4)"
-            ],
-            "feature_name": "Preview - Runtime 2.1 (Spark 4.2 and Delta 4.4)",
-            "last_modified": "2026-10-15",
-            "product_name": "Data Engineering",
-            "release_date": "Q1 2027",
-            "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
             "release_status": "Planned",
             "release_type": "Public preview"
           },

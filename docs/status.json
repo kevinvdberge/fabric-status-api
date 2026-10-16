@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T09:47:31.657Z",
+  "generatedAt": "2026-10-16T14:30:02.098Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
@@ -23,9 +23,9 @@
       "reportedAt": "2026-10-15T05:05:18.000Z",
       "resolvedRaw": "10/15/2026 7:32:00 AM",
       "resolvedAt": "2026-10-15T07:32:00.000Z",
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers in Europe region may have experienced refresh failures with Dynamics 365 Business Central connector. </p></div>",
-      "detailsText": "Power BI customers in Europe region may have experienced refresh failures with Dynamics 365 Business Central connector.",
-      "hash": "2138774fbbfb0c214ef2b121914130154bbc561007700ecd12de06a7bc4abb1e"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers in Europe region may have experienced refresh failures with Dynamics 365 Business Central connector. </p></div>",
+      "detailsText": "Fabric customers in Europe region may have experienced refresh failures with Dynamics 365 Business Central connector.",
+      "hash": "a59a6482e2a74fb964984f4b6f4e2a005c2d2bfabf84d6afe233641b6b089659"
     },
     {
       "type": "resolved",

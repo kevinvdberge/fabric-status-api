@@ -1,20 +1,46 @@
 {
-  "generatedAt": "2026-10-17T02:55:21.036Z",
+  "generatedAt": "2026-10-17T07:30:38.571Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 177,
+  "count": 179,
   "changelog": {
     "days": [
       {
-        "count": 1,
-        "date": "2026-10-16",
+        "count": 3,
+        "date": "2026-10-17",
         "items": [
           {
             "active": true,
             "changed_columns": [
-              "Name Preview - Runtime 2.1 (Spark 4.2 and Delta 4.4) -> Runtime 2.1 (Spark 4.2 and Delta 4.4)"
+              "Release Date 2026-12-31 -> 2027-03-31"
             ],
-            "feature_name": "Runtime 2.1 (Spark 4.2 and Delta 4.4)",
-            "last_modified": "2026-10-16",
+            "feature_name": "[GA] Job Insights Library",
+            "last_modified": "2026-10-17",
+            "product_name": "Data Engineering",
+            "release_date": "Q1 2027",
+            "release_item_id": "add43c89-3350-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2027-03-31"
+            ],
+            "feature_name": "[Monitoring] Integrate and Expose Spark Application CPU/Memory Usage",
+            "last_modified": "2026-10-17",
+            "product_name": "Data Engineering",
+            "release_date": "Q1 2027",
+            "release_item_id": "fe489766-3350-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Runtime 2.1 (Spark 4.2 and Delta 4.4) -> Preview - Runtime 2.1 (Spark 4.2 and Delta 4.4)"
+            ],
+            "feature_name": "Preview - Runtime 2.1 (Spark 4.2 and Delta 4.4)",
+            "last_modified": "2026-10-17",
             "product_name": "Data Engineering",
             "release_date": "Q1 2027",
             "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
@@ -2474,6 +2500,6 @@
         ]
       }
     ],
-    "total_items": 177
+    "total_items": 179
   }
 }

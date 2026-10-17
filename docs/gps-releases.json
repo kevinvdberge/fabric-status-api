@@ -1,16 +1,44 @@
 {
-  "generatedAt": "2026-10-17T02:55:21.036Z",
+  "generatedAt": "2026-10-17T07:30:38.571Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
       {
         "active": true,
-        "blog_title": "Fabric Runtime 2.0 (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Runtime-2-0-Generally-Available/ba-p/5326359",
+        "blog_title": "Fabric Spark Monitoring APIs (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-spark-monitoring-apis-generally-available/5172588",
+        "feature_description": "This feature is designed to visualize real-time metrics for Spark applications through a dashboard that allows users to monitor CPU and memory utilization at the application level for both executors and drivers, across running and completed applications. It aligns with the Fabric SaaS offering and extends Spark vCore allocation and utilization analysis. Additional details about user scenarios are available in the discussion.",
+        "feature_name": "[Monitoring] Integrate and Expose Spark Application CPU/Memory Usage",
+        "last_modified": "2026-10-17",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q1 2027",
+        "release_item_id": "fe489766-3350-f111-bec7-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Gain Deeper Insights into Spark Jobs with JobInsight in Microsoft Fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/gain-deeper-insights-into-spark-jobs-with-jobinsight-in-microsoft-fabric/5172615",
+        "feature_description": "The general availability of the Job Insights Library provides comprehensive visibility into Spark execution by surfacing logs and metrics across queries, jobs, stages, and tasks. Users can not only analyze execution behavior directly within the experience but also download and store driver and executor logs to Lakehouse or other destinations, enabling persistent storage, deeper analysis, and integration with downstream monitoring workflows.",
+        "feature_name": "[GA] Job Insights Library",
+        "last_modified": "2026-10-17",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q1 2027",
+        "release_item_id": "add43c89-3350-f111-bec7-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Fabric Runtime 2.0 (Preview)",
+        "blog_url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-runtime-2-0-preview",
         "feature_description": "Microsoft Fabric Runtime 2.1 updates the Apache Spark foundation to Spark 4.2 and Delta Lake 4.4, with Python 3.14, Scala 2.13, and Java 21. For supported workloads, the Native Execution Engine is enabled by default to provide acceleration without extra configuration, while documented opt-out and controlled fallback paths preserve compatibility.Runtime 2.1 also introduces a leaner built-in package baseline with PySpark and SparkR. Customers can add compatible optional Python and R libraries through Library Manager or a Fabric Environment, reducing package conflicts while preserving flexibility for data engineering and data science workloads. The Public Preview is targeted for January 31, 2027 and includes migration guidance, known limitations, and preview support information.",
-        "feature_name": "Runtime 2.1 (Spark 4.2 and Delta 4.4)",
-        "last_modified": "2026-10-16",
+        "feature_name": "Preview - Runtime 2.1 (Spark 4.2 and Delta 4.4)",
+        "last_modified": "2026-10-17",
         "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
         "product_name": "Data Engineering",
         "release_date": "Q1 2027",
@@ -1375,34 +1403,6 @@
         "release_item_id": "d327a257-51ad-f111-aaab-6045bd041d32",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Introducing capacity overage: Flexibility when you need it most (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-capacity-overage-flexibility-when-you-need-it-most-preview/5172085",
-        "feature_description": "Fabric capacity overage is an opt-in feature in Microsoft Fabric that automatically bills for excess capacity usage in a pay-as-you-go basis instead of throttling operations - enabling capacity administrators to protect capacities from being throttled.  Today, as a capcity admin, you can use surge protection, resize capacities, or pay for dedicated capacities to try to protect mission critical jobs, but all these approaches still can result in throttling and rejection due to insufficient provisioned capacity.  Overage billing addresses this consideration.  The solution allows a capacity admin to opt-in to paying off their smoothed usage and overages instead of being throttled.As Microsoft releases Fabric Overage Billing the Capacity Metrics App will be updated to reflect this new capability.  Specifically, views this will include clear visibility into overage events, showing when Overage Billing was activated and overage charges are being assessed - as well as cases where the capacity is reaching the overage billing limits set and is experiencing throttling.  The view also will show trends over time alongside the amount of utilization.  These enhancements, alongside the core Overage Billing capability, make it easier to monitor costs, optimize resource allocation, and ensure business continuity through flexible capacity management capabilities.  There will also be a new ARM API for Capacity Creation that supports Capacity Overage.  There will also be an ability, both as opt-in emails and in-product, to receive notifications when overage activity occurs or subsides.",
-        "feature_name": "Fabric Capacity Overage",
-        "last_modified": "2026-09-15",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q4 2026",
-        "release_item_id": "997c6d53-51ad-f111-aaab-6045bd041c54",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "A new look and new capabilities in the Capacity Metrics App (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/A-new-look-and-new-capabilities-in-the-Capacity-Metrics-App/ba-p/5374114",
-        "feature_description": "The Capacity Metrics app will features a redesigned experience with modernized visualizations, improved navigation, and enhanced analytics capabilities that make it easier to monitor, understand, and optimize Microsoft Fabric capacity usage.The updated experience provides clearer insights into utilization trends, workload consumption patterns, and performance bottlenecks, helping administrators more quickly identify capacity constraints, investigate throttling events, and make data-driven decisions to improve capacity health and efficiency.",
-        "feature_name": "Capacity Metrics app",
-        "last_modified": "2026-09-15",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q4 2026",
-        "release_item_id": "8e73b44d-97b0-f111-aaab-70a8a59cbbb7",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {

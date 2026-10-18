@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-17T23:29:23.767Z",
+  "generatedAt": "2026-10-18T01:26:56.301Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 179,
+  "count": 176,
   "changelog": {
     "days": [
       {
@@ -2453,53 +2453,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-09-17",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-09-30 -> 2027-03-31"
-            ],
-            "feature_name": "Track and Manage Notebook Run Dependencies & Linage View",
-            "last_modified": "2026-09-17",
-            "product_name": "Data Engineering",
-            "release_date": "Q1 2027",
-            "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Copilot in Power BI Fabric",
-            "last_modified": "2026-09-17",
-            "product_name": "Fabric Ecosystem",
-            "release_date": "Q3 2026",
-            "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Fuzzy String Match",
-            "last_modified": "2026-09-17",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 179
+    "total_items": 176
   }
 }

@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-10-19T17:19:00.235Z",
+  "generatedAt": "2026-10-19T21:39:14.496Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 238,
+    "active": 0,
+    "resolved": 239,
     "total": 239
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 238,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 239,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "1d6951d3-d9cb-f111-a05a-7ced8d6ecb72",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "Europe",
       "reportedRaw": "10/19/2026 9:25:16 AM",
       "reportedAt": "2026-10-19T09:25:16.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric Customers in Europe, Australia and US regions may experience issues in accessing the service. Engineers are investigating the issue and an update will be provided soon.</p></div>",
-      "detailsText": "Fabric Customers in Europe, Australia and US regions may experience issues in accessing the service. Engineers are investigating the issue and an update will be provided soon.",
-      "hash": "80fba8d0c55dc23f14d81947c73a8d48d2b9546e948c2b030ee2ec5225bd5769"
-    }
-  ],
-  "resolved": [
+      "resolvedRaw": "10/19/2026 12:42:00 PM",
+      "resolvedAt": "2026-10-19T12:42:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers across Europe, Australia, and the US may have experienced service access issues and failures with data plane and control plane operations.</p></div>",
+      "detailsText": "Fabric customers across Europe, Australia, and the US may have experienced service access issues and failures with data plane and control plane operations.",
+      "hash": "0fe69a2942d26d3e8622c351b61fa03746208a0c35496812ecf090ed58e75415"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "c2bbd206-92c8-f111-aaad-000d3a598753",

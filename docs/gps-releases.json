@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-10-19T17:19:00.267Z",
+  "generatedAt": "2026-10-19T21:39:14.530Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Stream Azure IoT Hub Data into Fabric Eventstream for Email Alerting",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/stream-azure-iot-hub-data-into-fabric-eventstream-for-email-alerting/5172174",
+        "feature_description": "You can now shortcut an existing Azure Event Hub as a fully featured Eventstream, bringing your own hub into Fabric without rebuilding pipelines. The shortcut stream behaves like a native Eventstream, including processing and routing.With this capability, you can:- Connect an existing Event Hub to Fabric as an Eventstream.- Process shortcut hub data with Eventstream operators.- Route events to Fabric destinations without recreating sources.",
+        "feature_name": "Bring your own Eventhub to Fabric Eventstream",
+        "last_modified": "2026-10-19",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2027",
+        "release_item_id": "ee5af75d-3f4a-f111-bec7-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Eventhouse OAP full support",
+        "feature_name": "Eventhouse OAP",
+        "last_modified": "2026-10-19",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "e5e1c2f8-e640-f111-88b5-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -31,6 +59,62 @@
         "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
         "release_status": "Shipped",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Fabric Eventstream can now publish Business Events (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
+        "feature_description": "**Eventstream as a Business Events Publisher from Real-Time Hub****Overview**Enable Eventstream to act as a native publisher of Business Events directly from Real-Time hub--simplifying event creation and allowing users to emit business signals from streaming data with minimal setup.**Key Capabilities*** Native Eventstream Publishing from Real-Time Hub: Create and configure Eventstream publishers directly from the Business Events experience in Real-Time hub.* Seamless Stream-to-Event Mapping: Map incoming data streams to Business Event schemas using built-in mappers to transform raw signals into meaningful business events.* Low-Code Publisher Configuration: Configure publishing logic through UI-driven experiences without requiring custom code or complex infrastructure.* Real-time Event Emission: Continuously publish Business Events from live data streams, enabling downstream consumers to react instantly.* Integrated Publisher Lifecycle: Manage, update, and monitor Eventstream publishers alongside other Business Event producers in a unified experience.",
+        "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
+        "last_modified": "2026-10-19",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "This feature brings DirectQuery (DQ) support to Power BI web modeling, enabling users to create and edit DirectQuery and Dual models directly in the browser. Today, DirectQuery authoring is only available in Power BI Desktop.",
+        "feature_name": "DirectQuery support for editing semantic models in the Power BI service",
+        "last_modified": "2026-10-19",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q3 2026",
+        "release_item_id": "b18efefe-e55a-f111-bec7-6045bd006301",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Fabric Eventstream can now publish Business Events (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
+        "feature_description": "**Eventstream as a Business Events Consumer from Real-Time Hub****Overview**Enable Eventstream to natively consume Business Events from Real-Time hub--unlocking real-time processing, transformation, and routing of business signals across Fabric.**Key Capabilities*** Native Eventstream Consumption: Create Eventstream consumers directly from Business Events in Real-Time hub to start processing events in real time.* Real-time Event Processing Pipelines: Build pipelines to ingest, process, and route Business Events with low latency as they are published.* Flexible Transformations & Enrichment: Apply transformations, filtering, and enrichment to Business Events before routing them to downstream systems.* Seamless Routing to Destinations: Deliver processed events to multiple Fabric destinations (e.g., storage, analytics engines, downstream services) for further action.* Integration with Analytics & Actions: Enable scenarios such as real-time insights, anomaly detection, alerts, and automated workflows powered by event data.",
+        "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
+        "last_modified": "2026-10-19",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q3 2026",
+        "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing Power BI Embedded with Direct Lake Mode",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-power-bi-embedded-with-direct-lake-mode/5172944",
+        "feature_description": "This capability will allow you to create semantic models that include both Direct Lake and import tables, providing flexibility with these storage modes. This type of composite semantic models can be created and edited directly in the web editing experience.",
+        "feature_name": "Direct Lake and Import composite models in the Web",
+        "last_modified": "2026-10-19",
+        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
+        "product_name": "Power BI",
+        "release_date": "Q3 2025",
+        "release_item_id": "aa67c070-3e22-f011-998a-00224809ba60",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1000,34 +1084,6 @@
       },
       {
         "active": true,
-        "blog_title": "Fabric Eventstream can now publish Business Events (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
-        "feature_description": "**Eventstream as a Business Events Publisher from Real-Time Hub****Overview**Enable Eventstream to act as a native publisher of Business Events directly from Real-Time hub--simplifying event creation and allowing users to emit business signals from streaming data with minimal setup.**Key Capabilities*** Native Eventstream Publishing from Real-Time Hub: Create and configure Eventstream publishers directly from the Business Events experience in Real-Time hub.* Seamless Stream-to-Event Mapping: Map incoming data streams to Business Event schemas using built-in mappers to transform raw signals into meaningful business events.* Low-Code Publisher Configuration: Configure publishing logic through UI-driven experiences without requiring custom code or complex infrastructure.* Real-time Event Emission: Continuously publish Business Events from live data streams, enabling downstream consumers to react instantly.* Integrated Publisher Lifecycle: Manage, update, and monitor Eventstream publishers alongside other Business Event producers in a unified experience.",
-        "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
-        "last_modified": "2026-09-30",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric Eventstream can now publish Business Events (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
-        "feature_description": "**Eventstream as a Business Events Consumer from Real-Time Hub****Overview**Enable Eventstream to natively consume Business Events from Real-Time hub--unlocking real-time processing, transformation, and routing of business signals across Fabric.**Key Capabilities*** Native Eventstream Consumption: Create Eventstream consumers directly from Business Events in Real-Time hub to start processing events in real time.* Real-time Event Processing Pipelines: Build pipelines to ingest, process, and route Business Events with low latency as they are published.* Flexible Transformations & Enrichment: Apply transformations, filtering, and enrichment to Business Events before routing them to downstream systems.* Seamless Routing to Destinations: Deliver processed events to multiple Fabric destinations (e.g., storage, analytics engines, downstream services) for further action.* Integration with Analytics & Actions: Enable scenarios such as real-time insights, anomaly detection, alerts, and automated workflows powered by event data.",
-        "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
-        "last_modified": "2026-09-30",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
         "blog_title": null,
         "blog_url": null,
         "feature_description": "Create SQL database in Fabric item in USGov (Virginia and Texas GCC-H) clouds.",
@@ -1347,62 +1403,6 @@
         "release_item_id": "e15d3bcf-0db6-f111-aaab-7ced8d70bf41",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Extending Point-in-Time Retention in Fabric SQL DB: From 7 to 35 Days",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extending-point-in-time-retention-in-fabric-sql-db-from-7-to-35-days/5172554",
-        "feature_description": "Today users can restore a database into any point-in-time from live databases in Microsoft Fabric. Point-in-time restore (PITR) feature should have enhanced capability to help their users recover from accidental database deletion and ensure business continuity. Users should be able to restore a dropped database from a hard-deleted artifact and from workspace soft-deleted workspace as well. In each use-case, the user should be able to easily restore a database and continue using it.",
-        "feature_name": "Point-in-time restore from dropped databases",
-        "last_modified": "2026-09-18",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "0ba89ee5-81b3-f111-aaab-70a8a59cbac4",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Enhanced Monitoring for Spark High Concurrency Workloads in Microsoft Fabric",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/enhanced-monitoring-for-spark-high-concurrency-workloads-in-microsoft-fabric/5172618",
-        "feature_description": "This feature delivers a comprehensive Notebook Run Lineage experience for Spark applications, enabling data engineers to monitor and analyze complex notebook workflows with ease. It provides an at-a-glance view of all notebook run statuses, helps quickly identify root-cause failures across nested executions, and highlights performance bottlenecks. Users can filter and explore large execution graphs, access detailed error and run-level information, and view aggregated summaries of execution health and resource usage--all in one place.",
-        "feature_name": "Track and Manage Notebook Run Dependencies & Linage View",
-        "last_modified": "2026-09-17",
-        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
-        "product_name": "Data Engineering",
-        "release_date": "Q1 2027",
-        "release_item_id": "71469140-3550-f111-bec7-6045bd00fc61",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
-        "feature_description": "# Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.## One Familiar Place for Context and Trusted DataThis integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use **Fabric IQ** to identify which regions are behind plan, then use **Work IQ** to connect the results with customer emails, meetings, account plans, and documents.They could summarize the complete picture and even kick off actions and tasks in **Cowork**, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.## Administrator ControlsA new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.The setting will be **off by default**, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.This setting is independent of the existing setting for standalone Power BI Copilot:- If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.- If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.## Initial Public Preview AvailabilityDuring the initial public preview, the integrated experience is available only to users with a **Microsoft 365 Copilot license**.These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:- Fabric data through **Fabric IQ**- Relevant Microsoft 365 context through **Work IQ**Existing permissions and governance controls continue to determine which content each user can access.",
-        "feature_name": "Copilot in Power BI Fabric",
-        "last_modified": "2026-09-17",
-        "product_id": "94e84e43-aa69-f011-bec2-00224804b6c3",
-        "product_name": "Fabric Ecosystem",
-        "release_date": "Q3 2026",
-        "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Service Principal Support for Data Agents in Fabric (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Service-Principal-Support-for-Data-Agents-in-Fabric-Preview/ba-p/5181634",
-        "feature_description": "Fabric Data Agent supports service principal (SPN) authentication, enabling agent-to-agent scenarios such as Microsoft Foundry calling a Data Agent using an SPN. However, SPN-based access is not currently supported with Row-Level Security (RLS). Supporting SPN + RLS would allow the Data Agent to preserve the appropriate user-level data permissions while using an SPN for service-to-service authentication, enabling more secure and flexible enterprise scenarios where both application identity and user identity need to be respected.",
-        "feature_name": "Support SPN + RLS",
-        "last_modified": "2026-09-15",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q1 2027",
-        "release_item_id": "10dd8c0b-afb0-f111-aaab-70a8a59cbb0e",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1419,7 +1419,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1123,
+      "total_items": 1124,
       "total_pages": 12
     }
   }

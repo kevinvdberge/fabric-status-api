@@ -1,13 +1,91 @@
 {
-  "generatedAt": "2026-10-19T17:19:00.267Z",
+  "generatedAt": "2026-10-19T21:39:14.530Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 177,
+  "count": 181,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 8,
         "date": "2026-10-19",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type Public preview -> General availability"
+            ],
+            "feature_name": "Direct Lake and Import composite models in the Web",
+            "last_modified": "2026-10-19",
+            "product_name": "Power BI",
+            "release_date": "Q3 2025",
+            "release_item_id": "aa67c070-3e22-f011-998a-00224809ba60",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "DirectQuery support for editing semantic models in the Power BI service",
+            "last_modified": "2026-10-19",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "b18efefe-e55a-f111-bec7-6045bd006301",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2027-03-31 -> 2027-12-31"
+            ],
+            "feature_name": "Bring your own Eventhub to Fabric Eventstream",
+            "last_modified": "2026-10-19",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2027",
+            "release_item_id": "ee5af75d-3f4a-f111-bec7-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Eventhouse OAP",
+            "last_modified": "2026-10-19",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q4 2026",
+            "release_item_id": "e5e1c2f8-e640-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
+            "last_modified": "2026-10-19",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
+            "last_modified": "2026-10-19",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1993,7 +2071,7 @@
         ]
       },
       {
-        "count": 10,
+        "count": 8,
         "date": "2026-09-30",
         "items": [
           {
@@ -2060,33 +2138,6 @@
             "product_name": "Real-Time Intelligence",
             "release_date": "Q3 2026",
             "release_item_id": "fa80d3f3-0e98-f111-8075-70a8a5aee129",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Type Public preview -> General availability",
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Eventstream as a Business Events Consumer from Real-Time Hub",
-            "last_modified": "2026-09-30",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "452a8734-da3d-f111-88b5-6045bd0a8ec1",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Eventstream as a Business Events Publisher from Real-Time Hub",
-            "last_modified": "2026-09-30",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "c8df0463-d93d-f111-88b5-6045bd0a8ec1",
             "release_status": "Shipped",
             "release_type": "General availability"
           },
@@ -2469,6 +2520,6 @@
         ]
       }
     ],
-    "total_items": 177
+    "total_items": 181
   }
 }

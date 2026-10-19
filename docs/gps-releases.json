@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-10-19T10:45:31.745Z",
+  "generatedAt": "2026-10-19T17:19:00.267Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Fuzzy string matching enables you to compare strings based on similarity rather than relying only on exact matches. Using built-in functions, you can measure the difference or similarity between strings with algorithms such as edit distance and Jaro-Winkler.This makes it easier to work with imperfect and inconsistent real-world data, simplifying scenarios such as data matching, cleansing, deduplication, and search where exact string comparisons may not be sufficient.",
+        "feature_name": "Find similar text with built-in fuzzy string matching",
+        "last_modified": "2026-10-19",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Quickly identify when and where throttling is occurring across your Eventhouse system. This feature highlights recent throttling events, helping you diagnose performance bottlenecks and take corrective action before they impact users.",
+        "feature_name": "show Throttling events of eventhouse at Eventhouse WS monitoring",
+        "last_modified": "2026-10-19",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q4 2026",
+        "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Fabric Spark Monitoring APIs (Generally Available)",
@@ -1350,20 +1378,6 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Fuzzy string matching - Use fuzzy, or approximate, string matching to check if two strings are similar, and calculate the difference between two strings. Use this capability to identify strings that might be different because of character corruption. Corruption includes spelling errors, transposed characters, missing characters, or abbreviations. Fuzzy string matching uses algorithms to detect similar sounding strings.",
-        "feature_name": "Fuzzy String Match",
-        "last_modified": "2026-09-17",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
         "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
         "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
         "feature_description": "# Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.## One Familiar Place for Context and Trusted DataThis integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use **Fabric IQ** to identify which regions are behind plan, then use **Work IQ** to connect the results with customer emails, meetings, account plans, and documents.They could summarize the complete picture and even kick off actions and tasks in **Cowork**, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.## Administrator ControlsA new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.The setting will be **off by default**, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.This setting is independent of the existing setting for standalone Power BI Copilot:- If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.- If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.## Initial Public Preview AvailabilityDuring the initial public preview, the integrated experience is available only to users with a **Microsoft 365 Copilot license**.These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:- Fabric data through **Fabric IQ**- Relevant Microsoft 365 context through **Work IQ**Existing permissions and governance controls continue to determine which content each user can access.",
@@ -1387,20 +1401,6 @@
         "product_name": "Conversational Analytics",
         "release_date": "Q1 2027",
         "release_item_id": "10dd8c0b-afb0-f111-aaab-70a8a59cbb0e",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Surge protection gets smarter: introducing workspace-level controls (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/surge-protection-gets-smarter-introducing-workspace-level-controls-preview/5172365",
-        "feature_description": "Workspace-level surge protection helps capacity administrators prevent a single workspace from unexpectedly consuming an entire capacity. Administrators can set workspace consumption limits, exempt mission-critical workspaces, and block or unblock workspaces to maintain capacity health and quality of service.  There will also be an API that supports these actions alongside an API for the existing Capacity-level Surge Protection feature as part of this release.  Finally, there will be the ability to opt-in to notifications via email - and see them in product - when a surge protection activity occurs.",
-        "feature_name": "Surge Protection V2 (Workspace-level)",
-        "last_modified": "2026-09-15",
-        "product_id": "796a0af7-2dc7-ee11-9079-000d3a3419a8",
-        "product_name": "Administration, Governance and Security",
-        "release_date": "Q4 2026",
-        "release_item_id": "d327a257-51ad-f111-aaab-6045bd041d32",
         "release_status": "Planned",
         "release_type": "General availability"
       }

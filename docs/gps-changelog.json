@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T22:25:15.903Z",
+  "generatedAt": "2026-10-19T00:20:31.895Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 176,
+  "count": 175,
   "changelog": {
     "days": [
       {
@@ -2434,27 +2434,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-09-18",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Point-in-time restore from dropped databases",
-            "last_modified": "2026-09-18",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "0ba89ee5-81b3-f111-aaab-70a8a59cbac4",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 176
+    "total_items": 175
   }
 }

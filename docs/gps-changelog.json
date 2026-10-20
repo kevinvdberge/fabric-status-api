@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:28:18.474Z",
+  "generatedAt": "2026-10-20T22:33:01.687Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 183,
   "changelog": {
@@ -1926,7 +1926,7 @@
             "last_modified": "2026-10-01",
             "product_name": "Azure SQL Database",
             "release_date": "Q3 2026",
-            "release_item_id": "a73683fe-d991-f111-8076-7c1e528d214d",
+            "release_item_id": "8c929587-a18f-f111-8076-7c1e528d21c8",
             "release_status": "Shipped",
             "release_type": "General availability"
           },
@@ -1939,7 +1939,7 @@
             "last_modified": "2026-10-01",
             "product_name": "Azure SQL Database",
             "release_date": "Q3 2026",
-            "release_item_id": "8c929587-a18f-f111-8076-7c1e528d21c8",
+            "release_item_id": "a73683fe-d991-f111-8076-7c1e528d214d",
             "release_status": "Shipped",
             "release_type": "General availability"
           },

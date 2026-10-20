@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-10-20T05:19:31.499Z",
+  "generatedAt": "2026-10-20T10:16:36.806Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 181,
+  "count": 182,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-10-20",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2027-06-30"
+            ],
+            "feature_name": "Eventhouse Onboarding AI Agent",
+            "last_modified": "2026-10-20",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q2 2027",
+            "release_item_id": "3253d652-cf9c-f111-b8db-6045bd02b37f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 8,
         "date": "2026-10-19",
@@ -2520,6 +2539,6 @@
         ]
       }
     ],
-    "total_items": 181
+    "total_items": 182
   }
 }

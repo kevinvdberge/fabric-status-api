@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T10:16:36.806Z",
+  "generatedAt": "2026-10-20T19:28:18.474Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -15,6 +15,20 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q2 2027",
         "release_item_id": "3253d652-cf9c-f111-b8db-6045bd02b37f",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
+        "feature_description": "# Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.## One Familiar Place for Context and Trusted DataThis integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use **Fabric IQ** to identify which regions are behind plan, then use **Work IQ** to connect the results with customer emails, meetings, account plans, and documents.They could summarize the complete picture and even kick off actions and tasks in **Cowork**, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.## Administrator ControlsA new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.The setting will be **off by default**, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.This setting is independent of the existing setting for standalone Power BI Copilot:- If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.- If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.## Initial Public Preview AvailabilityDuring the initial public preview, the integrated experience is available only to users with a **Microsoft 365 Copilot license**.These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:- Fabric data through **Fabric IQ**- Relevant Microsoft 365 context through **Work IQ**Existing permissions and governance controls continue to determine which content each user can access.",
+        "feature_name": "Copilot in Power BI Fabric",
+        "last_modified": "2026-10-20",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -272,8 +286,8 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
+        "blog_title": "T-SQL language enhancements in Microsoft Fabric Data Warehouse (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/T-SQL-language-enhancements-in-Microsoft-Fabric-Data-Warehouse/ba-p/5375433",
         "feature_description": "New capabilities focused on making T-SQL more powerful for analytics, simpler to write, and more intuitive for data exploration.&lt;br/&gt;* **Advanced Analytics** Expanded statistical capabilities with functions such as `MEDIAN`, `QUANTILE`, `PERCENTILE`, `APPROX_MEDIAN`, and `APPROX_QUANTILE` for distribution analysis and large-scale analytical workloads.* **Simplified Query Syntax** New language constructs including `QUALIFY`, `GROUP BY ALL`, and `ORDER BY ALL` help reduce query complexity and improve readability of analytical queries.* **More Intuitive Querying** Developer-friendly syntax enhancements designed to make common query patterns easier to express, improving productivity and reducing the amount of code required to answer business questions.",
         "feature_name": "T-SQL language improvements",
         "last_modified": "2026-10-08",
@@ -1389,20 +1403,6 @@
         "release_item_id": "511823c2-744d-f111-bec7-002248085b3f",
         "release_status": "Shipped",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Customer can reduce the max vcore to control the CU consumption",
-        "feature_name": "Smaller max vCore options and resizing",
-        "last_modified": "2026-09-22",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "009295f2-84b6-f111-aaab-7ced8d70bb60",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {

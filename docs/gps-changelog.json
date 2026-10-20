@@ -1,13 +1,27 @@
 {
-  "generatedAt": "2026-10-20T10:16:36.806Z",
+  "generatedAt": "2026-10-20T19:28:18.474Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 182,
+  "count": 183,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 2,
         "date": "2026-10-20",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31",
+              "Workload Fabric Ecosystem -> Conversational Analytics"
+            ],
+            "feature_name": "Copilot in Power BI Fabric",
+            "last_modified": "2026-10-20",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q4 2026",
+            "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -2539,6 +2553,6 @@
         ]
       }
     ],
-    "total_items": 182
+    "total_items": 183
   }
 }

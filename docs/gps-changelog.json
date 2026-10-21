@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-21T19:57:23.522Z",
+  "generatedAt": "2026-10-21T23:04:17.217Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 188,
+  "count": 193,
   "changelog": {
     "days": [
       {
-        "count": 5,
+        "count": 10,
         "date": "2026-10-21",
         "items": [
           {
@@ -50,6 +50,45 @@
           {
             "active": true,
             "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Find Fabric items and tables from Copilot CLI with OneLake Catalog",
+            "last_modified": "2026-10-21",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q4 2026",
+            "release_item_id": "6754378c-e14a-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "OneLake catalog Search API expansion to OneLake and Semantic model tables",
+            "last_modified": "2026-10-21",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q4 2026",
+            "release_item_id": "9bfc47ce-094d-f111-bec7-6045bd0a8ec1",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Design ribbon in Power BI Desktop",
+            "last_modified": "2026-10-21",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "d069ec35-02a1-f111-b8db-000d3a3ad657",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
               "Release Status Planned -> Shipped"
             ],
             "feature_name": "Enhanced Report Consumption Copilot with Fabric IQ",
@@ -57,6 +96,32 @@
             "product_name": "Power BI",
             "release_date": "Q3 2026",
             "release_item_id": "7351cde9-979a-f111-b8db-6045bd02b667",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Gantt chart visual",
+            "last_modified": "2026-10-21",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "15b7fc3d-d31f-f111-8341-6045bd0a8ec1",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Visuals categorical axis &quot;scroll starts from&quot; option (scroll from right)",
+            "last_modified": "2026-10-21",
+            "product_name": "Power BI",
+            "release_date": "Q3 2026",
+            "release_item_id": "8b284de2-eb5a-f111-bec7-000d3a376137",
             "release_status": "Shipped",
             "release_type": "General availability"
           },
@@ -2624,6 +2689,6 @@
         ]
       }
     ],
-    "total_items": 188
+    "total_items": 193
   }
 }

@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-10-22T20:44:13.176Z",
+  "generatedAt": "2026-10-22T23:39:07.402Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "OneLake security (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-security-Generally-Available/ba-p/5176756",
+        "feature_description": "OneLake security is adding support for dynamic and multi-table row level security. With dynamic RLS, users can create roles in OneLake that secure data differently for each user that queries the data. In addition, multi-table RLS allows data to be secured by querying values in a lookup table. Combined, these features empower users to complex RLS rules for securing enterprise data. The initial launch will support SQL endpoint, Power BI, and Fabric Spark.",
+        "feature_description_html": "<p>OneLake security is adding support for dynamic and multi-table row level security. With dynamic RLS, users can create roles in OneLake that secure data differently for each user that queries the data. In addition, multi-table RLS allows data to be secured by querying values in a lookup table. Combined, these features empower users to complex RLS rules for securing enterprise data. The initial launch will support SQL endpoint, Power BI, and Fabric Spark.</p>",
+        "feature_name": "OneLake security - dynamic and multi-table RLS",
+        "last_modified": "2026-10-22",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q1 2027",
+        "release_item_id": "dd026247-931f-f011-998a-0022480939f0",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1486,21 +1501,6 @@
         "product_name": "Power BI",
         "release_date": "Q1 2027",
         "release_item_id": "7c2e515a-b6bb-f111-aaad-000d3a373559",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Show information about how Azure Maps converted your location to the map, called geocoding, when you are editing your Power BI report.",
-        "feature_description_html": "<p>Show information about how Azure Maps converted your location to the map, called geocoding, when you are editing your Power BI report.</p>",
-        "feature_name": "Azure Maps geocoding auditor",
-        "last_modified": "2026-09-29",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q1 2027",
-        "release_item_id": "05972e72-b8bb-f111-aaad-000d3a373559",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

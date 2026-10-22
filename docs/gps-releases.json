@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-10-21T23:04:17.217Z",
+  "generatedAt": "2026-10-22T01:30:28.168Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Announcing the Availability of REST APIs for Connections and Gateways in Microsoft Fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-the-availability-of-rest-apis-for-connections-and-gateways-in-microso/5173010",
+        "feature_description": "New tenant admin REST APIs for end-to-end visibility and lifecycle management of all cloud connections in Microsoft Fabric -- list, get, delete, manage permissions/ take over.",
+        "feature_description_html": "<p>New tenant admin REST APIs for end-to-end visibility and lifecycle management of all cloud connections in Microsoft Fabric -- list, get, delete, manage permissions/ take over.</p>",
+        "feature_name": "Connections - Tenant Admin APIs for connections",
+        "last_modified": "2026-10-22",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "79c8ba5e-fd3c-f111-88b5-6045bd00f798",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Fabric Data Warehouse will introduce T-SQL functions for pattern matching, text extraction, and transformation using regular expressions. These capabilities will make it easier to validate, search, and manipulate text data directly within your queries.New functions include:* REGEXP_LIKE - Returns a Boolean indicating if the text matches the regex pattern.* REGEXP_REPLACE - Replaces occurrences of a regex pattern with a specified string.* REGEXP_SUBSTR - Extracts parts of a string based on a regex pattern, including Nth occurrence.* REGEXP_INSTR - Returns the position (start or end) of a matched substring.* REGEXP_COUNT - Counts how many times a regex pattern occurs in a string.",
+        "feature_description_html": "<p>Fabric Data Warehouse will introduce T-SQL functions for pattern matching, text extraction, and transformation using regular expressions. These capabilities will make it easier to validate, search, and manipulate text data directly within your queries.New functions include:</p>\n<ul>\n<li>REGEXP_LIKE</li>\n</ul>\n<ul>\n<li>Returns a Boolean indicating if the text matches the regex pattern.</li>\n</ul>\n<ul>\n<li>REGEXP_REPLACE</li>\n</ul>\n<ul>\n<li>Replaces occurrences of a regex pattern with a specified string.</li>\n</ul>\n<ul>\n<li>REGEXP_SUBSTR</li>\n</ul>\n<ul>\n<li>Extracts parts of a string based on a regex pattern, including Nth occurrence.</li>\n</ul>\n<ul>\n<li>REGEXP_INSTR</li>\n</ul>\n<ul>\n<li>Returns the position (start or end) of a matched substring.</li>\n</ul>\n<ul>\n<li>REGEXP_COUNT</li>\n</ul>\n<ul>\n<li>Counts how many times a regex pattern occurs in a string.</li>\n</ul>",
+        "feature_name": "Regular expressions",
+        "last_modified": "2026-10-21",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q4 2026",
+        "release_item_id": "aceeae17-dfb8-f011-bbd3-000d3a30273e",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Discover items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
@@ -1473,36 +1503,6 @@
         "release_item_id": "0133b7a1-b6bb-f111-aaad-000d3a373559",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Bringing the filter pane to your visual with a new top level action buttons in your visual title.",
-        "feature_description_html": "<p>Bringing the filter pane to your visual with a new top level action buttons in your visual title.</p>",
-        "feature_name": "Filter action button to show filter options on the visual",
-        "last_modified": "2026-09-29",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q4 2026",
-        "release_item_id": "4ffd1a22-b7bb-f111-aaad-000d3a373559",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Building real-time, event-driven applications on Mirrored Database Change Feeds with Fabric Eventstreams (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Building-real-time-event-driven-applications-on-Mirrored/ba-p/5190893",
-        "feature_description": "Eventstream now streams change feed updates from Fabric Mirrored Databases, so you can run real-time analytics on operational data without affecting source systems. It supports Mirrored Database sources that expose Delta change feeds.With this capability, you can:- Stream change feed updates from Mirrored Databases into Eventstream.- Build dashboards, alerts, and automated actions with no-code and SQL tools.- Build event driven applications with change data feed.",
-        "feature_description_html": "<p>Eventstream now streams change feed updates from Fabric Mirrored Databases, so you can run real-time analytics on operational data without affecting source systems. It supports Mirrored Database sources that expose Delta change feeds.With this capability, you can:</p>\n<ul>\n<li>Stream change feed updates from Mirrored Databases into Eventstream.</li>\n<li>Build dashboards, alerts, and automated actions with no-code and SQL tools.</li>\n<li>Build event driven applications with change data feed.</li>\n</ul>",
-        "feature_name": "Stream processing for Mirrored Database change feeds in Eventstream",
-        "last_modified": "2026-09-29",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "d71ecbb9-9b41-f111-88b5-002248085b3f",
-        "release_status": "Shipped",
-        "release_type": "General availability"
       }
     ],
     "links": {

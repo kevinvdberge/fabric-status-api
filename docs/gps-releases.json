@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-10-22T06:34:43.321Z",
+  "generatedAt": "2026-10-22T12:27:23.449Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Copilot based exprience that allows users to create and model eventhouse, connect it to Eventstream and OneLake shortuct data and manage it all via natural language.",
+        "feature_description_html": "<p>Copilot based exprience that allows users to create and model eventhouse, connect it to Eventstream and OneLake shortuct data and manage it all via natural language.</p>",
+        "feature_name": "Eventhouse onboarding Agent (copilot experience)",
+        "last_modified": "2026-10-22",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q1 2027",
+        "release_item_id": "a697c5aa-c99c-f111-b8db-6045bd02b37f",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Announcing the Availability of REST APIs for Connections and Gateways in Microsoft Fabric",
@@ -1486,21 +1501,6 @@
         "product_name": "Power BI",
         "release_date": "Q1 2027",
         "release_item_id": "05972e72-b8bb-f111-aaad-000d3a373559",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Display Markdown in your Power BI report from your data or entered manually.",
-        "feature_description_html": "<p>Display Markdown in your Power BI report from your data or entered manually.</p>",
-        "feature_name": "Power BI Markdown visual",
-        "last_modified": "2026-09-29",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q1 2027",
-        "release_item_id": "0133b7a1-b6bb-f111-aaad-000d3a373559",
         "release_status": "Planned",
         "release_type": "Public preview"
       }

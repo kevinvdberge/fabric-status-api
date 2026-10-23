@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-22T23:39:07.402Z",
+  "generatedAt": "2026-10-23T01:58:39.292Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 196,
+  "count": 195,
   "changelog": {
     "days": [
       {
@@ -2707,27 +2707,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-09-22",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Smaller max vCore options and resizing",
-            "last_modified": "2026-09-22",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "009295f2-84b6-f111-aaab-7ced8d70bb60",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 196
+    "total_items": 195
   }
 }

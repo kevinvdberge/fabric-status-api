@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-10-24T11:59:38.562Z",
+  "generatedAt": "2026-10-24T15:48:03.047Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Easily connect your Delta Lake and Apache Iceberg tables managed in AWS Glue Data Catalog and Amazon S3 with OneLake.",
+        "feature_description_html": "<p>Easily connect your Delta Lake and Apache Iceberg tables managed in AWS Glue Data Catalog and Amazon S3 with OneLake.</p>",
+        "feature_name": "Catalog Federation - AWS Glue (GA)",
+        "last_modified": "2026-10-24",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q4 2026",
+        "release_item_id": "894a1ab7-bbcf-f111-a059-0022480a4ef9",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "OneLake security (Generally Available)",
@@ -1488,21 +1503,6 @@
         "release_item_id": "8d8565f4-b5bb-f111-aaad-000d3a373559",
         "release_status": "Planned",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Customize the presentation of your data in a Power BI report with a Vega specification.",
-        "feature_description_html": "<p>Customize the presentation of your data in a Power BI report with a Vega specification.</p>",
-        "feature_name": "Power BI Vega visual",
-        "last_modified": "2026-09-29",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q1 2027",
-        "release_item_id": "7c2e515a-b6bb-f111-aaad-000d3a373559",
-        "release_status": "Planned",
-        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1519,7 +1519,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1124,
+      "total_items": 1125,
       "total_pages": 12
     }
   }

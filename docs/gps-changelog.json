@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-10-24T11:59:38.562Z",
+  "generatedAt": "2026-10-24T15:48:03.047Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 193,
+  "count": 194,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-10-24",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Catalog Federation - AWS Glue (GA)",
+            "last_modified": "2026-10-24",
+            "product_name": "OneLake",
+            "release_date": "Q4 2026",
+            "release_item_id": "894a1ab7-bbcf-f111-a059-0022480a4ef9",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 3,
         "date": "2026-10-22",
@@ -2677,6 +2696,6 @@
         ]
       }
     ],
-    "total_items": 193
+    "total_items": 194
   }
 }

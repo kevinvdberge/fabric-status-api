@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T23:15:47.802Z",
+  "generatedAt": "2026-10-25T01:23:45.967Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 194,
+  "count": 193,
   "changelog": {
     "days": [
       {
@@ -2675,27 +2675,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-09-24",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Unified GetData Full Page Experience",
-            "last_modified": "2026-09-24",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2026",
-            "release_item_id": "b3544bc9-afb7-f111-aaab-7ced8d70b853",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 194
+    "total_items": 193
   }
 }

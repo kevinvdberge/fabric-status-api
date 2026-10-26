@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-10-26T13:50:51.906Z",
+  "generatedAt": "2026-10-26T23:22:13.123Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 189,
+  "count": 191,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-10-26",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Vnode utilization in Query Insights SQL pool insights",
+            "last_modified": "2026-10-26",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "49ca9d78-7cd1-f111-a059-0022480a4051",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Dataverse Shortcut - performance enhancements",
+            "last_modified": "2026-10-26",
+            "product_name": "OneLake",
+            "release_date": "Q4 2026",
+            "release_item_id": "5bcae213-57d1-f111-a059-0022480a4ef9",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-10-24",
@@ -2616,6 +2648,6 @@
         ]
       }
     ],
-    "total_items": 189
+    "total_items": 191
   }
 }

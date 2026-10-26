@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-10-26T13:50:51.906Z",
+  "generatedAt": "2026-10-26T23:22:13.123Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Microsoft OneLake adds shortcut support to Power Platform and Dynamics 365",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/microsoft-onelake-adds-shortcut-support-to-power-platform-and-dynamics-365/5172194",
+        "feature_description": "Dataverse Shortcuts are now significantly faster for first-time sync, reducing end-to-end latency to approximately 15 minutes from 1 hour.",
+        "feature_description_html": "<p>Dataverse Shortcuts are now significantly faster for first-time sync, reducing end-to-end latency to approximately 15 minutes from 1 hour.</p>",
+        "feature_name": "Dataverse Shortcut - performance enhancements",
+        "last_modified": "2026-10-26",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q4 2026",
+        "release_item_id": "5bcae213-57d1-f111-a059-0022480a4ef9",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Introducing SQL Pool Insights in Microsoft Fabric Data Warehouse   ",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing%C2%A0sql-pool-insights-in-microsoft-fabric-data-warehouse-%E2%80%AF%C2%A0/5172285",
+        "feature_description": "See how much compute your SQL pools use, directly in T-SQL. The queryinsights.sql_pool_insights view now includes vnode utilization for all pools: vnodes_used shows how many vnodes a pool used, max_vnodes_available shows the most it can use, and includes_cache_vnodes shows when vnodes kept warm for read caching are counted. Compare usage to the limit to spot pools that are close to full, check whether slow queries ran during busy periods by joining with queryinsights.exec_requests_history, and decide whether to scale capacity, adjust pool resource settings, or tune queries. Available in Fabric Data Warehouse and SQL analytics endpoints with 30 days of history.",
+        "feature_description_html": "<p>See how much compute your SQL pools use, directly in T-SQL. The queryinsights.sql_pool_insights view now includes vnode utilization for all pools: vnodes_used shows how many vnodes a pool used, max_vnodes_available shows the most it can use, and includes_cache_vnodes shows when vnodes kept warm for read caching are counted. Compare usage to the limit to spot pools that are close to full, check whether slow queries ran during busy periods by joining with queryinsights.exec_requests_history, and decide whether to scale capacity, adjust pool resource settings, or tune queries. Available in Fabric Data Warehouse and SQL analytics endpoints with 30 days of history.</p>",
+        "feature_name": "Vnode utilization in Query Insights SQL pool insights",
+        "last_modified": "2026-10-26",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q4 2026",
+        "release_item_id": "49ca9d78-7cd1-f111-a059-0022480a4051",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1473,36 +1503,6 @@
         "release_item_id": "e8617575-b7bb-f111-aaad-000d3a373559",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Add different data for each layer of your Power BI Azure Maps visual.",
-        "feature_description_html": "<p>Add different data for each layer of your Power BI Azure Maps visual.</p>",
-        "feature_name": "Azure Maps multiple data layers",
-        "last_modified": "2026-09-29",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q1 2027",
-        "release_item_id": "a1de82b7-b8bb-f111-aaad-000d3a373559",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Specify when your week starts for relative date options for weeks.",
-        "feature_description_html": "<p>Specify when your week starts for relative date options for weeks.</p>",
-        "feature_name": "Power BI relative slicers week starts on option",
-        "last_modified": "2026-09-29",
-        "product_id": "642a8375-05fc-ee11-a1ff-000d3a341a60",
-        "product_name": "Power BI",
-        "release_date": "Q1 2027",
-        "release_item_id": "8d8565f4-b5bb-f111-aaad-000d3a373559",
-        "release_status": "Planned",
-        "release_type": "General availability"
       }
     ],
     "links": {
@@ -1519,7 +1519,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1125,
+      "total_items": 1127,
       "total_pages": 12
     }
   }

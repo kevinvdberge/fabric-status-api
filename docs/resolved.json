@@ -1,9 +1,35 @@
 {
-  "generatedAt": "2026-10-26T13:50:51.872Z",
+  "generatedAt": "2026-10-26T23:22:13.052Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 240,
+  "count": 242,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "ac7667bc-67d1-f111-a059-0022480a449e",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "10/26/2026 2:03:17 PM",
+      "reportedAt": "2026-10-26T14:03:17.000Z",
+      "resolvedRaw": "10/26/2026 10:56:00 AM",
+      "resolvedAt": "2026-10-26T10:56:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers may have experienced issues editing semantic models in Direct Lake mode. Attempts to add a table to an existing semantic model may have failed with the error “Direct Lake query is missing workspace or artifact identity. </p></div>",
+      "detailsText": "Fabric customers may have experienced issues editing semantic models in Direct Lake mode. Attempts to add a table to an existing semantic model may have failed with the error “Direct Lake query is missing workspace or artifact identity.",
+      "hash": "6fc4f940da5f4684b84aee76e10640206ae7b5abb251f64fe15c7323b8f11ea3"
+    },
+    {
+      "type": "resolved",
+      "serviceNotificationId": "d8e03ef9-44d1-f111-a059-0022480a4a25",
+      "serviceStatus": "",
+      "region": "Central US",
+      "reportedRaw": "10/26/2026 6:50:04 AM",
+      "reportedAt": "2026-10-26T06:50:04.000Z",
+      "resolvedRaw": "10/26/2026 7:45:00 AM",
+      "resolvedAt": "2026-10-26T07:45:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Fabric customers with tenants located in North Central US L Primary region might experience issues while interacting with the service.</p></div>",
+      "detailsText": "Fabric customers with tenants located in North Central US L Primary region might experience issues while interacting with the service.",
+      "hash": "ebf0ca74adbb5ac86e9934d41212da5d0619392872ce57eaf33ecca456a964da"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "51619c50-28d1-f111-a059-0022480a4a25",

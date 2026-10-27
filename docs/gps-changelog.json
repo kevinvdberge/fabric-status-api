@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-10-26T23:22:13.123Z",
+  "generatedAt": "2026-10-27T02:16:55.913Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 191,
+  "count": 190,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-10-27",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Catalog Federation - AWS Glue (GA) -> Catalog Federation - AWS Glue"
+            ],
+            "feature_name": "Catalog Federation - AWS Glue",
+            "last_modified": "2026-10-27",
+            "product_name": "OneLake",
+            "release_date": "Q4 2026",
+            "release_item_id": "894a1ab7-bbcf-f111-a059-0022480a4ef9",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-10-26",
@@ -32,25 +51,6 @@
             "release_date": "Q4 2026",
             "release_item_id": "5bcae213-57d1-f111-a059-0022480a4ef9",
             "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
-      },
-      {
-        "count": 1,
-        "date": "2026-10-24",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Catalog Federation - AWS Glue (GA)",
-            "last_modified": "2026-10-24",
-            "product_name": "OneLake",
-            "release_date": "Q4 2026",
-            "release_item_id": "894a1ab7-bbcf-f111-a059-0022480a4ef9",
-            "release_status": "Planned",
             "release_type": "General availability"
           }
         ]
@@ -2627,27 +2627,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-09-26",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "RTD AI based Visual Builder",
-            "last_modified": "2026-09-26",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q4 2026",
-            "release_item_id": "233c01f6-ba72-f111-ab0f-6045bd00f798",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 191
+    "total_items": 190
   }
 }

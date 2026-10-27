@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-10-26T23:22:13.123Z",
+  "generatedAt": "2026-10-27T02:16:55.913Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "Easily connect your Delta Lake and Apache Iceberg tables managed in AWS Glue Data Catalog and Amazon S3 with OneLake.",
+        "feature_description_html": "<p>Easily connect your Delta Lake and Apache Iceberg tables managed in AWS Glue Data Catalog and Amazon S3 with OneLake.</p>",
+        "feature_name": "Catalog Federation - AWS Glue",
+        "last_modified": "2026-10-27",
+        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "OneLake",
+        "release_date": "Q4 2026",
+        "release_item_id": "894a1ab7-bbcf-f111-a059-0022480a4ef9",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Microsoft OneLake adds shortcut support to Power Platform and Dynamics 365",
@@ -31,21 +46,6 @@
         "product_name": "Data Warehouse",
         "release_date": "Q4 2026",
         "release_item_id": "49ca9d78-7cd1-f111-a059-0022480a4051",
-        "release_status": "Planned",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Easily connect your Delta Lake and Apache Iceberg tables managed in AWS Glue Data Catalog and Amazon S3 with OneLake.",
-        "feature_description_html": "<p>Easily connect your Delta Lake and Apache Iceberg tables managed in AWS Glue Data Catalog and Amazon S3 with OneLake.</p>",
-        "feature_name": "Catalog Federation - AWS Glue (GA)",
-        "last_modified": "2026-10-24",
-        "product_id": "338c69fe-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "OneLake",
-        "release_date": "Q4 2026",
-        "release_item_id": "894a1ab7-bbcf-f111-a059-0022480a4ef9",
         "release_status": "Planned",
         "release_type": "General availability"
       },

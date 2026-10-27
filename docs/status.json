@@ -1,32 +1,18 @@
 {
-  "generatedAt": "2026-10-26T23:22:13.052Z",
+  "generatedAt": "2026-10-27T02:16:55.878Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
+    "active": 0,
     "resolved": 242,
-    "total": 243
+    "total": 242
   },
   "summary": {
-    "activeIncidents": 1,
+    "activeIncidents": 0,
     "resolvedIncidents": 242,
-    "hasActive": true
+    "hasActive": false
   },
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "a332c440-91d1-f111-a059-0022480a4051",
-      "serviceStatus": "Degraded",
-      "region": "East US",
-      "reportedRaw": "10/26/2026 3:59:49 PM",
-      "reportedAt": "2026-10-26T15:59:49.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><h1 class=\"pa-gz pa-og pa-py pa-cb pa-fr pa-pa pa-ph pa-pg pa-pz\" style=\"background-color:rgb(255, 255, 255);border-width:0px;color:rgb(36, 36, 36);font-family:\"Segoe UI\", \"Segoe UI Web (West European)\", -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif;font-size:20px;font-style:normal;font-weight:600;letter-spacing:normal;line-height:28px;margin:0px;outline:none;padding:0px;text-align:left;text-indent:0px;text-transform:none;white-space:pre-wrap;word-break:break-word;word-spacing:0px;\" id=\"formHeaderTitle_1\" title=\"Fabric customers might experience intermittent issues/failures while performing Notebook or Spark Job operations.The suggested workaround is for customers to retry their notebook job.Engineering teams are investigating the issue, and an update will be provided soon.\" data-id=\"header_title\"><span data-teams=\"true\">Fabric customers in East US region might experience intermittent issues/failures while performing Notebook, Lakehouse or Spark Job operations.  Engineering teams are investigating the issue, and an update will be provided soon.</span></h1></div>",
-      "detailsText": "Fabric customers in East US region might experience intermittent issues/failures while performing Notebook, Lakehouse or Spark Job operations. Engineering teams are investigating the issue, and an update will be provided soon.",
-      "hash": "55b88905aae7fb31f04772b8940cfd6ff68fc4049acd189d4c765eacc6033e43"
-    }
-  ],
+  "active": [],
   "resolved": [
     {
       "type": "resolved",

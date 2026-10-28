@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-10-28T08:50:14.620Z",
+  "generatedAt": "2026-10-28T15:42:53.490Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 242,
-    "total": 242
+    "total": 243
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 242,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "9dfa2338-d5d2-f111-a059-0022480a4e21",
+      "serviceStatus": "Degraded",
+      "region": "",
+      "reportedRaw": "10/28/2026 6:37:17 AM",
+      "reportedAt": "2026-10-28T06:37:17.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"background-color:rgb(255,255,255);color:rgb(66,66,66);font-family:\"Segoe UI\";font-size:14.6667px;\"><span style=\"display:inline !important;float:none;font-style:normal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;\">Fabric customers may experience issues with Azure Maps where visuals will be shown as blank. Engineers are actively investigating this issue.</span></span></p></div>",
+      "detailsText": "Fabric customers may experience issues with Azure Maps where visuals will be shown as blank. Engineers are actively investigating this issue.",
+      "hash": "5387c82690add433813f7a8cd41e0e8991d80f22ee199bcdc00506b22346919b"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T18:57:11.772Z",
+  "generatedAt": "2026-10-29T23:06:56.133Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -1281,8 +1281,8 @@
       },
       {
         "active": true,
-        "blog_title": "Dataflow Gen2: Variable Library integration in Microsoft Fabric (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/dataflow-gen2-variable-library-integration-in-microsoft-fabric-generally-availab/5172164",
+        "blog_title": "Manage once, reuse everywhere: Introducing variable library support for Eventstream (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Manage-once-reuse-everywhere-Introducing-variable-library/ba-p/5377349",
         "feature_description": "Eventstream now integrates with the Fabric Variable Library, so configurations can reference workspace variables. This makes Eventstream definitions portable across development, test, and production workspaces.With this capability, you can:- Reference workspace variables for connection identifiers and item references.- Reuse a single Eventstream definition across environments by swapping variable values.- Manage configuration centrally in the variable library instead of editing each item.",
         "feature_description_html": "<p>Eventstream now integrates with the Fabric Variable Library, so configurations can reference workspace variables. This makes Eventstream definitions portable across development, test, and production workspaces.With this capability, you can:</p>\n<ul>\n<li>Reference workspace variables for connection identifiers and item references.</li>\n<li>Reuse a single Eventstream definition across environments by swapping variable values.</li>\n<li>Manage configuration centrally in the variable library instead of editing each item.</li>\n</ul>",
         "feature_name": "Variable Library support for Eventstream",
@@ -1311,8 +1311,8 @@
       },
       {
         "active": true,
-        "blog_title": "Workspace-Level Private Link in Microsoft Fabric (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/workspace-level-private-link-in-microsoft-fabric-generally-available/5172560",
+        "blog_title": "Strengthening data security with workspace-level private connectivity for custom endpoints for Eventstream (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Strengthening-data-security-with-workspace-level-private/ba-p/5377347",
         "feature_description": "Private Links enable secure, private connectivity between your virtual network and Microsoft Fabric, eliminating exposure to the public internet. With Eventstream's integration with Workspace Private Links, you gain granular access control at the workspace level enhancing data security by minimizing the risk of unauthorized access and potential data breaches.Now we are expanding the Workspace Private Links support to Eventstream Custom Endpoint, enabling secure inbound connection to Fabric.",
         "feature_description_html": "<p>Private Links enable secure, private connectivity between your virtual network and Microsoft Fabric, eliminating exposure to the public internet. With Eventstream's integration with Workspace Private Links, you gain granular access control at the workspace level enhancing data security by minimizing the risk of unauthorized access and potential data breaches.Now we are expanding the Workspace Private Links support to Eventstream Custom Endpoint, enabling secure inbound connection to Fabric.</p>",
         "feature_name": "Workspace Private Links for Eventstream Custom Endpoint",

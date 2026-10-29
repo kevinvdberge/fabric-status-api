@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-10-29T18:57:11.738Z",
+  "generatedAt": "2026-10-29T23:06:56.096Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "ab143294-05d3-f111-a059-0022480a4f9b",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "10/28/2026 12:26:31 PM",
-      "reportedAt": "2026-10-28T12:26:31.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Fabric customers may experience issues querying Data Warehouse or refreshing Direct Lake artifacts.</span></p></div>",
-      "detailsText": "Fabric customers may experience issues querying Data Warehouse or refreshing Direct Lake artifacts.",
-      "hash": "117636ad3934ccef65feb2caf8b9c7945a7ec21f9556459be1394d92918ee122"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

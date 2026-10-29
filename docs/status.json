@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-28T20:34:32.364Z",
+  "generatedAt": "2026-10-29T00:25:40.376Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 2,
-    "resolved": 242,
+    "active": 1,
+    "resolved": 243,
     "total": 244
   },
   "summary": {
-    "activeIncidents": 2,
-    "resolvedIncidents": 242,
+    "activeIncidents": 1,
+    "resolvedIncidents": 243,
     "hasActive": true
   },
   "active": [
@@ -25,22 +25,22 @@
       "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Fabric customers may experience issues querying Data Warehouse or refreshing Direct Lake artifacts.</span></p></div>",
       "detailsText": "Fabric customers may experience issues querying Data Warehouse or refreshing Direct Lake artifacts.",
       "hash": "117636ad3934ccef65feb2caf8b9c7945a7ec21f9556459be1394d92918ee122"
-    },
-    {
-      "type": "active",
-      "serviceNotificationId": "9dfa2338-d5d2-f111-a059-0022480a4e21",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "10/28/2026 6:37:17 AM",
-      "reportedAt": "2026-10-28T06:37:17.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Power BI customers may experience issues with Azure Maps where visuals will be shown as blank. Engineers have identified the issue and working on a mitigation. An update would be provided by 2:30 PM PST</span></span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\"><strong>Workaround</strong>: </span></span><span data-teams=\"true\">Affected users may clear their <strong>Microsoft Edge browser cache</strong> and retry loading the report. With Edge cache clearing, in Power BI Desktop, Azure Maps visuals may also be restored. If the issue persists, close and reopen Power BI Desktop after clearing the cache.</span></p></div>",
-      "detailsText": "Power BI customers may experience issues with Azure Maps where visuals will be shown as blank. Engineers have identified the issue and working on a mitigation. An update would be provided by 2:30 PM PST Workaround : Affected users may clear their Microsoft Edge browser cache and retry loading the report. With Edge cache clearing, in Power BI Desktop, Azure Maps visuals may also be restored. If the issue persists, close and reopen Power BI Desktop after clearing the cache.",
-      "hash": "ef584598777e509907d97413d1209d4cf056904a9a6afe2b775ccd0d61f6dd22"
     }
   ],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "9dfa2338-d5d2-f111-a059-0022480a4e21",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "10/28/2026 6:37:17 AM",
+      "reportedAt": "2026-10-28T06:37:17.000Z",
+      "resolvedRaw": "10/28/2026 3:05:22 PM",
+      "resolvedAt": "2026-10-28T15:05:22.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Power BI customers may have experienced issues with Azure Maps where visuals will be shown as blank.</span></span></p></div>",
+      "detailsText": "Power BI customers may have experienced issues with Azure Maps where visuals will be shown as blank.",
+      "hash": "99f87963102106f60067f738846ed04ad3a606f63a9a80debc1438ba5865f991"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "ac7667bc-67d1-f111-a059-0022480a449e",

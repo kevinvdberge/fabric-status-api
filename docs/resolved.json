@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-10-28T20:34:32.364Z",
+  "generatedAt": "2026-10-29T00:25:40.376Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 242,
+  "count": 243,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "9dfa2338-d5d2-f111-a059-0022480a4e21",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "10/28/2026 6:37:17 AM",
+      "reportedAt": "2026-10-28T06:37:17.000Z",
+      "resolvedRaw": "10/28/2026 3:05:22 PM",
+      "resolvedAt": "2026-10-28T15:05:22.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Power BI customers may have experienced issues with Azure Maps where visuals will be shown as blank.</span></span></p></div>",
+      "detailsText": "Power BI customers may have experienced issues with Azure Maps where visuals will be shown as blank.",
+      "hash": "99f87963102106f60067f738846ed04ad3a606f63a9a80debc1438ba5865f991"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "ac7667bc-67d1-f111-a059-0022480a449e",

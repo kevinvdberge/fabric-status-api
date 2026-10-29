@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-10-29T13:03:09.284Z",
+  "generatedAt": "2026-10-29T18:57:11.772Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 202,
+  "count": 204,
   "changelog": {
     "days": [
       {
-        "count": 7,
+        "count": 9,
         "date": "2026-10-29",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-12-31 -> 2027-03-31"
+            ],
+            "feature_name": "Build Agent with AI Mode Supports Files as Context",
+            "last_modified": "2026-10-29",
+            "product_name": "Conversational Analytics",
+            "release_date": "Q1 2027",
+            "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -33,6 +46,19 @@
             "release_date": "Q4 2026",
             "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
             "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Semester 2024 Wave 1 (Dilithium) (Public) -> 2026 Wave 1 (Rubidium) (Public)"
+            ],
+            "feature_name": "Azure Data Factory in Fabric",
+            "last_modified": "2026-10-29",
+            "product_name": "Data Factory",
+            "release_date": "Q3 2024",
+            "release_item_id": "2fcc529e-764b-ef11-a317-000d3a31cfdc",
+            "release_status": "Shipped",
             "release_type": "Public preview"
           },
           {
@@ -2786,6 +2812,6 @@
         ]
       }
     ],
-    "total_items": 202
+    "total_items": 204
   }
 }

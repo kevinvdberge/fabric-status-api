@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:03:09.284Z",
+  "generatedAt": "2026-10-29T18:57:11.772Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -18,6 +18,21 @@
         "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Build agent with AI for Data Agent (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-agent-with-AI-for-Data-Agent-Preview/ba-p/5351116",
+        "feature_description": "Build Agent with AI Mode file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.",
+        "feature_description_html": "<p>Build Agent with AI Mode file support lets users upload existing text-based business context such as documentation, glossaries, process guides, and data dictionaries, so Creator Agent can use it to generate more complete and accurate Data Agent configurations. This reduces repetitive setup work by allowing users to reuse knowledge that already exists in files, rather than manually recreating that context through long chat interactions.</p>",
+        "feature_name": "Build Agent with AI Mode Supports Files as Context",
+        "last_modified": "2026-10-29",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q1 2027",
+        "release_item_id": "54678565-fb68-f111-a826-6045bd0066ad",
+        "release_status": "Planned",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -93,6 +108,21 @@
         "release_item_id": "821da45a-199c-f111-b8db-6045bd02b7d4",
         "release_status": "Shipped",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Migrating Azure Data Factory pipelines to Fabric directly from your Fabric workspace",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Migrating-Azure-Data-Factory-pipelines-to-Fabric-directly-from/ba-p/5190801",
+        "feature_description": "Bring your existing Azure Data Factory (ADF) to your Fabric workspace! This is a new preview capability that allows you to connect to your existing ADF factories from your Fabric workspace.You will now be able to fully manage your ADF factories directly from the Fabric workspace UI! Once your ADF is linked to your Fabric workspace, you'll be able to trigger, execute, and monitor your pipelines as you do in ADF but directly inside of Fabric.",
+        "feature_description_html": "<p>Bring your existing Azure Data Factory (ADF) to your Fabric workspace! This is a new preview capability that allows you to connect to your existing ADF factories from your Fabric workspace.You will now be able to fully manage your ADF factories directly from the Fabric workspace UI! Once your ADF is linked to your Fabric workspace, you'll be able to trigger, execute, and monitor your pipelines as you do in ADF but directly inside of Fabric.</p>",
+        "feature_name": "Azure Data Factory in Fabric",
+        "last_modified": "2026-10-29",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2024",
+        "release_item_id": "2fcc529e-764b-ef11-a317-000d3a31cfdc",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1471,36 +1501,6 @@
         "product_name": "IQ",
         "release_date": "Q4 2026",
         "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
-        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
-        "feature_description_html": "<p>The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:</p>\n<ul>\n<li>View all entity types and relationships together to understand how the ontology is organized and how its parts connect.</li>\n<li>Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.</li>\n<li>Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.</li>\n</ul>",
-        "feature_name": "Full Ontology canvas experience",
-        "last_modified": "2026-10-02",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Change your Ontology with confidence. Every saved version is listed newest-first with its timestamp, author, and description, so teams building an Ontology together can always see what changed, who changed it, and roll back to any earlier state.",
-        "feature_description_html": "<p>Change your Ontology with confidence. Every saved version is listed newest-first with its timestamp, author, and description, so teams building an Ontology together can always see what changed, who changed it, and roll back to any earlier state.</p>",
-        "feature_name": "Ontology Versioning",
-        "last_modified": "2026-10-02",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "e52b1f9e-3e40-f111-88b4-000d3a308b7b",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

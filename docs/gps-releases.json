@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-10-29T00:25:40.408Z",
+  "generatedAt": "2026-10-29T06:12:10.371Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Building real-time, event-driven applications with Database CDC feeds and Fabric Eventstreams DeltaFlow (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/building-real-time-event-driven-applications-with-database-cdc-feeds-and-fabric-/5172193",
+        "feature_description": "Eventstream now makes change data capture (CDC) feeds analytics ready by automatically turning raw change events into structured tables. Developers and analysts can work with change data as if it were regular tables, without interpreting complex CDC semantics. This speeds the development of operational dashboards, event-driven applications, and real-time analytics.With this capability, you can:- Convert raw change events into tables that match the source schema.- Build dashboards and event-driven applications on change data quickly.- React to source changes instantly with minimal setup and maintenance.",
+        "feature_description_html": "<p>Eventstream now makes change data capture (CDC) feeds analytics ready by automatically turning raw change events into structured tables. Developers and analysts can work with change data as if it were regular tables, without interpreting complex CDC semantics. This speeds the development of operational dashboards, event-driven applications, and real-time analytics.With this capability, you can:</p>\n<ul>\n<li>Convert raw change events into tables that match the source schema.</li>\n<li>Build dashboards and event-driven applications on change data quickly.</li>\n<li>React to source changes instantly with minimal setup and maintenance.</li>\n</ul>",
+        "feature_name": "DeltaFlow: Analytics ready CDC feed processing in Eventstream",
+        "last_modified": "2026-10-29",
+        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
+        "product_name": "Real-Time Intelligence",
+        "release_date": "Q1 2027",
+        "release_item_id": "76968352-9a41-f111-88b5-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)",
@@ -21,6 +36,21 @@
       },
       {
         "active": true,
+        "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
+        "feature_description": "# Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.## One Familiar Place for Context and Trusted DataThis integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use **Fabric IQ** to identify which regions are behind plan, then use **Work IQ** to connect the results with customer emails, meetings, account plans, and documents.They could summarize the complete picture and even kick off actions and tasks in **Cowork**, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.## Administrator ControlsA new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.The setting will be **off by default**, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.This setting is independent of the existing setting for standalone Power BI Copilot:- If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.- If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.## Initial Public Preview AvailabilityDuring the initial public preview, the integrated experience is available only to users with a **Microsoft 365 Copilot license**.These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:- Fabric data through **Fabric IQ**- Relevant Microsoft 365 context through **Work IQ**Existing permissions and governance controls continue to determine which content each user can access.",
+        "feature_description_html": "<p>Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.</p>\n<p>Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.</p>\n<h2>One Familiar Place for Context and Trusted Data</h2>\n<p>This integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.</p>\n<p>For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use <strong>Fabric IQ</strong> to identify which regions are behind plan, then use <strong>Work IQ</strong> to connect the results with customer emails, meetings, account plans, and documents.</p>\n<p>They could summarize the complete picture and even kick off actions and tasks in <strong>Cowork</strong>, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.</p>\n<h2>Administrator Controls</h2>\n<p>A new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.</p>\n<p>The setting will be <strong>off by default</strong>, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.</p>\n<p>This setting is independent of the existing setting for standalone Power BI Copilot:</p>\n<ul>\n<li>If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.</li>\n<li>If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.</li>\n</ul>\n<h2>Initial Public Preview Availability</h2>\n<p>During the initial public preview, the integrated experience is available only to users with a <strong>Microsoft 365 Copilot license</strong>.</p>\n<p>These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:</p>\n<ul>\n<li>Fabric data through <strong>Fabric IQ</strong></li>\n<li>Relevant Microsoft 365 context through <strong>Work IQ</strong></li>\n</ul>\n<p>Existing permissions and governance controls continue to determine which content each user can access.</p>",
+        "feature_name": "Microsoft Copilot in Power BI - Fabric",
+        "last_modified": "2026-10-29",
+        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
+        "product_name": "Conversational Analytics",
+        "release_date": "Q4 2026",
+        "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
+      {
+        "active": true,
         "blog_title": "SharePoint Site Picker for easily connecting SharePoint data in Microsoft Fabric (Preview)",
         "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/sharepoint-site-picker-for-easily-connecting-sharepoint-data-in-microsoft-fabric/5172133",
         "feature_description": "We are enhancing Power Query's Modern Get Data experience with SharePoint browsing, enabling customers to discover and select files and folders directly from their SharePoint sites instead of manually finding and copying URLs.This improvement makes it easier for business users to connect to the shared data their teams already use. By bringing SharePoint browsing into Get Data, customers can spend less time locating the correct file links and more time preparing data for analysis.Key benefits and scenarios:* Browse rather than copy links: Navigate SharePoint sites and folders to select the content needed for data preparation.* Connect to everyday business files: Bring shared files into Power Query through a guided selection experience.* Move smoothly into data preparation: Preview the selected data and begin transforming it within the familiar Power Query authoring flow.* Keep connection flexibility: Use browsing for simpler discovery while retaining manual URL entry when preferred.This release simplifies the path from shared content in SharePoint to data preparation in Power Query.",
@@ -33,6 +63,21 @@
         "release_item_id": "9f3c0884-71c2-f111-aaad-70a8a5b194d8",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Soft delete for On-premises data gateways in Microsoft Fabric (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Soft-delete-for-On-premises-data-gateways-in-Microsoft-Fabric/ba-p/5365712",
+        "feature_description": "We are introducing user-facing soft delete for on-premises data gateways, giving administrators a safety net when gateways are removed.Accidental or premature deletion of a gateway can disrupt data refreshes and reports. With this update, administrators can:- Recover recently deleted gateways within a retention window.- Restore gateway configurations without recreating them from scratch.- Reduce the impact of accidental deletions on business-critical connectivity.This helps organizations protect against accidental loss of gateway configurations and maintain continuity.",
+        "feature_description_html": "<p>We are introducing user-facing soft delete for on-premises data gateways, giving administrators a safety net when gateways are removed.Accidental or premature deletion of a gateway can disrupt data refreshes and reports. With this update, administrators can:</p>\n<ul>\n<li>Recover recently deleted gateways within a retention window.</li>\n<li>Restore gateway configurations without recreating them from scratch.</li>\n<li>Reduce the impact of accidental deletions on business-critical connectivity.</li>\n</ul>\n<p>This helps organizations protect against accidental loss of gateway configurations and maintain continuity.</p>",
+        "feature_name": "Gateways - Soft delete for gateways",
+        "last_modified": "2026-10-29",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "d573bd24-ee7e-f111-ab0f-6045bd08179b",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -466,21 +511,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q2 2027",
         "release_item_id": "3253d652-cf9c-f111-b8db-6045bd02b37f",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Extracting deeper insights with Fabric Data Agents in Copilot in Power BI",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/extracting-deeper-insights-with-fabric-data-agents-in-copilot-in-power-bi/5172750",
-        "feature_description": "# Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.## One Familiar Place for Context and Trusted DataThis integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use **Fabric IQ** to identify which regions are behind plan, then use **Work IQ** to connect the results with customer emails, meetings, account plans, and documents.They could summarize the complete picture and even kick off actions and tasks in **Cowork**, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.## Administrator ControlsA new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.The setting will be **off by default**, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.This setting is independent of the existing setting for standalone Power BI Copilot:- If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.- If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.## Initial Public Preview AvailabilityDuring the initial public preview, the integrated experience is available only to users with a **Microsoft 365 Copilot license**.These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:- Fabric data through **Fabric IQ**- Relevant Microsoft 365 context through **Work IQ**Existing permissions and governance controls continue to determine which content each user can access.",
-        "feature_description_html": "<p>Microsoft Copilot Integrated into Power BI and Microsoft FabricCopilot experiences have emerged across the applications people use every day, bringing AI closer to the work happening in each product. But this can also feel fragmented, with different entry points, separate conversations, and uncertainty about which Copilot agent to use.</p>\n<p>Our goal is to create a consistent Copilot experience that is available wherever people work. No one should have to leave the application they are using to find it. Microsoft Copilot should come into their experience, carry context with them, and connect to the specialized intelligence of each product.  This release will allow tenant admins the opportunity to choose Microsoft Copilot as an alternative to the Power BI standalone Copilot experience, bringing all of M365 into Power BI for licensed users.</p>\n<h2>One Familiar Place for Context and Trusted Data</h2>\n<p>This integration gives users one familiar place to bring together business context and trusted data. Shared conversation history lets them continue a discussion as they move between Microsoft Copilot experiences instead of starting over in each application.</p>\n<p>For someone starting in Power BI, a question no longer has to stop with the numbers in a report. A sales leader could use <strong>Fabric IQ</strong> to identify which regions are behind plan, then use <strong>Work IQ</strong> to connect the results with customer emails, meetings, account plans, and documents.</p>\n<p>They could summarize the complete picture and even kick off actions and tasks in <strong>Cowork</strong>, all from inside Power BI. This work context and ability to move directly from insight to action were not available in the standalone Power BI Copilot experience.</p>\n<h2>Administrator Controls</h2>\n<p>A new setting in the Fabric admin portal will determine whether this integration is available by enabling or disabling the entry point in the navigation pane.</p>\n<p>The setting will be <strong>off by default</strong>, giving administrators time to evaluate the experience before introducing it to their organization. Administrators can enable it when they are ready and disable it if they need to pause access.</p>\n<p>This setting is independent of the existing setting for standalone Power BI Copilot:</p>\n<ul>\n<li>If both settings are enabled, users with a Microsoft 365 Copilot license will see entry points for both experiences. Standalone Power BI Copilot will continue to appear on Home.</li>\n<li>If standalone Power BI Copilot is disabled and Microsoft 365 Copilot is enabled, users will see only the Microsoft 365 Copilot entry point.</li>\n</ul>\n<h2>Initial Public Preview Availability</h2>\n<p>During the initial public preview, the integrated experience is available only to users with a <strong>Microsoft 365 Copilot license</strong>.</p>\n<p>These users receive the full Copilot Chat experience in Power BI and Fabric, bringing together:</p>\n<ul>\n<li>Fabric data through <strong>Fabric IQ</strong></li>\n<li>Relevant Microsoft 365 context through <strong>Work IQ</strong></li>\n</ul>\n<p>Existing permissions and governance controls continue to determine which content each user can access.</p>",
-        "feature_name": "Copilot in Power BI Fabric",
-        "last_modified": "2026-10-20",
-        "product_id": "951b64e0-a663-f111-a826-6045bd00f798",
-        "product_name": "Conversational Analytics",
-        "release_date": "Q4 2026",
-        "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
         "release_status": "Planned",
         "release_type": "Public preview"
       },
@@ -1471,36 +1501,6 @@
         "product_name": "IQ",
         "release_date": "Q3 2026",
         "release_item_id": "e52b1f9e-3e40-f111-88b4-000d3a308b7b",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
-        "feature_description": "The Ontology migration experience helps existing Microsoft Fabric IQ Ontology users move from the earlier ontology version to the updated model and experience. Users receive onboarding and migration guidance so they can understand the transition and its effect on their ontology workflows. Supported guidance should be reviewed before migration; this release does not promise that every connected experience migrates without additional steps.",
-        "feature_description_html": "<p>The Ontology migration experience helps existing Microsoft Fabric IQ Ontology users move from the earlier ontology version to the updated model and experience. Users receive onboarding and migration guidance so they can understand the transition and its effect on their ontology workflows. Supported guidance should be reviewed before migration; this release does not promise that every connected experience migrates without additional steps.</p>",
-        "feature_name": "Migration to the updated Ontology experience",
-        "last_modified": "2026-10-01",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "c5b062b1-b8e6-4319-af42-c9369ccd032a",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "Graph in Fabric (Generally Available)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Graph-in-Fabric-Generally-Available/ba-p/5190748",
-        "feature_description": "Fabric IQ brings Ontology and Graph together so customers can move from a shared business model to advanced relationship analysis. Customers can understand how business concepts connect, choose the data most relevant to their scenario, and use Graph for multi-step impact analysis, dependency exploration, and path-based questions.",
-        "feature_description_html": "<p>Fabric IQ brings Ontology and Graph together so customers can move from a shared business model to advanced relationship analysis. Customers can understand how business concepts connect, choose the data most relevant to their scenario, and use Graph for multi-step impact analysis, dependency exploration, and path-based questions.</p>",
-        "feature_name": "Fabric Graph integration with Ontology: From shared business meaning to connected-data insights",
-        "last_modified": "2026-10-01",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "7ec29e0d-ad9d-f111-b8db-6045bd02b667",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-29T23:06:56.133Z",
+  "generatedAt": "2026-10-30T02:35:37.963Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 204,
+  "count": 193,
   "changelog": {
     "days": [
       {
@@ -2661,157 +2661,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 11,
-        "date": "2026-09-29",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Azure Maps geocoding auditor",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q1 2027",
-            "release_item_id": "05972e72-b8bb-f111-aaad-000d3a373559",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Azure Maps multiple data layers",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q1 2027",
-            "release_item_id": "a1de82b7-b8bb-f111-aaad-000d3a373559",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Filter action button to show filter options on the visual",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q4 2026",
-            "release_item_id": "4ffd1a22-b7bb-f111-aaad-000d3a373559",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Matrix and table filter action button",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q4 2026",
-            "release_item_id": "ed888d13-03a1-f111-b8db-000d3a3ad657",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Power BI Markdown visual",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q1 2027",
-            "release_item_id": "0133b7a1-b6bb-f111-aaad-000d3a373559",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Power BI relative slicers week starts on option",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q1 2027",
-            "release_item_id": "8d8565f4-b5bb-f111-aaad-000d3a373559",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Power BI Vega visual",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q1 2027",
-            "release_item_id": "7c2e515a-b6bb-f111-aaad-000d3a373559",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Sort action button to show filter options on the visual",
-            "last_modified": "2026-09-29",
-            "product_name": "Power BI",
-            "release_date": "Q1 2027",
-            "release_item_id": "e8617575-b7bb-f111-aaad-000d3a373559",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Business Events (GA)",
-            "last_modified": "2026-09-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "b5dc26c3-899a-f111-b8db-6045bd02b37f",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Improved Eventstream experience for non-schematized events",
-            "last_modified": "2026-09-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "b1a70168-24a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Stream processing for Mirrored Database change feeds in Eventstream",
-            "last_modified": "2026-09-29",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "d71ecbb9-9b41-f111-88b5-002248085b3f",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 204
+    "total_items": 193
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T23:56:31.308Z",
+  "generatedAt": "2026-10-31T10:31:30.852Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -756,21 +756,6 @@
       },
       {
         "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "A commonly requested new capability for Output Destinations is the ability to merge, or upsert, data into previously loaded rows in the destination table. We aim to provide this support for Fabric Lakehouse destination.",
-        "feature_description_html": "<p>A commonly requested new capability for Output Destinations is the ability to merge, or upsert, data into previously loaded rows in the destination table. We aim to provide this support for Fabric Lakehouse destination.</p>",
-        "feature_name": "Dataflows - Merge/Upsert Support for Output Destinations",
-        "last_modified": "2026-10-13",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q1 2027",
-        "release_item_id": "67d0f235-4521-f011-9989-6045bd030c4d",
-        "release_status": "Planned",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
         "blog_title": "Empowering Real-Time Searches: Vector Similarity Search with Eventhouse",
         "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/empowering-real-time-searches-vector-similarity-search-with-eventhouse/5173156",
         "feature_description": "# Generally Available: Vector Search and Vector Indexes in Azure SQL Vector Search and Vector Indexes are now generally available in Azure SQL Database. Using the [CREATE VECTOR INDEX](https://learn.microsoft.com/sql/t-sql/statements/create-vector-index-transact-sql?view=sql-server-ver17) and [VECTOR_SEARCH](https://learn.microsoft.com/sql/t-sql/functions/vector-search-transact-sql?view=sql-server-ver17) T-SQL capabilities, you can perform efficient approximate nearest neighbor (ANN) searches for AI scenarios such as semantic search, retrieval-augmented generation (RAG), recommendation systems, and image search. Built on the DiskANN algorithm, Vector Indexes enable efficient vector similarity search over large datasets while allowing you to combine vector search with relational queries and filtering directly in Azure SQL Database.By bringing AI retrieval directly into Azure SQL Database, you can build AI-powered applications on your enterprise data without requiring a separate vector database, simplifying application architecture while leveraging the reliability, security, and governance capabilities of Azure SQL Database.**Learn more:** [Vector Search & Vector Indexes documentation](https://learn.microsoft.com/sql/sql-server/ai/vectors?view=sql-server-ver17)",
@@ -1503,6 +1488,21 @@
         "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
         "release_status": "Shipped",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
+        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
+        "feature_description_html": "<p>The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:</p>\n<ul>\n<li>View all entity types and relationships together to understand how the ontology is organized and how its parts connect.</li>\n<li>Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.</li>\n<li>Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.</li>\n</ul>",
+        "feature_name": "Full Ontology canvas experience",
+        "last_modified": "2026-10-02",
+        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
+        "product_name": "IQ",
+        "release_date": "Q3 2026",
+        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
       }
     ],
     "links": {
@@ -1519,7 +1519,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1126,
+      "total_items": 1125,
       "total_pages": 12
     }
   }

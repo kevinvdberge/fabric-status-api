@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-11-02T09:57:34.179Z",
+  "generatedAt": "2026-11-02T20:05:02.944Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 102,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-11-02",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated",
+              "Name Find similar text with built-in fuzzy string matching -> Fuzzy string match is available across Microsoft SQL offerings"
+            ],
+            "feature_name": "Fuzzy string match is available across Microsoft SQL offerings",
+            "last_modified": "2026-11-02",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-10-31",
@@ -581,7 +601,7 @@
         ]
       },
       {
-        "count": 7,
+        "count": 6,
         "date": "2026-10-19",
         "items": [
           {
@@ -661,20 +681,6 @@
             "release_item_id": "2d60a7e8-b555-f011-877a-00224804ca88",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Fuzzy String Match -> Find similar text with built-in fuzzy string matching"
-            ],
-            "feature_name": "Find similar text with built-in fuzzy string matching",
-            "last_modified": "2026-10-19",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
-            "release_status": "Planned",
-            "release_type": "General availability"
           }
         ]
       },

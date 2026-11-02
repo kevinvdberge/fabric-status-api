@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-02T09:57:34.179Z",
+  "generatedAt": "2026-11-02T20:05:02.944Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "New string functions and operators in Fabric Data Warehouse (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-string-functions-and-operators-in-Fabric-Data-Warehouse/ba-p/5195232",
+        "feature_description": "Fuzzy string match is now generally available across Microsoft SQL offerings, including Azure SQL Database, Azure SQL Managed Instanced, SQL database in Microsoft Fabric, and SQL Server 2025. You can compare strings based on how similar or different they are, rather than relying only on exact matches. It can measure the distance between two strings, including how many changes are required to make them identical, or evaluate their similarity using different fuzzy matching algorithms.  This feature makes it easier to work with imperfect or inconsistent real-world data. You can use fuzzy string match to help simplify data matching, cleansing, deduplication, fuzzy search, and other scenarios where traditional exact string comparisons may not be sufficient. [Learn more.](https://aka.ms/fuzzy-string-match)",
+        "feature_description_html": "<p>Fuzzy string match is now generally available across Microsoft SQL offerings, including Azure SQL Database, Azure SQL Managed Instanced, SQL database in Microsoft Fabric, and SQL Server 2025. You can compare strings based on how similar or different they are, rather than relying only on exact matches. It can measure the distance between two strings, including how many changes are required to make them identical, or evaluate their similarity using different fuzzy matching algorithms.  This feature makes it easier to work with imperfect or inconsistent real-world data. You can use fuzzy string match to help simplify data matching, cleansing, deduplication, fuzzy search, and other scenarios where traditional exact string comparisons may not be sufficient. <a href=\"https://aka.ms/fuzzy-string-match\">Learn more.</a></p>",
+        "feature_name": "Fuzzy string match is available across Microsoft SQL offerings",
+        "last_modified": "2026-11-02",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Analyze Dataverse tables from Microsoft Fabric",
@@ -572,21 +587,6 @@
         "release_date": "Q4 2026",
         "release_item_id": "e5e1c2f8-e640-f111-88b5-6045bd0a8ec1",
         "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": null,
-        "blog_url": null,
-        "feature_description": "Fuzzy string matching enables you to compare strings based on similarity rather than relying only on exact matches. Using built-in functions, you can measure the difference or similarity between strings with algorithms such as edit distance and Jaro-Winkler.This makes it easier to work with imperfect and inconsistent real-world data, simplifying scenarios such as data matching, cleansing, deduplication, and search where exact string comparisons may not be sufficient.",
-        "feature_description_html": "<p>Fuzzy string matching enables you to compare strings based on similarity rather than relying only on exact matches. Using built-in functions, you can measure the difference or similarity between strings with algorithms such as edit distance and Jaro-Winkler.</p>\n<p>This makes it easier to work with imperfect and inconsistent real-world data, simplifying scenarios such as data matching, cleansing, deduplication, and search where exact string comparisons may not be sufficient.</p>",
-        "feature_name": "Find similar text with built-in fuzzy string matching",
-        "last_modified": "2026-10-19",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
-        "release_status": "Planned",
         "release_type": "General availability"
       },
       {

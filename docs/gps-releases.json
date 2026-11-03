@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:05:02.944Z",
+  "generatedAt": "2026-11-03T02:17:16.153Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -18,6 +18,21 @@
         "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
         "release_status": "Planned",
         "release_type": "General availability"
+      },
+      {
+        "active": true,
+        "blog_title": "Modernize your ADF pipelines to unlock Fabric",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/modernize-your-adf-pipelines-to-unlock-fabric/5172081",
+        "feature_description": "In order to gain productivity boosts with AI in Fabric Data Factory, you can now easily upgrade your existing ADF factories to Fabric in a super easy friction-free way. Previously we had multi-step processes that were run from button clicks in ADF. Now your existing ADF factories can be automatically bridged from Fabric trial capacities and then easily upgraded as-is to native Fabric pipelines and data flows.",
+        "feature_description_html": "<p>In order to gain productivity boosts with AI in Fabric Data Factory, you can now easily upgrade your existing ADF factories to Fabric in a super easy friction-free way. Previously we had multi-step processes that were run from button clicks in ADF. Now your existing ADF factories can be automatically bridged from Fabric trial capacities and then easily upgraded as-is to native Fabric pipelines and data flows.</p>",
+        "feature_name": "Pipelines - Simplified Upgrade Experience",
+        "last_modified": "2026-11-02",
+        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Factory",
+        "release_date": "Q3 2026",
+        "release_item_id": "6c647278-de7f-f111-ab0f-6045bd00f798",
+        "release_status": "Shipped",
+        "release_type": "Public preview"
       },
       {
         "active": true,
@@ -1486,21 +1501,6 @@
         "product_name": "IQ",
         "release_date": "Q4 2026",
         "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-ag/5172145",
-        "feature_description": "The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:* View all entity types and relationships together to understand how the ontology is organized and how its parts connect.* Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.* Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.",
-        "feature_description_html": "<p>The full Ontology canvas experience in Microsoft Fabric IQ brings the complete ontology into a single interactive view, showing entity types and the relationships between them. It makes the overall structure easier to understand while keeping connected parts of the ontology in context.With this experience, you can:</p>\n<ul>\n<li>View all entity types and relationships together to understand how the ontology is organized and how its parts connect.</li>\n<li>Navigate the canvas by panning, dragging, zooming in or out, and using zoom-to-fit to move between an overview and a closer look.</li>\n<li>Highlight and interact with entity type nodes, interact with relationship edges, and switch between available layouts to suit the task.</li>\n</ul>",
-        "feature_name": "Full Ontology canvas experience",
-        "last_modified": "2026-10-02",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q3 2026",
-        "release_item_id": "fb80b772-83ac-f111-aaab-6045bd04129f",
         "release_status": "Shipped",
         "release_type": "Public preview"
       }

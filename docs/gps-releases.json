@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-03T02:17:16.153Z",
+  "generatedAt": "2026-11-03T09:50:15.463Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Announcing preview of Workspace Monitoring",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/announcing-preview-of-workspace-monitoring/5173019",
+        "feature_description": "This feature delivers a comprehensive Spark Workspace Monitoring experience, enabling administrators and data engineers to gain full visibility into workspace-level Spark activity. Users can view and analyze live and historical job executions, filter and drill into specific runs, and compare performance across Fabric items.With direct access to Spark diagnostic logs and metrics via Kusto Query Language (KQL), users can create custom queries, perform advanced aggregations, and build their own dashboards, unlocking powerful, flexible insights for monitoring, troubleshooting, and optimization.",
+        "feature_description_html": "<p>This feature delivers a comprehensive Spark Workspace Monitoring experience, enabling administrators and data engineers to gain full visibility into workspace-level Spark activity. Users can view and analyze live and historical job executions, filter and drill into specific runs, and compare performance across Fabric items.With direct access to Spark diagnostic logs and metrics via Kusto Query Language (KQL), users can create custom queries, perform advanced aggregations, and build their own dashboards, unlocking powerful, flexible insights for monitoring, troubleshooting, and optimization.</p>",
+        "feature_name": "Spark Workspace Monitoring v1",
+        "last_modified": "2026-11-03",
+        "product_id": "a731518f-36ca-ee11-9079-000d3a341a60",
+        "product_name": "Data Engineering",
+        "release_date": "Q4 2026",
+        "release_item_id": "f0f360ab-3350-f111-bec7-6045bd00fc61",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "New string functions and operators in Fabric Data Warehouse (Preview)",
@@ -1488,21 +1503,6 @@
         "release_item_id": "194d37ea-2aa6-f011-bbd3-000d3a5b0efa",
         "release_status": "Shipped",
         "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Fabric IQ: The Semantic Foundation for Enterprise AI",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-iq-the-semantic-foundation-for-enterprise-ai/5172473",
-        "feature_description": "Namespaces in Microsoft Fabric IQ Ontology provide a visual way to organize entity types and relationships into meaningful groups. The authoring experience makes it easier to work with ontologies that span multiple teams or business domains, distinguish concepts with the same name, and understand how each concept is organized.With this experience, you can:* Create namespaces directly in the ontology interface, add optional descriptions, and browse existing namespaces in a dedicated list.* Assign entity types and relationship types to a namespace during creation or later, and view their namespace in the configuration pane.* Manage namespaces from their detail pages by updating names and descriptions or deleting namespaces that are no longer referenced, with safeguards for the default namespace.",
-        "feature_description_html": "<p>Namespaces in Microsoft Fabric IQ Ontology provide a visual way to organize entity types and relationships into meaningful groups. The authoring experience makes it easier to work with ontologies that span multiple teams or business domains, distinguish concepts with the same name, and understand how each concept is organized.With this experience, you can:</p>\n<ul>\n<li>Create namespaces directly in the ontology interface, add optional descriptions, and browse existing namespaces in a dedicated list.</li>\n<li>Assign entity types and relationship types to a namespace during creation or later, and view their namespace in the configuration pane.</li>\n<li>Manage namespaces from their detail pages by updating names and descriptions or deleting namespaces that are no longer referenced, with safeguards for the default namespace.</li>\n</ul>",
-        "feature_name": "Create and manage namespaces in Ontology",
-        "last_modified": "2026-10-02",
-        "product_id": "cef5a30d-562f-f011-8c4d-6045bd096d8f",
-        "product_name": "IQ",
-        "release_date": "Q4 2026",
-        "release_item_id": "23d35747-b3ac-f111-aaab-70a8a5af0ad7",
-        "release_status": "Shipped",
-        "release_type": "Public preview"
       }
     ],
     "links": {

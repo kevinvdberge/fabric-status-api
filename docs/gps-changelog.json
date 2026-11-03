@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-11-03T02:17:16.153Z",
+  "generatedAt": "2026-11-03T09:50:15.463Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 98,
+  "count": 99,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-11-03",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Spark Workspace Monitoring v1",
+            "last_modified": "2026-11-03",
+            "product_name": "Data Engineering",
+            "release_date": "Q4 2026",
+            "release_item_id": "f0f360ab-3350-f111-bec7-6045bd00fc61",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-11-02",
@@ -1402,6 +1421,6 @@
         ]
       }
     ],
-    "total_items": 98
+    "total_items": 99
   }
 }

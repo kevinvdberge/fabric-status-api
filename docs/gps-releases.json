@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-04T17:43:47.871Z",
+  "generatedAt": "2026-11-04T22:54:16.335Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Fabric Databases— a unified, SaaS-native experience for modern data workloads (Generally Available)",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/fabric-databases%E2%80%94%C2%A0a-unified-saas-native-experience-for-modern-data-workloads-gen/5172485",
+        "feature_description": "Fabric HorizonDB is a new serverless, Fabric-native PostgreSQL database built for modern data and AI applications. Fabric HorizonDB brings operational data directly into Fabric, giving developers a PostgreSQL foundation alongside Fabric's analytics, data, and AI capabilities.With new capabilities that connect transactional and analytical data across Fabric, developers can bring operational data into analytics and AI experiences while connecting insights back to their applications. And with Fabric HorizonDB available as a database option for Fabric apps, teams have a connected foundation for building intelligent applications on their data.",
+        "feature_description_html": "<p>Fabric HorizonDB is a new serverless, Fabric-native PostgreSQL database built for modern data and AI applications. Fabric HorizonDB brings operational data directly into Fabric, giving developers a PostgreSQL foundation alongside Fabric's analytics, data, and AI capabilities.With new capabilities that connect transactional and analytical data across Fabric, developers can bring operational data into analytics and AI experiences while connecting insights back to their applications. And with Fabric HorizonDB available as a database option for Fabric apps, teams have a connected foundation for building intelligent applications on their data.</p>",
+        "feature_name": "Microsoft Fabric HorizonDB",
+        "last_modified": "2026-11-04",
+        "product_id": "0d409704-5dd2-f111-a059-0022480a4cb7",
+        "product_name": "Fabric HorizonDB",
+        "release_date": "Q4 2026",
+        "release_item_id": "29a59504-db74-f111-ab0f-002248085b3f",
+        "release_status": "Planned",
+        "release_type": "Public preview"
+      },
       {
         "active": true,
         "blog_title": "Copy job for SAP with ABAP Add-On in Microsoft Fabric (Preview)",
@@ -1486,21 +1501,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q3 2026",
         "release_item_id": "28c0d541-e64c-ef11-a317-0022480abf3c",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Introducing the HTTP and MongoDB CDC Connectors for Eventstream — Inspired by You",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/introducing-the-http-and-mongodb-cdc-connectors-for-eventstream-%E2%80%94-inspired-by-yo/5172439",
-        "feature_description": "The MongoDB CDC connector for Eventstream captures database changes from any MongoDB deployment, including MongoDB Atlas and self-managed instances on other cloud providers. These change events are streamed into Eventstream for real-time processing and analysis.",
-        "feature_description_html": "<p>The MongoDB CDC connector for Eventstream captures database changes from any MongoDB deployment, including MongoDB Atlas and self-managed instances on other cloud providers. These change events are streamed into Eventstream for real-time processing and analysis.</p>",
-        "feature_name": "Eventstream connector: MongoDB CDC",
-        "last_modified": "2026-10-03",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "ddb75e86-23a6-f011-bbd3-000d3a5b0efa",
         "release_status": "Shipped",
         "release_type": "General availability"
       }

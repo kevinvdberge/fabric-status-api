@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T17:43:47.871Z",
+  "generatedAt": "2026-11-04T22:54:16.335Z",
   "sourceUrl": "https://www.fabric-gps.com/api/filter-options",
   "filterOptions": {
     "product_names": [
@@ -15,6 +15,7 @@
       "Data Warehouse",
       "Fabric Developer Experiences",
       "Fabric Ecosystem",
+      "Fabric HorizonDB",
       "IQ",
       "OneLake",
       "Power BI",

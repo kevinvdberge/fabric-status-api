@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-04T17:43:47.871Z",
+  "generatedAt": "2026-11-04T22:54:16.335Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 100,
+  "count": 102,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 3,
         "date": "2026-11-04",
         "items": [
           {
@@ -19,6 +19,32 @@
             "release_date": "Q3 2026",
             "release_item_id": "07513d58-4161-f111-a826-6045bd00fc61",
             "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Microsoft Fabric HorizonDB",
+            "last_modified": "2026-11-04",
+            "product_name": "Fabric HorizonDB",
+            "release_date": "Q4 2026",
+            "release_item_id": "29a59504-db74-f111-ab0f-002248085b3f",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "Explore",
+            "last_modified": "2026-11-04",
+            "product_name": "Power BI",
+            "release_date": "Q4 2026",
+            "release_item_id": "e1ba1ef1-03a0-f111-b8db-000d3a3ad6b6",
+            "release_status": "Planned",
             "release_type": "General availability"
           }
         ]
@@ -1435,6 +1461,6 @@
         ]
       }
     ],
-    "total_items": 100
+    "total_items": 102
   }
 }

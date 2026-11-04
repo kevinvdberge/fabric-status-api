@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-03T22:30:25.034Z",
+  "generatedAt": "2026-11-04T02:42:10.624Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 102,
+  "count": 99,
   "changelog": {
     "days": [
       {
@@ -1414,53 +1414,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-10-04",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Eventhouse Monitoring",
-            "last_modified": "2026-10-04",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "28c0d541-e64c-ef11-a317-0022480abf3c",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Eventstream connector: Cribl",
-            "last_modified": "2026-10-04",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "4ec67f5b-2c82-f111-ab0f-002248085b3f",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "New Eventstream source: SAP Datasphere",
-            "last_modified": "2026-10-04",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "4ec2618a-d849-f111-bec7-6045bd0a886d",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 102
+    "total_items": 99
   }
 }

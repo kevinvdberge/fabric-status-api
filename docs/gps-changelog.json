@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-05T10:53:00.383Z",
+  "generatedAt": "2026-11-05T18:29:43.447Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 94,
+  "count": 95,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 2,
         "date": "2026-11-05",
         "items": [
           {
@@ -20,6 +20,19 @@
             "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Description updated"
+            ],
+            "feature_name": "File-Level write-write conflict detection (Generally Available)",
+            "last_modified": "2026-11-05",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
+            "release_status": "Planned",
+            "release_type": "General availability"
           }
         ]
       },
@@ -1357,6 +1370,6 @@
         ]
       }
     ],
-    "total_items": 94
+    "total_items": 95
   }
 }

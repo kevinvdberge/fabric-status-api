@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:53:00.383Z",
+  "generatedAt": "2026-11-05T18:29:43.447Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -18,6 +18,21 @@
         "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "Resolving Write Conflicts in Microsoft Fabric Data Warehouse",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/resolving-write-conflicts-in-microsoft-fabric-data-warehouse/5172544",
+        "feature_description": "Improve write concurrency in Microsoft Fabric Warehouse with file-level conflict detection. Concurrent updates and deletes that affect different data files within the same table can commit without unnecessary write conflicts, reducing transaction failures and retries while maintaining data consistency.",
+        "feature_description_html": "<p>Improve write concurrency in Microsoft Fabric Warehouse with file-level conflict detection. Concurrent updates and deletes that affect different data files within the same table can commit without unnecessary write conflicts, reducing transaction failures and retries while maintaining data consistency.</p>",
+        "feature_name": "File-Level write-write conflict detection (Generally Available)",
+        "last_modified": "2026-11-05",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q4 2026",
+        "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
+        "release_status": "Planned",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1486,21 +1501,6 @@
         "product_name": "Real-Time Intelligence",
         "release_date": "Q3 2026",
         "release_item_id": "4ec2618a-d849-f111-bec7-6045bd0a886d",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Eventhouse Monitoring (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/eventhouse-monitoring-preview/5172971",
-        "feature_description": "Access Eventhouse logs and metrics to fine tune performance, troubleshoot issues and identify anomalies. The Eventhouse will report on Query logs, Ingestion metrics, and Ingestion failure events. The Eventhouse event and metric logs will be stored in a read only KQL database.  Users will be able to analyze the events using KQL Querysets and Real time Dashboards.",
-        "feature_description_html": "<p>Access Eventhouse logs and metrics to fine tune performance, troubleshoot issues and identify anomalies. The Eventhouse will report on Query logs, Ingestion metrics, and Ingestion failure events. The Eventhouse event and metric logs will be stored in a read only KQL database.  Users will be able to analyze the events using KQL Querysets and Real time Dashboards.</p>",
-        "feature_name": "Eventhouse Monitoring",
-        "last_modified": "2026-10-04",
-        "product_id": "58cb90aa-4203-ef11-a1fd-000d3a36eea4",
-        "product_name": "Real-Time Intelligence",
-        "release_date": "Q3 2026",
-        "release_item_id": "28c0d541-e64c-ef11-a317-0022480abf3c",
         "release_status": "Shipped",
         "release_type": "General availability"
       }

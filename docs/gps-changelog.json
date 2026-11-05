@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-04T22:54:16.335Z",
+  "generatedAt": "2026-11-05T03:06:28.091Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 102,
+  "count": 94,
   "changelog": {
     "days": [
       {
@@ -1349,118 +1349,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 8,
-        "date": "2026-10-05",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Deployment Plan",
-            "last_modified": "2026-10-05",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q4 2026",
-            "release_item_id": "fbee65ff-2b8b-f111-ab0f-6045bd03ee11",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Fabric Core MCP Server (GA)",
-            "last_modified": "2026-10-05",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2026",
-            "release_item_id": "b682daa3-eeb0-f111-aaab-70a8a59cba8f",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Git Integration - Branched Workspaces",
-            "last_modified": "2026-10-05",
-            "product_name": "Fabric Developer Experiences",
-            "release_date": "Q3 2026",
-            "release_item_id": "50289248-632c-f111-88b4-6045bd0a886d",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Large message support ( 20 MB) for Fabric Event streams",
-            "last_modified": "2026-10-05",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "4dc5810b-2040-f111-88b5-6045bd0066ad",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Schema registry for Eventstream",
-            "last_modified": "2026-10-05",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "123d1b43-24a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Variable Library support for Eventstream",
-            "last_modified": "2026-10-05",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "83351219-da49-f111-bec7-000d3a5b0273",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Workspace monitoring log support for Eventstream",
-            "last_modified": "2026-10-05",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "767f61ff-f13f-f111-88b5-6045bd00f798",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Workspace Private Links for Eventstream Custom Endpoint",
-            "last_modified": "2026-10-05",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q3 2026",
-            "release_item_id": "53a8b940-263e-f111-88b5-6045bd0066ad",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 102
+    "total_items": 94
   }
 }

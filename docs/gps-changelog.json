@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-06T12:50:15.054Z",
+  "generatedAt": "2026-11-06T19:50:01.328Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 98,
+  "count": 99,
   "changelog": {
     "days": [
       {
-        "count": 2,
+        "count": 4,
         "date": "2026-11-06",
         "items": [
           {
@@ -20,6 +20,33 @@
             "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
             "release_status": "Planned",
             "release_type": "Public preview"
+          },
+          {
+            "active": false,
+            "changed_columns": [
+              "Removed from Roadmap"
+            ],
+            "feature_name": "OneLake malware scanning",
+            "last_modified": "2026-11-06",
+            "product_name": "OneLake",
+            "release_date": "Q4 2026",
+            "release_item_id": "b99f2796-064f-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped",
+              "Semester 2026 Wave 1 (Rubidium) (Public) -> FY27 Q2 (Oct-Dec 2026) [Public]"
+            ],
+            "feature_name": "Fuzzy string match is available across Microsoft SQL offerings",
+            "last_modified": "2026-11-06",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
+            "release_status": "Shipped",
+            "release_type": "General availability"
           },
           {
             "active": true,
@@ -200,7 +227,7 @@
         ]
       },
       {
-        "count": 2,
+        "count": 1,
         "date": "2026-11-02",
         "items": [
           {
@@ -215,20 +242,6 @@
             "release_item_id": "6c647278-de7f-f111-ab0f-6045bd00f798",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name Find similar text with built-in fuzzy string matching -> Fuzzy string match is available across Microsoft SQL offerings"
-            ],
-            "feature_name": "Fuzzy string match is available across Microsoft SQL offerings",
-            "last_modified": "2026-11-02",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
-            "release_status": "Planned",
-            "release_type": "General availability"
           }
         ]
       },
@@ -1410,6 +1423,6 @@
         ]
       }
     ],
-    "total_items": 98
+    "total_items": 99
   }
 }

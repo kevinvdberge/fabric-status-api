@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T12:50:15.054Z",
+  "generatedAt": "2026-11-06T19:50:01.328Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
@@ -18,6 +18,21 @@
         "release_item_id": "a3c892bc-d7b2-f111-aaab-70a8a59cbac4",
         "release_status": "Planned",
         "release_type": "Public preview"
+      },
+      {
+        "active": true,
+        "blog_title": "New string functions and operators in Fabric Data Warehouse (Preview)",
+        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-string-functions-and-operators-in-Fabric-Data-Warehouse/ba-p/5195232",
+        "feature_description": "Fuzzy string match is now generally available across Microsoft SQL offerings, including Azure SQL Database, Azure SQL Managed Instanced, SQL database in Microsoft Fabric, and SQL Server 2025. You can compare strings based on how similar or different they are, rather than relying only on exact matches. It can measure the distance between two strings, including how many changes are required to make them identical, or evaluate their similarity using different fuzzy matching algorithms.  This feature makes it easier to work with imperfect or inconsistent real-world data. You can use fuzzy string match to help simplify data matching, cleansing, deduplication, fuzzy search, and other scenarios where traditional exact string comparisons may not be sufficient. [Learn more.](https://aka.ms/fuzzy-string-match)",
+        "feature_description_html": "<p>Fuzzy string match is now generally available across Microsoft SQL offerings, including Azure SQL Database, Azure SQL Managed Instanced, SQL database in Microsoft Fabric, and SQL Server 2025. You can compare strings based on how similar or different they are, rather than relying only on exact matches. It can measure the distance between two strings, including how many changes are required to make them identical, or evaluate their similarity using different fuzzy matching algorithms.  This feature makes it easier to work with imperfect or inconsistent real-world data. You can use fuzzy string match to help simplify data matching, cleansing, deduplication, fuzzy search, and other scenarios where traditional exact string comparisons may not be sufficient. <a href=\"https://aka.ms/fuzzy-string-match\">Learn more.</a></p>",
+        "feature_name": "Fuzzy string match is available across Microsoft SQL offerings",
+        "last_modified": "2026-11-06",
+        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
+        "product_name": "SQL database",
+        "release_date": "Q4 2026",
+        "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
+        "release_status": "Shipped",
+        "release_type": "General availability"
       },
       {
         "active": true,
@@ -183,21 +198,6 @@
         "release_item_id": "072d08ee-fd7e-f111-ab0f-6045bd00f798",
         "release_status": "Planned",
         "release_type": "Public preview"
-      },
-      {
-        "active": true,
-        "blog_title": "New string functions and operators in Fabric Data Warehouse (Preview)",
-        "blog_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-string-functions-and-operators-in-Fabric-Data-Warehouse/ba-p/5195232",
-        "feature_description": "Fuzzy string match is now generally available across Microsoft SQL offerings, including Azure SQL Database, Azure SQL Managed Instanced, SQL database in Microsoft Fabric, and SQL Server 2025. You can compare strings based on how similar or different they are, rather than relying only on exact matches. It can measure the distance between two strings, including how many changes are required to make them identical, or evaluate their similarity using different fuzzy matching algorithms.  This feature makes it easier to work with imperfect or inconsistent real-world data. You can use fuzzy string match to help simplify data matching, cleansing, deduplication, fuzzy search, and other scenarios where traditional exact string comparisons may not be sufficient. [Learn more.](https://aka.ms/fuzzy-string-match)",
-        "feature_description_html": "<p>Fuzzy string match is now generally available across Microsoft SQL offerings, including Azure SQL Database, Azure SQL Managed Instanced, SQL database in Microsoft Fabric, and SQL Server 2025. You can compare strings based on how similar or different they are, rather than relying only on exact matches. It can measure the distance between two strings, including how many changes are required to make them identical, or evaluate their similarity using different fuzzy matching algorithms.  This feature makes it easier to work with imperfect or inconsistent real-world data. You can use fuzzy string match to help simplify data matching, cleansing, deduplication, fuzzy search, and other scenarios where traditional exact string comparisons may not be sufficient. <a href=\"https://aka.ms/fuzzy-string-match\">Learn more.</a></p>",
-        "feature_name": "Fuzzy string match is available across Microsoft SQL offerings",
-        "last_modified": "2026-11-02",
-        "product_id": "347da228-ea54-ef11-a317-0022480a694f",
-        "product_name": "SQL database",
-        "release_date": "Q4 2026",
-        "release_item_id": "afcd2c3d-5bb2-f111-aaab-70a8a5afd4dd",
-        "release_status": "Planned",
-        "release_type": "General availability"
       },
       {
         "active": true,
@@ -1519,7 +1519,7 @@
       "page": 1,
       "page_size": 100,
       "prev_page": null,
-      "total_items": 1125,
+      "total_items": 1124,
       "total_pages": 12
     }
   }

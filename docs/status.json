@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-11-06T04:59:55.350Z",
+  "generatedAt": "2026-11-06T12:50:14.984Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 245,
+    "active": 0,
+    "resolved": 246,
     "total": 246
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 245,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 246,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "fb4d6370-52d9-f111-a05b-70a8a59b996f",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "",
       "reportedRaw": "11/5/2026 11:51:54 AM",
       "reportedAt": "2026-11-05T11:51:54.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div style=\"font-family:'Segoe UI';font-size:14px;font-style:normal;font-weight:400;line-height:20px;\"><span style=\"opacity:1;\">Power</span> <span style=\"opacity:1;\">BI</span> customers may experience <span style=\"opacity:1;\">semantic</span> <span style=\"opacity:1;\">model</span> <span style=\"opacity:1;\">refresh</span> <span style=\"opacity:1;\">failures</span> <span style=\"opacity:1;\">due</span> <span style=\"opacity:1;\">to</span> <span style=\"opacity:1;\">persistent</span> <span style=\"opacity:1;\">cache</span> <span style=\"opacity:1;\">exceptions,</span> <span style=\"opacity:1;\">preventing</span> <span style=\"opacity:1;\">updated</span> <span style=\"opacity:1;\">data</span> <span style=\"opacity:1;\">from</span> <span style=\"opacity:1;\">being</span> <span style=\"opacity:1;\">loaded</span> <span style=\"opacity:1;\">into</span> <span style=\"opacity:1;\">semantic</span> <span style=\"opacity:1;\">models.</span></div></div>",
-      "detailsText": "Power BI customers may experience semantic model refresh failures due to persistent cache exceptions, preventing updated data from being loaded into semantic models.",
-      "hash": "0a51870aaa7cf7e54ce6c96d381198265554a64c6124d71adc5924c09bae2261"
-    }
-  ],
-  "resolved": [
+      "resolvedRaw": "11/5/2026 9:40:03 PM",
+      "resolvedAt": "2026-11-05T21:40:03.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div style=\"font-family:Segoe UI;font-size:11pt;\"><span style=\"opacity:1;\">Power</span> <span style=\"opacity:1;\">BI</span> customers may have experienced <span style=\"opacity:1;\">semantic</span> <span style=\"opacity:1;\">model</span> <span style=\"opacity:1;\">refresh</span> <span style=\"opacity:1;\">failures</span> <span style=\"opacity:1;\">due</span> <span style=\"opacity:1;\">to</span> <span style=\"opacity:1;\">persistent</span> <span style=\"opacity:1;\">cache</span> <span style=\"opacity:1;\">exceptions,</span> <span style=\"opacity:1;\">preventing</span> <span style=\"opacity:1;\">updated</span> <span style=\"opacity:1;\">data</span> <span style=\"opacity:1;\">from</span> <span style=\"opacity:1;\">being</span> <span style=\"opacity:1;\">loaded</span> <span style=\"opacity:1;\">into</span> <span style=\"opacity:1;\">semantic</span> <span style=\"opacity:1;\">models.</span></div></div>",
+      "detailsText": "Power BI customers may have experienced semantic model refresh failures due to persistent cache exceptions, preventing updated data from being loaded into semantic models.",
+      "hash": "3f044cfb17a419a45e161761ab1142e31a14007bd24dd9e7ce529930f61388b8"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "6d349360-4cd9-f111-a05b-70a8a59b996f",

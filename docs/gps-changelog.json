@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-11-05T23:48:15.863Z",
+  "generatedAt": "2026-11-06T04:59:55.387Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
   "count": 98,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-11-06",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Point-in-time restore from dropped databases",
+            "last_modified": "2026-11-06",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "0ba89ee5-81b3-f111-aaab-70a8a59cbac4",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 5,
         "date": "2026-11-05",
@@ -1387,25 +1406,6 @@
             "release_item_id": "c287226c-6ec2-f111-aaad-70a8a5b19412",
             "release_status": "Planned",
             "release_type": "General availability"
-          }
-        ]
-      },
-      {
-        "count": 1,
-        "date": "2026-10-06",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Workspace level Private Link for SQL database",
-            "last_modified": "2026-10-06",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "744ac485-321d-f011-9989-000d3a302e4a",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
           }
         ]
       }

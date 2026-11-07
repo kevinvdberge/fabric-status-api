@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-11-06T19:50:01.293Z",
+  "generatedAt": "2026-11-07T04:49:40.071Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 246,
-    "total": 246
+    "resolved": 247,
+    "total": 247
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 246,
+    "resolvedIncidents": 247,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "bfb7d0f9-53da-f111-a05b-70a8a59b996f",
+      "serviceStatus": "",
+      "region": "West US2",
+      "reportedRaw": "11/6/2026 6:32:59 PM",
+      "reportedAt": "2026-11-06T18:32:59.000Z",
+      "resolvedRaw": "11/6/2026 7:10:18 PM",
+      "resolvedAt": "2026-11-06T19:10:18.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Fabric customers with capacities in the West US2 region may experience issues acquiring a Spark session for Lakehouse or Notebook operations. Engineers are investigating and updates will be provided soon.</p></div>",
+      "detailsText": "Fabric customers with capacities in the West US2 region may experience issues acquiring a Spark session for Lakehouse or Notebook operations. Engineers are investigating and updates will be provided soon.",
+      "hash": "5479e984644960ea24c5ab611aabc36679d7a678cf5cf7d9783f033e049c0083"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "fb4d6370-52d9-f111-a05b-70a8a59b996f",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T23:59:19.365Z",
+  "generatedAt": "2026-11-08T05:48:05.409Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 76,
+  "count": 71,
   "changelog": {
     "days": [
       {
@@ -1051,79 +1051,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 5,
-        "date": "2026-10-08",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Data Agent Migration to Responses API",
-            "last_modified": "2026-10-08",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2026",
-            "release_item_id": "e9e7c616-d289-f111-ab0f-6045bd03e6d8",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Data Agent to Upgrade Ontology Integration",
-            "last_modified": "2026-10-08",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2026",
-            "release_item_id": "8640c298-fc68-f111-a826-6045bd0066ad",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Explore Large Schemas in the Data Agent Schema Explorer",
-            "last_modified": "2026-10-08",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q3 2026",
-            "release_item_id": "a6aadfd9-4924-f011-8c4d-00224804b6c3",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "T-SQL language improvements",
-            "last_modified": "2026-10-08",
-            "product_name": "Data Warehouse",
-            "release_date": "Q4 2026",
-            "release_item_id": "ce1edca4-aa9f-f111-b8db-000d3a3ad8c1",
-            "release_status": "Shipped",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Name VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses -> VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses (new metadata sync)"
-            ],
-            "feature_name": "VARCHAR(MAX) support in SQL analytics endpoint of Lakehouses (new metadata sync)",
-            "last_modified": "2026-10-08",
-            "product_name": "Data Warehouse",
-            "release_date": "Q3 2026",
-            "release_item_id": "f4c0ce02-2e61-f011-bec2-000d3a302e4a",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 76
+    "total_items": 71
   }
 }

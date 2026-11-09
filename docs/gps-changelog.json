@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T22:02:01.672Z",
+  "generatedAt": "2026-11-09T01:43:08.780Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 71,
+  "count": 69,
   "changelog": {
     "days": [
       {
@@ -1019,40 +1019,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 2,
-        "date": "2026-10-09",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Azure Databricks Mirrored Catalog - Support Materialized Views and Streaming tables",
-            "last_modified": "2026-10-09",
-            "product_name": "OneLake",
-            "release_date": "Q4 2026",
-            "release_item_id": "794a14d6-c6c3-f111-aaad-70a8a5b19450",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Databricks - Onelake as native storage - GA / Production-ready",
-            "last_modified": "2026-10-09",
-            "product_name": "OneLake",
-            "release_date": "Q4 2026",
-            "release_item_id": "7d974ea6-c7c3-f111-aaaf-70a8a5b194a9",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 71
+    "total_items": 69
   }
 }

@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-11-10T02:06:20.387Z",
+  "generatedAt": "2026-11-10T09:47:27.158Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 247,
-    "total": 247
+    "resolved": 248,
+    "total": 248
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 247,
+    "resolvedIncidents": 248,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "149f1e2a-d4dc-f111-84e8-00224809fb23",
+      "serviceStatus": "",
+      "region": "West Europe",
+      "reportedRaw": "11/9/2026 11:00:07 PM",
+      "reportedAt": "2026-11-09T23:00:07.000Z",
+      "resolvedRaw": "11/9/2026 11:09:00 PM",
+      "resolvedAt": "2026-11-09T23:09:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span data-teams=\"true\">Fabric customers in West Europe might experience intermittent issues with Dataflow refresh </span> Engineers have identified the root cause and Mitigated this at 11:57 PM on Monday, November 9, 2026 (PST)</p></div>",
+      "detailsText": "Fabric customers in West Europe might experience intermittent issues with Dataflow refresh Engineers have identified the root cause and Mitigated this at 11:57 PM on Monday, November 9, 2026 (PST)",
+      "hash": "d3c1dd0a1327a0955855e4c48ca311bae73dcacdef970d19620675a41821dc32"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "bfb7d0f9-53da-f111-a05b-70a8a59b996f",

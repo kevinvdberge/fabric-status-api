@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-11-11T09:22:45.540Z",
+  "generatedAt": "2026-11-11T17:20:19.192Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 248,
-    "total": 248
+    "resolved": 249,
+    "total": 249
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 248,
+    "resolvedIncidents": 249,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "161244a7-c0dd-f111-84e8-00224809fd4c",
+      "serviceStatus": "",
+      "region": "West Europe",
+      "reportedRaw": "11/11/2026 3:09:37 AM",
+      "reportedAt": "2026-11-11T03:09:37.000Z",
+      "resolvedRaw": "11/11/2026 3:48:44 AM",
+      "resolvedAt": "2026-11-11T03:48:44.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span data-teams=\"true\">Microsoft Fabric customers in the West Europe B cluster may have encountered errors when creating Fabric artifacts. </span></p><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"> </p></div>",
+      "detailsText": "Microsoft Fabric customers in the West Europe B cluster may have encountered errors when creating Fabric artifacts.",
+      "hash": "c823bf207a36dd7622ae63fa9c6819c1bdef0208f98857440c47066bc2fdd05d"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "149f1e2a-d4dc-f111-84e8-00224809fb23",

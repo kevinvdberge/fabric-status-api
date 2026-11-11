@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-11T17:20:19.221Z",
+  "generatedAt": "2026-11-11T23:36:23.069Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": null,
+        "blog_url": null,
+        "feature_description": "This feature will improve the performance of deleting all data from Fabric Data Warehouse tables through TRUNCATE or DELETE.Feature is awaiting WW deployment.",
+        "feature_description_html": "<p>This feature will improve the performance of deleting all data from Fabric Data Warehouse tables through TRUNCATE or DELETE.Feature is awaiting WW deployment.</p>",
+        "feature_name": "Optimized Truncate or DELETE all data in a table",
+        "last_modified": "2026-11-11",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q4 2026",
+        "release_item_id": "bfd72f56-e13c-f111-88b5-6045bd0a886d",
+        "release_status": "Shipped",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": null,
@@ -1486,21 +1501,6 @@
         "product_name": "Data Factory",
         "release_date": "Q3 2026",
         "release_item_id": "478cfce8-9633-f111-88b4-6045bd0a886d",
-        "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Quickly Connect to your Azure Resources in Fabric with the Data Pipeline Modern Get Data Experience",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/quickly-connect-to-your-azure-resources-in-fabric-with-the-data-pipeline-modern-/5173136",
-        "feature_description": "Customers will be able to browse and connect to their Azure resources directly from the modern get data experience in Power Query, without leaving the product to look up connection details. A new Azure module lists the resources the customer has access to across their subscriptions, and customers can filter by subscription, resource group and resource type, or search across the list by name, type and location. Selecting a resource creates or reuses a connection using the customer's organizational account and takes them straight to the data preview.This removes one of the most error-prone steps in connecting to Azure data. Today customers have to switch to the Azure portal, copy a server name, endpoint or URL, and paste it into Power Query by hand -- and for some sources the copied URL has to be edited before it will work, which is easy to get wrong and hard to diagnose. Because the Azure module only lists resources the customer already has access to, it also avoids the common failure of connecting to a resource the customer cannot actually read. For customers coming from Azure Data Factory, the browse-and-select pattern will feel familiar, and for everyone it turns a multi-step manual setup into a single click.",
-        "feature_description_html": "<p>Customers will be able to browse and connect to their Azure resources directly from the modern get data experience in Power Query, without leaving the product to look up connection details. A new Azure module lists the resources the customer has access to across their subscriptions, and customers can filter by subscription, resource group and resource type, or search across the list by name, type and location. Selecting a resource creates or reuses a connection using the customer's organizational account and takes them straight to the data preview.</p>\n<p>This removes one of the most error-prone steps in connecting to Azure data. Today customers have to switch to the Azure portal, copy a server name, endpoint or URL, and paste it into Power Query by hand -- and for some sources the copied URL has to be edited before it will work, which is easy to get wrong and hard to diagnose. Because the Azure module only lists resources the customer already has access to, it also avoids the common failure of connecting to a resource the customer cannot actually read. For customers coming from Azure Data Factory, the browse-and-select pattern will feel familiar, and for everyone it turns a multi-step manual setup into a single click.</p>",
-        "feature_name": "Power Query - Browse Azure resources in Get Data",
-        "last_modified": "2026-10-07",
-        "product_id": "a821f83f-dbd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Factory",
-        "release_date": "Q3 2026",
-        "release_item_id": "385d42a4-419b-f111-b8db-6045bd02b663",
         "release_status": "Shipped",
         "release_type": "General availability"
       }

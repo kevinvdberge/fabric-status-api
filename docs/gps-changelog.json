@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-11-11T17:20:19.221Z",
+  "generatedAt": "2026-11-11T23:36:23.069Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 79,
+  "count": 80,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-11-11",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Optimized Truncate or DELETE all data in a table",
+            "last_modified": "2026-11-11",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "bfd72f56-e13c-f111-88b5-6045bd0a886d",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 10,
         "date": "2026-11-10",
@@ -1158,6 +1177,6 @@
         ]
       }
     ],
-    "total_items": 79
+    "total_items": 80
   }
 }

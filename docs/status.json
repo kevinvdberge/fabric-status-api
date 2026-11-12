@@ -1,19 +1,46 @@
 {
-  "generatedAt": "2026-11-12T13:03:27.459Z",
+  "generatedAt": "2026-11-12T20:48:33.985Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
-    "resolved": 249,
-    "total": 249
+    "active": 1,
+    "resolved": 250,
+    "total": 251
   },
   "summary": {
-    "activeIncidents": 0,
-    "resolvedIncidents": 249,
-    "hasActive": false
+    "activeIncidents": 1,
+    "resolvedIncidents": 250,
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "6556b087-d0de-f111-84e8-00224809ff4a",
+      "serviceStatus": "Information",
+      "region": "",
+      "reportedRaw": "11/12/2026 11:20:09 AM",
+      "reportedAt": "2026-11-12T11:20:09.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div style=\"font-family:Segoe UI;font-size:11pt;\"><span data-teams=\"true\">Fabric customers may experience issues when using Export to PDF/PPT with MIP labels. As a workaround, users can remove the MIP label on the report to get the export operations working. Engineers are working on identifying the root cause and an update will be provided by 1.30PM PT. </span></div></div>",
+      "detailsText": "Fabric customers may experience issues when using Export to PDF/PPT with MIP labels. As a workaround, users can remove the MIP label on the report to get the export operations working. Engineers are working on identifying the root cause and an update will be provided by 1.30PM PT.",
+      "hash": "2d07eaecbabefa6ef961948730257a5f7b20a33c7c6a000e75b2b3b7b2eb9bf8"
+    }
+  ],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "3eccd7ae-aade-f111-84e8-00224809fccd",
+      "serviceStatus": "",
+      "region": "Central US",
+      "reportedRaw": "11/12/2026 6:30:58 AM",
+      "reportedAt": "2026-11-12T06:30:58.000Z",
+      "resolvedRaw": "11/12/2026 8:30:00 AM",
+      "resolvedAt": "2026-11-12T08:30:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Power BI customers in the South Central US region may have experienced intermittent failures with the error \"SkuNotSupported\" when accessing and performing operations for their Semantic Models. </p></div>",
+      "detailsText": "Power BI customers in the South Central US region may have experienced intermittent failures with the error \"SkuNotSupported\" when accessing and performing operations for their Semantic Models.",
+      "hash": "849894f4e112eb507d4b597c407d18d20ef7abdba309209034b233c93dd9981d"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "161244a7-c0dd-f111-84e8-00224809fd4c",

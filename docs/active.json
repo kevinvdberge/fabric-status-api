@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-11-13T08:46:07.502Z",
+  "generatedAt": "2026-11-13T16:55:40.998Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 1,
-  "active": [
-    {
-      "type": "active",
-      "serviceNotificationId": "6556b087-d0de-f111-84e8-00224809ff4a",
-      "serviceStatus": "Degraded",
-      "region": "",
-      "reportedRaw": "11/12/2026 11:20:09 AM",
-      "reportedAt": "2026-11-12T11:20:09.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div style=\"font-family:Segoe UI;font-size:11pt;\">Fabric customers may encounter failures when exporting reports with sensitivity labels to PDF or PowerPoint, when publishing reports with sensitivity labels, when updating artifacts with sensitivity labels, or opening pbix with sensitivity label in Power BI Desktop. The cause is an ongoing Microsoft Exchange service outage. As a workaround, users can remove the sensitivity label from the affected item to complete the operation, if their organization's data protection policies allow it. We're monitoring Exchange recovery and will share an update by 1:00 AM PST.</div></div>",
-      "detailsText": "Fabric customers may encounter failures when exporting reports with sensitivity labels to PDF or PowerPoint, when publishing reports with sensitivity labels, when updating artifacts with sensitivity labels, or opening pbix with sensitivity label in Power BI Desktop. The cause is an ongoing Microsoft Exchange service outage. As a workaround, users can remove the sensitivity label from the affected item to complete the operation, if their organization's data protection policies allow it. We're monitoring Exchange recovery and will share an update by 1:00 AM PST.",
-      "hash": "601c809ac1df216f6c89dded920805147d0bd07d621243e2f8bf418da7979b1d"
-    }
-  ]
+  "count": 0,
+  "active": []
 }

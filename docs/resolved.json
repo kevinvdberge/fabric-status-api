@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-11-13T08:46:07.502Z",
+  "generatedAt": "2026-11-13T16:55:40.998Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 250,
+  "count": 251,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "6556b087-d0de-f111-84e8-00224809ff4a",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "11/12/2026 11:20:09 AM",
+      "reportedAt": "2026-11-12T11:20:09.000Z",
+      "resolvedRaw": "11/13/2026 7:30:00 AM",
+      "resolvedAt": "2026-11-13T07:30:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div>Fabric customers may have experienced failures with items that have sensitivity labels applied when they export reports to PDF or PowerPoint, publish reports, create or update artifacts, open .pbix files in Power BI Desktop, or receive report email subscriptions, due to ongoing <a href=\"https://status.cloud.microsoft/\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft Exchange service outage</a>. As of November 13th at 07:30 AM PST, Microsoft Fabric services have been fully restored, and customers now have complete access to all functionalities.</div></div>",
+      "detailsText": "Fabric customers may have experienced failures with items that have sensitivity labels applied when they export reports to PDF or PowerPoint, publish reports, create or update artifacts, open .pbix files in Power BI Desktop, or receive report email subscriptions, due to ongoing Microsoft Exchange service outage . As of November 13th at 07:30 AM PST, Microsoft Fabric services have been fully restored, and customers now have complete access to all functionalities.",
+      "hash": "5060168790dd509fc01ff0c0e0919aa616d443b85fd530ae443603aeb4e0f0ef"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "3eccd7ae-aade-f111-84e8-00224809fccd",

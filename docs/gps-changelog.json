@@ -1,13 +1,65 @@
 {
-  "generatedAt": "2026-11-12T20:48:34.011Z",
+  "generatedAt": "2026-11-13T01:39:27.141Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 91,
+  "count": 95,
   "changelog": {
     "days": [
       {
-        "count": 12,
+        "count": 16,
         "date": "2026-11-12",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Extended Capability new source - Salesforce Mirroring",
+            "last_modified": "2026-11-12",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "6c5877d9-d6de-f111-84e8-00224809fcb6",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Mirroring - Replication Views from Google Big Query",
+            "last_modified": "2026-11-12",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "e4bba09b-d6de-f111-84e8-00224809fcb6",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Mirroring - Takeover ownership feature",
+            "last_modified": "2026-11-12",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "658230d9-d7de-f111-84e8-00224809fcb6",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Mirroring for MySQL",
+            "last_modified": "2026-11-12",
+            "product_name": "Data Factory",
+            "release_date": "Q1 2027",
+            "release_item_id": "5c93448a-d7de-f111-84e8-00224809fcb6",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -1320,6 +1372,6 @@
         ]
       }
     ],
-    "total_items": 91
+    "total_items": 95
   }
 }

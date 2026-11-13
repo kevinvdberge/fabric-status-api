@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T20:48:33.985Z",
+  "generatedAt": "2026-11-13T01:39:27.111Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
@@ -16,15 +16,15 @@
     {
       "type": "active",
       "serviceNotificationId": "6556b087-d0de-f111-84e8-00224809ff4a",
-      "serviceStatus": "Information",
+      "serviceStatus": "Degraded",
       "region": "",
       "reportedRaw": "11/12/2026 11:20:09 AM",
       "reportedAt": "2026-11-12T11:20:09.000Z",
       "resolvedRaw": "",
       "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div style=\"font-family:Segoe UI;font-size:11pt;\"><span data-teams=\"true\">Fabric customers may experience issues when using Export to PDF/PPT with MIP labels. As a workaround, users can remove the MIP label on the report to get the export operations working. Engineers are working on identifying the root cause and an update will be provided by 1.30PM PT. </span></div></div>",
-      "detailsText": "Fabric customers may experience issues when using Export to PDF/PPT with MIP labels. As a workaround, users can remove the MIP label on the report to get the export operations working. Engineers are working on identifying the root cause and an update will be provided by 1.30PM PT.",
-      "hash": "2d07eaecbabefa6ef961948730257a5f7b20a33c7c6a000e75b2b3b7b2eb9bf8"
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><div>Fabric customers may encounter failures when exporting reports with sensitivity labels to PDF or PowerPoint, when updating artifacts with sensitivity labels, or opening pbix with sensitivity label in Power BI Desktop. The cause is an ongoing Microsoft Exchange service outage. As a workaround, users can remove the sensitivity label from the affected item to complete the operation, if their organization's data protection policies allow it. We're monitoring Exchange recovery and will share an update by 7:00 PM PST.</div></div>",
+      "detailsText": "Fabric customers may encounter failures when exporting reports with sensitivity labels to PDF or PowerPoint, when updating artifacts with sensitivity labels, or opening pbix with sensitivity label in Power BI Desktop. The cause is an ongoing Microsoft Exchange service outage. As a workaround, users can remove the sensitivity label from the affected item to complete the operation, if their organization's data protection policies allow it. We're monitoring Exchange recovery and will share an update by 7:00 PM PST.",
+      "hash": "bfc25a701cf7c8c2f59b410cd43ae8802977256703e365cc0a77e5cb6b7eb686"
     }
   ],
   "resolved": [

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-14T20:26:45.786Z",
+  "generatedAt": "2026-11-15T00:05:08.318Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 96,
+  "count": 93,
   "changelog": {
     "days": [
       {
@@ -1345,53 +1345,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 3,
-        "date": "2026-10-15",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Name Consumer to Creator feedback loop -> Data Agent monitoring - Consumer to Creator feedback loop"
-            ],
-            "feature_name": "Data Agent monitoring - Consumer to Creator feedback loop",
-            "last_modified": "2026-10-15",
-            "product_name": "Conversational Analytics",
-            "release_date": "Q4 2026",
-            "release_item_id": "5db8bce1-2b43-f111-88b5-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-03-31"
-            ],
-            "feature_name": "Feature Store",
-            "last_modified": "2026-10-15",
-            "product_name": "Data Science",
-            "release_date": "Q1 2027",
-            "release_item_id": "75004e12-2158-f111-bec7-6045bd00f798",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-03-31 -> 2027-03-31"
-            ],
-            "feature_name": "Outbound Access Protection for Fabric SQL DB",
-            "last_modified": "2026-10-15",
-            "product_name": "SQL database",
-            "release_date": "Q1 2027",
-            "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 96
+    "total_items": 93
   }
 }

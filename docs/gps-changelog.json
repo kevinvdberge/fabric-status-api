@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-16T21:09:19.543Z",
+  "generatedAt": "2026-11-17T03:51:48.268Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 93,
+  "count": 91,
   "changelog": {
     "days": [
       {
@@ -1313,40 +1313,8 @@
             "release_type": "Public preview"
           }
         ]
-      },
-      {
-        "count": 2,
-        "date": "2026-10-17",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-03-31"
-            ],
-            "feature_name": "[GA] Job Insights Library",
-            "last_modified": "2026-10-17",
-            "product_name": "Data Engineering",
-            "release_date": "Q1 2027",
-            "release_item_id": "add43c89-3350-f111-bec7-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-03-31"
-            ],
-            "feature_name": "[Monitoring] Integrate and Expose Spark Application CPU/Memory Usage",
-            "last_modified": "2026-10-17",
-            "product_name": "Data Engineering",
-            "release_date": "Q1 2027",
-            "release_item_id": "fe489766-3350-f111-bec7-6045bd00fc61",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 93
+    "total_items": 91
   }
 }

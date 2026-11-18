@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-11-18T11:39:13.299Z",
+  "generatedAt": "2026-11-18T19:36:20.386Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 93,
+  "count": 95,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-11-18",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "COPY INTO - Support Workspace Identity",
+            "last_modified": "2026-11-18",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "aa94dc1e-14b9-f011-bbd2-0022480a2ecf",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "SQL Audit Logs Improvments",
+            "last_modified": "2026-11-18",
+            "product_name": "Data Warehouse",
+            "release_date": "Q3 2026",
+            "release_item_id": "e75dc0ae-3722-f011-9989-000d3a302e4a",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Create SQL Databases in Fabric from SSMS",
+            "last_modified": "2026-11-18",
+            "product_name": "SQL database",
+            "release_date": "Q4 2026",
+            "release_item_id": "7ae96023-9ddf-f111-84e8-00224809f154",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 3,
         "date": "2026-11-17",
@@ -50,7 +95,7 @@
         ]
       },
       {
-        "count": 2,
+        "count": 1,
         "date": "2026-11-13",
         "items": [
           {
@@ -66,19 +111,6 @@
             "release_item_id": "bd904fac-c7b2-f111-aaab-70a8a59cb78c",
             "release_status": "Shipped",
             "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Create SQL Databases in Fabric from SSMS",
-            "last_modified": "2026-11-13",
-            "product_name": "SQL database",
-            "release_date": "Q4 2026",
-            "release_item_id": "7ae96023-9ddf-f111-84e8-00224809f154",
-            "release_status": "Planned",
-            "release_type": "General availability"
           }
         ]
       },
@@ -1347,6 +1379,6 @@
         ]
       }
     ],
-    "total_items": 93
+    "total_items": 95
   }
 }

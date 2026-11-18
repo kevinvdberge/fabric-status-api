@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-11-18T11:39:13.275Z",
+  "generatedAt": "2026-11-18T19:36:20.352Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
     "active": 0,
-    "resolved": 251,
-    "total": 251
+    "resolved": 252,
+    "total": 252
   },
   "summary": {
     "activeIncidents": 0,
-    "resolvedIncidents": 251,
+    "resolvedIncidents": 252,
     "hasActive": false
   },
   "active": [],
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "78f1dbe7-64e3-f111-84e8-6045bd0187f7",
+      "serviceStatus": "",
+      "region": "West US",
+      "reportedRaw": "11/18/2026 7:29:28 AM",
+      "reportedAt": "2026-11-18T07:29:28.000Z",
+      "resolvedRaw": "11/18/2026 9:34:00 AM",
+      "resolvedAt": "2026-11-18T09:34:00.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span style=\"font-size:inherit;\"><span data-teams=\"true\">Microsoft Fabric customers with capacities in West US may have experienced failures or degraded performance while accessing the service.</span></span></p></div>",
+      "detailsText": "Microsoft Fabric customers with capacities in West US may have experienced failures or degraded performance while accessing the service.",
+      "hash": "14c39346af0d4bdbb42fd0897c8891b79d6100b709787fe22a3fff8acd2b7fd7"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "6556b087-d0de-f111-84e8-00224809ff4a",

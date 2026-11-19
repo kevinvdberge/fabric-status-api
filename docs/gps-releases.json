@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-19T01:29:44.664Z",
+  "generatedAt": "2026-11-19T09:23:44.450Z",
   "sourceUrl": "https://www.fabric-gps.com/api/releases?page_size=100&sort=last_modified",
   "count": 100,
   "releases": {
     "data": [
+      {
+        "active": true,
+        "blog_title": "Resolving Write Conflicts in Microsoft Fabric Data Warehouse",
+        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/resolving-write-conflicts-in-microsoft-fabric-data-warehouse/5172544",
+        "feature_description": "Improve write concurrency in Microsoft Fabric Warehouse with file-level conflict detection. Concurrent updates and deletes that affect different data files within the same table can commit without unnecessary write conflicts, reducing transaction failures and retries while maintaining data consistency.",
+        "feature_description_html": "<p>Improve write concurrency in Microsoft Fabric Warehouse with file-level conflict detection. Concurrent updates and deletes that affect different data files within the same table can commit without unnecessary write conflicts, reducing transaction failures and retries while maintaining data consistency.</p>",
+        "feature_name": "File-Level write-write conflict detection (Generally Available)",
+        "last_modified": "2026-11-19",
+        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
+        "product_name": "Data Warehouse",
+        "release_date": "Q1 2027",
+        "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
+        "release_status": "Planned",
+        "release_type": "General availability"
+      },
       {
         "active": true,
         "blog_title": "Stream Azure IoT Hub Data into Fabric Eventstream for Email Alerting",
@@ -587,21 +602,6 @@
         "release_date": "Q4 2026",
         "release_item_id": "0ba89ee5-81b3-f111-aaab-70a8a59cbac4",
         "release_status": "Shipped",
-        "release_type": "General availability"
-      },
-      {
-        "active": true,
-        "blog_title": "Resolving Write Conflicts in Microsoft Fabric Data Warehouse",
-        "blog_url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/resolving-write-conflicts-in-microsoft-fabric-data-warehouse/5172544",
-        "feature_description": "Improve write concurrency in Microsoft Fabric Warehouse with file-level conflict detection. Concurrent updates and deletes that affect different data files within the same table can commit without unnecessary write conflicts, reducing transaction failures and retries while maintaining data consistency.",
-        "feature_description_html": "<p>Improve write concurrency in Microsoft Fabric Warehouse with file-level conflict detection. Concurrent updates and deletes that affect different data files within the same table can commit without unnecessary write conflicts, reducing transaction failures and retries while maintaining data consistency.</p>",
-        "feature_name": "File-Level write-write conflict detection (Generally Available)",
-        "last_modified": "2026-11-05",
-        "product_id": "fa3a73cd-dcd6-ee11-9079-000d3a310f67",
-        "product_name": "Data Warehouse",
-        "release_date": "Q4 2026",
-        "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
-        "release_status": "Planned",
         "release_type": "General availability"
       },
       {

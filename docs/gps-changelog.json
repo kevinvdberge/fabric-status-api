@@ -1,9 +1,41 @@
 {
-  "generatedAt": "2026-11-20T16:56:49.180Z",
+  "generatedAt": "2026-11-20T22:58:27.845Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 98,
+  "count": 99,
   "changelog": {
     "days": [
+      {
+        "count": 2,
+        "date": "2026-11-20",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Type General availability -> Public preview"
+            ],
+            "feature_name": "Ontology Health",
+            "last_modified": "2026-11-20",
+            "product_name": "IQ",
+            "release_date": "Q2 2027",
+            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound access protection for Ontology",
+            "last_modified": "2026-11-20",
+            "product_name": "IQ",
+            "release_date": "Q4 2026",
+            "release_item_id": "4b58794a-1de5-f111-84e8-6045bd0187f7",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 11,
         "date": "2026-11-19",
@@ -1030,7 +1062,7 @@
         ]
       },
       {
-        "count": 10,
+        "count": 9,
         "date": "2026-10-28",
         "items": [
           {
@@ -1095,19 +1127,6 @@
             "product_name": "IQ",
             "release_date": "Q2 2027",
             "release_item_id": "50f83e60-1f40-f111-88b5-000d3a376137",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-06-30"
-            ],
-            "feature_name": "Ontology Health",
-            "last_modified": "2026-10-28",
-            "product_name": "IQ",
-            "release_date": "Q2 2027",
-            "release_item_id": "8a059230-3855-f111-bec7-000d3a36696c",
             "release_status": "Planned",
             "release_type": "General availability"
           },
@@ -1412,6 +1431,6 @@
         ]
       }
     ],
-    "total_items": 98
+    "total_items": 99
   }
 }

@@ -1,13 +1,117 @@
 {
-  "generatedAt": "2026-11-19T18:28:32.455Z",
+  "generatedAt": "2026-11-20T00:49:26.145Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 89,
+  "count": 98,
   "changelog": {
     "days": [
       {
-        "count": 1,
+        "count": 11,
         "date": "2026-11-19",
         "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for Data Warehouse",
+            "last_modified": "2026-11-19",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q4 2025",
+            "release_item_id": "19e9105a-eba9-f011-bbd3-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for Data Warehouse",
+            "last_modified": "2026-11-19",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q2 2026",
+            "release_item_id": "db16cf39-2cb4-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound access protection for Deployment Pipeline",
+            "last_modified": "2026-11-19",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q1 2026",
+            "release_item_id": "8ce7d723-fdb8-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for DI",
+            "last_modified": "2026-11-19",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q2 2026",
+            "release_item_id": "d05b40b6-77b3-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound access protection for KQL queryset",
+            "last_modified": "2026-11-19",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q2 2026",
+            "release_item_id": "fa9df8b5-f6bb-f011-bbd2-0022480a2ecf",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for shortcuts",
+            "last_modified": "2026-11-19",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q4 2026",
+            "release_item_id": "36015cfc-2bb4-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for shortcuts",
+            "last_modified": "2026-11-19",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q1 2026",
+            "release_item_id": "98f36dfc-eba9-f011-bbd3-000d3a30273e",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Date 2026-09-30 -> 2026-12-31"
+            ],
+            "feature_name": "Outbound Access Protection for dbt job",
+            "last_modified": "2026-11-19",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "e7abebd0-9aa5-f111-b8dd-6045bd0194ef",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          },
           {
             "active": true,
             "changed_columns": [
@@ -20,6 +124,32 @@
             "release_item_id": "b7e155c6-94bf-f011-bbd3-000d3a5b0efa",
             "release_status": "Planned",
             "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound access protection for Snowflake DB",
+            "last_modified": "2026-11-19",
+            "product_name": "OneLake",
+            "release_date": "Q4 2026",
+            "release_item_id": "f5e0f66e-63e4-f111-84e8-6045bd018eb6",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Outbound Access Protection for Fabric Maps",
+            "last_modified": "2026-11-19",
+            "product_name": "Real-Time Intelligence",
+            "release_date": "Q3 2026",
+            "release_item_id": "c3efddcb-c0fb-f011-8406-000d3a376137",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
           }
         ]
       },
@@ -1280,27 +1410,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 1,
-        "date": "2026-10-20",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-06-30"
-            ],
-            "feature_name": "Eventhouse Onboarding AI Agent",
-            "last_modified": "2026-10-20",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q2 2027",
-            "release_item_id": "3253d652-cf9c-f111-b8db-6045bd02b37f",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          }
-        ]
       }
     ],
-    "total_items": 89
+    "total_items": 98
   }
 }

@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-11-21T19:13:38.746Z",
+  "generatedAt": "2026-11-21T23:49:20.893Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 88,
+  "count": 89,
   "changelog": {
     "days": [
+      {
+        "count": 1,
+        "date": "2026-11-21",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped"
+            ],
+            "feature_name": "Dataflows - Dataflow Gen1 - Gen2 Migration Wizard",
+            "last_modified": "2026-11-21",
+            "product_name": "Data Factory",
+            "release_date": "Q4 2026",
+            "release_item_id": "98a73759-e13c-f111-88b5-6045bd00fc61",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 2,
         "date": "2026-11-20",
@@ -1282,6 +1301,6 @@
         ]
       }
     ],
-    "total_items": 88
+    "total_items": 89
   }
 }

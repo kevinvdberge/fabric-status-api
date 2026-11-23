@@ -1,9 +1,55 @@
 {
-  "generatedAt": "2026-11-23T09:01:04.696Z",
+  "generatedAt": "2026-11-23T21:20:43.189Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 86,
+  "count": 89,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-11-23",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Release Status Planned -> Shipped",
+              "Semester 2026 Wave 1 (Rubidium) (Public) -> FY27 Q2 (Oct-Dec 2026) [Public]"
+            ],
+            "feature_name": "Scalar User-defined functions (UDFs)",
+            "last_modified": "2026-11-23",
+            "product_name": "Data Warehouse",
+            "release_date": "Q4 2026",
+            "release_item_id": "edb33b5b-7f5d-f011-bec2-0022480939f0",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git Integration - Branch workspace admin profile",
+            "last_modified": "2026-11-23",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q1 2027",
+            "release_item_id": "97387551-49e6-f111-84e7-e4fade55d2a0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Added to roadmap"
+            ],
+            "feature_name": "Git Integration - File level commit",
+            "last_modified": "2026-11-23",
+            "product_name": "Fabric Developer Experiences",
+            "release_date": "Q1 2027",
+            "release_item_id": "9696e3bc-49e6-f111-84e7-e4fade55d2a0",
+            "release_status": "Planned",
+            "release_type": "General availability"
+          }
+        ]
+      },
       {
         "count": 1,
         "date": "2026-11-21",
@@ -1256,6 +1302,6 @@
         ]
       }
     ],
-    "total_items": 86
+    "total_items": 89
   }
 }

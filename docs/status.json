@@ -1,18 +1,32 @@
 {
-  "generatedAt": "2026-11-23T09:01:04.661Z",
+  "generatedAt": "2026-11-23T21:20:43.156Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 0,
+    "active": 1,
     "resolved": 254,
-    "total": 254
+    "total": 255
   },
   "summary": {
-    "activeIncidents": 0,
+    "activeIncidents": 1,
     "resolvedIncidents": 254,
-    "hasActive": false
+    "hasActive": true
   },
-  "active": [],
+  "active": [
+    {
+      "type": "active",
+      "serviceNotificationId": "0980282d-3ae7-f111-84e7-e4fade55d0d5",
+      "serviceStatus": "Degraded",
+      "region": "UK South",
+      "reportedRaw": "11/23/2026 4:29:08 AM",
+      "reportedAt": "2026-11-23T04:29:08.000Z",
+      "resolvedRaw": "",
+      "resolvedAt": null,
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Microsoft Fabric customers in UK South may see notebook activities in data pipelines fail intermittently at session startup, with errors such as \"<i>Failed to create session for executing notebook</i>\" or “<i>Session acquisition failed due to session personalization failure … Session isn't active</i>.” Engineers teams are actively working to mitigate this issue as a priority. The next update will be provided by 11/23/2026 14:00 PST.</p></div>",
+      "detailsText": "Microsoft Fabric customers in UK South may see notebook activities in data pipelines fail intermittently at session startup, with errors such as \" Failed to create session for executing notebook \" or “ Session acquisition failed due to session personalization failure … Session isn't active .” Engineers teams are actively working to mitigate this issue as a priority. The next update will be provided by 11/23/2026 14:00 PST.",
+      "hash": "41f41c643a9e64f39b9f1afcfc93488bd625c64c94513583026b77731e6ae234"
+    }
+  ],
   "resolved": [
     {
       "type": "resolved",

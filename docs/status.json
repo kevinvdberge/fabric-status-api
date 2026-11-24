@@ -1,33 +1,32 @@
 {
-  "generatedAt": "2026-11-24T05:24:55.034Z",
+  "generatedAt": "2026-11-24T16:07:00.313Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
   "counts": {
-    "active": 1,
-    "resolved": 254,
+    "active": 0,
+    "resolved": 255,
     "total": 255
   },
   "summary": {
-    "activeIncidents": 1,
-    "resolvedIncidents": 254,
-    "hasActive": true
+    "activeIncidents": 0,
+    "resolvedIncidents": 255,
+    "hasActive": false
   },
-  "active": [
+  "active": [],
+  "resolved": [
     {
-      "type": "active",
+      "type": "resolved",
       "serviceNotificationId": "0980282d-3ae7-f111-84e7-e4fade55d0d5",
-      "serviceStatus": "Degraded",
+      "serviceStatus": "",
       "region": "UK South",
       "reportedRaw": "11/23/2026 4:29:08 AM",
       "reportedAt": "2026-11-23T04:29:08.000Z",
-      "resolvedRaw": "",
-      "resolvedAt": null,
-      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Microsoft Fabric customers in UK South may see notebook activities in data pipelines fail intermittently at session startup, with errors such as \"<i>Failed to create session for executing notebook</i>\" or “<i>Session acquisition failed due to session personalization failure … Session isn't active</i>.” Engineers teams are actively working to mitigate this issue as a priority. The next update will be provided by 11/23/2026 22:00 PST.</p></div>",
-      "detailsText": "Microsoft Fabric customers in UK South may see notebook activities in data pipelines fail intermittently at session startup, with errors such as \" Failed to create session for executing notebook \" or “ Session acquisition failed due to session personalization failure … Session isn't active .” Engineers teams are actively working to mitigate this issue as a priority. The next update will be provided by 11/23/2026 22:00 PST.",
-      "hash": "9d9343b9a0daabc29241e6ff272f2dd6194221ee4d3fc87a8a5a601c7d9a54f8"
-    }
-  ],
-  "resolved": [
+      "resolvedRaw": "11/23/2026 9:00:39 PM",
+      "resolvedAt": "2026-11-23T21:00:39.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\">Microsoft Fabric customers in UK South may have experienced notebook activities in data pipelines fail intermittently at session startup, with errors such as \"<i>Failed to create session for executing notebook</i>\" or “<i>Session acquisition failed due to session personalization failure … Session isn't active</i>.”</p></div>",
+      "detailsText": "Microsoft Fabric customers in UK South may have experienced notebook activities in data pipelines fail intermittently at session startup, with errors such as \" Failed to create session for executing notebook \" or “ Session acquisition failed due to session personalization failure … Session isn't active .”",
+      "hash": "4a97ad10371f751bff7f205dc839c3819206fc97ce93089c21bf609919f3ca5b"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "a8eaa924-46e5-f111-84e8-6045bd01854b",

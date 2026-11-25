@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-11-24T16:07:00.350Z",
+  "generatedAt": "2026-11-25T00:42:44.335Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 89,
+  "count": 91,
   "changelog": {
     "days": [
+      {
+        "count": 3,
+        "date": "2026-11-24",
+        "items": [
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Outbound Access Protection for DI -> Outbound Access Protection for DI (Generally Available)"
+            ],
+            "feature_name": "Outbound Access Protection for DI (Generally Available)",
+            "last_modified": "2026-11-24",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q2 2026",
+            "release_item_id": "d05b40b6-77b3-f011-bbd3-000d3a5b0efa",
+            "release_status": "Shipped",
+            "release_type": "General availability"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Outbound Access Protection for DI -> Outbound Access Protection for DI (Preview)"
+            ],
+            "feature_name": "Outbound Access Protection for DI (Preview)",
+            "last_modified": "2026-11-24",
+            "product_name": "Administration, Governance and Security",
+            "release_date": "Q1 2026",
+            "release_item_id": "be7227c8-6d24-f011-8c4d-00224804b6c3",
+            "release_status": "Shipped",
+            "release_type": "Public preview"
+          },
+          {
+            "active": true,
+            "changed_columns": [
+              "Name Outbound Access Protection for Fabric SQL DB -> Outbound Access Protection for Fabric SQL DB (Preview)"
+            ],
+            "feature_name": "Outbound Access Protection for Fabric SQL DB (Preview)",
+            "last_modified": "2026-11-24",
+            "product_name": "SQL database",
+            "release_date": "Q1 2027",
+            "release_item_id": "61e4ab87-eeb1-f111-aaab-70a8a59cbac4",
+            "release_status": "Planned",
+            "release_type": "Public preview"
+          }
+        ]
+      },
       {
         "count": 3,
         "date": "2026-11-23",
@@ -102,7 +147,7 @@
         ]
       },
       {
-        "count": 11,
+        "count": 10,
         "date": "2026-11-19",
         "items": [
           {
@@ -141,19 +186,6 @@
             "product_name": "Administration, Governance and Security",
             "release_date": "Q1 2026",
             "release_item_id": "8ce7d723-fdb8-f011-bbd3-000d3a5b0efa",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Added to roadmap"
-            ],
-            "feature_name": "Outbound Access Protection for DI",
-            "last_modified": "2026-11-19",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q2 2026",
-            "release_item_id": "d05b40b6-77b3-f011-bbd3-000d3a5b0efa",
             "release_status": "Shipped",
             "release_type": "General availability"
           },
@@ -1302,6 +1334,6 @@
         ]
       }
     ],
-    "total_items": 89
+    "total_items": 91
   }
 }

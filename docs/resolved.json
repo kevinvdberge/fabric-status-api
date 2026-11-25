@@ -1,9 +1,22 @@
 {
-  "generatedAt": "2026-11-25T09:12:37.573Z",
+  "generatedAt": "2026-11-25T19:18:16.321Z",
   "sourceUrl": "https://support.fabric.microsoft.com/support/",
   "supportLevel": "Unofficial public Microsoft Fabric status mirror based on HTML scraping",
-  "count": 255,
+  "count": 256,
   "resolved": [
+    {
+      "type": "resolved",
+      "serviceNotificationId": "76be3615-b9e8-f111-84e7-e4fade55d2b0",
+      "serviceStatus": "",
+      "region": "",
+      "reportedRaw": "11/25/2026 2:14:34 AM",
+      "reportedAt": "2026-11-25T02:14:34.000Z",
+      "resolvedRaw": "11/25/2026 2:52:40 AM",
+      "resolvedAt": "2026-11-25T02:52:40.000Z",
+      "detailsHtml": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0; text-align: start;\" dir=\"ltr\"><span data-teams=\"true\">Fabric customers in Japan East region may have experienced issues while performing spark Jobs and Notebook operations.</span></p></div>",
+      "detailsText": "Fabric customers in Japan East region may have experienced issues while performing spark Jobs and Notebook operations.",
+      "hash": "c30396171a576ec8eb38a56eea1ce4f471776b0c7d711e8427e9ccb578ee21aa"
+    },
     {
       "type": "resolved",
       "serviceNotificationId": "0980282d-3ae7-f111-84e7-e4fade55d0d5",

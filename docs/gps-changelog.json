@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-27T21:24:00.374Z",
+  "generatedAt": "2026-11-28T03:25:47.421Z",
   "sourceUrl": "https://www.fabric-gps.com/api/changelog?days=30",
-  "count": 88,
+  "count": 79,
   "changelog": {
     "days": [
       {
@@ -1157,132 +1157,8 @@
             "release_type": "General availability"
           }
         ]
-      },
-      {
-        "count": 9,
-        "date": "2026-10-28",
-        "items": [
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Status Planned -> Shipped"
-            ],
-            "feature_name": "Surge Protection V2 (Workspace-level)",
-            "last_modified": "2026-10-28",
-            "product_name": "Administration, Governance and Security",
-            "release_date": "Q4 2026",
-            "release_item_id": "d327a257-51ad-f111-aaab-6045bd041d32",
-            "release_status": "Shipped",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-03-31"
-            ],
-            "feature_name": "Connectors - Modernized Exchange connector for Power Query",
-            "last_modified": "2026-10-28",
-            "product_name": "Data Factory",
-            "release_date": "Q1 2027",
-            "release_item_id": "fbf626c8-726a-f111-a826-000d3a36696c",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-03-31"
-            ],
-            "feature_name": "Dataflows - Dataflows Gen2 Partitioned Compute",
-            "last_modified": "2026-10-28",
-            "product_name": "Data Factory",
-            "release_date": "Q1 2027",
-            "release_item_id": "385260b0-5b07-ef11-9f89-000d3a34b75c",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-03-31"
-            ],
-            "feature_name": "Dataflows - New Destination: PowerPoint Presentations (PPTX)",
-            "last_modified": "2026-10-28",
-            "product_name": "Data Factory",
-            "release_date": "Q1 2027",
-            "release_item_id": "d1fca7f4-6fc2-f111-aaad-70a8a5b194d8",
-            "release_status": "Planned",
-            "release_type": "Public preview"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-12-31 -> 2027-06-30"
-            ],
-            "feature_name": "Customer Managed Keys (CMK) for Ontology",
-            "last_modified": "2026-10-28",
-            "product_name": "IQ",
-            "release_date": "Q2 2027",
-            "release_item_id": "50f83e60-1f40-f111-88b5-000d3a376137",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2027-03-31 -> 2027-06-30"
-            ],
-            "feature_name": "Ontology item GA",
-            "last_modified": "2026-10-28",
-            "product_name": "IQ",
-            "release_date": "Q2 2027",
-            "release_item_id": "2a543dc3-74db-f011-8544-000d3a3740cc",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Release Date 2026-11-30 -> 2027-06-30"
-            ],
-            "feature_name": "Public query API for Ontology",
-            "last_modified": "2026-10-28",
-            "product_name": "IQ",
-            "release_date": "Q2 2027",
-            "release_item_id": "419cfd8b-face-f011-bbd3-000d3a30273e",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": true,
-            "changed_columns": [
-              "Description updated",
-              "Name OAuth support for the Eventstream HTTP connector -> Eventstream HTTP Connector GA"
-            ],
-            "feature_name": "Eventstream HTTP Connector GA",
-            "last_modified": "2026-10-28",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2027",
-            "release_item_id": "714d2deb-263e-f111-88b5-6045bd0066ad",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          },
-          {
-            "active": false,
-            "changed_columns": [
-              "Removed from Roadmap"
-            ],
-            "feature_name": "Route Azure Monitor Diagnostic Logs to Eventstream",
-            "last_modified": "2026-10-28",
-            "product_name": "Real-Time Intelligence",
-            "release_date": "Q1 2027",
-            "release_item_id": "9258b059-23a6-f011-bbd3-000d3a5b0efa",
-            "release_status": "Planned",
-            "release_type": "General availability"
-          }
-        ]
       }
     ],
-    "total_items": 88
+    "total_items": 79
   }
 }
